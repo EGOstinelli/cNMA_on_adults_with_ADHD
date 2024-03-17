@@ -1,0 +1,192 @@
+Network meta-analysis on main network.
+
+Original data (with adjusted standard errors for multi-arm studies):
+
+                                 treat1                treat2      TE   seTE seTE.adj.c seTE.adj.r narms multiarm
+Anastopoulos 2021                   CBT          waiting list  0.6928 0.2708     0.2708     0.6093     2         
+Bachmann 2018               mindfulness       psychoeducation -0.2179 0.4672     0.4672     0.7185     2         
+Cherkasova 2016                     CBT      CBT + stimulants -0.9045 0.6544     0.6544     0.8522     2         
+Emilsson 2011                 CBT + TAU                   TAU  0.2029 0.6381     0.6381     0.8397     2         
+Fleming 2013                        CBT                   DBT -1.9459 1.5514     1.5514     1.6447     2         
+Gu 2016                     mindfulness          waiting list  1.5367 1.5725     1.5725     1.6646     2         
+Halmoy 2022                         DBT          waiting list  0.6813 0.5904     0.5904     0.8041     2         
+Hanssen 2023                  GMT + TAU                   TAU  3.1645 1.4699     1.4699     1.5680     2         
+Hepark 2015                 mindfulness          waiting list  2.9866 1.4654     1.4654     1.5638     2         
+Hoxhaj 2018                 mindfulness       psychoeducation -0.7732 0.8963     0.8963     1.0495     2         
+Huang 2015                          CBT          waiting list  0.0317 0.5357     0.5357     0.7648     2         
+Janssen 2018          mindfulness + TAU                   TAU  3.1055 1.4633     1.4633     1.5618     2         
+Kouhbanani 2023       physical training          waiting list  0.5878 0.7813     0.7813     0.9531     2         
+Mitchell 2017               mindfulness          waiting list -1.8005 1.6100     1.6100     1.7001     2         
+Moritz 2020                   DBT + TAU                   TAU  1.1727 1.2172     1.2172     1.3340     2         
+Nakashima 2021                CBT + TAU                   TAU -2.0369 1.1250     1.1250     1.2505     2         
+Nasri 2022                          CBT    relaxation therapy  0.0270 2.0135     2.4650     2.5541     3        *
+Nasri 2022                          CBT          waiting list -0.1473 2.0147     2.4681     2.5571     3        *
+Nasri 2022           relaxation therapy          waiting list -0.1744 2.0146     2.4677     2.5566     3        *
+Pettersson 2014                     CBT          waiting list -0.4700 0.8803     0.8803     1.0358     2         
+Safren 2005                         CBT                   TAU -0.0625 2.0310     2.0310     2.1031     2         
+Safren 2010                         CBT    relaxation therapy -0.9923 0.8664     0.8664     1.0240     2         
+Schoenenberg 2017                   CBT         neurofeedback -0.0822 0.8494     1.0402     1.2365     3        *
+Schoenenberg 2017                   CBT  sham + neurofeedback -0.0541 0.8490     1.0390     1.2355     3        *
+Schoenenberg 2017         neurofeedback  sham + neurofeedback  0.0282 0.8503     1.0423     1.2383     3        *
+Solanto 2010                        CBT psychological placebo -1.1684 0.5184     0.5184     0.7528     2         
+Stevenson 2002    cognitive remediation          waiting list  1.0531 1.6606     1.6606     1.7480     2         
+Vidal 2013                          CBT       psychoeducation  1.0033 0.9527     0.9527     1.0980     2         
+
+Number of treatment arms (by study):
+                  narms
+Anastopoulos 2021     2
+Bachmann 2018         2
+Cherkasova 2016       2
+Emilsson 2011         2
+Fleming 2013          2
+Gu 2016               2
+Halmoy 2022           2
+Hanssen 2023          2
+Hepark 2015           2
+Hoxhaj 2018           2
+Huang 2015            2
+Janssen 2018          2
+Kouhbanani 2023       2
+Mitchell 2017         2
+Moritz 2020           2
+Nakashima 2021        2
+Nasri 2022            3
+Pettersson 2014       2
+Safren 2005           2
+Safren 2010           2
+Schoenenberg 2017     3
+Solanto 2010          2
+Stevenson 2002        2
+Vidal 2013            2
+
+Results (common effects model):
+
+                                 treat1                treat2      OR             95%-CI    Q leverage
+Anastopoulos 2021                   CBT          waiting list  1.6300 [1.0472;   2.5372] 0.57     0.70
+Bachmann 2018               mindfulness       psychoeducation  0.8500 [0.3916;   1.8450] 0.01     0.72
+Cherkasova 2016                     CBT      CBT + stimulants  0.4048 [0.1122;   1.4595] 0.00     1.00
+Emilsson 2011                 CBT + TAU                   TAU  0.7102 [0.2393;   2.1078] 0.73     0.76
+Fleming 2013                        CBT                   DBT  0.6607 [0.2095;   2.0834] 0.97     0.14
+Gu 2016                     mindfulness          waiting list  1.2742 [0.3337;   4.8661] 0.68     0.19
+Halmoy 2022                         DBT          waiting list  2.4672 [0.8354;   7.2867] 0.14     0.88
+Hanssen 2023                  GMT + TAU                   TAU 23.6769 [1.3277; 422.2217] 0.00     1.00
+Hepark 2015                 mindfulness          waiting list  1.2742 [0.3337;   4.8661] 3.51     0.22
+Hoxhaj 2018                 mindfulness       psychoeducation  0.8500 [0.3916;   1.8450] 0.46     0.19
+Huang 2015                          CBT          waiting list  1.6300 [1.0472;   2.5372] 0.73     0.18
+Janssen 2018          mindfulness + TAU                   TAU 22.3204 [1.2681; 392.8747] 0.00     1.00
+Kouhbanani 2023       physical training          waiting list  1.8000 [0.3893;   8.3231] 0.00     1.00
+Mitchell 2017               mindfulness          waiting list  1.2742 [0.3337;   4.8661] 1.61     0.18
+Moritz 2020                   DBT + TAU                   TAU  3.2308 [0.2973;  35.1097] 0.00     1.00
+Nakashima 2021                CBT + TAU                   TAU  0.7102 [0.2393;   2.1078] 2.27     0.24
+Nasri 2022                          CBT    relaxation therapy  0.4831 [0.1055;   2.2119] 0.09        .
+Nasri 2022                          CBT          waiting list  1.6300 [1.0472;   2.5372] 0.07        .
+Nasri 2022           relaxation therapy          waiting list  3.3744 [0.7005;  16.2555] 0.32        .
+Pettersson 2014                     CBT          waiting list  1.6300 [1.0472;   2.5372] 1.19     0.07
+Safren 2005                         CBT                   TAU  0.9394 [0.0175;  50.3120] 0.00     1.00
+Safren 2010                         CBT    relaxation therapy  0.4831 [0.1055;   2.2119] 0.09     0.80
+Schoenenberg 2017                   CBT         neurofeedback  0.9211 [0.1743;   4.8678] 0.00        .
+Schoenenberg 2017                   CBT  sham + neurofeedback  0.9474 [0.1794;   5.0023] 0.00        .
+Schoenenberg 2017         neurofeedback  sham + neurofeedback  1.0286 [0.1943;   5.4452] 0.00        .
+Solanto 2010                        CBT psychological placebo  0.3109 [0.1125;   0.8586] 0.00     1.00
+Stevenson 2002    cognitive remediation          waiting list  2.8667 [0.1106;  74.2831] 0.00     1.00
+Vidal 2013                          CBT       psychoeducation  1.0873 [0.2795;   4.2293] 0.93     0.53
+
+Results (random effects model):
+
+                                 treat1                treat2      OR             95%-CI
+Anastopoulos 2021                   CBT          waiting list  1.3578 [0.6230;   2.9594]
+Bachmann 2018               mindfulness       psychoeducation  0.9135 [0.3098;   2.6934]
+Cherkasova 2016                     CBT      CBT + stimulants  0.4048 [0.0762;   2.1506]
+Emilsson 2011                 CBT + TAU                   TAU  0.6107 [0.1558;   2.3944]
+Fleming 2013                        CBT                   DBT  0.5074 [0.1078;   2.3887]
+Gu 2016                     mindfulness          waiting list  1.2926 [0.2869;   5.8242]
+Halmoy 2022                         DBT          waiting list  2.6759 [0.6444;  11.1122]
+Hanssen 2023                  GMT + TAU                   TAU 23.6769 [1.0955; 511.7122]
+Hepark 2015                 mindfulness          waiting list  1.2926 [0.2869;   5.8242]
+Hoxhaj 2018                 mindfulness       psychoeducation  0.9135 [0.3098;   2.6934]
+Huang 2015                          CBT          waiting list  1.3578 [0.6230;   2.9594]
+Janssen 2018          mindfulness + TAU                   TAU 22.3204 [1.0455; 476.5353]
+Kouhbanani 2023       physical training          waiting list  1.8000 [0.2780;  11.6553]
+Mitchell 2017               mindfulness          waiting list  1.2926 [0.2869;   5.8242]
+Moritz 2020                   DBT + TAU                   TAU  3.2308 [0.2365;  44.1405]
+Nakashima 2021                CBT + TAU                   TAU  0.6107 [0.1558;   2.3944]
+Nasri 2022                          CBT    relaxation therapy  0.5019 [0.0873;   2.8843]
+Nasri 2022                          CBT          waiting list  1.3578 [0.6230;   2.9594]
+Nasri 2022           relaxation therapy          waiting list  2.7056 [0.4147;  17.6519]
+Pettersson 2014                     CBT          waiting list  1.3578 [0.6230;   2.9594]
+Safren 2005                         CBT                   TAU  0.9394 [0.0152;  57.9456]
+Safren 2010                         CBT    relaxation therapy  0.5019 [0.0873;   2.8843]
+Schoenenberg 2017                   CBT         neurofeedback  0.9211 [0.1273;   6.6643]
+Schoenenberg 2017                   CBT  sham + neurofeedback  0.9474 [0.1310;   6.8494]
+Schoenenberg 2017         neurofeedback  sham + neurofeedback  1.0286 [0.1420;   7.4528]
+Solanto 2010                        CBT psychological placebo  0.3109 [0.0711;   1.3593]
+Stevenson 2002    cognitive remediation          waiting list  2.8667 [0.0932;  88.1651]
+Vidal 2013                          CBT       psychoeducation  0.9595 [0.1973;   4.6665]
+
+Number of studies: k = 24
+Number of pairwise comparisons: m = 28
+Number of observations: o = 1910
+Number of treatments: n = 17
+Number of designs: d = 18
+
+Common effects model
+
+Treatment estimate (sm = 'OR', comparison: other treatments vs 'TAU'):
+                           OR             95%-CI     z p-value
+CBT                    0.9394 [0.0175;  50.3120] -0.03  0.9754
+CBT + stimulants       2.3209 [0.0354; 152.0513]  0.39  0.6932
+CBT + TAU              0.7102 [0.2393;   2.1078] -0.62  0.5375
+cognitive remediation  1.6521 [0.0095; 288.0140]  0.19  0.8488
+DBT                    1.4219 [0.0226;  89.5786]  0.17  0.8678
+DBT + TAU              3.2308 [0.2973;  35.1097]  0.96  0.3353
+GMT + TAU             23.6769 [1.3277; 422.2217]  2.15  0.0313
+mindfulness            0.7344 [0.0110;  49.1553] -0.14  0.8855
+mindfulness + TAU     22.3204 [1.2681; 392.8747]  2.12  0.0338
+neurofeedback          1.0199 [0.0136;  76.2953]  0.01  0.9929
+physical training      1.0374 [0.0142;  75.5417]  0.02  0.9866
+psychoeducation        0.8640 [0.0129;  57.9718] -0.07  0.9457
+psychological placebo  3.0220 [0.0497; 183.8794]  0.53  0.5978
+relaxation therapy     1.9447 [0.0274; 137.9244]  0.31  0.7597
+sham + neurofeedback   0.9916 [0.0133;  74.1498] -0.00  0.9969
+TAU                         .                  .     .       .
+waiting list           0.5763 [0.0105;  31.6322] -0.27  0.7874
+
+Random effects model
+
+Treatment estimate (sm = 'OR', comparison: other treatments vs 'TAU'):
+                           OR             95%-CI     z p-value               95%-PI
+CBT                    0.9394 [0.0152;  57.9456] -0.03  0.9763  [0.0069;  128.0840]
+CBT + stimulants       2.3209 [0.0272; 198.2413]  0.37  0.7106  [0.0118;  455.6163]
+CBT + TAU              0.6107 [0.1558;   2.3944] -0.71  0.4793  [0.0824;    4.5255]
+cognitive remediation  1.9833 [0.0088; 446.3197]  0.25  0.8043  [0.0034; 1160.8655]
+DBT                    1.8513 [0.0226; 151.3225]  0.27  0.7840  [0.0099;  345.9223]
+DBT + TAU              3.2308 [0.2365;  44.1405]  0.88  0.3794  [0.1239;   84.2149]
+GMT + TAU             23.6769 [1.0955; 511.7122]  2.02  0.0436  [0.5536; 1012.7191]
+mindfulness            0.8943 [0.0109;  73.3457] -0.05  0.9604  [0.0048;  167.7364]
+mindfulness + TAU     22.3204 [1.0455; 476.5353]  1.99  0.0468  [0.5288;  942.0670]
+neurofeedback          1.0199 [0.0105;  98.7105]  0.01  0.9933  [0.0045;  230.3788]
+physical training      1.2453 [0.0126; 122.9164]  0.09  0.9254  [0.0054;  287.5716]
+psychoeducation        0.9790 [0.0118;  80.9549] -0.01  0.9925  [0.0052;  185.3229]
+psychological placebo  3.0220 [0.0379; 240.8146]  0.50  0.6205  [0.0166;  548.8061]
+relaxation therapy     1.8718 [0.0213; 164.7694]  0.27  0.7838  [0.0092;  380.0845]
+sham + neurofeedback   0.9916 [0.0102;  95.9366] -0.00  0.9971  [0.0044;  223.8955]
+TAU                         .                  .     .       .                    .
+waiting list           0.6918 [0.0104;  45.9073] -0.17  0.8633  [0.0047;  102.3503]
+
+Quantifying heterogeneity / inconsistency:
+tau^2 = 0.2980; tau = 0.5459; I^2 = 30.4% [0.0%; 65.8%]
+
+Tests of heterogeneity (within designs) and inconsistency (between designs):
+                    Q d.f. p-value
+Total           14.37   10  0.1567
+Within designs  10.76    6  0.0961
+Between designs  3.61    4  0.4610
+
+A total of 17 treatments are included in the network.
+A total of 24 studies are included in this analysis.
+A total of 1910 participants are included in this analysis.
+The following studies were included in this analysis: Anastopoulos 2021 Bachmann 2018 Cherkasova 2016 Emilsson 2011 Fleming 2013 Gu 2016 Halmoy 2022 Hanssen 2023 Hepark 2015 Hoxhaj 2018 Huang 2015 Janssen 2018 Kouhbanani 2023 Mitchell 2017 Moritz 2020 Nakashima 2021 Nasri 2022 Pettersson 2014 Safren 2005 Safren 2010 Schoenenberg 2017 Solanto 2010 Stevenson 2002 Vidal 2013
+Estimated heterogeneity tau-squared = 0.3
+Global test for inconsistency, p-value = 0.46102 (Q = 4, d.o.f. = 4)
+
+File created on 2024-03-10

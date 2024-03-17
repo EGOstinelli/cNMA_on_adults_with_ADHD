@@ -1,0 +1,7 @@
+                 P-score (common) P-score (random)
+stimulants                 0.8515           0.8515
+DBT + stimulants           0.6547           0.6547
+placebo                    0.3815           0.3815
+DBT + placebo              0.1124           0.1124
+
+File created on 2024-02-26

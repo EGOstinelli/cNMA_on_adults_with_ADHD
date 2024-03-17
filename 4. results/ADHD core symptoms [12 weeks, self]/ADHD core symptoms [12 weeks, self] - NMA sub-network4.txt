@@ -1,0 +1,94 @@
+Network meta-analysis on additional sub-network.
+
+Original data (with adjusted standard errors for multi-arm studies):
+
+                          treat1          treat2      TE   seTE seTE.adj.c seTE.adj.r narms multiarm
+Alyagon 2020      active control     TMS (right)  2.8668 0.4914     0.5987     1.9789     3        *
+Alyagon 2020                sham     TMS (right)  3.3842 0.5239     0.7470     2.0052     3        *
+Alyagon 2020      active control            sham -0.5174 0.3893     0.4261     1.9123     3        *
+Bleich-Cohen 2021           sham     TMS (right) -0.1111 0.3229     0.3985     1.9206     3        *
+Bleich-Cohen 2021     TMS (left)     TMS (right)  0.4702 0.2982     0.3465     1.9087     3        *
+Bleich-Cohen 2021           sham      TMS (left) -0.5813 0.3327     0.4284     1.9257     3        *
+Cachoeira 2017              sham            tDCS  0.6720 0.5139     0.5139     1.6174     2         
+Paz 2017                    sham TMS (bilateral) -0.1131 0.4340     0.4340     1.5938     2         
+NCT03663179                 sham      TMS (left) -0.0816 0.3853     0.3853     1.5813     2         
+
+Number of treatment arms (by study):
+                  narms
+Alyagon 2020          3
+Bleich-Cohen 2021     3
+Cachoeira 2017        2
+Paz 2017              2
+NCT03663179           2
+
+Results (common effects model):
+
+                          treat1          treat2     SMD            95%-CI     Q leverage
+Alyagon 2020      active control     TMS (right)  1.1755 [ 0.4161; 1.9349]  7.98        .
+Alyagon 2020                sham     TMS (right)  0.8362 [ 0.3282; 1.3442] 11.63        .
+Alyagon 2020      active control            sham  0.3393 [-0.3622; 1.0408]  4.04        .
+Bleich-Cohen 2021           sham     TMS (right)  0.8362 [ 0.3282; 1.3442]  5.65        .
+Bleich-Cohen 2021     TMS (left)     TMS (right)  0.8688 [ 0.3412; 1.3964]  1.32        .
+Bleich-Cohen 2021           sham      TMS (left) -0.0326 [-0.5120; 0.4468]  1.64        .
+Cachoeira 2017              sham            tDCS  0.6720 [-0.3352; 1.6793]  0.00     1.00
+Paz 2017                    sham TMS (bilateral) -0.1131 [-0.9637; 0.7375]  0.00     1.00
+NCT03663179                 sham      TMS (left) -0.0326 [-0.5120; 0.4468]  0.02     0.40
+
+Results (random effects model):
+
+                          treat1          treat2     SMD            95%-CI
+Alyagon 2020      active control     TMS (right)  1.9078 [-1.0039; 4.8195]
+Alyagon 2020                sham     TMS (right)  1.5297 [-0.6006; 3.6599]
+Alyagon 2020      active control            sham  0.3781 [-2.5068; 3.2630]
+Bleich-Cohen 2021           sham     TMS (right)  1.5297 [-0.6006; 3.6599]
+Bleich-Cohen 2021     TMS (left)     TMS (right)  1.4222 [-1.0980; 3.9424]
+Bleich-Cohen 2021           sham      TMS (left)  0.1075 [-2.0026; 2.2176]
+Cachoeira 2017              sham            tDCS  0.6720 [-2.4981; 3.8421]
+Paz 2017                    sham TMS (bilateral) -0.1131 [-3.2369; 3.0107]
+NCT03663179                 sham      TMS (left)  0.1075 [-2.0026; 2.2176]
+
+Number of studies: k = 5
+Number of pairwise comparisons: m = 9
+Number of observations: o = 169
+Number of treatments: n = 6
+Number of designs: d = 5
+
+Common effects model
+
+Treatment estimate (sm = 'SMD', comparison: other treatments vs 'sham'):
+                    SMD             95%-CI     z p-value
+active control   0.3393 [-0.3622;  1.0408]  0.95  0.3431
+sham                  .                  .     .       .
+tDCS            -0.6720 [-1.6793;  0.3352] -1.31  0.1910
+TMS (bilateral)  0.1131 [-0.7375;  0.9637]  0.26  0.7944
+TMS (left)       0.0326 [-0.4468;  0.5120]  0.13  0.8939
+TMS (right)     -0.8362 [-1.3442; -0.3282] -3.23  0.0013
+
+Random effects model
+
+Treatment estimate (sm = 'SMD', comparison: other treatments vs 'sham'):
+                    SMD            95%-CI     z p-value               95%-PI
+active control   0.3781 [-2.5068; 3.2630]  0.26  0.7972  [-26.6311; 27.3874]
+sham                  .                 .     .       .                    .
+tDCS            -0.6720 [-3.8421; 2.4981] -0.42  0.6778  [-28.9930; 27.6490]
+TMS (bilateral)  0.1131 [-3.0107; 3.2369]  0.07  0.9434  [-27.9910; 28.2172]
+TMS (left)      -0.1075 [-2.2176; 2.0026] -0.10  0.9205  [-23.9160; 23.7011]
+TMS (right)     -1.5297 [-3.6599; 0.6006] -1.41  0.1593  [-25.4135; 22.3541]
+
+Quantifying heterogeneity / inconsistency:
+tau^2 = 2.3520; tau = 1.5336; I^2 = 93.8% [85.3%; 97.4%]
+
+Tests of heterogeneity (within designs) and inconsistency (between designs):
+                    Q d.f.  p-value
+Total           32.29    2 < 0.0001
+Within designs   0.00    0       --
+Between designs 32.29    2 < 0.0001
+
+A total of 6 treatments are included in the network.
+A total of 5 studies are included in this analysis.
+A total of 169 participants are included in this analysis.
+The following studies were included in this analysis: Alyagon 2020 Bleich-Cohen 2021 Cachoeira 2017 Paz 2017 NCT03663179
+Estimated heterogeneity tau-squared2.35
+Global test for inconsistency, p-value = 0 (Q = 32, d.o.f. = 2)
+
+File created on 2024-03-11

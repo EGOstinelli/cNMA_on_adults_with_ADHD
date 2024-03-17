@@ -1,0 +1,26 @@
+                                               comparisons Number.of.studies   SMD lower.CI upper.CI tau.sq I.sq lower.I.sq upper.I.sq  Q.st  p.val
+1                                  atomoxetine vs  placebo                12 -0.47    -0.55    -0.39   0.00 0.22       0.00       0.60 14.19 0.2225
+2                                    bupropion vs  placebo                 1 -0.40    -1.02     0.23     NA   NA         NA         NA  0.00     NA
+3                                DBT + placebo vs  placebo                 1  0.10    -0.20     0.41     NA   NA         NA         NA  0.00     NA
+4                             DBT + stimulants vs  placebo                 1 -0.04    -0.35     0.26     NA   NA         NA         NA  0.00     NA
+5                        DBT + stimulants vs DBT + placebo                 1 -0.15    -0.44     0.15     NA   NA         NA         NA  0.00     NA
+6                                   guanfacine vs  placebo                 1 -0.39    -0.67    -0.11     NA   NA         NA         NA  0.00     NA
+7                                    modafinil vs  placebo                 1  0.13    -0.16     0.41     NA   NA         NA         NA  0.00     NA
+8                                   psychoeducation vs CBT                 1 -0.12    -0.82     0.57     NA   NA         NA         NA  0.00     NA
+9                           psychoeducation vs mindfulness                 2  0.06    -0.31     0.43   0.00 0.00         NA         NA  0.05 0.8316
+10                            psychological placebo vs CBT                 1  0.54     0.10     0.99     NA   NA         NA         NA  0.00     NA
+11                               relaxation therapy vs CBT                 1  0.52     0.06     0.97     NA   NA         NA         NA  0.00     NA
+12 stimulants + skill training vs placebo + skill training                 1  0.01    -0.79     0.81     NA   NA         NA         NA  0.00     NA
+13                                  stimulants vs  placebo                25 -0.63    -0.74    -0.53   0.04 0.62       0.42       0.76 63.76 0.0000
+14                               stimulants vs atomoxetine                 1 -0.03    -0.40     0.34     NA   NA         NA         NA  0.00     NA
+15                             stimulants vs DBT + placebo                 1 -0.26    -0.55     0.04     NA   NA         NA         NA  0.00     NA
+16                          stimulants vs DBT + stimulants                 1 -0.11    -0.40     0.18     NA   NA         NA         NA  0.00     NA
+17                                              TAU vs CBT                 1  0.60    -0.12     1.32     NA   NA         NA         NA  0.00     NA
+18                                        TAU vs CBT + TAU                 2  0.54    -0.34     1.42   0.29 0.71       0.00       0.94  3.48 0.0622
+19                                TAU vs mindfulness + TAU                 1  0.43     0.05     0.82     NA   NA         NA         NA  0.00     NA
+20                                            tDCS vs sham                 1 -0.95    -1.46    -0.43     NA   NA         NA         NA  0.00     NA
+21                                  viloxazine vs  placebo                 1 -0.31    -0.52    -0.11     NA   NA         NA         NA  0.00     NA
+22                   waiting list vs cognitive remediation                 1  1.68     0.98     2.39     NA   NA         NA         NA  0.00     NA
+23                             waiting list vs mindfulness                 2  1.52     0.01     3.04   1.00 0.82       0.25       0.96  5.63 0.0177
+
+File created on 2024-03-09

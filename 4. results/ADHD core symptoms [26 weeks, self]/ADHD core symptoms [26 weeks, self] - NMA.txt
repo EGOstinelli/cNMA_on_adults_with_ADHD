@@ -1,0 +1,104 @@
+Network meta-analysis on main network.
+
+Original data (with adjusted standard errors for multi-arm studies):
+
+                              treat1             treat2      TE   seTE seTE.adj.c seTE.adj.r narms multiarm
+Anastopoulos 2021                CBT       waiting list -0.3397 0.1436     0.1436     0.2126     2         
+Cherkasova 2016                  CBT   CBT + stimulants  0.6590 0.2191     0.2191     0.2694     2         
+Fleming 2013                     CBT                DBT  0.6611 0.3631     0.3631     0.3955     2         
+Gu 2016                  mindfulness       waiting list -1.1605 0.2944     0.2944     0.3335     2         
+Hoxhaj 2018              mindfulness    psychoeducation -0.1878 0.2506     0.2506     0.2956     2         
+Safren 2010                      CBT relaxation therapy -0.3937 0.2602     0.2602     0.3038     2         
+Virta 2010                       CBT       hypnotherapy  0.1253 0.4864     0.4864     0.5110     2         
+Nasri 2022                       CBT relaxation therapy -0.0612 0.2341     0.2771     0.3366     3        *
+Nasri 2022                       CBT       waiting list -0.6646 0.2493     0.3127     0.3668     3        *
+Nasri 2022        relaxation therapy       waiting list -0.6034 0.2471     0.3063     0.3617     3        *
+
+Number of treatment arms (by study):
+                  narms
+Anastopoulos 2021     2
+Cherkasova 2016       2
+Fleming 2013          2
+Gu 2016               2
+Hoxhaj 2018           2
+Safren 2010           2
+Virta 2010            2
+Nasri 2022            3
+
+Results (common effects model):
+
+                              treat1             treat2     SMD             95%-CI    Q leverage
+Anastopoulos 2021                CBT       waiting list -0.4479 [-0.6884; -0.2074] 0.57     0.73
+Cherkasova 2016                  CBT   CBT + stimulants  0.6590 [ 0.2295;  1.0885] 0.00     1.00
+Fleming 2013                     CBT                DBT  0.6611 [-0.0505;  1.3728] 0.00     1.00
+Gu 2016                  mindfulness       waiting list -1.1605 [-1.7375; -0.5836] 0.00     1.00
+Hoxhaj 2018              mindfulness    psychoeducation -0.1878 [-0.6788;  0.3033] 0.00     1.00
+Safren 2010                      CBT relaxation therapy -0.1288 [-0.4519;  0.1942] 1.04     0.40
+Virta 2010                       CBT       hypnotherapy  0.1253 [-0.8280;  1.0786] 0.00     1.00
+Nasri 2022                       CBT relaxation therapy -0.1288 [-0.4519;  0.1942] 0.06        .
+Nasri 2022                       CBT       waiting list -0.4479 [-0.6884; -0.2074] 0.48        .
+Nasri 2022        relaxation therapy       waiting list -0.3190 [-0.6798;  0.0417] 0.86        .
+
+Results (random effects model):
+
+                              treat1             treat2     SMD             95%-CI
+Anastopoulos 2021                CBT       waiting list -0.4883 [-0.8194; -0.1573]
+Cherkasova 2016                  CBT   CBT + stimulants  0.6590 [ 0.1309;  1.1871]
+Fleming 2013                     CBT                DBT  0.6611 [-0.1140;  1.4363]
+Gu 2016                  mindfulness       waiting list -1.1605 [-1.8142; -0.5068]
+Hoxhaj 2018              mindfulness    psychoeducation -0.1878 [-0.7671;  0.3915]
+Safren 2010                      CBT relaxation therapy -0.1438 [-0.5302;  0.2426]
+Virta 2010                       CBT       hypnotherapy  0.1253 [-0.8763;  1.1269]
+Nasri 2022                       CBT relaxation therapy -0.1438 [-0.5302;  0.2426]
+Nasri 2022                       CBT       waiting list -0.4883 [-0.8194; -0.1573]
+Nasri 2022        relaxation therapy       waiting list -0.3446 [-0.7890;  0.0999]
+
+Number of studies: k = 8
+Number of pairwise comparisons: m = 10
+Number of observations: o = 617
+Number of treatments: n = 8
+Number of designs: d = 8
+
+Common effects model
+
+Treatment estimate (sm = 'SMD', comparison: other treatments vs 'waiting list'):
+                       SMD             95%-CI     z  p-value
+CBT                -0.4479 [-0.6884; -0.2074] -3.65   0.0003
+CBT + stimulants   -1.1069 [-1.5991; -0.6146] -4.41 < 0.0001
+DBT                -1.1090 [-1.8602; -0.3578] -2.89   0.0038
+hypnotherapy       -0.5731 [-1.5563;  0.4100] -1.14   0.2532
+mindfulness        -1.1605 [-1.7375; -0.5836] -3.94 < 0.0001
+psychoeducation    -0.9728 [-1.7304; -0.2151] -2.52   0.0119
+relaxation therapy -0.3190 [-0.6798;  0.0417] -1.73   0.0831
+waiting list             .                  .     .        .
+
+Random effects model
+
+Treatment estimate (sm = 'SMD', comparison: other treatments vs 'waiting list'):
+                       SMD             95%-CI     z p-value             95%-PI
+CBT                -0.4883 [-0.8194; -0.1573] -2.89  0.0038  [-3.4166; 2.4399]
+CBT + stimulants   -1.1473 [-1.7706; -0.5241] -3.61  0.0003  [-5.6525; 3.3578]
+DBT                -1.1495 [-1.9923; -0.3066] -2.67  0.0075  [-6.9656; 4.6667]
+hypnotherapy       -0.6136 [-1.6685;  0.4413] -1.14  0.2543  [-7.7367; 6.5095]
+mindfulness        -1.1605 [-1.8142; -0.5068] -3.48  0.0005  [-5.8432; 3.5222]
+psychoeducation    -0.9728 [-1.8462; -0.0993] -2.18  0.0290  [-6.9754; 5.0299]
+relaxation therapy -0.3446 [-0.7890;  0.0999] -1.52  0.1286  [-3.8474; 3.1583]
+waiting list             .                  .     .       .                  .
+
+Quantifying heterogeneity / inconsistency:
+tau^2 = 0.0246; tau = 0.1568; I^2 = 33.4% [0.0%; 78.0%]
+
+Tests of heterogeneity (within designs) and inconsistency (between designs):
+                Q d.f. p-value
+Total           3    2  0.2226
+Within designs  0    0      --
+Between designs 3    2  0.2226
+
+A total of 8 treatments are included in the network.
+A total of 8 studies are included in this analysis.
+A total of 617 participants are included in this analysis.
+The following studies were included in this analysis: Anastopoulos 2021 Cherkasova 2016 Fleming 2013 Gu 2016 Hoxhaj 2018 Safren 2010 Virta 2010 Nasri 2022
+Estimated heterogeneity tau-squared0.02
+Global test for inconsistency, p-value = 0.22258 (Q = 3, d.o.f. = 2)
+
+File created on 2024-02-26

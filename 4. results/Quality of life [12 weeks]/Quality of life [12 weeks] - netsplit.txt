@@ -1,0 +1,96 @@
+Separate indirect from direct evidence (SIDE) using back-calculation method
+
+Common effects model: 
+
+                            comparison k prop   nma direct indir.  Diff     z p-value
+                 CBT:cognitive placebo 0    0  0.05      .   0.05     .     .       .
+                CBT:cognitive training 1 1.00 -0.26  -0.26      .     .     .       .
+                               CBT:DBT 1 0.44 -0.94  -1.20  -0.75 -0.45 -0.88  0.3791
+                      CBT:hypnotherapy 1 1.00 -0.26  -0.26      .     .     .       .
+                      CBT:no treatment 1 1.00  0.10   0.10      .     .     .       .
+                   CBT:psychoeducation 1 1.00  0.34   0.34      .     .     .       .
+                CBT:relaxation therapy 1 0.93 -0.04   0.02  -0.85  0.87  0.88  0.3791
+                      CBT:waiting list 1 0.73 -0.56  -0.44  -0.89  0.45  0.88  0.3791
+  cognitive training:cognitive placebo 1 1.00  0.31   0.31      .     .     .       .
+                 DBT:cognitive placebo 0    0  0.99      .   0.99     .     .       .
+        hypnotherapy:cognitive placebo 0    0  0.31      .   0.31     .     .       .
+        no treatment:cognitive placebo 0    0 -0.05      .  -0.05     .     .       .
+     psychoeducation:cognitive placebo 0    0 -0.29      .  -0.29     .     .       .
+  relaxation therapy:cognitive placebo 0    0  0.09      .   0.09     .     .       .
+        waiting list:cognitive placebo 0    0  0.61      .   0.61     .     .       .
+                cognitive training:DBT 0    0 -0.68      .  -0.68     .     .       .
+       cognitive training:hypnotherapy 1 1.00  0.01   0.01      .     .     .       .
+       cognitive training:no treatment 1 1.00  0.37   0.37      .     .     .       .
+    cognitive training:psychoeducation 0    0  0.60      .   0.60     .     .       .
+ cognitive training:relaxation therapy 0    0  0.22      .   0.22     .     .       .
+       cognitive training:waiting list 0    0 -0.30      .  -0.30     .     .       .
+                      DBT:hypnotherapy 0    0  0.69      .   0.69     .     .       .
+                      DBT:no treatment 0    0  1.05      .   1.05     .     .       .
+                   DBT:psychoeducation 0    0  1.28      .   1.28     .     .       .
+                DBT:relaxation therapy 0    0  0.90      .   0.90     .     .       .
+                      DBT:waiting list 1 0.84  0.38   0.31   0.76 -0.45 -0.88  0.3791
+             hypnotherapy:no treatment 1 1.00  0.36   0.36      .     .     .       .
+          hypnotherapy:psychoeducation 0    0  0.60      .   0.60     .     .       .
+       hypnotherapy:relaxation therapy 0    0  0.22      .   0.22     .     .       .
+             hypnotherapy:waiting list 0    0 -0.30      .  -0.30     .     .       .
+          no treatment:psychoeducation 0    0  0.24      .   0.24     .     .       .
+       no treatment:relaxation therapy 0    0 -0.14      .  -0.14     .     .       .
+             no treatment:waiting list 0    0 -0.66      .  -0.66     .     .       .
+    psychoeducation:relaxation therapy 0    0 -0.38      .  -0.38     .     .       .
+          psychoeducation:waiting list 0    0 -0.90      .  -0.90     .     .       .
+       relaxation therapy:waiting list 1 0.93 -0.52  -0.46  -1.33  0.87  0.88  0.3791
+
+Random effects model: 
+
+                            comparison k prop   nma direct indir.  Diff     z p-value
+                 CBT:cognitive placebo 0    0  0.05      .   0.05     .     .       .
+                CBT:cognitive training 1 1.00 -0.26  -0.26      .     .     .       .
+                               CBT:DBT 1 0.44 -0.94  -1.20  -0.75 -0.45 -0.88  0.3791
+                      CBT:hypnotherapy 1 1.00 -0.26  -0.26      .     .     .       .
+                      CBT:no treatment 1 1.00  0.10   0.10      .     .     .       .
+                   CBT:psychoeducation 1 1.00  0.34   0.34      .     .     .       .
+                CBT:relaxation therapy 1 0.93 -0.04   0.02  -0.85  0.87  0.88  0.3791
+                      CBT:waiting list 1 0.73 -0.56  -0.44  -0.89  0.45  0.88  0.3791
+  cognitive training:cognitive placebo 1 1.00  0.31   0.31      .     .     .       .
+                 DBT:cognitive placebo 0    0  0.99      .   0.99     .     .       .
+        hypnotherapy:cognitive placebo 0    0  0.31      .   0.31     .     .       .
+        no treatment:cognitive placebo 0    0 -0.05      .  -0.05     .     .       .
+     psychoeducation:cognitive placebo 0    0 -0.29      .  -0.29     .     .       .
+  relaxation therapy:cognitive placebo 0    0  0.09      .   0.09     .     .       .
+        waiting list:cognitive placebo 0    0  0.61      .   0.61     .     .       .
+                cognitive training:DBT 0    0 -0.68      .  -0.68     .     .       .
+       cognitive training:hypnotherapy 1 1.00  0.01   0.01      .     .     .       .
+       cognitive training:no treatment 1 1.00  0.37   0.37      .     .     .       .
+    cognitive training:psychoeducation 0    0  0.60      .   0.60     .     .       .
+ cognitive training:relaxation therapy 0    0  0.22      .   0.22     .     .       .
+       cognitive training:waiting list 0    0 -0.30      .  -0.30     .     .       .
+                      DBT:hypnotherapy 0    0  0.69      .   0.69     .     .       .
+                      DBT:no treatment 0    0  1.05      .   1.05     .     .       .
+                   DBT:psychoeducation 0    0  1.28      .   1.28     .     .       .
+                DBT:relaxation therapy 0    0  0.90      .   0.90     .     .       .
+                      DBT:waiting list 1 0.84  0.38   0.31   0.76 -0.45 -0.88  0.3791
+             hypnotherapy:no treatment 1 1.00  0.36   0.36      .     .     .       .
+          hypnotherapy:psychoeducation 0    0  0.60      .   0.60     .     .       .
+       hypnotherapy:relaxation therapy 0    0  0.22      .   0.22     .     .       .
+             hypnotherapy:waiting list 0    0 -0.30      .  -0.30     .     .       .
+          no treatment:psychoeducation 0    0  0.24      .   0.24     .     .       .
+       no treatment:relaxation therapy 0    0 -0.14      .  -0.14     .     .       .
+             no treatment:waiting list 0    0 -0.66      .  -0.66     .     .       .
+    psychoeducation:relaxation therapy 0    0 -0.38      .  -0.38     .     .       .
+          psychoeducation:waiting list 0    0 -0.90      .  -0.90     .     .       .
+       relaxation therapy:waiting list 1 0.93 -0.52  -0.46  -1.33  0.87  0.88  0.3791
+
+Legend:
+ comparison - Treatment comparison
+ k          - Number of studies providing direct evidence
+ prop       - Direct evidence proportion
+ nma        - Estimated treatment effect (SMD) in network meta-analysis
+ direct     - Estimated treatment effect (SMD) derived from direct evidence
+ indir.     - Estimated treatment effect (SMD) derived from indirect evidence
+ Diff       - Difference between direct and indirect treatment estimates
+ z          - z-value of test for disagreement (direct versus indirect)
+ p-value    - p-value of test for disagreement (direct versus indirect)
+
+Percent of comparisons where there is some evidence (p-value<0.05) of disagreement between direct and indirect sources: 0 (0 out of 5 comparisons).
+
+File created on 2024-02-26

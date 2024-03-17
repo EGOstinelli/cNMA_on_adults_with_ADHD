@@ -1,0 +1,296 @@
+Separate indirect from direct evidence (SIDE) using back-calculation method
+
+Common effects model: 
+
+                              comparison k prop   nma direct indir.  Diff     z p-value
+                    CBT:CBT + stimulants 1 1.00  0.99   0.99      .     .     .       .
+                           CBT:CBT + TAU 0    0 -0.43      .  -0.43     .     .       .
+                   CBT:cognitive placebo 0    0  0.67      .   0.67     .     .       .
+                  CBT:cognitive training 1 1.00  0.60   0.60      .     .     .       .
+                                 CBT:DBT 1 0.30  0.40   0.40   0.40  0.00  0.01  0.9948
+                           CBT:DBT + TAU 0    0 -0.98      .  -0.98     .     .       .
+                        CBT:hypnotherapy 1 1.00  0.52   0.52      .     .     .       .
+                         CBT:mindfulness 0    0  0.64      .   0.64     .     .       .
+                   CBT:mindfulness + TAU 0    0 -0.59      .  -0.59     .     .       .
+                       CBT:neurofeedback 1 1.00 -0.11  -0.11      .     .     .       .
+                        CBT:no treatment 1 1.00  0.09   0.09      .     .     .       .
+                     CBT:psychoeducation 1 0.38  0.54   0.16   0.77 -0.61 -1.37  0.1713
+                  CBT:relaxation therapy 2 0.89 -0.26  -0.35   0.44 -0.79 -1.53  0.1253
+                CBT:sham + neurofeedback 1 1.00  0.13   0.13      .     .     .       .
+                                 CBT:TAU 1 1.00 -0.98  -0.98      .     .     .       .
+                        CBT:waiting list 3 0.86 -0.34  -0.25  -0.87  0.62  2.07  0.0381
+              CBT + stimulants:CBT + TAU 0    0 -1.42      .  -1.42     .     .       .
+      CBT + stimulants:cognitive placebo 0    0 -0.32      .  -0.32     .     .       .
+     CBT + stimulants:cognitive training 0    0 -0.39      .  -0.39     .     .       .
+                    CBT + stimulants:DBT 0    0 -0.60      .  -0.60     .     .       .
+              CBT + stimulants:DBT + TAU 0    0 -1.97      .  -1.97     .     .       .
+           CBT + stimulants:hypnotherapy 0    0 -0.47      .  -0.47     .     .       .
+            CBT + stimulants:mindfulness 0    0 -0.35      .  -0.35     .     .       .
+      CBT + stimulants:mindfulness + TAU 0    0 -1.58      .  -1.58     .     .       .
+          CBT + stimulants:neurofeedback 0    0 -1.10      .  -1.10     .     .       .
+           CBT + stimulants:no treatment 0    0 -0.91      .  -0.91     .     .       .
+        CBT + stimulants:psychoeducation 0    0 -0.45      .  -0.45     .     .       .
+     CBT + stimulants:relaxation therapy 0    0 -1.26      .  -1.26     .     .       .
+   CBT + stimulants:sham + neurofeedback 0    0 -0.87      .  -0.87     .     .       .
+                    CBT + stimulants:TAU 0    0 -1.98      .  -1.98     .     .       .
+           CBT + stimulants:waiting list 0    0 -1.33      .  -1.33     .     .       .
+             CBT + TAU:cognitive placebo 0    0  1.10      .   1.10     .     .       .
+            CBT + TAU:cognitive training 0    0  1.03      .   1.03     .     .       .
+                           CBT + TAU:DBT 0    0  0.83      .   0.83     .     .       .
+                     CBT + TAU:DBT + TAU 0    0 -0.55      .  -0.55     .     .       .
+                  CBT + TAU:hypnotherapy 0    0  0.95      .   0.95     .     .       .
+                   CBT + TAU:mindfulness 0    0  1.07      .   1.07     .     .       .
+             CBT + TAU:mindfulness + TAU 0    0 -0.16      .  -0.16     .     .       .
+                 CBT + TAU:neurofeedback 0    0  0.32      .   0.32     .     .       .
+                  CBT + TAU:no treatment 0    0  0.52      .   0.52     .     .       .
+               CBT + TAU:psychoeducation 0    0  0.97      .   0.97     .     .       .
+            CBT + TAU:relaxation therapy 0    0  0.16      .   0.16     .     .       .
+          CBT + TAU:sham + neurofeedback 0    0  0.55      .   0.55     .     .       .
+                           CBT + TAU:TAU 2 1.00 -0.55  -0.55      .     .     .       .
+                  CBT + TAU:waiting list 0    0  0.09      .   0.09     .     .       .
+    cognitive placebo:cognitive training 3 1.00 -0.07  -0.07      .     .     .       .
+                   cognitive placebo:DBT 0    0 -0.27      .  -0.27     .     .       .
+             cognitive placebo:DBT + TAU 0    0 -1.65      .  -1.65     .     .       .
+          cognitive placebo:hypnotherapy 0    0 -0.15      .  -0.15     .     .       .
+           cognitive placebo:mindfulness 0    0 -0.03      .  -0.03     .     .       .
+     cognitive placebo:mindfulness + TAU 0    0 -1.26      .  -1.26     .     .       .
+         cognitive placebo:neurofeedback 0    0 -0.78      .  -0.78     .     .       .
+          cognitive placebo:no treatment 0    0 -0.58      .  -0.58     .     .       .
+       cognitive placebo:psychoeducation 0    0 -0.13      .  -0.13     .     .       .
+    cognitive placebo:relaxation therapy 0    0 -0.93      .  -0.93     .     .       .
+  cognitive placebo:sham + neurofeedback 0    0 -0.55      .  -0.55     .     .       .
+                   cognitive placebo:TAU 0    0 -1.65      .  -1.65     .     .       .
+          cognitive placebo:waiting list 0    0 -1.01      .  -1.01     .     .       .
+                  cognitive training:DBT 0    0 -0.20      .  -0.20     .     .       .
+            cognitive training:DBT + TAU 0    0 -1.58      .  -1.58     .     .       .
+         cognitive training:hypnotherapy 1 1.00 -0.08  -0.08      .     .     .       .
+          cognitive training:mindfulness 0    0  0.04      .   0.04     .     .       .
+    cognitive training:mindfulness + TAU 0    0 -1.19      .  -1.19     .     .       .
+        cognitive training:neurofeedback 0    0 -0.71      .  -0.71     .     .       .
+         cognitive training:no treatment 1 1.00 -0.51  -0.51      .     .     .       .
+      cognitive training:psychoeducation 0    0 -0.06      .  -0.06     .     .       .
+   cognitive training:relaxation therapy 0    0 -0.87      .  -0.87     .     .       .
+ cognitive training:sham + neurofeedback 0    0 -0.48      .  -0.48     .     .       .
+                  cognitive training:TAU 0    0 -1.58      .  -1.58     .     .       .
+         cognitive training:waiting list 0    0 -0.94      .  -0.94     .     .       .
+                           DBT:DBT + TAU 0    0 -1.38      .  -1.38     .     .       .
+                        DBT:hypnotherapy 0    0  0.12      .   0.12     .     .       .
+                         DBT:mindfulness 0    0  0.24      .   0.24     .     .       .
+                   DBT:mindfulness + TAU 0    0 -0.98      .  -0.98     .     .       .
+                       DBT:neurofeedback 0    0 -0.51      .  -0.51     .     .       .
+                        DBT:no treatment 0    0 -0.31      .  -0.31     .     .       .
+                     DBT:psychoeducation 0    0  0.14      .   0.14     .     .       .
+                  DBT:relaxation therapy 0    0 -0.66      .  -0.66     .     .       .
+                DBT:sham + neurofeedback 0    0 -0.27      .  -0.27     .     .       .
+                                 DBT:TAU 0    0 -1.38      .  -1.38     .     .       .
+                        DBT:waiting list 1 0.76 -0.73  -0.73  -0.74  0.00  0.01  0.9948
+                  DBT + TAU:hypnotherapy 0    0  1.50      .   1.50     .     .       .
+                   DBT + TAU:mindfulness 0    0  1.62      .   1.62     .     .       .
+             DBT + TAU:mindfulness + TAU 0    0  0.39      .   0.39     .     .       .
+                 DBT + TAU:neurofeedback 0    0  0.87      .   0.87     .     .       .
+                  DBT + TAU:no treatment 0    0  1.07      .   1.07     .     .       .
+               DBT + TAU:psychoeducation 0    0  1.52      .   1.52     .     .       .
+            DBT + TAU:relaxation therapy 0    0  0.72      .   0.72     .     .       .
+          DBT + TAU:sham + neurofeedback 0    0  1.11      .   1.11     .     .       .
+                           DBT + TAU:TAU 1 1.00 -0.00  -0.00      .     .     .       .
+                  DBT + TAU:waiting list 0    0  0.64      .   0.64     .     .       .
+                hypnotherapy:mindfulness 0    0  0.12      .   0.12     .     .       .
+          hypnotherapy:mindfulness + TAU 0    0 -1.11      .  -1.11     .     .       .
+              hypnotherapy:neurofeedback 0    0 -0.63      .  -0.63     .     .       .
+               hypnotherapy:no treatment 1 1.00 -0.43  -0.43      .     .     .       .
+            hypnotherapy:psychoeducation 0    0  0.02      .   0.02     .     .       .
+         hypnotherapy:relaxation therapy 0    0 -0.78      .  -0.78     .     .       .
+       hypnotherapy:sham + neurofeedback 0    0 -0.39      .  -0.39     .     .       .
+                        hypnotherapy:TAU 0    0 -1.50      .  -1.50     .     .       .
+               hypnotherapy:waiting list 0    0 -0.86      .  -0.86     .     .       .
+           mindfulness:mindfulness + TAU 0    0 -1.23      .  -1.23     .     .       .
+               mindfulness:neurofeedback 0    0 -0.75      .  -0.75     .     .       .
+                mindfulness:no treatment 0    0 -0.55      .  -0.55     .     .       .
+             mindfulness:psychoeducation 2 0.83 -0.10   0.01  -0.61  0.61  1.37  0.1713
+          mindfulness:relaxation therapy 0    0 -0.90      .  -0.90     .     .       .
+        mindfulness:sham + neurofeedback 0    0 -0.52      .  -0.52     .     .       .
+                         mindfulness:TAU 0    0 -1.62      .  -1.62     .     .       .
+                mindfulness:waiting list 3 0.85 -0.98  -1.07  -0.45 -0.61 -1.37  0.1713
+         mindfulness + TAU:neurofeedback 0    0  0.48      .   0.48     .     .       .
+          mindfulness + TAU:no treatment 0    0  0.67      .   0.67     .     .       .
+       mindfulness + TAU:psychoeducation 0    0  1.13      .   1.13     .     .       .
+    mindfulness + TAU:relaxation therapy 0    0  0.32      .   0.32     .     .       .
+  mindfulness + TAU:sham + neurofeedback 0    0  0.71      .   0.71     .     .       .
+                   mindfulness + TAU:TAU 1 1.00 -0.40  -0.40      .     .     .       .
+          mindfulness + TAU:waiting list 0    0  0.25      .   0.25     .     .       .
+              neurofeedback:no treatment 0    0  0.20      .   0.20     .     .       .
+           neurofeedback:psychoeducation 0    0  0.65      .   0.65     .     .       .
+        neurofeedback:relaxation therapy 0    0 -0.15      .  -0.15     .     .       .
+      neurofeedback:sham + neurofeedback 1 1.00  0.23   0.23      .     .     .       .
+                       neurofeedback:TAU 0    0 -0.87      .  -0.87     .     .       .
+              neurofeedback:waiting list 0    0 -0.23      .  -0.23     .     .       .
+            no treatment:psychoeducation 0    0  0.45      .   0.45     .     .       .
+         no treatment:relaxation therapy 0    0 -0.35      .  -0.35     .     .       .
+       no treatment:sham + neurofeedback 0    0  0.04      .   0.04     .     .       .
+                        no treatment:TAU 0    0 -1.07      .  -1.07     .     .       .
+               no treatment:waiting list 0    0 -0.42      .  -0.42     .     .       .
+      psychoeducation:relaxation therapy 0    0 -0.80      .  -0.80     .     .       .
+    psychoeducation:sham + neurofeedback 0    0 -0.42      .  -0.42     .     .       .
+                     psychoeducation:TAU 0    0 -1.52      .  -1.52     .     .       .
+            psychoeducation:waiting list 0    0 -0.88      .  -0.88     .     .       .
+ relaxation therapy:sham + neurofeedback 0    0  0.39      .   0.39     .     .       .
+                  relaxation therapy:TAU 0    0 -0.72      .  -0.72     .     .       .
+         relaxation therapy:waiting list 1 0.50 -0.07  -0.50   0.37 -0.87 -2.49  0.0126
+                sham + neurofeedback:TAU 0    0 -1.11      .  -1.11     .     .       .
+       sham + neurofeedback:waiting list 0    0 -0.46      .  -0.46     .     .       .
+                        waiting list:TAU 0    0 -0.65      .  -0.65     .     .       .
+
+Random effects model: 
+
+                              comparison k prop   nma direct indir.  Diff     z p-value
+                    CBT:CBT + stimulants 1 1.00  0.99   0.99      .     .     .       .
+                           CBT:CBT + TAU 0    0 -0.42      .  -0.42     .     .       .
+                   CBT:cognitive placebo 0    0  0.67      .   0.67     .     .       .
+                  CBT:cognitive training 1 1.00  0.60   0.60      .     .     .       .
+                                 CBT:DBT 1 0.38  0.36   0.40   0.33  0.07  0.13  0.8980
+                           CBT:DBT + TAU 0    0 -0.98      .  -0.98     .     .       .
+                        CBT:hypnotherapy 1 1.00  0.52   0.52      .     .     .       .
+                         CBT:mindfulness 0    0  0.62      .   0.62     .     .       .
+                   CBT:mindfulness + TAU 0    0 -0.59      .  -0.59     .     .       .
+                       CBT:neurofeedback 1 1.00 -0.11  -0.11      .     .     .       .
+                        CBT:no treatment 1 1.00  0.09   0.09      .     .     .       .
+                     CBT:psychoeducation 1 0.43  0.52   0.16   0.78 -0.63 -1.20  0.2319
+                  CBT:relaxation therapy 2 0.90 -0.28  -0.36   0.35 -0.71 -1.07  0.2830
+                CBT:sham + neurofeedback 1 1.00  0.13   0.13      .     .     .       .
+                                 CBT:TAU 1 1.00 -0.98  -0.98      .     .     .       .
+                        CBT:waiting list 3 0.80 -0.39  -0.27  -0.87  0.60  1.65  0.0984
+              CBT + stimulants:CBT + TAU 0    0 -1.42      .  -1.42     .     .       .
+      CBT + stimulants:cognitive placebo 0    0 -0.33      .  -0.33     .     .       .
+     CBT + stimulants:cognitive training 0    0 -0.39      .  -0.39     .     .       .
+                    CBT + stimulants:DBT 0    0 -0.63      .  -0.63     .     .       .
+              CBT + stimulants:DBT + TAU 0    0 -1.97      .  -1.97     .     .       .
+           CBT + stimulants:hypnotherapy 0    0 -0.47      .  -0.47     .     .       .
+            CBT + stimulants:mindfulness 0    0 -0.38      .  -0.38     .     .       .
+      CBT + stimulants:mindfulness + TAU 0    0 -1.58      .  -1.58     .     .       .
+          CBT + stimulants:neurofeedback 0    0 -1.10      .  -1.10     .     .       .
+           CBT + stimulants:no treatment 0    0 -0.91      .  -0.91     .     .       .
+        CBT + stimulants:psychoeducation 0    0 -0.48      .  -0.48     .     .       .
+     CBT + stimulants:relaxation therapy 0    0 -1.28      .  -1.28     .     .       .
+   CBT + stimulants:sham + neurofeedback 0    0 -0.87      .  -0.87     .     .       .
+                    CBT + stimulants:TAU 0    0 -1.98      .  -1.98     .     .       .
+           CBT + stimulants:waiting list 0    0 -1.39      .  -1.39     .     .       .
+             CBT + TAU:cognitive placebo 0    0  1.09      .   1.09     .     .       .
+            CBT + TAU:cognitive training 0    0  1.03      .   1.03     .     .       .
+                           CBT + TAU:DBT 0    0  0.78      .   0.78     .     .       .
+                     CBT + TAU:DBT + TAU 0    0 -0.56      .  -0.56     .     .       .
+                  CBT + TAU:hypnotherapy 0    0  0.94      .   0.94     .     .       .
+                   CBT + TAU:mindfulness 0    0  1.04      .   1.04     .     .       .
+             CBT + TAU:mindfulness + TAU 0    0 -0.16      .  -0.16     .     .       .
+                 CBT + TAU:neurofeedback 0    0  0.31      .   0.31     .     .       .
+                  CBT + TAU:no treatment 0    0  0.51      .   0.51     .     .       .
+               CBT + TAU:psychoeducation 0    0  0.94      .   0.94     .     .       .
+            CBT + TAU:relaxation therapy 0    0  0.14      .   0.14     .     .       .
+          CBT + TAU:sham + neurofeedback 0    0  0.55      .   0.55     .     .       .
+                           CBT + TAU:TAU 2 1.00 -0.56  -0.56      .     .     .       .
+                  CBT + TAU:waiting list 0    0  0.03      .   0.03     .     .       .
+    cognitive placebo:cognitive training 3 1.00 -0.06  -0.06      .     .     .       .
+                   cognitive placebo:DBT 0    0 -0.31      .  -0.31     .     .       .
+             cognitive placebo:DBT + TAU 0    0 -1.65      .  -1.65     .     .       .
+          cognitive placebo:hypnotherapy 0    0 -0.15      .  -0.15     .     .       .
+           cognitive placebo:mindfulness 0    0 -0.05      .  -0.05     .     .       .
+     cognitive placebo:mindfulness + TAU 0    0 -1.25      .  -1.25     .     .       .
+         cognitive placebo:neurofeedback 0    0 -0.78      .  -0.78     .     .       .
+          cognitive placebo:no treatment 0    0 -0.58      .  -0.58     .     .       .
+       cognitive placebo:psychoeducation 0    0 -0.15      .  -0.15     .     .       .
+    cognitive placebo:relaxation therapy 0    0 -0.95      .  -0.95     .     .       .
+  cognitive placebo:sham + neurofeedback 0    0 -0.54      .  -0.54     .     .       .
+                   cognitive placebo:TAU 0    0 -1.65      .  -1.65     .     .       .
+          cognitive placebo:waiting list 0    0 -1.06      .  -1.06     .     .       .
+                  cognitive training:DBT 0    0 -0.24      .  -0.24     .     .       .
+            cognitive training:DBT + TAU 0    0 -1.58      .  -1.58     .     .       .
+         cognitive training:hypnotherapy 1 1.00 -0.08  -0.08      .     .     .       .
+          cognitive training:mindfulness 0    0  0.02      .   0.02     .     .       .
+    cognitive training:mindfulness + TAU 0    0 -1.19      .  -1.19     .     .       .
+        cognitive training:neurofeedback 0    0 -0.71      .  -0.71     .     .       .
+         cognitive training:no treatment 1 1.00 -0.51  -0.51      .     .     .       .
+      cognitive training:psychoeducation 0    0 -0.09      .  -0.09     .     .       .
+   cognitive training:relaxation therapy 0    0 -0.88      .  -0.88     .     .       .
+ cognitive training:sham + neurofeedback 0    0 -0.48      .  -0.48     .     .       .
+                  cognitive training:TAU 0    0 -1.58      .  -1.58     .     .       .
+         cognitive training:waiting list 0    0 -0.99      .  -0.99     .     .       .
+                           DBT:DBT + TAU 0    0 -1.34      .  -1.34     .     .       .
+                        DBT:hypnotherapy 0    0  0.16      .   0.16     .     .       .
+                         DBT:mindfulness 0    0  0.26      .   0.26     .     .       .
+                   DBT:mindfulness + TAU 0    0 -0.94      .  -0.94     .     .       .
+                       DBT:neurofeedback 0    0 -0.47      .  -0.47     .     .       .
+                        DBT:no treatment 0    0 -0.27      .  -0.27     .     .       .
+                     DBT:psychoeducation 0    0  0.16      .   0.16     .     .       .
+                  DBT:relaxation therapy 0    0 -0.64      .  -0.64     .     .       .
+                DBT:sham + neurofeedback 0    0 -0.23      .  -0.23     .     .       .
+                                 DBT:TAU 0    0 -1.34      .  -1.34     .     .       .
+                        DBT:waiting list 1 0.70 -0.75  -0.73  -0.80  0.07  0.13  0.8980
+                  DBT + TAU:hypnotherapy 0    0  1.50      .   1.50     .     .       .
+                   DBT + TAU:mindfulness 0    0  1.60      .   1.60     .     .       .
+             DBT + TAU:mindfulness + TAU 0    0  0.39      .   0.39     .     .       .
+                 DBT + TAU:neurofeedback 0    0  0.87      .   0.87     .     .       .
+                  DBT + TAU:no treatment 0    0  1.07      .   1.07     .     .       .
+               DBT + TAU:psychoeducation 0    0  1.50      .   1.50     .     .       .
+            DBT + TAU:relaxation therapy 0    0  0.70      .   0.70     .     .       .
+          DBT + TAU:sham + neurofeedback 0    0  1.11      .   1.11     .     .       .
+                           DBT + TAU:TAU 1 1.00 -0.00  -0.00      .     .     .       .
+                  DBT + TAU:waiting list 0    0  0.59      .   0.59     .     .       .
+                hypnotherapy:mindfulness 0    0  0.10      .   0.10     .     .       .
+          hypnotherapy:mindfulness + TAU 0    0 -1.11      .  -1.11     .     .       .
+              hypnotherapy:neurofeedback 0    0 -0.63      .  -0.63     .     .       .
+               hypnotherapy:no treatment 1 1.00 -0.43  -0.43      .     .     .       .
+            hypnotherapy:psychoeducation 0    0 -0.00      .  -0.00     .     .       .
+         hypnotherapy:relaxation therapy 0    0 -0.80      .  -0.80     .     .       .
+       hypnotherapy:sham + neurofeedback 0    0 -0.39      .  -0.39     .     .       .
+                        hypnotherapy:TAU 0    0 -1.50      .  -1.50     .     .       .
+               hypnotherapy:waiting list 0    0 -0.91      .  -0.91     .     .       .
+           mindfulness:mindfulness + TAU 0    0 -1.20      .  -1.20     .     .       .
+               mindfulness:neurofeedback 0    0 -0.73      .  -0.73     .     .       .
+                mindfulness:no treatment 0    0 -0.53      .  -0.53     .     .       .
+             mindfulness:psychoeducation 2 0.81 -0.10   0.02  -0.61  0.63  1.20  0.2319
+          mindfulness:relaxation therapy 0    0 -0.90      .  -0.90     .     .       .
+        mindfulness:sham + neurofeedback 0    0 -0.49      .  -0.49     .     .       .
+                         mindfulness:TAU 0    0 -1.60      .  -1.60     .     .       .
+                mindfulness:waiting list 3 0.84 -1.01  -1.11  -0.48 -0.63 -1.20  0.2319
+         mindfulness + TAU:neurofeedback 0    0  0.48      .   0.48     .     .       .
+          mindfulness + TAU:no treatment 0    0  0.67      .   0.67     .     .       .
+       mindfulness + TAU:psychoeducation 0    0  1.10      .   1.10     .     .       .
+    mindfulness + TAU:relaxation therapy 0    0  0.30      .   0.30     .     .       .
+  mindfulness + TAU:sham + neurofeedback 0    0  0.71      .   0.71     .     .       .
+                   mindfulness + TAU:TAU 1 1.00 -0.40  -0.40      .     .     .       .
+          mindfulness + TAU:waiting list 0    0  0.19      .   0.19     .     .       .
+              neurofeedback:no treatment 0    0  0.20      .   0.20     .     .       .
+           neurofeedback:psychoeducation 0    0  0.63      .   0.63     .     .       .
+        neurofeedback:relaxation therapy 0    0 -0.17      .  -0.17     .     .       .
+      neurofeedback:sham + neurofeedback 1 1.00  0.23   0.23      .     .     .       .
+                       neurofeedback:TAU 0    0 -0.87      .  -0.87     .     .       .
+              neurofeedback:waiting list 0    0 -0.28      .  -0.28     .     .       .
+            no treatment:psychoeducation 0    0  0.43      .   0.43     .     .       .
+         no treatment:relaxation therapy 0    0 -0.37      .  -0.37     .     .       .
+       no treatment:sham + neurofeedback 0    0  0.04      .   0.04     .     .       .
+                        no treatment:TAU 0    0 -1.07      .  -1.07     .     .       .
+               no treatment:waiting list 0    0 -0.48      .  -0.48     .     .       .
+      psychoeducation:relaxation therapy 0    0 -0.80      .  -0.80     .     .       .
+    psychoeducation:sham + neurofeedback 0    0 -0.39      .  -0.39     .     .       .
+                     psychoeducation:TAU 0    0 -1.50      .  -1.50     .     .       .
+            psychoeducation:waiting list 0    0 -0.91      .  -0.91     .     .       .
+ relaxation therapy:sham + neurofeedback 0    0  0.41      .   0.41     .     .       .
+                  relaxation therapy:TAU 0    0 -0.70      .  -0.70     .     .       .
+         relaxation therapy:waiting list 1 0.54 -0.11  -0.50   0.34 -0.85 -1.90  0.0572
+                sham + neurofeedback:TAU 0    0 -1.11      .  -1.11     .     .       .
+       sham + neurofeedback:waiting list 0    0 -0.52      .  -0.52     .     .       .
+                        waiting list:TAU 0    0 -0.59      .  -0.59     .     .       .
+
+Legend:
+ comparison - Treatment comparison
+ k          - Number of studies providing direct evidence
+ prop       - Direct evidence proportion
+ nma        - Estimated treatment effect (SMD) in network meta-analysis
+ direct     - Estimated treatment effect (SMD) derived from direct evidence
+ indir.     - Estimated treatment effect (SMD) derived from indirect evidence
+ Diff       - Difference between direct and indirect treatment estimates
+ z          - z-value of test for disagreement (direct versus indirect)
+ p-value    - p-value of test for disagreement (direct versus indirect)
+
+Percent of comparisons where there is some evidence (p-value<0.05) of disagreement between direct and indirect sources: 0 (0 out of 8 comparisons).
+
+File created on 2024-03-11

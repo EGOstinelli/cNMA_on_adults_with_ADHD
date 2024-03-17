@@ -1,0 +1,176 @@
+Number of studies: 112 (new: 54 studies).
+Number of participants: 14827 (new: 3774 participants).
+Number of interventions: 50 (new: 44 interventions).
+Number of combinations: 20
+
+List of interventions: 
+ [1] "active control"                 "atomoxetine"                    "bupropion"                     
+ [4] "CBT"                            "CBT + DBT"                      "CBT + stimulants"              
+ [7] "CBT + TAU"                      "cognitive placebo"              "cognitive remediation"         
+[10] "cognitive training"             "DBT"                            "DBT + placebo"                 
+[13] "DBT + stimulants"               "DBT + TAU"                      "GMT + TAU"                     
+[16] "guanfacine"                     "guanfacine + TAU"               "hypnotherapy"                  
+[19] "mindfulness"                    "mindfulness + TAU"              "modafinil"                     
+[22] "neurofeedback"                  "no treatment"                   "physical training"             
+[25] "placebo"                        "placebo + CBT"                  "placebo + skill training"      
+[28] "placebo + TAU"                  "probiotics"                     "psychoeducation"               
+[31] "psychoeducation + TAU"          "psychological placebo"          "relaxation therapy"            
+[34] "self-help therapy"              "sham"                           "sham + neurofeedback"          
+[37] "sham + working memory training" "stimulants"                     "stimulants + CBT"              
+[40] "stimulants + skill training"    "TAU"                            "tDCS"                          
+[43] "tDCS + DBT"                     "tDCS + working memory training" "TMS (bilateral)"               
+[46] "TMS (left)"                     "TMS (right)"                    "viloxazine"                    
+[49] "waiting list"                   "waiting list + TAU"            
+
+active control, number of studies: 1 (new: 1 studies).
+Number of participants: 16 (new: 16 participants).
+
+atomoxetine, number of studies: 18 (new: 2 studies).
+Number of participants: 2155 (new: 80 participants).
+
+bupropion, number of studies: 4 (new: 0 studies).
+Number of participants: 77 (new: 0 participants).
+
+CBT, number of studies: 14 (new: 14 studies).
+Number of participants: 530 (new: 530 participants).
+
+CBT + DBT, number of studies: 1 (new: 1 studies).
+Number of participants: not available.
+
+CBT + stimulants, number of studies: 2 (new: 2 studies).
+Number of participants: 42 (new: 42 participants).
+
+CBT + TAU, number of studies: 2 (new: 2 studies).
+Number of participants: 51 (new: 51 participants).
+
+cognitive placebo, number of studies: 3 (new: 3 studies).
+Number of participants: 88 (new: 88 participants).
+
+cognitive remediation, number of studies: 1 (new: 1 studies).
+Number of participants: 23 (new: 23 participants).
+
+cognitive training, number of studies: 4 (new: 4 studies).
+Number of participants: 110 (new: 110 participants).
+
+DBT, number of studies: 3 (new: 3 studies).
+Number of participants: 79 (new: 79 participants).
+
+DBT + placebo, number of studies: 1 (new: 1 studies).
+Number of participants: 109 (new: 109 participants).
+
+DBT + stimulants, number of studies: 1 (new: 1 studies).
+Number of participants: 107 (new: 107 participants).
+
+DBT + TAU, number of studies: 1 (new: 1 studies).
+Number of participants: 16 (new: 16 participants).
+
+GMT + TAU, number of studies: 1 (new: 1 studies).
+Number of participants: 41 (new: 41 participants).
+
+guanfacine, number of studies: 2 (new: 0 studies).
+Number of participants: 118 (new: 0 participants).
+
+guanfacine + TAU, number of studies: 1 (new: 1 studies).
+Number of participants: not available.
+
+hypnotherapy, number of studies: 1 (new: 1 studies).
+Number of participants: 9 (new: 9 participants).
+
+mindfulness, number of studies: 6 (new: 6 studies).
+Number of participants: 174 (new: 174 participants).
+
+mindfulness + TAU, number of studies: 1 (new: 1 studies).
+Number of participants: 60 (new: 60 participants).
+
+modafinil, number of studies: 2 (new: 0 studies).
+Number of participants: 168 (new: 0 participants).
+
+neurofeedback, number of studies: 1 (new: 1 studies).
+Number of participants: 38 (new: 38 participants).
+
+no treatment, number of studies: 2 (new: 2 studies).
+Number of participants: 10 (new: 10 participants).
+
+physical training, number of studies: 1 (new: 1 studies).
+Number of participants: 30 (new: 30 participants).
+
+placebo, number of studies: 64 (new: 6 studies).
+Number of participants: 4871 (new: 438 participants).
+
+placebo + CBT, number of studies: 2 (new: 2 studies).
+Number of participants: 53 (new: 53 participants).
+
+placebo + skill training, number of studies: 1 (new: 1 studies).
+Number of participants: 12 (new: 12 participants).
+
+placebo + TAU, number of studies: 1 (new: 1 studies).
+Number of participants: not available.
+
+probiotics, number of studies: 1 (new: 1 studies).
+Number of participants: not available.
+
+psychoeducation, number of studies: 4 (new: 4 studies).
+Number of participants: 94 (new: 94 participants).
+
+psychoeducation + TAU, number of studies: 1 (new: 1 studies).
+Number of participants: 48 (new: 48 participants).
+
+psychological placebo, number of studies: 1 (new: 1 studies).
+Number of participants: 43 (new: 43 participants).
+
+relaxation therapy, number of studies: 2 (new: 2 studies).
+Number of participants: 80 (new: 80 participants).
+
+self-help therapy, number of studies: 2 (new: 2 studies).
+Number of participants: 17 (new: 17 participants).
+
+sham, number of studies: 8 (new: 8 studies).
+Number of participants: 114 (new: 114 participants).
+
+sham + neurofeedback, number of studies: 1 (new: 1 studies).
+Number of participants: 39 (new: 39 participants).
+
+sham + working memory training, number of studies: 1 (new: 1 studies).
+Number of participants: not available.
+
+stimulants, number of studies: 40 (new: 3 studies).
+Number of participants: 4357 (new: 175 participants).
+
+stimulants + CBT, number of studies: 2 (new: 2 studies).
+Number of participants: 53 (new: 53 participants).
+
+stimulants + skill training, number of studies: 1 (new: 1 studies).
+Number of participants: 12 (new: 12 participants).
+
+TAU, number of studies: 6 (new: 6 studies).
+Number of participants: 181 (new: 181 participants).
+
+tDCS, number of studies: 5 (new: 5 studies).
+Number of participants: 52 (new: 52 participants).
+
+tDCS + DBT, number of studies: 1 (new: 1 studies).
+Number of participants: not available.
+
+tDCS + working memory training, number of studies: 1 (new: 1 studies).
+Number of participants: not available.
+
+TMS (bilateral), number of studies: 1 (new: 1 studies).
+Number of participants: 12 (new: 12 participants).
+
+TMS (left), number of studies: 2 (new: 2 studies).
+Number of participants: 46 (new: 46 participants).
+
+TMS (right), number of studies: 2 (new: 2 studies).
+Number of participants: 46 (new: 46 participants).
+
+viloxazine, number of studies: 1 (new: 1 studies).
+Number of participants: 190 (new: 190 participants).
+
+waiting list, number of studies: 12 (new: 12 studies).
+Number of participants: 417 (new: 417 participants).
+
+waiting list + TAU, number of studies: 1 (new: 1 studies).
+Number of participants: 39 (new: 39 participants).
+
+
+File created on 2024-03-17

@@ -1,0 +1,75 @@
+Network meta-analysis on main network.
+
+Original data (with adjusted standard errors for multi-arm studies):
+
+                         treat1           treat2      TE   seTE seTE.adj.c seTE.adj.r narms multiarm
+Philipsen 2015    DBT + placebo       stimulants -0.0364 0.1767     0.2426     0.2426     4        *
+Philipsen 2015 DBT + stimulants       stimulants -0.1214 0.1697     0.2243     0.2243     4        *
+Philipsen 2015          placebo       stimulants  0.2428 0.1914     0.2778     0.2778     4        *
+Philipsen 2015    DBT + placebo          placebo -0.2792 0.1983     0.3032     0.3032     4        *
+Philipsen 2015 DBT + stimulants          placebo -0.3642 0.1923     0.2818     0.2818     4        *
+Philipsen 2015    DBT + placebo DBT + stimulants  0.0850 0.1774     0.2440     0.2440     4        *
+
+Number of treatment arms (by study):
+               narms
+Philipsen 2015     4
+
+Results (common effects model):
+
+                         treat1           treat2     SMD            95%-CI    Q
+Philipsen 2015    DBT + placebo       stimulants -0.0364 [-0.3828; 0.3100] 0.00
+Philipsen 2015 DBT + stimulants       stimulants -0.1214 [-0.4541; 0.2113] 0.00
+Philipsen 2015          placebo       stimulants  0.2428 [-0.1323; 0.6179] 0.00
+Philipsen 2015    DBT + placebo          placebo -0.2792 [-0.6679; 0.1095] 0.00
+Philipsen 2015 DBT + stimulants          placebo -0.3642 [-0.7411; 0.0128] 0.00
+Philipsen 2015    DBT + placebo DBT + stimulants  0.0850 [-0.2626; 0.4326] 0.00
+
+Results (random effects model):
+
+                         treat1           treat2     SMD            95%-CI
+Philipsen 2015    DBT + placebo       stimulants -0.0364 [-0.3828; 0.3100]
+Philipsen 2015 DBT + stimulants       stimulants -0.1214 [-0.4541; 0.2113]
+Philipsen 2015          placebo       stimulants  0.2428 [-0.1323; 0.6179]
+Philipsen 2015    DBT + placebo          placebo -0.2792 [-0.6679; 0.1095]
+Philipsen 2015 DBT + stimulants          placebo -0.3642 [-0.7411; 0.0128]
+Philipsen 2015    DBT + placebo DBT + stimulants  0.0850 [-0.2626; 0.4326]
+
+Number of studies: k = 1
+Number of pairwise comparisons: m = 6
+Number of observations: o = 243
+Number of treatments: n = 4
+Number of designs: d = 1
+
+Common effects model
+
+Treatment estimate (sm = 'SMD', comparison: other treatments vs 'placebo'):
+                     SMD            95%-CI     z p-value
+DBT + placebo    -0.2792 [-0.6679; 0.1095] -1.41  0.1592
+DBT + stimulants -0.3642 [-0.7411; 0.0128] -1.89  0.0583
+placebo                .                 .     .       .
+stimulants       -0.2428 [-0.6179; 0.1323] -1.27  0.2046
+
+Random effects model
+
+Treatment estimate (sm = 'SMD', comparison: other treatments vs 'placebo'):
+                     SMD            95%-CI     z p-value
+DBT + placebo    -0.2792 [-0.6679; 0.1095] -1.41  0.1592
+DBT + stimulants -0.3642 [-0.7411; 0.0128] -1.89  0.0583
+placebo                .                 .     .       .
+stimulants       -0.2428 [-0.6179; 0.1323] -1.27  0.2046
+
+Quantifying heterogeneity:
+tau^2 = NA; tau = NA
+
+Test of heterogeneity:
+ Q d.f. p-value
+ 0    0      --
+
+A total of 4 treatments are included in the network.
+A total of 1 studies are included in this analysis.
+A total of 243 participants are included in this analysis.
+The following studies were included in this analysis: Philipsen 2015
+Estimated heterogeneity tau-squaredNA
+Global test for inconsistency, p-value = NA (Q = NA, d.o.f. = NA)
+
+File created on 2024-02-26

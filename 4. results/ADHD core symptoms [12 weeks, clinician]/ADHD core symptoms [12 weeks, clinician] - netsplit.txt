@@ -1,0 +1,114 @@
+Separate indirect from direct evidence (SIDE) using back-calculation method
+
+Common effects model: 
+
+                                  comparison k prop   nma direct indir. Diff z p-value
+                               CBT:CBT + TAU 0    0 -0.11      .  -0.11    . .       .
+                   CBT:cognitive remediation 0    0  0.84      .   0.84    . .       .
+                             CBT:mindfulness 0    0  0.19      .   0.19    . .       .
+                       CBT:mindfulness + TAU 0    0 -0.18      .  -0.18    . .       .
+                         CBT:psychoeducation 1 1.00  0.13   0.13      .    . .       .
+                   CBT:psychological placebo 1 1.00 -0.55  -0.55      .    . .       .
+                      CBT:relaxation therapy 1 1.00 -0.52  -0.52      .    . .       .
+                                     CBT:TAU 1 1.00 -0.62  -0.62      .    . .       .
+                            CBT:waiting list 0    0 -0.88      .  -0.88    . .       .
+             CBT + TAU:cognitive remediation 0    0  0.95      .   0.95    . .       .
+                       CBT + TAU:mindfulness 0    0  0.30      .   0.30    . .       .
+                 CBT + TAU:mindfulness + TAU 0    0 -0.07      .  -0.07    . .       .
+                   CBT + TAU:psychoeducation 0    0  0.24      .   0.24    . .       .
+             CBT + TAU:psychological placebo 0    0 -0.44      .  -0.44    . .       .
+                CBT + TAU:relaxation therapy 0    0 -0.41      .  -0.41    . .       .
+                               CBT + TAU:TAU 2 1.00 -0.50  -0.50      .    . .       .
+                      CBT + TAU:waiting list 0    0 -0.76      .  -0.76    . .       .
+           cognitive remediation:mindfulness 0    0 -0.65      .  -0.65    . .       .
+     cognitive remediation:mindfulness + TAU 0    0 -1.02      .  -1.02    . .       .
+       cognitive remediation:psychoeducation 0    0 -0.71      .  -0.71    . .       .
+ cognitive remediation:psychological placebo 0    0 -1.39      .  -1.39    . .       .
+    cognitive remediation:relaxation therapy 0    0 -1.36      .  -1.36    . .       .
+                   cognitive remediation:TAU 0    0 -1.45      .  -1.45    . .       .
+          cognitive remediation:waiting list 1 1.00 -1.71  -1.71      .    . .       .
+               mindfulness:mindfulness + TAU 0    0 -0.37      .  -0.37    . .       .
+                 mindfulness:psychoeducation 2 1.00 -0.06  -0.06      .    . .       .
+           mindfulness:psychological placebo 0    0 -0.74      .  -0.74    . .       .
+              mindfulness:relaxation therapy 0    0 -0.71      .  -0.71    . .       .
+                             mindfulness:TAU 0    0 -0.81      .  -0.81    . .       .
+                    mindfulness:waiting list 2 1.00 -1.07  -1.07      .    . .       .
+           mindfulness + TAU:psychoeducation 0    0  0.31      .   0.31    . .       .
+     mindfulness + TAU:psychological placebo 0    0 -0.37      .  -0.37    . .       .
+        mindfulness + TAU:relaxation therapy 0    0 -0.34      .  -0.34    . .       .
+                       mindfulness + TAU:TAU 1 1.00 -0.44  -0.44      .    . .       .
+              mindfulness + TAU:waiting list 0    0 -0.70      .  -0.70    . .       .
+       psychoeducation:psychological placebo 0    0 -0.68      .  -0.68    . .       .
+          psychoeducation:relaxation therapy 0    0 -0.65      .  -0.65    . .       .
+                         psychoeducation:TAU 0    0 -0.74      .  -0.74    . .       .
+                psychoeducation:waiting list 0    0 -1.00      .  -1.00    . .       .
+    psychological placebo:relaxation therapy 0    0  0.03      .   0.03    . .       .
+                   psychological placebo:TAU 0    0 -0.07      .  -0.07    . .       .
+          psychological placebo:waiting list 0    0 -0.33      .  -0.33    . .       .
+                      relaxation therapy:TAU 0    0 -0.09      .  -0.09    . .       .
+             relaxation therapy:waiting list 0    0 -0.35      .  -0.35    . .       .
+                            waiting list:TAU 0    0  0.26      .   0.26    . .       .
+
+Random effects model: 
+
+                                  comparison k prop   nma direct indir. Diff z p-value
+                               CBT:CBT + TAU 0    0 -0.07      .  -0.07    . .       .
+                   CBT:cognitive remediation 0    0  0.49      .   0.49    . .       .
+                             CBT:mindfulness 0    0  0.20      .   0.20    . .       .
+                       CBT:mindfulness + TAU 0    0 -0.18      .  -0.18    . .       .
+                         CBT:psychoeducation 1 1.00  0.13   0.13      .    . .       .
+                   CBT:psychological placebo 1 1.00 -0.55  -0.55      .    . .       .
+                      CBT:relaxation therapy 1 1.00 -0.52  -0.52      .    . .       .
+                                     CBT:TAU 1 1.00 -0.62  -0.62      .    . .       .
+                            CBT:waiting list 0    0 -1.22      .  -1.22    . .       .
+             CBT + TAU:cognitive remediation 0    0  0.56      .   0.56    . .       .
+                       CBT + TAU:mindfulness 0    0  0.27      .   0.27    . .       .
+                 CBT + TAU:mindfulness + TAU 0    0 -0.12      .  -0.12    . .       .
+                   CBT + TAU:psychoeducation 0    0  0.19      .   0.19    . .       .
+             CBT + TAU:psychological placebo 0    0 -0.48      .  -0.48    . .       .
+                CBT + TAU:relaxation therapy 0    0 -0.46      .  -0.46    . .       .
+                               CBT + TAU:TAU 2 1.00 -0.55  -0.55      .    . .       .
+                      CBT + TAU:waiting list 0    0 -1.16      .  -1.16    . .       .
+           cognitive remediation:mindfulness 0    0 -0.29      .  -0.29    . .       .
+     cognitive remediation:mindfulness + TAU 0    0 -0.67      .  -0.67    . .       .
+       cognitive remediation:psychoeducation 0    0 -0.36      .  -0.36    . .       .
+ cognitive remediation:psychological placebo 0    0 -1.04      .  -1.04    . .       .
+    cognitive remediation:relaxation therapy 0    0 -1.01      .  -1.01    . .       .
+                   cognitive remediation:TAU 0    0 -1.11      .  -1.11    . .       .
+          cognitive remediation:waiting list 1 1.00 -1.71  -1.71      .    . .       .
+               mindfulness:mindfulness + TAU 0    0 -0.38      .  -0.38    . .       .
+                 mindfulness:psychoeducation 2 1.00 -0.07  -0.07      .    . .       .
+           mindfulness:psychological placebo 0    0 -0.75      .  -0.75    . .       .
+              mindfulness:relaxation therapy 0    0 -0.72      .  -0.72    . .       .
+                             mindfulness:TAU 0    0 -0.82      .  -0.82    . .       .
+                    mindfulness:waiting list 2 1.00 -1.42  -1.42      .    . .       .
+           mindfulness + TAU:psychoeducation 0    0  0.31      .   0.31    . .       .
+     mindfulness + TAU:psychological placebo 0    0 -0.37      .  -0.37    . .       .
+        mindfulness + TAU:relaxation therapy 0    0 -0.34      .  -0.34    . .       .
+                       mindfulness + TAU:TAU 1 1.00 -0.44  -0.44      .    . .       .
+              mindfulness + TAU:waiting list 0    0 -1.04      .  -1.04    . .       .
+       psychoeducation:psychological placebo 0    0 -0.68      .  -0.68    . .       .
+          psychoeducation:relaxation therapy 0    0 -0.65      .  -0.65    . .       .
+                         psychoeducation:TAU 0    0 -0.74      .  -0.74    . .       .
+                psychoeducation:waiting list 0    0 -1.35      .  -1.35    . .       .
+    psychological placebo:relaxation therapy 0    0  0.03      .   0.03    . .       .
+                   psychological placebo:TAU 0    0 -0.07      .  -0.07    . .       .
+          psychological placebo:waiting list 0    0 -0.67      .  -0.67    . .       .
+                      relaxation therapy:TAU 0    0 -0.09      .  -0.09    . .       .
+             relaxation therapy:waiting list 0    0 -0.70      .  -0.70    . .       .
+                            waiting list:TAU 0    0  0.61      .   0.61    . .       .
+
+Legend:
+ comparison - Treatment comparison
+ k          - Number of studies providing direct evidence
+ prop       - Direct evidence proportion
+ nma        - Estimated treatment effect (SMD) in network meta-analysis
+ direct     - Estimated treatment effect (SMD) derived from direct evidence
+ indir.     - Estimated treatment effect (SMD) derived from indirect evidence
+ Diff       - Difference between direct and indirect treatment estimates
+ z          - z-value of test for disagreement (direct versus indirect)
+ p-value    - p-value of test for disagreement (direct versus indirect)
+
+Percent of comparisons where there is some evidence (p-value<0.05) of disagreement between direct and indirect sources: NaN (0 out of 0 comparisons).
+
+File created on 2024-03-09

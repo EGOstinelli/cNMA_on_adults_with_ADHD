@@ -1,0 +1,24 @@
+                             comparisons Number.of.studies   SMD lower.CI upper.CI tau.sq I.sq lower.I.sq
+1              DBT + placebo vs  placebo                 1 -0.37    -0.77     0.03     NA   NA         NA
+2           DBT + stimulants vs  placebo                 1 -0.42    -0.81    -0.04     NA   NA         NA
+3      DBT + stimulants vs DBT + placebo                 1 -0.05    -0.41     0.30     NA   NA         NA
+4                   neurofeedback vs CBT                 1 -0.01    -0.47     0.46     NA   NA         NA
+5              relaxation therapy vs CBT                 2  0.09    -0.24     0.43      0    0         NA
+6            sham + neurofeedback vs CBT                 1 -0.30    -0.76     0.16     NA   NA         NA
+7  sham + neurofeedback vs neurofeedback                 1 -0.29    -0.77     0.18     NA   NA         NA
+8                 stimulants vs  placebo                 1 -0.36    -0.75     0.03     NA   NA         NA
+9            stimulants vs DBT + placebo                 1  0.01    -0.35     0.37     NA   NA         NA
+10        stimulants vs DBT + stimulants                 1  0.07    -0.27     0.40     NA   NA         NA
+   upper.I.sq Q.st  p.val
+1          NA 0.00     NA
+2          NA 0.00     NA
+3          NA 0.00     NA
+4          NA 0.00     NA
+5          NA 0.97 0.3247
+6          NA 0.00     NA
+7          NA 0.00     NA
+8          NA 0.00     NA
+9          NA 0.00     NA
+10         NA 0.00     NA
+
+File created on 2024-02-26

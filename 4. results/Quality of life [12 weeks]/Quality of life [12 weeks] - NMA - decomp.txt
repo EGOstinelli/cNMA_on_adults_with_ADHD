@@ -1,0 +1,19 @@
+Q statistics to assess homogeneity / consistency
+
+                   Q df p-value
+Total           0.77  1  0.3791
+Within designs  0.00  0      --
+Between designs 0.77  1  0.3791
+
+Between-designs Q statistic after detaching of single designs
+(influential designs have p-value markedly different from 0.3791)
+
+  Detached design    Q df p-value
+          CBT:DBT 0.00  0      --
+ DBT:waiting list 0.00  0      --
+
+Q statistic to assess consistency under the assumption of
+a full design-by-treatment interaction random effects model
+
+                   Q df p-value tau.within tau2.within
+Between designs 0.77  1  0.3791          0           0

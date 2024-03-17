@@ -1,0 +1,52 @@
+Network meta-analysis on main network.
+
+Original data:
+
+           treat1             treat2      TE   seTE
+Nasri 2022    CBT relaxation therapy -0.0200 0.3051
+
+Number of treatment arms (by study):
+           narms
+Nasri 2022     2
+
+Results (common effects model):
+
+           treat1             treat2     SMD            95%-CI    Q leverage
+Nasri 2022    CBT relaxation therapy -0.0200 [-0.6180; 0.5779] 0.00     1.00
+
+Results (random effects model):
+
+           treat1             treat2     SMD            95%-CI
+Nasri 2022    CBT relaxation therapy -0.0200 [-0.6180; 0.5779]
+
+Number of studies: k = 1
+Number of pairwise comparisons: m = 1
+Number of observations: o = 43
+Number of treatments: n = 2
+Number of designs: d = 1
+
+Common effects model
+
+Treatment estimate (sm = 'SMD', comparison: 'relaxation therapy' vs 'CBT'):
+                      SMD            95%-CI    z p-value
+CBT                     .                 .    .       .
+relaxation therapy 0.0200 [-0.5779; 0.6180] 0.07  0.9476
+
+Random effects model
+
+Treatment estimate (sm = 'SMD', comparison: 'relaxation therapy' vs 'CBT'):
+                      SMD            95%-CI    z p-value
+CBT                     .                 .    .       .
+relaxation therapy 0.0200 [-0.5779; 0.6180] 0.07  0.9476
+
+Quantifying heterogeneity:
+tau^2 = NA; tau = NA
+
+A total of 2 treatments are included in the network.
+A total of 1 studies are included in this analysis.
+A total of 43 participants are included in this analysis.
+The following studies were included in this analysis: Nasri 2022
+Estimated heterogeneity tau-squaredNA
+Global test for inconsistency, p-value = NA (Q = NA, d.o.f. = NA)
+
+File created on 2024-02-26

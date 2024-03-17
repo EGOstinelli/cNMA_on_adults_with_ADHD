@@ -1,0 +1,11 @@
+                   P-score (common) P-score (random)
+mindfulness                  0.8134           0.7865
+CBT + stimulants             0.7708           0.7741
+DBT                          0.7585           0.7596
+psychoeducation              0.6546           0.6354
+hypnotherapy                 0.4189           0.4338
+CBT                          0.3325           0.3448
+relaxation therapy           0.2261           0.2355
+waiting list                 0.0252           0.0303
+
+File created on 2024-02-26

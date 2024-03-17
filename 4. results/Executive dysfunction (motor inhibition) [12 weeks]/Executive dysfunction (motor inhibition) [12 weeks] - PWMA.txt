@@ -1,0 +1,7 @@
+                  comparisons Number.of.studies   SMD lower.CI upper.CI tau.sq I.sq lower.I.sq upper.I.sq Q.st  p.val
+1                  DBT vs CBT                 1 -0.49    -1.19     0.22     NA   NA         NA         NA    0     NA
+2      stimulants vs  placebo                 2 -0.27    -0.74     0.20      0    0         NA         NA    0 0.9865
+3          TMS (left) vs sham                 1 -0.62    -1.40     0.15     NA   NA         NA         NA    0     NA
+4 waiting list vs mindfulness                 1 -0.06    -0.94     0.82     NA   NA         NA         NA    0     NA
+
+File created on 2024-03-07

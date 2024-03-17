@@ -1,0 +1,6 @@
+                comparisons Number.of.studies  SMD lower.CI upper.CI tau.sq I.sq lower.I.sq upper.I.sq Q.st
+1 relaxation therapy vs CBT                 1 0.08    -0.52     0.68     NA   NA         NA         NA    0
+  p.val
+1    NA
+
+File created on 2024-02-26

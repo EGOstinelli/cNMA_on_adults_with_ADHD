@@ -1,0 +1,25 @@
+                     P-score (common) P-score (random)
+TMS (right)                    0.8074           0.8074
+sham                           0.7604           0.7604
+placebo + CBT                  0.7319           0.7319
+DBT + placebo                  0.7033           0.7033
+TMS (left)                     0.6838           0.6838
+placebo                        0.6439           0.6439
+bupropion                      0.6319           0.6319
+active control                 0.5148           0.5148
+tDCS                           0.5018           0.5018
+relaxation therapy             0.4996           0.4996
+stimulants + CBT               0.4992           0.4992
+CBT                            0.4894           0.4894
+TAU                            0.4832           0.4832
+sham + neurofeedback           0.4753           0.4753
+DBT + stimulants               0.4697           0.4697
+waiting list                   0.4645           0.4645
+viloxazine                     0.4269           0.4269
+stimulants                     0.3875           0.3875
+atomoxetine                    0.3351           0.3351
+modafinil                      0.2126           0.2126
+neurofeedback                  0.1733           0.1733
+guanfacine                     0.1044           0.1044
+
+File created on 2024-03-09

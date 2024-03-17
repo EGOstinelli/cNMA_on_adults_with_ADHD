@@ -1,0 +1,13 @@
+                     P-score (common) P-score (random)
+mindfulness                    0.9295           0.9295
+sham + neurofeedback           0.8286           0.8286
+cognitive training             0.7938           0.7938
+DBT                            0.5243           0.5243
+placebo                        0.4670           0.4670
+CBT                            0.4522           0.4522
+stimulants                     0.4444           0.4444
+neurofeedback                  0.3912           0.3912
+cognitive placebo              0.1397           0.1397
+waiting list                   0.0292           0.0292
+
+File created on 2024-02-26

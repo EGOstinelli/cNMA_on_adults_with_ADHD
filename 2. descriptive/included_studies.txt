@@ -1,0 +1,116 @@
+List of included studies (112 studies): 
+
+Adler 2008a
+Adler 2008b
+Adler 2009a
+Adler 2009b
+Adler 2009c
+Adler 2013
+Adler 2021
+Allenby 2018
+Alyagon 2020
+Anastopoulos 2021
+Arnold 2014
+Arteaga-Henriquez 2020
+Bachmann 2018
+Bain 2013
+Barham 2022
+Basiri 2023
+Biederman 2006a
+Biederman 2012
+Biehl 2016
+Bleich-Cohen 2021
+Bouffard 2003
+Bron 2014
+Butterfield 2016
+Cachoeira 2017
+Casas 2013
+Cherkasova 2016
+Cutler 2022
+Dentz 2017
+Durell 2013
+Emilsson 2011
+Faraone 2021
+Fleming 2013
+Forsström 2023
+Frick 2017
+Ginsberg 2012
+Goodman 2016
+Goto 2013
+Gu 2016
+Halmoy 2022
+Hamedi 2014
+Hanssen 2023
+Hepark 2015
+Herring 2012
+Hirvikoski 2013
+Hoxhaj 2018
+Huang 2015
+Huss 2014
+Iwanami 2020
+Janssen 2018
+JPRN-UMIN000002806
+Kay 2009a
+Kay 2009b
+Konstenius 2010 - ISRCTN81602628
+Kooij 2004
+Kouhbanani 2023
+Kuperman 2001
+Leffa 2022
+Levin 2007
+Lin 2016
+Mauche 2024
+McRae-Clark 2010
+Medori 2008
+Michelson 2003a
+Michelson 2003b
+Mitchell 2017
+Moritz 2020
+Nakashima 2021
+Nasri 2022
+Nasser 2022
+NCT00514202
+NCT02210728
+NCT02489279
+NCT03324581
+NCT03663179
+NCT04439422
+Paterson 1999
+Paz 2017
+Pettersson 2014
+Pheh 2021
+Philipsen 2015
+Reimherr 2005
+Reimherr 2007
+Rosler 2009
+Safren 2005
+Safren 2010
+Schoenenberg 2017
+Schrantee 2016
+Solanto 2010
+Spencer 1995
+Spencer 1998
+Spencer 2001
+Spencer 2005
+Spencer 2007
+Stern 2014
+Stevenson 2002
+Stevenson 2003
+Sutherland 2012
+Takahashi 2014
+Taylor 2000
+Taylor 2001
+Tenenbaum 2002
+Vidal 2013
+Virta 2010
+Weisler 2006
+Weisler 2012
+Weisler 2017
+Weiss 2020
+Wender 2011
+Wilens 2001
+Wilens 2008
+Winhusen 2010
+Young 2011
+
+File created on 2024-03-17

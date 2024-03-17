@@ -1,0 +1,72 @@
+Network meta-analysis on main network.
+
+Original data (with adjusted standard errors for multi-arm studies):
+
+                         treat1               treat2      TE   seTE seTE.adj.c seTE.adj.r narms multiarm
+Fleming 2013                CBT                  DBT  0.0609 0.3536     0.3536     0.3853     2         
+Schoenenberg 2017           CBT        neurofeedback -0.0550 0.2310     0.2823     0.3387     3        *
+Schoenenberg 2017 neurofeedback sham + neurofeedback  0.4224 0.2327     0.2865     0.3422     3        *
+Schoenenberg 2017           CBT sham + neurofeedback  0.3674 0.2307     0.2817     0.3382     3        *
+
+Number of treatment arms (by study):
+                  narms
+Fleming 2013          2
+Schoenenberg 2017     3
+
+Results (common effects model):
+
+                         treat1               treat2     SMD            95%-CI    Q leverage
+Fleming 2013                CBT                  DBT  0.0609 [-0.6322; 0.7540] 0.00     1.00
+Schoenenberg 2017           CBT        neurofeedback -0.0550 [-0.5077; 0.3977] 0.00        .
+Schoenenberg 2017 neurofeedback sham + neurofeedback  0.4224 [-0.0336; 0.8784] 0.00        .
+Schoenenberg 2017           CBT sham + neurofeedback  0.3674 [-0.0848; 0.8196] 0.00        .
+
+Results (random effects model):
+
+                         treat1               treat2     SMD            95%-CI
+Fleming 2013                CBT                  DBT  0.0609 [-0.6942; 0.8160]
+Schoenenberg 2017           CBT        neurofeedback -0.0550 [-0.5979; 0.4879]
+Schoenenberg 2017 neurofeedback sham + neurofeedback  0.4224 [-0.1232; 0.9680]
+Schoenenberg 2017           CBT sham + neurofeedback  0.3674 [-0.1750; 0.9098]
+
+Number of studies: k = 2
+Number of pairwise comparisons: m = 4
+Number of observations: o = 145
+Number of treatments: n = 4
+Number of designs: d = 2
+
+Common effects model
+
+Treatment estimate (sm = 'SMD', comparison: other treatments vs 'CBT'):
+                         SMD            95%-CI     z p-value
+CBT                        .                 .     .       .
+DBT                  -0.0609 [-0.7540; 0.6322] -0.17  0.8632
+neurofeedback         0.0550 [-0.3977; 0.5077]  0.24  0.8118
+sham + neurofeedback -0.3674 [-0.8196; 0.0848] -1.59  0.1113
+
+Random effects model
+
+Treatment estimate (sm = 'SMD', comparison: other treatments vs 'CBT'):
+                         SMD            95%-CI     z p-value
+CBT                        .                 .     .       .
+DBT                  -0.0609 [-0.8160; 0.6942] -0.16  0.8743
+neurofeedback         0.0550 [-0.4879; 0.5979]  0.20  0.8426
+sham + neurofeedback -0.3674 [-0.9098; 0.1750] -1.33  0.1843
+
+Quantifying heterogeneity / inconsistency:
+tau^2 = 0.0234; tau = 0.1528
+
+Tests of heterogeneity (within designs) and inconsistency (between designs):
+                Q          d.f. p-value
+Total           0 -4.440892e-16      --
+Within designs  0  0.000000e+00      --
+Between designs 0  0.000000e+00      --
+
+A total of 4 treatments are included in the network.
+A total of 2 studies are included in this analysis.
+A total of 145 participants are included in this analysis.
+The following studies were included in this analysis: Fleming 2013 Schoenenberg 2017
+Estimated heterogeneity tau-squared0.02
+Global test for inconsistency, p-value = NA (Q = 0, d.o.f. = 0)
+
+File created on 2024-02-26

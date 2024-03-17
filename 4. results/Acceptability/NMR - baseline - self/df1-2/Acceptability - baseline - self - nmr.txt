@@ -1,0 +1,50 @@
+
+Results on the Log Odds Ratio scale
+
+Iterations = 50020:1050000
+Thinning interval = 20 
+Number of chains = 4 
+Sample size per chain = 50000 
+
+1. Empirical mean and standard deviation for each variable,
+   plus standard error of the mean:
+
+                                  Mean     SD Naive SE Time-series SE
+d.CBT.CBT_and_stimulants       0.97089 2.2521 0.005036       0.005036
+d.CBT.DBT                      1.67195 2.1781 0.004870       0.006504
+d.CBT.neurofeedback            0.08444 2.3369 0.005226       0.005268
+d.CBT.psychoeducation          0.57019 1.8154 0.004059       0.004171
+d.CBT.relaxation_therapy       1.16074 2.3460 0.005246       0.005306
+d.CBT.sham_and_neurofeedback   0.05533 2.3320 0.005214       0.005277
+d.CBT.waiting_list            -0.38700 1.3976 0.003125       0.003566
+d.psychoeducation.mindfulness  0.23588 1.4471 0.003236       0.003257
+sd.d                           2.05260 0.6349 0.001420       0.002000
+B                              2.07055 4.1927 0.009375       0.014839
+
+2. Quantiles for each variable:
+
+                                 2.5%     25%      50%    75%  97.5%
+d.CBT.CBT_and_stimulants      -3.6062 -0.4069  0.96743 2.3516  5.541
+d.CBT.DBT                     -2.3042  0.2390  1.50573 2.9718  6.409
+d.CBT.neurofeedback           -4.6247 -1.3673  0.08052 1.5330  4.819
+d.CBT.psychoeducation         -3.0155 -0.5703  0.53218 1.6898  4.327
+d.CBT.relaxation_therapy      -3.5358 -0.3021  1.14242 2.6112  5.946
+d.CBT.sham_and_neurofeedback  -4.6581 -1.3995  0.05614 1.5062  4.765
+d.CBT.waiting_list            -3.1924 -1.2474 -0.41218 0.4689  2.478
+d.psychoeducation.mindfulness -2.6503 -0.6626  0.20456 1.1193  3.232
+sd.d                           0.6575  1.6189  2.14131 2.5787  2.946
+B                             -4.1117 -0.4233  1.33456 3.7019 12.730
+
+-- Model fit (residual deviance):
+
+    Dbar       pD      DIC 
+28.74932 24.21919 52.96852 
+
+27 data points, ratio 1.065, I^2 = 10%
+
+-- Regression settings:
+
+Regression on "baseline", shared coefficients, "waiting_list" as control
+Input standardized: x' = (baseline - 40.88231) / 62.90999
+Estimates at the centering value: baseline = 40.88231
+

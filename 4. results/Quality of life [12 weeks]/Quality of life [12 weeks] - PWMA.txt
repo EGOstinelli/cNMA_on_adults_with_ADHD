@@ -1,0 +1,23 @@
+                               comparisons Number.of.studies   SMD lower.CI upper.CI tau.sq I.sq lower.I.sq upper.I.sq Q.st  p.val
+1                  atomoxetine vs  placebo                 2  0.22     0.07     0.38      0    0         NA         NA 0.50 0.4808
+2                cognitive training vs CBT                 1  0.25    -0.65     1.16     NA   NA         NA         NA 0.00     NA
+3  cognitive training vs cognitive placebo                 1  0.31    -0.36     0.98     NA   NA         NA         NA 0.00     NA
+4                               DBT vs CBT                 1  1.17     0.41     1.92     NA   NA         NA         NA 0.00     NA
+5                   guanfacine vs  placebo                 1 -0.15    -0.43     0.12     NA   NA         NA         NA 0.00     NA
+6                      hypnotherapy vs CBT                 1  0.24    -0.69     1.18     NA   NA         NA         NA 0.00     NA
+7       hypnotherapy vs cognitive training                 1 -0.01    -0.96     0.95     NA   NA         NA         NA 0.00     NA
+8                    modafinil vs  placebo                 1  0.13    -0.22     0.48     NA   NA         NA         NA 0.00     NA
+9                      no treatment vs CBT                 1 -0.10    -0.98     0.78     NA   NA         NA         NA 0.00     NA
+10      no treatment vs cognitive training                 1 -0.35    -1.26     0.56     NA   NA         NA         NA 0.00     NA
+11            no treatment vs hypnotherapy                 1 -0.34    -1.28     0.60     NA   NA         NA         NA 0.00     NA
+12                  psychoeducation vs CBT                 1 -0.33    -1.03     0.37     NA   NA         NA         NA 0.00     NA
+13               relaxation therapy vs CBT                 1 -0.02    -0.54     0.49     NA   NA         NA         NA 0.00     NA
+14                  stimulants vs  placebo                 2  0.10    -0.09     0.28      0    0         NA         NA 0.11 0.7352
+15                      TMS (left) vs sham                 1 -0.56    -1.21     0.10     NA   NA         NA         NA 0.00     NA
+16                     TMS (right) vs sham                 1 -0.22    -0.85     0.41     NA   NA         NA         NA 0.00     NA
+17               TMS (right) vs TMS (left)                 1  0.34    -0.24     0.92     NA   NA         NA         NA 0.00     NA
+18                     waiting list vs CBT                 1  0.43    -0.09     0.96     NA   NA         NA         NA 0.00     NA
+19                     waiting list vs DBT                 1 -0.31    -0.71     0.09     NA   NA         NA         NA 0.00     NA
+20      waiting list vs relaxation therapy                 1  0.45    -0.07     0.97     NA   NA         NA         NA 0.00     NA
+
+File created on 2024-03-09

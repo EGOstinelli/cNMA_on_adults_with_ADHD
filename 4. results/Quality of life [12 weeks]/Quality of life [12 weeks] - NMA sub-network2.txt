@@ -1,0 +1,64 @@
+Network meta-analysis on additional sub-network.
+
+Original data (with adjusted standard errors for multi-arm studies):
+
+                      treat1      treat2      TE   seTE seTE.adj.c seTE.adj.r narms multiarm
+Bleich-Cohen 2021       sham TMS (right)  0.2247 0.3234     0.4000     0.4000     3        *
+Bleich-Cohen 2021 TMS (left) TMS (right) -0.3449 0.2968     0.3442     0.3442     3        *
+Bleich-Cohen 2021       sham  TMS (left)  0.5695 0.3325     0.4282     0.4282     3        *
+
+Number of treatment arms (by study):
+                  narms
+Bleich-Cohen 2021     3
+
+Results (common effects model):
+
+                      treat1      treat2     SMD            95%-CI    Q
+Bleich-Cohen 2021       sham TMS (right)  0.2247 [-0.4092; 0.8585] 0.00
+Bleich-Cohen 2021 TMS (left) TMS (right) -0.3449 [-0.9266; 0.2368] 0.00
+Bleich-Cohen 2021       sham  TMS (left)  0.5695 [-0.0822; 1.2213] 0.00
+
+Results (random effects model):
+
+                      treat1      treat2     SMD            95%-CI
+Bleich-Cohen 2021       sham TMS (right)  0.2247 [-0.4092; 0.8585]
+Bleich-Cohen 2021 TMS (left) TMS (right) -0.3449 [-0.9266; 0.2368]
+Bleich-Cohen 2021       sham  TMS (left)  0.5695 [-0.0822; 1.2213]
+
+Number of studies: k = 1
+Number of pairwise comparisons: m = 3
+Number of observations: o = 62
+Number of treatments: n = 3
+Number of designs: d = 1
+
+Common effects model
+
+Treatment estimate (sm = 'SMD', comparison: other treatments vs 'sham'):
+                SMD            95%-CI     z p-value
+sham              .                 .     .       .
+TMS (left)  -0.5695 [-1.2213; 0.0822] -1.71  0.0868
+TMS (right) -0.2247 [-0.8585; 0.4092] -0.69  0.4872
+
+Random effects model
+
+Treatment estimate (sm = 'SMD', comparison: other treatments vs 'sham'):
+                SMD            95%-CI     z p-value
+sham              .                 .     .       .
+TMS (left)  -0.5695 [-1.2213; 0.0822] -1.71  0.0868
+TMS (right) -0.2247 [-0.8585; 0.4092] -0.69  0.4872
+
+Quantifying heterogeneity:
+tau^2 = NA; tau = NA
+
+Test of heterogeneity:
+ Q d.f. p-value
+ 0    0      --
+
+A total of 3 treatments are included in the network.
+A total of 1 studies are included in this analysis.
+A total of 62 participants are included in this analysis.
+The following studies were included in this analysis: Bleich-Cohen 2021
+Estimated heterogeneity tau-squaredNA
+Global test for inconsistency, p-value = NA (Q = NA, d.o.f. = NA)
+
+File created on 2024-03-09

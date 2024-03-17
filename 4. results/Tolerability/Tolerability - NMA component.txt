@@ -1,0 +1,297 @@
+Component network meta-analysis.
+
+Additive model (common effects model):
+                              treat1               treat2     OR             95%-CI     z  p-value
+Adler 2008a              atomoxetine              placebo 2.4291 [1.8922;   3.1184]  6.96 < 0.0001
+Adler 2008b                  placebo           stimulants 0.4651 [0.3478;   0.6219] -5.16 < 0.0001
+Adler 2009a              atomoxetine              placebo 2.4291 [1.8922;   3.1184]  6.96 < 0.0001
+Adler 2009b              atomoxetine              placebo 2.4291 [1.8922;   3.1184]  6.96 < 0.0001
+Adler 2009c                  placebo           stimulants 0.4651 [0.3478;   0.6219] -5.16 < 0.0001
+Adler 2013                   placebo           stimulants 0.4651 [0.3478;   0.6219] -5.16 < 0.0001
+Adler 2021                   placebo           stimulants 0.4651 [0.3478;   0.6219] -5.16 < 0.0001
+Alyagon 2020          active control                 sham 2.9546 [0.1891;  46.1586]  0.77   0.4398
+Alyagon 2020          active control          TMS (right) 4.2868 [0.2748;  66.8597]  1.04   0.2990
+Alyagon 2020                    sham          TMS (right) 1.4509 [0.2437;   8.6380]  0.41   0.6826
+Arnold 2014                modafinil              placebo 3.9877 [1.6005;   9.9354]  2.97   0.0030
+Biederman 2012               placebo           stimulants 0.4651 [0.3478;   0.6219] -5.16 < 0.0001
+Biehl 2016                   placebo           stimulants 0.4651 [0.3478;   0.6219] -5.16 < 0.0001
+Bleich-Cohen 2021               sham           TMS (left) 0.7675 [0.1555;   3.7877] -0.32   0.7453
+Bleich-Cohen 2021               sham          TMS (right) 1.4509 [0.2437;   8.6380]  0.41   0.6826
+Bleich-Cohen 2021         TMS (left)          TMS (right) 1.8903 [0.3454;  10.3452]  0.73   0.4628
+Bron 2014                    placebo           stimulants 0.4651 [0.3478;   0.6219] -5.16 < 0.0001
+Cachoeira 2017                  sham                 tDCS 0.3187 [0.0474;   2.1407] -1.18   0.2393
+Casas 2013                   placebo           stimulants 0.4651 [0.3478;   0.6219] -5.16 < 0.0001
+Cutler 2022                  placebo           stimulants 0.4651 [0.3478;   0.6219] -5.16 < 0.0001
+Durell 2013              atomoxetine              placebo 2.4291 [1.8922;   3.1184]  6.96 < 0.0001
+Faraone 2021                 placebo           stimulants 0.4651 [0.3478;   0.6219] -5.16 < 0.0001
+Frick 2017                   placebo           stimulants 0.4651 [0.3478;   0.6219] -5.16 < 0.0001
+Ginsberg 2012                placebo           stimulants 0.4651 [0.3478;   0.6219] -5.16 < 0.0001
+Goodman 2016                 placebo           stimulants 0.4651 [0.3478;   0.6219] -5.16 < 0.0001
+Goto 2013                atomoxetine              placebo 2.4291 [1.8922;   3.1184]  6.96 < 0.0001
+Herring 2012                 placebo           stimulants 0.4651 [0.3478;   0.6219] -5.16 < 0.0001
+Huss 2014                    placebo           stimulants 0.4651 [0.3478;   0.6219] -5.16 < 0.0001
+Iwanami 2020              guanfacine              placebo 7.9835 [2.2900;  27.8328]  3.26   0.0011
+Kay 2009a                    placebo           stimulants 0.4651 [0.3478;   0.6219] -5.16 < 0.0001
+Kay 2009b                atomoxetine              placebo 2.4291 [1.8922;   3.1184]  6.96 < 0.0001
+Kooij 2004                   placebo           stimulants 0.4651 [0.3478;   0.6219] -5.16 < 0.0001
+Leffa 2022                      sham                 tDCS 0.3187 [0.0474;   2.1407] -1.18   0.2393
+Levin 2007             placebo + CBT     stimulants + CBT 0.4651 [0.3478;   0.6219] -5.16 < 0.0001
+Lin 2016                 atomoxetine              placebo 2.4291 [1.8922;   3.1184]  6.96 < 0.0001
+McRae-Clark 2010         atomoxetine              placebo 2.4291 [1.8922;   3.1184]  6.96 < 0.0001
+Medori 2008                  placebo           stimulants 0.4651 [0.3478;   0.6219] -5.16 < 0.0001
+Michelson 2003a          atomoxetine              placebo 2.4291 [1.8922;   3.1184]  6.96 < 0.0001
+Michelson 2003b          atomoxetine              placebo 2.4291 [1.8922;   3.1184]  6.96 < 0.0001
+Nasri 2022                       CBT   relaxation therapy 1.0136 [0.0623;  16.4872]  0.01   0.9924
+Nasri 2022                       CBT         waiting list 0.8572 [0.0213;  34.4548] -0.08   0.9348
+Nasri 2022        relaxation therapy         waiting list 0.8457 [0.0210;  33.9863] -0.09   0.9291
+Nasser 2022                  placebo           viloxazine 0.5234 [0.2271;   1.2061] -1.52   0.1285
+NCT03324581              atomoxetine              placebo 2.4291 [1.8922;   3.1184]  6.96 < 0.0001
+NCT03663179                     sham           TMS (left) 0.7675 [0.1555;   3.7877] -0.32   0.7453
+Philipsen 2015         DBT + placebo     DBT + stimulants 0.4651 [0.3478;   0.6219] -5.16 < 0.0001
+Philipsen 2015         DBT + placebo              placebo 0.7556 [0.2096;   2.7238] -0.43   0.6684
+Philipsen 2015         DBT + placebo           stimulants 0.3514 [0.0949;   1.3016] -1.57   0.1175
+Philipsen 2015      DBT + stimulants              placebo 1.6246 [0.4339;   6.0830]  0.72   0.4712
+Philipsen 2015      DBT + stimulants           stimulants 0.7556 [0.2096;   2.7238] -0.43   0.6684
+Philipsen 2015               placebo           stimulants 0.4651 [0.3478;   0.6219] -5.16 < 0.0001
+Reimherr 2005              bupropion              placebo 0.7908 [0.0481;  13.0111] -0.16   0.8695
+Rosler 2009                  placebo           stimulants 0.4651 [0.3478;   0.6219] -5.16 < 0.0001
+Safren 2005                      CBT                  TAU 0.9394 [0.0175;  50.3120] -0.03   0.9754
+Safren 2010                      CBT   relaxation therapy 1.0136 [0.0623;  16.4872]  0.01   0.9924
+Schoenenberg 2017                CBT        neurofeedback 0.1759 [0.0082;   3.7846] -1.11   0.2670
+Schoenenberg 2017                CBT sham + neurofeedback 0.9518 [0.0184;  49.1400] -0.02   0.9804
+Schoenenberg 2017      neurofeedback sham + neurofeedback 5.4110 [0.2513; 116.5073]  1.08   0.2810
+Schrantee 2016               placebo           stimulants 0.4651 [0.3478;   0.6219] -5.16 < 0.0001
+Spencer 1995                 placebo           stimulants 0.4651 [0.3478;   0.6219] -5.16 < 0.0001
+Spencer 1998             atomoxetine              placebo 2.4291 [1.8922;   3.1184]  6.96 < 0.0001
+Spencer 2001                 placebo           stimulants 0.4651 [0.3478;   0.6219] -5.16 < 0.0001
+Spencer 2007                 placebo           stimulants 0.4651 [0.3478;   0.6219] -5.16 < 0.0001
+Sutherland 2012          atomoxetine              placebo 2.4291 [1.8922;   3.1184]  6.96 < 0.0001
+Takahashi 2014               placebo           stimulants 0.4651 [0.3478;   0.6219] -5.16 < 0.0001
+Weisler 2006                 placebo           stimulants 0.4651 [0.3478;   0.6219] -5.16 < 0.0001
+Weisler 2012             atomoxetine              placebo 2.4291 [1.8922;   3.1184]  6.96 < 0.0001
+Weisler 2012             atomoxetine           stimulants 1.1297 [0.7776;   1.6413]  0.64   0.5221
+Weisler 2012                 placebo           stimulants 0.4651 [0.3478;   0.6219] -5.16 < 0.0001
+Weisler 2017                 placebo           stimulants 0.4651 [0.3478;   0.6219] -5.16 < 0.0001
+Weiss 2020                   placebo           stimulants 0.4651 [0.3478;   0.6219] -5.16 < 0.0001
+Wender 2011                  placebo           stimulants 0.4651 [0.3478;   0.6219] -5.16 < 0.0001
+Wilens 2001                bupropion              placebo 0.7908 [0.0481;  13.0111] -0.16   0.8695
+Wilens 2008              atomoxetine              placebo 2.4291 [1.8922;   3.1184]  6.96 < 0.0001
+Winhusen 2010                placebo           stimulants 0.4651 [0.3478;   0.6219] -5.16 < 0.0001
+Young 2011               atomoxetine              placebo 2.4291 [1.8922;   3.1184]  6.96 < 0.0001
+
+Additive model (random effects model):
+                              treat1               treat2     OR             95%-CI     z  p-value
+Adler 2008a              atomoxetine              placebo 2.4291 [1.8922;   3.1184]  6.96 < 0.0001
+Adler 2008b                  placebo           stimulants 0.4651 [0.3478;   0.6219] -5.16 < 0.0001
+Adler 2009a              atomoxetine              placebo 2.4291 [1.8922;   3.1184]  6.96 < 0.0001
+Adler 2009b              atomoxetine              placebo 2.4291 [1.8922;   3.1184]  6.96 < 0.0001
+Adler 2009c                  placebo           stimulants 0.4651 [0.3478;   0.6219] -5.16 < 0.0001
+Adler 2013                   placebo           stimulants 0.4651 [0.3478;   0.6219] -5.16 < 0.0001
+Adler 2021                   placebo           stimulants 0.4651 [0.3478;   0.6219] -5.16 < 0.0001
+Alyagon 2020          active control                 sham 2.9546 [0.1891;  46.1586]  0.77   0.4398
+Alyagon 2020          active control          TMS (right) 4.2868 [0.2748;  66.8597]  1.04   0.2990
+Alyagon 2020                    sham          TMS (right) 1.4509 [0.2437;   8.6380]  0.41   0.6826
+Arnold 2014                modafinil              placebo 3.9877 [1.6005;   9.9354]  2.97   0.0030
+Biederman 2012               placebo           stimulants 0.4651 [0.3478;   0.6219] -5.16 < 0.0001
+Biehl 2016                   placebo           stimulants 0.4651 [0.3478;   0.6219] -5.16 < 0.0001
+Bleich-Cohen 2021               sham           TMS (left) 0.7675 [0.1555;   3.7877] -0.32   0.7453
+Bleich-Cohen 2021               sham          TMS (right) 1.4509 [0.2437;   8.6380]  0.41   0.6826
+Bleich-Cohen 2021         TMS (left)          TMS (right) 1.8903 [0.3454;  10.3452]  0.73   0.4628
+Bron 2014                    placebo           stimulants 0.4651 [0.3478;   0.6219] -5.16 < 0.0001
+Cachoeira 2017                  sham                 tDCS 0.3187 [0.0474;   2.1407] -1.18   0.2393
+Casas 2013                   placebo           stimulants 0.4651 [0.3478;   0.6219] -5.16 < 0.0001
+Cutler 2022                  placebo           stimulants 0.4651 [0.3478;   0.6219] -5.16 < 0.0001
+Durell 2013              atomoxetine              placebo 2.4291 [1.8922;   3.1184]  6.96 < 0.0001
+Faraone 2021                 placebo           stimulants 0.4651 [0.3478;   0.6219] -5.16 < 0.0001
+Frick 2017                   placebo           stimulants 0.4651 [0.3478;   0.6219] -5.16 < 0.0001
+Ginsberg 2012                placebo           stimulants 0.4651 [0.3478;   0.6219] -5.16 < 0.0001
+Goodman 2016                 placebo           stimulants 0.4651 [0.3478;   0.6219] -5.16 < 0.0001
+Goto 2013                atomoxetine              placebo 2.4291 [1.8922;   3.1184]  6.96 < 0.0001
+Herring 2012                 placebo           stimulants 0.4651 [0.3478;   0.6219] -5.16 < 0.0001
+Huss 2014                    placebo           stimulants 0.4651 [0.3478;   0.6219] -5.16 < 0.0001
+Iwanami 2020              guanfacine              placebo 7.9835 [2.2900;  27.8328]  3.26   0.0011
+Kay 2009a                    placebo           stimulants 0.4651 [0.3478;   0.6219] -5.16 < 0.0001
+Kay 2009b                atomoxetine              placebo 2.4291 [1.8922;   3.1184]  6.96 < 0.0001
+Kooij 2004                   placebo           stimulants 0.4651 [0.3478;   0.6219] -5.16 < 0.0001
+Leffa 2022                      sham                 tDCS 0.3187 [0.0474;   2.1407] -1.18   0.2393
+Levin 2007             placebo + CBT     stimulants + CBT 0.4651 [0.3478;   0.6219] -5.16 < 0.0001
+Lin 2016                 atomoxetine              placebo 2.4291 [1.8922;   3.1184]  6.96 < 0.0001
+McRae-Clark 2010         atomoxetine              placebo 2.4291 [1.8922;   3.1184]  6.96 < 0.0001
+Medori 2008                  placebo           stimulants 0.4651 [0.3478;   0.6219] -5.16 < 0.0001
+Michelson 2003a          atomoxetine              placebo 2.4291 [1.8922;   3.1184]  6.96 < 0.0001
+Michelson 2003b          atomoxetine              placebo 2.4291 [1.8922;   3.1184]  6.96 < 0.0001
+Nasri 2022                       CBT   relaxation therapy 1.0136 [0.0623;  16.4872]  0.01   0.9924
+Nasri 2022                       CBT         waiting list 0.8572 [0.0213;  34.4548] -0.08   0.9348
+Nasri 2022        relaxation therapy         waiting list 0.8457 [0.0210;  33.9863] -0.09   0.9291
+Nasser 2022                  placebo           viloxazine 0.5234 [0.2271;   1.2061] -1.52   0.1285
+NCT03324581              atomoxetine              placebo 2.4291 [1.8922;   3.1184]  6.96 < 0.0001
+NCT03663179                     sham           TMS (left) 0.7675 [0.1555;   3.7877] -0.32   0.7453
+Philipsen 2015         DBT + placebo     DBT + stimulants 0.4651 [0.3478;   0.6219] -5.16 < 0.0001
+Philipsen 2015         DBT + placebo              placebo 0.7556 [0.2096;   2.7238] -0.43   0.6684
+Philipsen 2015         DBT + placebo           stimulants 0.3514 [0.0949;   1.3016] -1.57   0.1175
+Philipsen 2015      DBT + stimulants              placebo 1.6246 [0.4339;   6.0830]  0.72   0.4712
+Philipsen 2015      DBT + stimulants           stimulants 0.7556 [0.2096;   2.7238] -0.43   0.6684
+Philipsen 2015               placebo           stimulants 0.4651 [0.3478;   0.6219] -5.16 < 0.0001
+Reimherr 2005              bupropion              placebo 0.7908 [0.0481;  13.0111] -0.16   0.8695
+Rosler 2009                  placebo           stimulants 0.4651 [0.3478;   0.6219] -5.16 < 0.0001
+Safren 2005                      CBT                  TAU 0.9394 [0.0175;  50.3120] -0.03   0.9754
+Safren 2010                      CBT   relaxation therapy 1.0136 [0.0623;  16.4872]  0.01   0.9924
+Schoenenberg 2017                CBT        neurofeedback 0.1759 [0.0082;   3.7846] -1.11   0.2670
+Schoenenberg 2017                CBT sham + neurofeedback 0.9518 [0.0184;  49.1400] -0.02   0.9804
+Schoenenberg 2017      neurofeedback sham + neurofeedback 5.4110 [0.2513; 116.5073]  1.08   0.2810
+Schrantee 2016               placebo           stimulants 0.4651 [0.3478;   0.6219] -5.16 < 0.0001
+Spencer 1995                 placebo           stimulants 0.4651 [0.3478;   0.6219] -5.16 < 0.0001
+Spencer 1998             atomoxetine              placebo 2.4291 [1.8922;   3.1184]  6.96 < 0.0001
+Spencer 2001                 placebo           stimulants 0.4651 [0.3478;   0.6219] -5.16 < 0.0001
+Spencer 2007                 placebo           stimulants 0.4651 [0.3478;   0.6219] -5.16 < 0.0001
+Sutherland 2012          atomoxetine              placebo 2.4291 [1.8922;   3.1184]  6.96 < 0.0001
+Takahashi 2014               placebo           stimulants 0.4651 [0.3478;   0.6219] -5.16 < 0.0001
+Weisler 2006                 placebo           stimulants 0.4651 [0.3478;   0.6219] -5.16 < 0.0001
+Weisler 2012             atomoxetine              placebo 2.4291 [1.8922;   3.1184]  6.96 < 0.0001
+Weisler 2012             atomoxetine           stimulants 1.1297 [0.7776;   1.6413]  0.64   0.5221
+Weisler 2012                 placebo           stimulants 0.4651 [0.3478;   0.6219] -5.16 < 0.0001
+Weisler 2017                 placebo           stimulants 0.4651 [0.3478;   0.6219] -5.16 < 0.0001
+Weiss 2020                   placebo           stimulants 0.4651 [0.3478;   0.6219] -5.16 < 0.0001
+Wender 2011                  placebo           stimulants 0.4651 [0.3478;   0.6219] -5.16 < 0.0001
+Wilens 2001                bupropion              placebo 0.7908 [0.0481;  13.0111] -0.16   0.8695
+Wilens 2008              atomoxetine              placebo 2.4291 [1.8922;   3.1184]  6.96 < 0.0001
+Winhusen 2010                placebo           stimulants 0.4651 [0.3478;   0.6219] -5.16 < 0.0001
+Young 2011               atomoxetine              placebo 2.4291 [1.8922;   3.1184]  6.96 < 0.0001
+
+Number of studies: k = 61
+Number of pairwise comparisons: m = 76
+Number of treatments: n = 22
+Number of active components: c = 18
+Number of designs: d = 17
+Number of subnetworks: s = 4
+
+Common effects model
+
+Treatment estimate (sm = 'OR', comparison: other treatments vs 'placebo'):
+                         OR             95%-CI     z  p-value
+active control       1.2025 [0.0190;  76.1085]  0.09   0.9306
+atomoxetine          2.4291 [1.8922;   3.1184]  6.96 < 0.0001
+bupropion            0.7908 [0.0481;  13.0111] -0.16   0.8695
+CBT                  1.4938 [0.3168;   7.0434]  0.51   0.6120
+DBT + placebo        0.7556 [0.2096;   2.7238] -0.43   0.6684
+DBT + stimulants     1.6246 [0.4339;   6.0830]  0.72   0.4712
+guanfacine           7.9835 [2.2900;  27.8328]  3.26   0.0011
+modafinil            3.9877 [1.6005;   9.9354]  2.97   0.0030
+neurofeedback        8.4920 [0.4970; 145.0842]  1.48   0.1396
+placebo                   .                  .     .        .
+placebo + CBT        0.6783 [0.1550;   2.9679] -0.52   0.6062
+relaxation therapy   1.4737 [0.1407;  15.4325]  0.32   0.7462
+sham                 0.4070 [0.0182;   9.0905] -0.57   0.5706
+sham + neurofeedback 1.5694 [0.0333;  74.0187]  0.23   0.8187
+stimulants           2.1502 [1.6079;   2.8753]  5.16 < 0.0001
+stimulants + CBT     1.4584 [0.3240;   6.5649]  0.49   0.6230
+TAU                  1.5901 [0.0504;  50.1652]  0.26   0.7923
+tDCS                 1.2772 [0.0334;  48.8288]  0.13   0.8953
+TMS (left)           0.5303 [0.0161;  17.4264] -0.36   0.7218
+TMS (right)          0.2805 [0.0078;  10.0835] -0.70   0.4867
+viloxazine           1.9107 [0.8292;   4.4032]  1.52   0.1285
+waiting list         1.7426 [0.0863;  35.2066]  0.36   0.7172
+
+Incremental effect for existing combinations:
+                        iOR            95%-CI     z p-value
+DBT + placebo        0.3431 [0.0875;  1.3460] -1.53  0.1251
+DBT + stimulants     0.7377 [0.1831;  2.9723] -0.43  0.6688
+placebo + CBT        0.3080 [0.0653;  1.4522] -1.49  0.1366
+sham + neurofeedback 0.7126 [0.0156; 32.6341] -0.17  0.8621
+stimulants + CBT     0.6622 [0.1378;  3.1825] -0.51  0.6069
+
+Incremental effect for components:
+                      iOR            95%-CI     z p-value
+active control     0.5460 [0.0089; 33.6262] -0.29  0.7735
+atomoxetine        1.1030 [0.6562;  1.8542]  0.37  0.7114
+bupropion          0.3591 [0.0321;  4.0148] -0.83  0.4057
+CBT                0.6783 [0.1550;  2.9679] -0.52  0.6062
+DBT                0.7556 [0.2096;  2.7238] -0.43  0.6684
+guanfacine         3.6251 [1.1391; 11.5373]  2.18  0.0292
+modafinil          1.8107 [0.7315;  4.4822]  1.28  0.1992
+neurofeedback      3.8560 [0.2349; 63.2870]  0.95  0.3445
+placebo            0.4541 [0.2822;  0.7307] -3.25  0.0011
+relaxation therapy 0.6692 [0.0671;  6.6746] -0.34  0.7321
+sham               0.1848 [0.0086;  3.9793] -1.08  0.2810
+stimulants         0.9764 [0.5722;  1.6660] -0.09  0.9300
+TAU                0.7220 [0.0237; 22.0408] -0.19  0.8519
+tDCS               0.5799 [0.0156; 21.4913] -0.30  0.7675
+TMS (left)         0.2408 [0.0076;  7.6595] -0.81  0.4199
+TMS (right)        0.1274 [0.0037;  4.4357] -1.14  0.2553
+viloxazine         0.8676 [0.3705;  2.0318] -0.33  0.7436
+waiting list       0.7913 [0.0407; 15.3923] -0.15  0.8771
+
+Random effects model
+
+Treatment estimate (sm = 'OR', comparison: other treatments vs 'placebo'):
+                         OR             95%-CI     z  p-value
+active control       1.2025 [0.0190;  76.1085]  0.09   0.9306
+atomoxetine          2.4291 [1.8922;   3.1184]  6.96 < 0.0001
+bupropion            0.7908 [0.0481;  13.0111] -0.16   0.8695
+CBT                  1.4938 [0.3168;   7.0434]  0.51   0.6120
+DBT + placebo        0.7556 [0.2096;   2.7238] -0.43   0.6684
+DBT + stimulants     1.6246 [0.4339;   6.0830]  0.72   0.4712
+guanfacine           7.9835 [2.2900;  27.8328]  3.26   0.0011
+modafinil            3.9877 [1.6005;   9.9354]  2.97   0.0030
+neurofeedback        8.4920 [0.4970; 145.0842]  1.48   0.1396
+placebo                   .                  .     .        .
+placebo + CBT        0.6783 [0.1550;   2.9679] -0.52   0.6062
+relaxation therapy   1.4737 [0.1407;  15.4325]  0.32   0.7462
+sham                 0.4070 [0.0182;   9.0905] -0.57   0.5706
+sham + neurofeedback 1.5694 [0.0333;  74.0187]  0.23   0.8187
+stimulants           2.1502 [1.6079;   2.8753]  5.16 < 0.0001
+stimulants + CBT     1.4584 [0.3240;   6.5649]  0.49   0.6230
+TAU                  1.5901 [0.0504;  50.1652]  0.26   0.7923
+tDCS                 1.2772 [0.0334;  48.8288]  0.13   0.8953
+TMS (left)           0.5303 [0.0161;  17.4264] -0.36   0.7218
+TMS (right)          0.2805 [0.0078;  10.0835] -0.70   0.4867
+viloxazine           1.9107 [0.8292;   4.4032]  1.52   0.1285
+waiting list         1.7426 [0.0863;  35.2066]  0.36   0.7172
+
+Incremental effect for existing combinations:
+                        iOR            95%-CI     z p-value
+DBT + placebo        0.3431 [0.0875;  1.3460] -1.53  0.1251
+DBT + stimulants     0.7377 [0.1831;  2.9723] -0.43  0.6688
+placebo + CBT        0.3080 [0.0653;  1.4522] -1.49  0.1366
+sham + neurofeedback 0.7126 [0.0156; 32.6341] -0.17  0.8621
+stimulants + CBT     0.6622 [0.1378;  3.1825] -0.51  0.6069
+
+Incremental effect for components:
+                      iOR            95%-CI     z p-value
+active control     0.5460 [0.0089; 33.6262] -0.29  0.7735
+atomoxetine        1.1030 [0.6562;  1.8542]  0.37  0.7114
+bupropion          0.3591 [0.0321;  4.0148] -0.83  0.4057
+CBT                0.6783 [0.1550;  2.9679] -0.52  0.6062
+DBT                0.7556 [0.2096;  2.7238] -0.43  0.6684
+guanfacine         3.6251 [1.1391; 11.5373]  2.18  0.0292
+modafinil          1.8107 [0.7315;  4.4822]  1.28  0.1992
+neurofeedback      3.8560 [0.2349; 63.2870]  0.95  0.3445
+placebo            0.4541 [0.2822;  0.7307] -3.25  0.0011
+relaxation therapy 0.6692 [0.0671;  6.6746] -0.34  0.7321
+sham               0.1848 [0.0086;  3.9793] -1.08  0.2810
+stimulants         0.9764 [0.5722;  1.6660] -0.09  0.9300
+TAU                0.7220 [0.0237; 22.0408] -0.19  0.8519
+tDCS               0.5799 [0.0156; 21.4913] -0.30  0.7675
+TMS (left)         0.2408 [0.0076;  7.6595] -0.81  0.4199
+TMS (right)        0.1274 [0.0037;  4.4357] -1.14  0.2553
+viloxazine         0.8676 [0.3705;  2.0318] -0.33  0.7436
+waiting list       0.7913 [0.0407; 15.3923] -0.15  0.8771
+
+Quantifying heterogeneity / inconsistency:
+tau^2 = 0; tau = 0; I^2 = 0% [0.0%; 32.2%]
+
+Heterogeneity statistics:
+                   Q df p-value
+Additive model 47.56 52  0.6491
+Standard model    -- --      --
+Difference        -- --      --
+
+A total of 22 treatments are included in the network.
+A total of 61 studies are included in this analysis.
+A total of 11987 participants are included in this analysis.
+The following studies were included in this analysis: Adler 2008a Adler 2008b Adler 2009a Adler 2009b Adler 2009c Adler 2013 Adler 2021 Alyagon 2020 Arnold 2014 Biederman 2012 Biehl 2016 Bleich-Cohen 2021 Bron 2014 Cachoeira 2017 Casas 2013 Cutler 2022 Durell 2013 Faraone 2021 Frick 2017 Ginsberg 2012 Goodman 2016 Goto 2013 Herring 2012 Huss 2014 Iwanami 2020 Kay 2009a Kay 2009b Kooij 2004 Leffa 2022 Levin 2007 Lin 2016 McRae-Clark 2010 Medori 2008 Michelson 2003a Michelson 2003b Nasri 2022 Nasser 2022 NCT03324581 NCT03663179 Philipsen 2015 Reimherr 2005 Rosler 2009 Safren 2005 Safren 2010 Schoenenberg 2017 Schrantee 2016 Spencer 1995 Spencer 1998 Spencer 2001 Spencer 2007 Sutherland 2012 Takahashi 2014 Weisler 2006 Weisler 2012 Weisler 2017 Weiss 2020 Wender 2011 Wilens 2001 Wilens 2008 Winhusen 2010 Young 2011
+Global test for inconsistency (standard model), p-value = NA (Q = NA, d.o.f. = NA)
+Global test for inconsistency (additive model), p-value = 0.64913 (Q = 48, d.o.f. = 52)
+Estimated heterogeneity tau-squared = 0
+
+File created on 2024-03-09

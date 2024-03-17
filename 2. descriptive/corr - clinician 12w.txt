@@ -1,0 +1,12 @@
+Median correlation coefficient and quartiles based on clinician-rated scores at 12 weeks (5 studies):
+
+        0%        25%        50%        75%       100% 
+0.04771655 0.32172455 0.49136041 0.63133960 0.89458571 
+
+Adler 2009a
+Biederman 2012
+Casas 2013
+Herring 2012
+Goodman 2016
+
+File created on 2024-03-10

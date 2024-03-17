@@ -1,0 +1,46 @@
+                                               comparisons Number.of.studies   OR lower.CI upper.CI tau.sq I.sq lower.I.sq upper.I.sq  Q.st  p.val
+1                                  atomoxetine vs  placebo                14 1.44     1.26     1.65   0.00 0.10       0.00       0.48 14.41 0.3457
+2                                    bupropion vs  placebo                 2 1.07     0.18     6.45   0.71 0.33         NA         NA  1.49 0.2226
+3                                  CBT + stimulants vs CBT                 1 2.47     0.69     8.91     NA   NA         NA         NA  0.00     NA
+4                  cognitive training vs cognitive placebo                 2 0.61     0.17     2.26   0.60 0.68       0.00       0.93  3.13 0.0768
+5                                DBT + placebo vs  placebo                 1 0.88     0.47     1.65     NA   NA         NA         NA  0.00     NA
+6                             DBT + stimulants vs  placebo                 1 0.48     0.24     0.97     NA   NA         NA         NA  0.00     NA
+7                        DBT + stimulants vs DBT + placebo                 1 0.55     0.27     1.11     NA   NA         NA         NA  0.00     NA
+8                                               DBT vs CBT                 1 7.00     0.33   146.45     NA   NA         NA         NA  0.00     NA
+9                                   guanfacine vs  placebo                 1 3.70     1.50     9.12     NA   NA         NA         NA  0.00     NA
+10                                   modafinil vs  placebo                 1 1.83     1.01     3.30     NA   NA         NA         NA  0.00     NA
+11                                    neurofeedback vs CBT                 1 1.09     0.21     5.74     NA   NA         NA         NA  0.00     NA
+12                                  psychoeducation vs CBT                 1 0.37     0.06     2.37     NA   NA         NA         NA  0.00     NA
+13                          psychoeducation vs mindfulness                 2 1.40     0.62     3.15   0.00 0.00         NA         NA  0.30 0.5827
+14                            psychological placebo vs CBT                 1 3.22     1.16     8.89     NA   NA         NA         NA  0.00     NA
+15                               relaxation therapy vs CBT                 1 2.70     0.49    14.74     NA   NA         NA         NA  0.00     NA
+16                             sham + neurofeedback vs CBT                 1 1.06     0.20     5.57     NA   NA         NA         NA  0.00     NA
+17                   sham + neurofeedback vs neurofeedback                 1 0.97     0.18     5.15     NA   NA         NA         NA  0.00     NA
+18                                  sham vs active control                 1 1.44     0.27     7.83     NA   NA         NA         NA  0.00     NA
+19                       stimulants + CBT vs placebo + CBT                 1 0.93     0.43     1.99     NA   NA         NA         NA  0.00     NA
+20 stimulants + skill training vs placebo + skill training                 1 3.57     0.53    23.95     NA   NA         NA         NA  0.00     NA
+21                                  stimulants vs  placebo                25 0.92     0.72     1.17   0.18 0.57       0.33       0.73 55.91 0.0002
+22                               stimulants vs atomoxetine                 1 0.64     0.29     1.41     NA   NA         NA         NA  0.00     NA
+23                             stimulants vs DBT + placebo                 1 0.34     0.15     0.74     NA   NA         NA         NA  0.00     NA
+24                          stimulants vs DBT + stimulants                 1 0.61     0.26     1.43     NA   NA         NA         NA  0.00     NA
+25                                              TAU vs CBT                 0   NA       NA       NA     NA   NA         NA         NA    NA     NA
+26                                        TAU vs CBT + TAU                 2 2.07     0.24    17.96   1.67 0.67       0.00       0.92  3.00 0.0833
+27                                        TAU vs DBT + TAU                 1 0.31     0.03     3.36     NA   NA         NA         NA  0.00     NA
+28                                        TAU vs GMT + TAU                 1 0.04     0.00     0.75     NA   NA         NA         NA  0.00     NA
+29                                TAU vs mindfulness + TAU                 1 0.04     0.00     0.79     NA   NA         NA         NA  0.00     NA
+30                                            tDCS vs sham                 2 3.93     0.89    17.36   0.00 0.00         NA         NA  0.03 0.8596
+31                                 TMS (bilateral) vs sham                 1 4.33     0.39    48.61     NA   NA         NA         NA  0.00     NA
+32                                      TMS (left) vs sham                 2 1.42     0.38     5.39   0.00 0.00         NA         NA  0.98 0.3221
+33                           TMS (right) vs active control                 1 3.55     0.76    16.43     NA   NA         NA         NA  0.00     NA
+34                                     TMS (right) vs sham                 2 1.17     0.22     6.17   0.72 0.50         NA         NA  1.98 0.1591
+35                               TMS (right) vs TMS (left)                 1 0.50     0.08     2.99     NA   NA         NA         NA  0.00     NA
+36                                  viloxazine vs  placebo                 1 1.58     1.00     2.48     NA   NA         NA         NA  0.00     NA
+37             waiting list + TAU vs psychoeducation + TAU                 1 1.24     0.17     9.25     NA   NA         NA         NA  0.00     NA
+38                                     waiting list vs CBT                 3 0.69     0.37     1.29   0.10 0.19       0.00       0.92  2.48 0.2892
+39                   waiting list vs cognitive remediation                 1 0.35     0.01     9.04     NA   NA         NA         NA  0.00     NA
+40                                     waiting list vs DBT                 1 0.51     0.16     1.61     NA   NA         NA         NA  0.00     NA
+41                             waiting list vs mindfulness                 3 0.38     0.02     6.07   3.58 0.60       0.00       0.89  4.98 0.0830
+42                       waiting list vs physical training                 1 0.56     0.12     2.57     NA   NA         NA         NA  0.00     NA
+43                      waiting list vs relaxation therapy                 0   NA       NA       NA     NA   NA         NA         NA    NA     NA
+
+File created on 2024-03-10

@@ -1,0 +1,8 @@
+                   P-score (common) P-score (random)
+waiting list                 0.7448           0.7448
+DBT                          0.6769           0.6769
+hypnotherapy                 0.6116           0.6116
+CBT                          0.2377           0.2377
+relaxation therapy           0.2289           0.2289
+
+File created on 2024-02-26

@@ -1,0 +1,113 @@
+Component network meta-analysis.
+
+Additive model (common effects model):
+                           treat1             treat2     SMD            95%-CI     z p-value
+Hoxhaj 2018           mindfulness    psychoeducation  0.1047 [-0.3856; 0.5951]  0.42  0.6755
+Nasri 2022                    CBT relaxation therapy  0.2841 [-0.2612; 0.8295]  1.02  0.3072
+Nasri 2022                    CBT       waiting list -0.0391 [-0.5729; 0.4948] -0.14  0.8859
+Nasri 2022     relaxation therapy       waiting list -0.3232 [-0.8593; 0.2129] -1.18  0.2374
+Philipsen 2015      DBT + placebo         stimulants  0.3213 [ 0.0015; 0.6410]  1.97  0.0489
+Philipsen 2015   DBT + stimulants         stimulants  0.1027 [-0.1284; 0.3339]  0.87  0.3837
+Philipsen 2015            placebo         stimulants  0.2185 [-0.0148; 0.4519]  1.84  0.0664
+Philipsen 2015      DBT + placebo            placebo  0.1027 [-0.1284; 0.3339]  0.87  0.3837
+Philipsen 2015   DBT + stimulants            placebo -0.1158 [-0.4527; 0.2211] -0.67  0.5005
+Philipsen 2015      DBT + placebo   DBT + stimulants  0.2185 [-0.0148; 0.4519]  1.84  0.0664
+
+Additive model (random effects model):
+                           treat1             treat2     SMD            95%-CI     z p-value
+Hoxhaj 2018           mindfulness    psychoeducation  0.1047 [-0.3856; 0.5951]  0.42  0.6755
+Nasri 2022                    CBT relaxation therapy  0.2841 [-0.2612; 0.8295]  1.02  0.3072
+Nasri 2022                    CBT       waiting list -0.0391 [-0.5729; 0.4948] -0.14  0.8859
+Nasri 2022     relaxation therapy       waiting list -0.3232 [-0.8593; 0.2129] -1.18  0.2374
+Philipsen 2015      DBT + placebo         stimulants  0.3213 [ 0.0015; 0.6410]  1.97  0.0489
+Philipsen 2015   DBT + stimulants         stimulants  0.1027 [-0.1284; 0.3339]  0.87  0.3837
+Philipsen 2015            placebo         stimulants  0.2185 [-0.0148; 0.4519]  1.84  0.0664
+Philipsen 2015      DBT + placebo            placebo  0.1027 [-0.1284; 0.3339]  0.87  0.3837
+Philipsen 2015   DBT + stimulants            placebo -0.1158 [-0.4527; 0.2211] -0.67  0.5005
+Philipsen 2015      DBT + placebo   DBT + stimulants  0.2185 [-0.0148; 0.4519]  1.84  0.0664
+
+Number of studies: k = 3
+Number of pairwise comparisons: m = 10
+Number of treatments: n = 9
+Number of active components: c = 8
+Number of designs: d = 3
+Number of subnetworks: s = 3
+
+Common effects model
+
+Treatment estimate (sm = 'SMD', comparison: other treatments vs 'placebo'):
+                       SMD            95%-CI     z p-value
+CBT                -0.0276 [-0.3609; 0.3057] -0.16  0.8712
+DBT + placebo       0.1027 [-0.1284; 0.3339]  0.87  0.3837
+DBT + stimulants   -0.1158 [-0.4527; 0.2211] -0.67  0.5005
+mindfulness        -0.0569 [-0.3284; 0.2146] -0.41  0.6813
+placebo                  .                 .     .       .
+psychoeducation    -0.1616 [-0.4331; 0.1099] -1.17  0.2433
+relaxation therapy -0.3117 [-0.6463; 0.0228] -1.83  0.0678
+stimulants         -0.2185 [-0.4519; 0.0148] -1.84  0.0664
+waiting list        0.0115 [-0.3168; 0.3398]  0.07  0.9453
+
+Incremental effect for existing combinations:
+                    iSMD            95%-CI     z p-value
+DBT + placebo     0.2120 [-0.0414; 0.4654]  1.64  0.1011
+DBT + stimulants -0.0065 [-0.2709; 0.2578] -0.05  0.9614
+
+Incremental effect for components:
+                      iSMD            95%-CI     z p-value
+CBT                 0.0817 [-0.2305; 0.3939]  0.51  0.6081
+DBT                 0.1027 [-0.1284; 0.3339]  0.87  0.3837
+mindfulness         0.0524 [-0.1928; 0.2975]  0.42  0.6755
+placebo             0.1093 [-0.0074; 0.2259]  1.84  0.0664
+psychoeducation    -0.0524 [-0.2975; 0.1928] -0.42  0.6755
+relaxation therapy -0.2024 [-0.5160; 0.1111] -1.27  0.2057
+stimulants         -0.1093 [-0.2259; 0.0074] -1.84  0.0664
+waiting list        0.1208 [-0.1861; 0.4276]  0.77  0.4405
+
+Random effects model
+
+Treatment estimate (sm = 'SMD', comparison: other treatments vs 'placebo'):
+                       SMD            95%-CI     z p-value
+CBT                -0.0276 [-0.3609; 0.3057] -0.16  0.8712
+DBT + placebo       0.1027 [-0.1284; 0.3339]  0.87  0.3837
+DBT + stimulants   -0.1158 [-0.4527; 0.2211] -0.67  0.5005
+mindfulness        -0.0569 [-0.3284; 0.2146] -0.41  0.6813
+placebo                  .                 .     .       .
+psychoeducation    -0.1616 [-0.4331; 0.1099] -1.17  0.2433
+relaxation therapy -0.3117 [-0.6463; 0.0228] -1.83  0.0678
+stimulants         -0.2185 [-0.4519; 0.0148] -1.84  0.0664
+waiting list        0.0115 [-0.3168; 0.3398]  0.07  0.9453
+
+Incremental effect for existing combinations:
+                    iSMD            95%-CI     z p-value
+DBT + placebo     0.2120 [-0.0414; 0.4654]  1.64  0.1011
+DBT + stimulants -0.0065 [-0.2709; 0.2578] -0.05  0.9614
+
+Incremental effect for components:
+                      iSMD            95%-CI     z p-value
+CBT                 0.0817 [-0.2305; 0.3939]  0.51  0.6081
+DBT                 0.1027 [-0.1284; 0.3339]  0.87  0.3837
+mindfulness         0.0524 [-0.1928; 0.2975]  0.42  0.6755
+placebo             0.1093 [-0.0074; 0.2259]  1.84  0.0664
+psychoeducation    -0.0524 [-0.2975; 0.1928] -0.42  0.6755
+relaxation therapy -0.2024 [-0.5160; 0.1111] -1.27  0.2057
+stimulants         -0.1093 [-0.2259; 0.0074] -1.84  0.0664
+waiting list        0.1208 [-0.1861; 0.4276]  0.77  0.4405
+
+Quantifying heterogeneity / inconsistency:
+tau^2 = 0; tau = 0; I^2 = 0%
+
+Heterogeneity statistics:
+                  Q df p-value
+Additive model 0.03  1  0.8592
+Standard model   -- --      --
+Difference       -- --      --
+
+A total of 9 treatments are included in the network.
+A total of 3 studies are included in this analysis.
+A total of 433 participants are included in this analysis.
+The following studies were included in this analysis: Hoxhaj 2018 Nasri 2022 Philipsen 2015
+Global test for inconsistency (standard model), p-value = NA (Q = NA, d.o.f. = NA)
+Global test for inconsistency (additive model), p-value = 0.8592 (Q = 0, d.o.f. = 1)
+Estimated heterogeneity tau-squared0
+
+File created on 2024-02-26

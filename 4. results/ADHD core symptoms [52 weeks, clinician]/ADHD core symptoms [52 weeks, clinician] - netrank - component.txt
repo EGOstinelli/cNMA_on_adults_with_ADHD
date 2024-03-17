@@ -1,0 +1,9 @@
+                   P-score (common) P-score (random)
+DBT + stimulants             0.8921           0.8921
+CBT                          0.7156           0.7156
+DBT + placebo                0.5823           0.5823
+stimulants                   0.5217           0.5217
+placebo                      0.2006           0.2006
+relaxation therapy           0.0877           0.0877
+
+File created on 2024-02-26

@@ -1,0 +1,64 @@
+Network meta-analysis on main network.
+
+Original data (with adjusted standard errors for multi-arm studies):
+
+                       treat1             treat2      TE   seTE seTE.adj.c seTE.adj.r narms multiarm
+Nasri 2022                CBT relaxation therapy  0.2841 0.2783     0.3454     0.3454     3        *
+Nasri 2022                CBT       waiting list -0.0391 0.2724     0.3307     0.3307     3        *
+Nasri 2022 relaxation therapy       waiting list -0.3232 0.2735     0.3335     0.3335     3        *
+
+Number of treatment arms (by study):
+           narms
+Nasri 2022     3
+
+Results (common effects model):
+
+                       treat1             treat2     SMD            95%-CI    Q
+Nasri 2022                CBT relaxation therapy  0.2841 [-0.2612; 0.8295] 0.00
+Nasri 2022                CBT       waiting list -0.0391 [-0.5729; 0.4948] 0.00
+Nasri 2022 relaxation therapy       waiting list -0.3232 [-0.8593; 0.2129] 0.00
+
+Results (random effects model):
+
+                       treat1             treat2     SMD            95%-CI
+Nasri 2022                CBT relaxation therapy  0.2841 [-0.2612; 0.8295]
+Nasri 2022                CBT       waiting list -0.0391 [-0.5729; 0.4948]
+Nasri 2022 relaxation therapy       waiting list -0.3232 [-0.8593; 0.2129]
+
+Number of studies: k = 1
+Number of pairwise comparisons: m = 3
+Number of observations: o = 80
+Number of treatments: n = 3
+Number of designs: d = 1
+
+Common effects model
+
+Treatment estimate (sm = 'SMD', comparison: other treatments vs 'waiting list'):
+                       SMD            95%-CI     z p-value
+CBT                -0.0391 [-0.5729; 0.4948] -0.14  0.8859
+relaxation therapy -0.3232 [-0.8593; 0.2129] -1.18  0.2374
+waiting list             .                 .     .       .
+
+Random effects model
+
+Treatment estimate (sm = 'SMD', comparison: other treatments vs 'waiting list'):
+                       SMD            95%-CI     z p-value
+CBT                -0.0391 [-0.5729; 0.4948] -0.14  0.8859
+relaxation therapy -0.3232 [-0.8593; 0.2129] -1.18  0.2374
+waiting list             .                 .     .       .
+
+Quantifying heterogeneity:
+tau^2 = NA; tau = NA
+
+Test of heterogeneity:
+ Q d.f. p-value
+ 0    0      --
+
+A total of 3 treatments are included in the network.
+A total of 1 studies are included in this analysis.
+A total of 80 participants are included in this analysis.
+The following studies were included in this analysis: Nasri 2022
+Estimated heterogeneity tau-squaredNA
+Global test for inconsistency, p-value = NA (Q = NA, d.o.f. = NA)
+
+File created on 2024-02-26

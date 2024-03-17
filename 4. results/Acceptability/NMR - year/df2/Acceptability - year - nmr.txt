@@ -1,0 +1,50 @@
+
+Results on the Log Odds Ratio scale
+
+Iterations = 50020:1050000
+Thinning interval = 20 
+Number of chains = 4 
+Sample size per chain = 50000 
+
+1. Empirical mean and standard deviation for each variable,
+   plus standard error of the mean:
+
+                                 Mean      SD  Naive SE Time-series SE
+d.placebo.atomoxetine         0.36943 0.13079 0.0002925      0.0002982
+d.placebo.bupropion           0.05321 0.71019 0.0015880      0.0018874
+d.placebo.DBT_and_placebo     0.34737 0.44628 0.0009979      0.0010428
+d.placebo.DBT_and_stimulants -0.26850 0.47488 0.0010619      0.0010686
+d.placebo.guanfacine          1.34103 0.62899 0.0014065      0.0014707
+d.placebo.modafinil           0.60856 0.48515 0.0010848      0.0010836
+d.placebo.stimulants         -0.09767 0.12106 0.0002707      0.0002940
+d.placebo.viloxazine          0.43776 0.48900 0.0010934      0.0012076
+sd.d                          0.36448 0.09101 0.0002035      0.0002501
+B                             0.02688 0.24245 0.0005421      0.0007173
+
+2. Quantiles for each variable:
+
+                                2.5%      25%      50%      75%  97.5%
+d.placebo.atomoxetine         0.1088  0.28425  0.36947  0.45482 0.6271
+d.placebo.bupropion          -1.3318 -0.42196  0.04912  0.52265 1.4643
+d.placebo.DBT_and_placebo    -0.5282  0.05157  0.34429  0.64084 1.2333
+d.placebo.DBT_and_stimulants -1.2055 -0.58239 -0.26856  0.04634 0.6653
+d.placebo.guanfacine          0.1321  0.91827  1.33123  1.75253 2.6104
+d.placebo.modafinil          -0.3430  0.29006  0.60675  0.92542 1.5743
+d.placebo.stimulants         -0.3345 -0.17802 -0.09824 -0.01788 0.1421
+d.placebo.viloxazine         -0.5270  0.11710  0.43550  0.75529 1.4095
+sd.d                          0.2026  0.30244  0.35850  0.42033 0.5602
+B                            -0.4536 -0.13314  0.02803  0.18782 0.4996
+
+-- Model fit (residual deviance):
+
+     Dbar        pD       DIC 
+ 93.32589  70.08078 163.40667 
+
+89 data points, ratio 1.049, I^2 = 6%
+
+-- Regression settings:
+
+Regression on "year", shared coefficients, "placebo" as control
+Input standardized: x' = (year - 2011.233) / 12.52683
+Estimates at the centering value: year = 2011.233
+

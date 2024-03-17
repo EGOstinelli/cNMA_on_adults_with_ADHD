@@ -1,0 +1,48 @@
+
+Results on the Mean Difference scale
+
+Iterations = 50020:1050000
+Thinning interval = 20 
+Number of chains = 4 
+Sample size per chain = 50000 
+
+1. Empirical mean and standard deviation for each variable,
+   plus standard error of the mean:
+
+                                Mean     SD Naive SE Time-series SE
+d.placebo.atomoxetine        -4.7776 1.2454 0.002785       0.002816
+d.placebo.bupropion          -5.9842 3.4687 0.007756       0.007812
+d.placebo.DBT_and_placebo    -0.3374 2.9008 0.006486       0.006641
+d.placebo.DBT_and_stimulants -3.0369 2.9080 0.006502       0.006659
+d.placebo.guanfacine         -7.5261 3.8285 0.008561       0.008860
+d.placebo.modafinil          -3.4976 2.6689 0.005968       0.005994
+d.placebo.stimulants         -4.3646 0.9306 0.002081       0.002131
+sd.d                          2.8482 0.7461 0.001668       0.001864
+B                            -0.7327 1.4510 0.003244       0.007003
+
+2. Quantiles for each variable:
+
+                                2.5%     25%     50%     75%    97.5%
+d.placebo.atomoxetine         -7.262  -5.576 -4.7739 -3.9741 -2.32365
+d.placebo.bupropion          -12.804  -8.300 -5.9879 -3.6719  0.83974
+d.placebo.DBT_and_placebo     -6.184  -2.182 -0.3137  1.5397  5.33976
+d.placebo.DBT_and_stimulants  -8.917  -4.885 -3.0088 -1.1636  2.65152
+d.placebo.guanfacine         -15.068 -10.062 -7.5182 -4.9862 -0.02439
+d.placebo.modafinil           -8.875  -5.230 -3.4560 -1.7219  1.66155
+d.placebo.stimulants          -6.331  -4.945 -4.3188 -3.7365 -2.65653
+sd.d                           1.645   2.317  2.7600  3.2816  4.54788
+B                             -3.561  -1.687 -0.7526  0.2005  2.20242
+
+-- Model fit (residual deviance):
+
+     Dbar        pD       DIC 
+ 61.95108  50.07007 112.02115 
+
+58 data points, ratio 1.068, I^2 = 8%
+
+-- Regression settings:
+
+Regression on "year", shared coefficients, "placebo" as control
+Input standardized: x' = (year - 2009.185) / 11.84564
+Estimates at the centering value: year = 2009.185
+

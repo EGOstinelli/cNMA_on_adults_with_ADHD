@@ -1,0 +1,113 @@
+Network meta-analysis on main network.
+
+Original data (with adjusted standard errors for multi-arm studies):
+
+                          treat1           treat2      TE   seTE seTE.adj.c seTE.adj.r narms multiarm
+Wender 2011              placebo       stimulants  0.9200 0.1970     0.1970     0.2994     2         
+Medori 2008              placebo       stimulants  0.3132 0.1212     0.1212     0.2560     2         
+Michelson 2003a      atomoxetine          placebo -0.4161 0.1237     0.1237     0.2572     2         
+Reimherr 2005          bupropion          placebo -0.3323 0.3020     0.3020     0.3769     2         
+Michelson 2003b      atomoxetine          placebo -0.2931 0.1277     0.1277     0.2591     2         
+Iwanami 2020          guanfacine          placebo  0.1185 0.1415     0.1415     0.2662     2         
+Philipsen 2015     DBT + placebo       stimulants  0.3458 0.1519     0.2127     0.3833     4        *
+Philipsen 2015  DBT + stimulants       stimulants  0.0830 0.1500     0.2071     0.3801     4        *
+Philipsen 2015           placebo       stimulants  0.1522 0.1539     0.2179     0.3863     4        *
+Philipsen 2015     DBT + placebo          placebo  0.1937 0.1569     0.2266     0.3910     4        *
+Philipsen 2015  DBT + stimulants          placebo -0.0692 0.1554     0.2228     0.3890     4        *
+Philipsen 2015     DBT + placebo DBT + stimulants  0.2628 0.1533     0.2167     0.3854     4        *
+Nasser 2022              placebo       viloxazine -0.0973 0.1064     0.1064     0.2493     2         
+
+Number of treatment arms (by study):
+                narms
+Wender 2011         2
+Medori 2008         2
+Michelson 2003a     2
+Reimherr 2005       2
+Michelson 2003b     2
+Iwanami 2020        2
+Philipsen 2015      4
+Nasser 2022         2
+
+Results (common effects model):
+
+                          treat1           treat2     SMD             95%-CI    Q leverage
+Wender 2011              placebo       stimulants  0.3782 [ 0.2101;  0.5462] 7.57     0.19
+Medori 2008              placebo       stimulants  0.3782 [ 0.2101;  0.5462] 0.29     0.50
+Michelson 2003a      atomoxetine          placebo -0.3565 [-0.5307; -0.1824] 0.23     0.52
+Reimherr 2005          bupropion          placebo -0.3323 [-0.9243;  0.2596] 0.00     1.00
+Michelson 2003b      atomoxetine          placebo -0.3565 [-0.5307; -0.1824] 0.25     0.48
+Iwanami 2020          guanfacine          placebo  0.1185 [-0.1589;  0.3959] 0.00     1.00
+Philipsen 2015     DBT + placebo       stimulants  0.4514 [ 0.1777;  0.7251] 0.25        .
+Philipsen 2015  DBT + stimulants       stimulants  0.1880 [-0.0819;  0.4580] 0.26        .
+Philipsen 2015           placebo       stimulants  0.3782 [ 0.2101;  0.5462] 1.08        .
+Philipsen 2015     DBT + placebo          placebo  0.0733 [-0.2038;  0.3503] 0.28        .
+Philipsen 2015  DBT + stimulants          placebo -0.1901 [-0.4637;  0.0835] 0.29        .
+Philipsen 2015     DBT + placebo DBT + stimulants  0.2634 [-0.0371;  0.5638] 0.00        .
+Nasser 2022              placebo       viloxazine -0.0973 [-0.3058;  0.1111] 0.00     1.00
+
+Results (random effects model):
+
+                          treat1           treat2     SMD            95%-CI
+Wender 2011              placebo       stimulants  0.4289 [ 0.1183; 0.7394]
+Medori 2008              placebo       stimulants  0.4289 [ 0.1183; 0.7394]
+Michelson 2003a      atomoxetine          placebo -0.3551 [-0.7129; 0.0027]
+Reimherr 2005          bupropion          placebo -0.3323 [-1.0710; 0.4064]
+Michelson 2003b      atomoxetine          placebo -0.3551 [-0.7129; 0.0027]
+Iwanami 2020          guanfacine          placebo  0.1185 [-0.4033; 0.6403]
+Philipsen 2015     DBT + placebo       stimulants  0.4813 [-0.0070; 0.9696]
+Philipsen 2015  DBT + stimulants       stimulants  0.2183 [-0.2679; 0.7044]
+Philipsen 2015           placebo       stimulants  0.4289 [ 0.1183; 0.7394]
+Philipsen 2015     DBT + placebo          placebo  0.0524 [-0.4379; 0.5428]
+Philipsen 2015  DBT + stimulants          placebo -0.2106 [-0.6990; 0.2778]
+Philipsen 2015     DBT + placebo DBT + stimulants  0.2630 [-0.2714; 0.7975]
+Nasser 2022              placebo       viloxazine -0.0973 [-0.5860; 0.3913]
+
+Number of studies: k = 8
+Number of pairwise comparisons: m = 13
+Number of observations: o = 1942
+Number of treatments: n = 8
+Number of designs: d = 6
+
+Common effects model
+
+Treatment estimate (sm = 'SMD', comparison: other treatments vs 'placebo'):
+                     SMD             95%-CI     z  p-value
+atomoxetine      -0.3565 [-0.5307; -0.1824] -4.01 < 0.0001
+bupropion        -0.3323 [-0.9243;  0.2596] -1.10   0.2712
+DBT + placebo     0.0733 [-0.2038;  0.3503]  0.52   0.6043
+DBT + stimulants -0.1901 [-0.4637;  0.0835] -1.36   0.1732
+guanfacine        0.1185 [-0.1589;  0.3959]  0.84   0.4025
+placebo                .                  .     .        .
+stimulants       -0.3782 [-0.5462; -0.2101] -4.41 < 0.0001
+viloxazine        0.0973 [-0.1111;  0.3058]  0.92   0.3601
+
+Random effects model
+
+Treatment estimate (sm = 'SMD', comparison: other treatments vs 'placebo'):
+                     SMD             95%-CI     z p-value             95%-PI
+atomoxetine      -0.3551 [-0.7129;  0.0027] -1.95  0.0518  [-1.6034; 0.8932]
+bupropion        -0.3323 [-1.0710;  0.4064] -0.88  0.3779  [-2.2221; 1.5575]
+DBT + placebo     0.0524 [-0.4379;  0.5428]  0.21  0.8341  [-1.3968; 1.5016]
+DBT + stimulants -0.2106 [-0.6990;  0.2778] -0.85  0.3980  [-1.6566; 1.2354]
+guanfacine        0.1185 [-0.4033;  0.6403]  0.45  0.6563  [-1.3827; 1.6197]
+placebo                .                  .     .       .                  .
+stimulants       -0.4289 [-0.7394; -0.1183] -2.71  0.0068  [-1.6147; 0.7569]
+viloxazine        0.0973 [-0.3913;  0.5860]  0.39  0.6962  [-1.3491; 1.5438]
+
+Quantifying heterogeneity / inconsistency:
+tau^2 = 0.0508; tau = 0.2255; I^2 = 71.4% [18.6%; 90.0%]
+
+Tests of heterogeneity (within designs) and inconsistency (between designs):
+                    Q d.f. p-value
+Total           10.49    3  0.0148
+Within designs   7.36    2  0.0252
+Between designs  3.13    1  0.0770
+
+A total of 8 treatments are included in the network.
+A total of 8 studies are included in this analysis.
+A total of 1942 participants are included in this analysis.
+The following studies were included in this analysis: Wender 2011 Medori 2008 Michelson 2003a Reimherr 2005 Michelson 2003b Iwanami 2020 Philipsen 2015 Nasser 2022
+Estimated heterogeneity tau-squared0.05
+Global test for inconsistency, p-value = 0.07698 (Q = 3, d.o.f. = 1)
+
+File created on 2024-03-09

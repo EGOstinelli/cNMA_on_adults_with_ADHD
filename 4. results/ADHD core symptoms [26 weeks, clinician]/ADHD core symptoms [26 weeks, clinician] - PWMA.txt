@@ -1,0 +1,26 @@
+                         comparisons Number.of.studies   SMD lower.CI upper.CI tau.sq I.sq lower.I.sq
+1            atomoxetine vs  placebo                 2 -0.27    -0.78     0.23   0.12 0.91        0.7
+2          DBT + placebo vs  placebo                 1 -0.12    -0.45     0.22     NA   NA         NA
+3       DBT + stimulants vs  placebo                 1 -0.36    -0.69    -0.03     NA   NA         NA
+4  DBT + stimulants vs DBT + placebo                 1 -0.24    -0.56     0.07     NA   NA         NA
+5     psychoeducation vs mindfulness                 1  0.34    -0.16     0.84     NA   NA         NA
+6          relaxation therapy vs CBT                 1  0.31    -0.18     0.79     NA   NA         NA
+7             stimulants vs  placebo                 2 -0.35    -0.53    -0.16   0.00 0.00         NA
+8        stimulants vs DBT + placebo                 1 -0.22    -0.53     0.09     NA   NA         NA
+9     stimulants vs DBT + stimulants                 1  0.02    -0.28     0.33     NA   NA         NA
+10                  TAU vs CBT + TAU                 1  0.32    -0.29     0.93     NA   NA         NA
+11          TAU vs mindfulness + TAU                 1  0.43     0.05     0.81     NA   NA         NA
+   upper.I.sq  Q.st  p.val
+1        0.98 11.58 0.0007
+2          NA  0.00     NA
+3          NA  0.00     NA
+4          NA  0.00     NA
+5          NA  0.00     NA
+6          NA  0.00     NA
+7          NA  0.01 0.9367
+8          NA  0.00     NA
+9          NA  0.00     NA
+10         NA  0.00     NA
+11         NA  0.00     NA
+
+File created on 2024-02-26

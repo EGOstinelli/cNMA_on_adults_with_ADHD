@@ -1,0 +1,26 @@
+Separate indirect from direct evidence (SIDE) using back-calculation method
+
+Common effects model: 
+
+             comparison k prop  nma direct indir. Diff z p-value
+ relaxation therapy:CBT 1 1.00 0.34   0.34      .    . .       .
+
+Random effects model: 
+
+             comparison k prop  nma direct indir. Diff z p-value
+ relaxation therapy:CBT 1 1.00 0.34   0.34      .    . .       .
+
+Legend:
+ comparison - Treatment comparison
+ k          - Number of studies providing direct evidence
+ prop       - Direct evidence proportion
+ nma        - Estimated treatment effect (SMD) in network meta-analysis
+ direct     - Estimated treatment effect (SMD) derived from direct evidence
+ indir.     - Estimated treatment effect (SMD) derived from indirect evidence
+ Diff       - Difference between direct and indirect treatment estimates
+ z          - z-value of test for disagreement (direct versus indirect)
+ p-value    - p-value of test for disagreement (direct versus indirect)
+
+Percent of comparisons where there is some evidence (p-value<0.05) of disagreement between direct and indirect sources: NaN (0 out of 0 comparisons).
+
+File created on 2024-02-26

@@ -1,0 +1,50 @@
+
+Results on the Log Odds Ratio scale
+
+Iterations = 50020:1050000
+Thinning interval = 20 
+Number of chains = 4 
+Sample size per chain = 50000 
+
+1. Empirical mean and standard deviation for each variable,
+   plus standard error of the mean:
+
+                                 Mean      SD  Naive SE Time-series SE
+d.placebo.atomoxetine         0.39239  0.1528 0.0003416      0.0003418
+d.placebo.bupropion          20.32108 14.7525 0.0329875      0.4701857
+d.placebo.DBT_and_placebo     0.36979  0.4640 0.0010375      0.0010778
+d.placebo.DBT_and_stimulants -0.24266  0.4934 0.0011033      0.0011198
+d.placebo.guanfacine          1.35443  0.6238 0.0013948      0.0014185
+d.placebo.modafinil           0.62083  0.5076 0.0011351      0.0011395
+d.placebo.stimulants         -0.04968  0.1369 0.0003061      0.0003114
+d.placebo.viloxazine          0.46214  0.4673 0.0010449      0.0010611
+sd.d                          0.38420  0.1119 0.0002501      0.0003151
+B                            -0.01464  0.1922 0.0004298      0.0005369
+
+2. Quantiles for each variable:
+
+                                 2.5%      25%      50%      75%   97.5%
+d.placebo.atomoxetine         0.09028  0.29370  0.39201  0.49056  0.6975
+d.placebo.bupropion           1.19552  8.61134 17.30290 29.09152 55.4537
+d.placebo.DBT_and_placebo    -0.54487  0.06572  0.36793  0.67142  1.2944
+d.placebo.DBT_and_stimulants -1.21876 -0.56641 -0.24220  0.08172  0.7314
+d.placebo.guanfacine          0.15134  0.93688  1.34553  1.76278  2.6131
+d.placebo.modafinil          -0.37948  0.28966  0.62090  0.95015  1.6260
+d.placebo.stimulants         -0.32027 -0.13926 -0.04979  0.04015  0.2212
+d.placebo.viloxazine         -0.46651  0.16468  0.46178  0.76059  1.3897
+sd.d                          0.18612  0.30818  0.37665  0.45158  0.6274
+B                            -0.39292 -0.13984 -0.01548  0.10908  0.3691
+
+-- Model fit (residual deviance):
+
+     Dbar        pD       DIC 
+ 66.13341  52.69482 118.82823 
+
+65 data points, ratio 1.017, I^2 = 3%
+
+-- Regression settings:
+
+Regression on "baseline", shared coefficients, "placebo" as control
+Input standardized: x' = (baseline - 35.15484) / 9.961907
+Estimates at the centering value: baseline = 35.15484
+

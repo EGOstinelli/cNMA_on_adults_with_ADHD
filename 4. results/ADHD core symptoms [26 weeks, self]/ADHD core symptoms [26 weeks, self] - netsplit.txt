@@ -1,0 +1,80 @@
+Separate indirect from direct evidence (SIDE) using back-calculation method
+
+Common effects model: 
+
+                          comparison k prop   nma direct indir.  Diff     z p-value
+                CBT:CBT + stimulants 1 1.00  0.66   0.66      .     .     .       .
+                             CBT:DBT 1 1.00  0.66   0.66      .     .     .       .
+                    CBT:hypnotherapy 1 1.00  0.13   0.13      .     .     .       .
+                     CBT:mindfulness 0    0  0.71      .   0.71     .     .       .
+                 CBT:psychoeducation 0    0  0.52      .   0.52     .     .       .
+              CBT:relaxation therapy 2 0.90 -0.13  -0.21   0.58 -0.79 -1.45  0.1470
+                    CBT:waiting list 2 0.97 -0.45  -0.42  -1.40  0.98  1.32  0.1885
+                CBT + stimulants:DBT 0    0  0.00      .   0.00     .     .       .
+       CBT + stimulants:hypnotherapy 0    0 -0.53      .  -0.53     .     .       .
+        CBT + stimulants:mindfulness 0    0  0.05      .   0.05     .     .       .
+    CBT + stimulants:psychoeducation 0    0 -0.13      .  -0.13     .     .       .
+ CBT + stimulants:relaxation therapy 0    0 -0.79      .  -0.79     .     .       .
+       CBT + stimulants:waiting list 0    0 -1.11      .  -1.11     .     .       .
+                    DBT:hypnotherapy 0    0 -0.54      .  -0.54     .     .       .
+                     DBT:mindfulness 0    0  0.05      .   0.05     .     .       .
+                 DBT:psychoeducation 0    0 -0.14      .  -0.14     .     .       .
+              DBT:relaxation therapy 0    0 -0.79      .  -0.79     .     .       .
+                    DBT:waiting list 0    0 -1.11      .  -1.11     .     .       .
+            hypnotherapy:mindfulness 0    0  0.59      .   0.59     .     .       .
+        hypnotherapy:psychoeducation 0    0  0.40      .   0.40     .     .       .
+     hypnotherapy:relaxation therapy 0    0 -0.25      .  -0.25     .     .       .
+           hypnotherapy:waiting list 0    0 -0.57      .  -0.57     .     .       .
+         mindfulness:psychoeducation 1 1.00 -0.19  -0.19      .     .     .       .
+      mindfulness:relaxation therapy 0    0 -0.84      .  -0.84     .     .       .
+            mindfulness:waiting list 1 1.00 -1.16  -1.16      .     .     .       .
+  psychoeducation:relaxation therapy 0    0 -0.65      .  -0.65     .     .       .
+        psychoeducation:waiting list 0    0 -0.97      .  -0.97     .     .       .
+     relaxation therapy:waiting list 1 0.56 -0.32  -0.60   0.04 -0.64 -1.73  0.0844
+
+Random effects model: 
+
+                          comparison k prop   nma direct indir.  Diff     z p-value
+                CBT:CBT + stimulants 1 1.00  0.66   0.66      .     .     .       .
+                             CBT:DBT 1 1.00  0.66   0.66      .     .     .       .
+                    CBT:hypnotherapy 1 1.00  0.13   0.13      .     .     .       .
+                     CBT:mindfulness 0    0  0.67      .   0.67     .     .       .
+                 CBT:psychoeducation 0    0  0.48      .   0.48     .     .       .
+              CBT:relaxation therapy 2 0.91 -0.14  -0.21   0.58 -0.79 -1.15  0.2497
+                    CBT:waiting list 2 0.96 -0.49  -0.45  -1.38  0.93  1.08  0.2797
+                CBT + stimulants:DBT 0    0  0.00      .   0.00     .     .       .
+       CBT + stimulants:hypnotherapy 0    0 -0.53      .  -0.53     .     .       .
+        CBT + stimulants:mindfulness 0    0  0.01      .   0.01     .     .       .
+    CBT + stimulants:psychoeducation 0    0 -0.17      .  -0.17     .     .       .
+ CBT + stimulants:relaxation therapy 0    0 -0.80      .  -0.80     .     .       .
+       CBT + stimulants:waiting list 0    0 -1.15      .  -1.15     .     .       .
+                    DBT:hypnotherapy 0    0 -0.54      .  -0.54     .     .       .
+                     DBT:mindfulness 0    0  0.01      .   0.01     .     .       .
+                 DBT:psychoeducation 0    0 -0.18      .  -0.18     .     .       .
+              DBT:relaxation therapy 0    0 -0.80      .  -0.80     .     .       .
+                    DBT:waiting list 0    0 -1.15      .  -1.15     .     .       .
+            hypnotherapy:mindfulness 0    0  0.55      .   0.55     .     .       .
+        hypnotherapy:psychoeducation 0    0  0.36      .   0.36     .     .       .
+     hypnotherapy:relaxation therapy 0    0 -0.27      .  -0.27     .     .       .
+           hypnotherapy:waiting list 0    0 -0.61      .  -0.61     .     .       .
+         mindfulness:psychoeducation 1 1.00 -0.19  -0.19      .     .     .       .
+      mindfulness:relaxation therapy 0    0 -0.82      .  -0.82     .     .       .
+            mindfulness:waiting list 1 1.00 -1.16  -1.16      .     .     .       .
+  psychoeducation:relaxation therapy 0    0 -0.63      .  -0.63     .     .       .
+        psychoeducation:waiting list 0    0 -0.97      .  -0.97     .     .       .
+     relaxation therapy:waiting list 1 0.60 -0.34  -0.60   0.04 -0.65 -1.40  0.1617
+
+Legend:
+ comparison - Treatment comparison
+ k          - Number of studies providing direct evidence
+ prop       - Direct evidence proportion
+ nma        - Estimated treatment effect (SMD) in network meta-analysis
+ direct     - Estimated treatment effect (SMD) derived from direct evidence
+ indir.     - Estimated treatment effect (SMD) derived from indirect evidence
+ Diff       - Difference between direct and indirect treatment estimates
+ z          - z-value of test for disagreement (direct versus indirect)
+ p-value    - p-value of test for disagreement (direct versus indirect)
+
+Percent of comparisons where there is some evidence (p-value<0.05) of disagreement between direct and indirect sources: 0 (0 out of 3 comparisons).
+
+File created on 2024-02-26

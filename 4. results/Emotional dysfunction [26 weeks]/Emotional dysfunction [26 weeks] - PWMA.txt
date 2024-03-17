@@ -1,0 +1,24 @@
+                          comparisons Number.of.studies   SMD lower.CI upper.CI tau.sq I.sq lower.I.sq
+1           DBT + placebo vs  placebo                 1  0.13    -0.22     0.48     NA   NA         NA
+2        DBT + stimulants vs  placebo                 1 -0.11    -0.45     0.23     NA   NA         NA
+3   DBT + stimulants vs DBT + placebo                 1 -0.24    -0.56     0.09     NA   NA         NA
+4      psychoeducation vs mindfulness                 1 -0.10    -0.59     0.39     NA   NA         NA
+5           relaxation therapy vs CBT                 1 -0.28    -0.83     0.27     NA   NA         NA
+6              stimulants vs  placebo                 1 -0.20    -0.53     0.14     NA   NA         NA
+7         stimulants vs DBT + placebo                 1 -0.32    -0.64     0.00     NA   NA         NA
+8      stimulants vs DBT + stimulants                 1 -0.08    -0.39     0.22     NA   NA         NA
+9                 waiting list vs CBT                 1  0.04    -0.50     0.57     NA   NA         NA
+10 waiting list vs relaxation therapy                 1  0.32    -0.22     0.86     NA   NA         NA
+   upper.I.sq Q.st p.val
+1          NA    0    NA
+2          NA    0    NA
+3          NA    0    NA
+4          NA    0    NA
+5          NA    0    NA
+6          NA    0    NA
+7          NA    0    NA
+8          NA    0    NA
+9          NA    0    NA
+10         NA    0    NA
+
+File created on 2024-02-26

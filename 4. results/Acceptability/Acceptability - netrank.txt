@@ -1,0 +1,20 @@
+                      P-score (common) P-score (random)
+waiting list                    0.8098           0.7510
+CBT + TAU                       0.6683           0.6937
+mindfulness                     0.7013           0.6474
+CBT                             0.6262           0.6451
+psychoeducation                 0.6406           0.6175
+sham + neurofeedback            0.6014           0.6105
+neurofeedback                   0.5929           0.6030
+TAU                             0.5932           0.5993
+physical training               0.5879           0.5514
+cognitive remediation           0.4830           0.4632
+relaxation therapy              0.4071           0.4450
+DBT                             0.4861           0.4383
+DBT + TAU                       0.3874           0.4023
+CBT + stimulants                0.3508           0.3893
+psychological placebo           0.2751           0.3197
+mindfulness + TAU               0.1472           0.1643
+GMT + TAU                       0.1418           0.1589
+
+File created on 2024-03-10

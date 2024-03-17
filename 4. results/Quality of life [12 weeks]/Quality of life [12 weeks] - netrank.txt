@@ -1,0 +1,12 @@
+                   P-score (common) P-score (random)
+DBT                          0.9625           0.9625
+waiting list                 0.7697           0.7697
+cognitive training           0.5900           0.5900
+hypnotherapy                 0.5694           0.5694
+relaxation therapy           0.4050           0.4050
+CBT                          0.3725           0.3725
+cognitive placebo            0.3516           0.3516
+no treatment                 0.3092           0.3092
+psychoeducation              0.1699           0.1699
+
+File created on 2024-02-26

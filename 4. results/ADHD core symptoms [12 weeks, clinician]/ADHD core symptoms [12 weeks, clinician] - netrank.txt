@@ -1,0 +1,13 @@
+                      P-score (common) P-score (random)
+cognitive remediation           0.9546           0.7457
+mindfulness                     0.7363           0.6784
+psychoeducation                 0.6947           0.6528
+CBT                             0.6586           0.6280
+CBT + TAU                       0.5771           0.5885
+mindfulness + TAU               0.5304           0.5304
+relaxation therapy              0.2746           0.3706
+psychological placebo           0.2555           0.3584
+TAU                             0.1957           0.3044
+waiting list                    0.1227           0.1428
+
+File created on 2024-03-09

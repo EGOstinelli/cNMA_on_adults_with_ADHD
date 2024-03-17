@@ -1,0 +1,18 @@
+                        comparisons Number.of.studies   SMD lower.CI upper.CI tau.sq I.sq lower.I.sq
+1         DBT + placebo vs  placebo                 1 -0.23    -0.63     0.16     NA   NA         NA
+2      DBT + stimulants vs  placebo                 1 -0.53    -0.92    -0.14     NA   NA         NA
+3 DBT + stimulants vs DBT + placebo                 1 -0.29    -0.65     0.06     NA   NA         NA
+4         relaxation therapy vs CBT                 1  0.02    -0.58     0.62     NA   NA         NA
+5            stimulants vs  placebo                 1 -0.54    -0.94    -0.15     NA   NA         NA
+6       stimulants vs DBT + placebo                 1 -0.31    -0.67     0.05     NA   NA         NA
+7    stimulants vs DBT + stimulants                 1 -0.01    -0.35     0.32     NA   NA         NA
+  upper.I.sq Q.st p.val
+1         NA    0    NA
+2         NA    0    NA
+3         NA    0    NA
+4         NA    0    NA
+5         NA    0    NA
+6         NA    0    NA
+7         NA    0    NA
+
+File created on 2024-02-26

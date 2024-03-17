@@ -1,0 +1,56 @@
+Network meta-analysis on additional sub-network.
+
+Original data:
+
+                                                   treat1                      treat2     TE   seTE
+Konstenius 2010 - ISRCTN81602628 placebo + skill training stimulants + skill training 0.6299 0.4183
+
+Number of treatment arms (by study):
+                                 narms
+Konstenius 2010 - ISRCTN81602628     2
+
+Results (common effects model):
+
+                                                   treat1                      treat2    SMD
+Konstenius 2010 - ISRCTN81602628 placebo + skill training stimulants + skill training 0.6299
+                                            95%-CI    Q leverage
+Konstenius 2010 - ISRCTN81602628 [-0.1898; 1.4497] 0.00     1.00
+
+Results (random effects model):
+
+                                                   treat1                      treat2    SMD
+Konstenius 2010 - ISRCTN81602628 placebo + skill training stimulants + skill training 0.6299
+                                            95%-CI
+Konstenius 2010 - ISRCTN81602628 [-0.1898; 1.4497]
+
+Number of studies: k = 1
+Number of pairwise comparisons: m = 1
+Number of observations: o = 24
+Number of treatments: n = 2
+Number of designs: d = 1
+
+Common effects model
+
+Treatment estimate (sm = 'SMD', comparison: 'stimulants + skill training' vs 'placebo + skill training'):
+                                SMD            95%-CI     z p-value
+placebo + skill training          .                 .     .       .
+stimulants + skill training -0.6299 [-1.4497; 0.1898] -1.51  0.1320
+
+Random effects model
+
+Treatment estimate (sm = 'SMD', comparison: 'stimulants + skill training' vs 'placebo + skill training'):
+                                SMD            95%-CI     z p-value
+placebo + skill training          .                 .     .       .
+stimulants + skill training -0.6299 [-1.4497; 0.1898] -1.51  0.1320
+
+Quantifying heterogeneity:
+tau^2 = NA; tau = NA
+
+A total of 2 treatments are included in the network.
+A total of 1 studies are included in this analysis.
+A total of 24 participants are included in this analysis.
+The following studies were included in this analysis: Konstenius 2010 - ISRCTN81602628
+Estimated heterogeneity tau-squaredNA
+Global test for inconsistency, p-value = NA (Q = NA, d.o.f. = NA)
+
+File created on 2024-03-11

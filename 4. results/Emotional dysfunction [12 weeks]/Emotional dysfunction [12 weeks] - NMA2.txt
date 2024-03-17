@@ -1,0 +1,86 @@
+Network meta-analysis on main network.
+
+Original data (with adjusted standard errors for multi-arm studies):
+
+                          treat1             treat2      TE   seTE seTE.adj.c seTE.adj.r narms multiarm
+Bachmann 2018        mindfulness    psychoeducation  0.4346 0.3203     0.3203     0.3821     2         
+Hepark 2015          mindfulness       waiting list -0.3540 0.2213     0.2213     0.3039     2         
+Hoxhaj 2018          mindfulness    psychoeducation  0.0184 0.2311     0.2311     0.3111     2         
+Mitchell 2017        mindfulness       waiting list  0.3193 0.4523     0.4523     0.4979     2         
+Nasri 2022                   CBT relaxation therapy  0.3085 0.2638     0.3237     0.4122     3        *
+Nasri 2022                   CBT       waiting list  0.1967 0.2654     0.3277     0.4152     3        *
+Nasri 2022    relaxation therapy       waiting list -0.1118 0.2606     0.3160     0.4060     3        *
+
+Number of treatment arms (by study):
+              narms
+Bachmann 2018     2
+Hepark 2015       2
+Hoxhaj 2018       2
+Mitchell 2017     2
+Nasri 2022        3
+
+Results (common effects model):
+
+                          treat1             treat2     SMD            95%-CI    Q leverage
+Bachmann 2018        mindfulness    psychoeducation  0.1609 [-0.2065; 0.5283] 0.73     0.34
+Hepark 2015          mindfulness       waiting list -0.2240 [-0.6135; 0.1656] 0.35     0.81
+Hoxhaj 2018          mindfulness    psychoeducation  0.1609 [-0.2065; 0.5283] 0.38     0.66
+Mitchell 2017        mindfulness       waiting list -0.2240 [-0.6135; 0.1656] 1.44     0.19
+Nasri 2022                   CBT relaxation therapy  0.3085 [-0.2085; 0.8256] 0.00        .
+Nasri 2022                   CBT       waiting list  0.1967 [-0.3234; 0.7168] 0.00        .
+Nasri 2022    relaxation therapy       waiting list -0.1118 [-0.6225; 0.3988] 0.00        .
+
+Results (random effects model):
+
+                          treat1             treat2     SMD            95%-CI
+Bachmann 2018        mindfulness    psychoeducation  0.1843 [-0.2885; 0.6572]
+Hepark 2015          mindfulness       waiting list -0.1713 [-0.6797; 0.3371]
+Hoxhaj 2018          mindfulness    psychoeducation  0.1843 [-0.2885; 0.6572]
+Mitchell 2017        mindfulness       waiting list -0.1713 [-0.6797; 0.3371]
+Nasri 2022                   CBT relaxation therapy  0.3085 [-0.3502; 0.9673]
+Nasri 2022                   CBT       waiting list  0.1967 [-0.4645; 0.8578]
+Nasri 2022    relaxation therapy       waiting list -0.1118 [-0.7656; 0.5419]
+
+Number of studies: k = 5
+Number of pairwise comparisons: m = 7
+Number of observations: o = 305
+Number of treatments: n = 5
+Number of designs: d = 3
+
+Common effects model
+
+Treatment estimate (sm = 'SMD', comparison: other treatments vs 'waiting list'):
+                       SMD            95%-CI     z p-value
+CBT                 0.1967 [-0.3234; 0.7168]  0.74  0.4586
+mindfulness        -0.2240 [-0.6135; 0.1656] -1.13  0.2598
+psychoeducation    -0.3849 [-0.9203; 0.1506] -1.41  0.1589
+relaxation therapy -0.1118 [-0.6225; 0.3988] -0.43  0.6677
+waiting list             .                 .     .       .
+
+Random effects model
+
+Treatment estimate (sm = 'SMD', comparison: other treatments vs 'waiting list'):
+                       SMD            95%-CI     z p-value             95%-PI
+CBT                 0.1967 [-0.4645; 0.8578]  0.58  0.5599  [-4.8406; 5.2340]
+mindfulness        -0.1713 [-0.6797; 0.3371] -0.66  0.5090  [-4.3979; 4.0553]
+psychoeducation    -0.3556 [-1.0499; 0.3387] -1.00  0.3154  [-5.5768; 4.8656]
+relaxation therapy -0.1118 [-0.7656; 0.5419] -0.34  0.7374  [-5.1084; 4.8847]
+waiting list             .                 .     .       .                  .
+
+Quantifying heterogeneity / inconsistency:
+tau^2 = 0.0434; tau = 0.2083; I^2 = 31% [0.0%; 92.8%]
+
+Tests of heterogeneity (within designs) and inconsistency (between designs):
+                  Q d.f. p-value
+Total           2.9    2  0.2348
+Within designs  2.9    2  0.2348
+Between designs 0.0    0      --
+
+A total of 5 treatments are included in the network.
+A total of 5 studies are included in this analysis.
+A total of 305 participants are included in this analysis.
+The following studies were included in this analysis: Bachmann 2018 Hepark 2015 Hoxhaj 2018 Mitchell 2017 Nasri 2022
+Estimated heterogeneity tau-squared0.04
+Global test for inconsistency, p-value = NA (Q = 0, d.o.f. = 0)
+
+File created on 2024-03-09

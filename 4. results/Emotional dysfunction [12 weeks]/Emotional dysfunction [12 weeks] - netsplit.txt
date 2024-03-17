@@ -1,0 +1,80 @@
+Separate indirect from direct evidence (SIDE) using back-calculation method
+
+Common effects model: 
+
+                     comparison k prop   nma direct indir.  Diff     z p-value
+          atomoxetine:bupropion 0    0 -0.02      .  -0.02     .     .       .
+      atomoxetine:DBT + placebo 0    0 -0.43      .  -0.43     .     .       .
+   atomoxetine:DBT + stimulants 0    0 -0.17      .  -0.17     .     .       .
+         atomoxetine:guanfacine 0    0 -0.48      .  -0.48     .     .       .
+            atomoxetine:placebo 2 1.00 -0.36  -0.36      .     .     .       .
+         atomoxetine:stimulants 0    0  0.02      .   0.02     .     .       .
+         atomoxetine:viloxazine 0    0 -0.45      .  -0.45     .     .       .
+        bupropion:DBT + placebo 0    0 -0.41      .  -0.41     .     .       .
+     bupropion:DBT + stimulants 0    0 -0.14      .  -0.14     .     .       .
+           bupropion:guanfacine 0    0 -0.45      .  -0.45     .     .       .
+              bupropion:placebo 1 1.00 -0.33  -0.33      .     .     .       .
+           bupropion:stimulants 0    0  0.05      .   0.05     .     .       .
+           bupropion:viloxazine 0    0 -0.43      .  -0.43     .     .       .
+ DBT + placebo:DBT + stimulants 1 1.00  0.26   0.26      .     .     .       .
+       DBT + placebo:guanfacine 0    0 -0.05      .  -0.05     .     .       .
+          DBT + placebo:placebo 1 0.81  0.07   0.19  -0.45  0.64  1.77  0.0770
+       DBT + placebo:stimulants 1 0.85  0.45   0.35   1.03 -0.68 -1.77  0.0770
+       DBT + placebo:viloxazine 0    0 -0.02      .  -0.02     .     .       .
+    DBT + stimulants:guanfacine 0    0 -0.31      .  -0.31     .     .       .
+       DBT + stimulants:placebo 1 0.81 -0.19  -0.07  -0.69  0.62  1.77  0.0770
+    DBT + stimulants:stimulants 1 0.84  0.19   0.08   0.75 -0.67 -1.77  0.0770
+    DBT + stimulants:viloxazine 0    0 -0.29      .  -0.29     .     .       .
+             guanfacine:placebo 1 1.00  0.12   0.12      .     .     .       .
+          guanfacine:stimulants 0    0  0.50      .   0.50     .     .       .
+          guanfacine:viloxazine 0    0  0.02      .   0.02     .     .       .
+             stimulants:placebo 3 1.00 -0.38  -0.38      .     .     .       .
+             viloxazine:placebo 1 1.00  0.10   0.10      .     .     .       .
+          stimulants:viloxazine 0    0 -0.48      .  -0.48     .     .       .
+
+Random effects model: 
+
+                     comparison k prop   nma direct indir.  Diff     z p-value
+          atomoxetine:bupropion 0    0 -0.02      .  -0.02     .     .       .
+      atomoxetine:DBT + placebo 0    0 -0.41      .  -0.41     .     .       .
+   atomoxetine:DBT + stimulants 0    0 -0.14      .  -0.14     .     .       .
+         atomoxetine:guanfacine 0    0 -0.47      .  -0.47     .     .       .
+            atomoxetine:placebo 2 1.00 -0.36  -0.36      .     .     .       .
+         atomoxetine:stimulants 0    0  0.07      .   0.07     .     .       .
+         atomoxetine:viloxazine 0    0 -0.45      .  -0.45     .     .       .
+        bupropion:DBT + placebo 0    0 -0.38      .  -0.38     .     .       .
+     bupropion:DBT + stimulants 0    0 -0.12      .  -0.12     .     .       .
+           bupropion:guanfacine 0    0 -0.45      .  -0.45     .     .       .
+              bupropion:placebo 1 1.00 -0.33  -0.33      .     .     .       .
+           bupropion:stimulants 0    0  0.10      .   0.10     .     .       .
+           bupropion:viloxazine 0    0 -0.43      .  -0.43     .     .       .
+ DBT + placebo:DBT + stimulants 1 1.00  0.26   0.26      .     .     .       .
+       DBT + placebo:guanfacine 0    0 -0.07      .  -0.07     .     .       .
+          DBT + placebo:placebo 1 0.83  0.05   0.19  -0.63  0.83  1.24  0.2132
+       DBT + placebo:stimulants 1 0.84  0.48   0.35   1.19 -0.85 -1.24  0.2132
+       DBT + placebo:viloxazine 0    0 -0.04      .  -0.04     .     .       .
+    DBT + stimulants:guanfacine 0    0 -0.33      .  -0.33     .     .       .
+       DBT + stimulants:placebo 1 0.83 -0.21  -0.07  -0.89  0.82  1.24  0.2132
+    DBT + stimulants:stimulants 1 0.84  0.22   0.08   0.92 -0.84 -1.24  0.2132
+    DBT + stimulants:viloxazine 0    0 -0.31      .  -0.31     .     .       .
+             guanfacine:placebo 1 1.00  0.12   0.12      .     .     .       .
+          guanfacine:stimulants 0    0  0.55      .   0.55     .     .       .
+          guanfacine:viloxazine 0    0  0.02      .   0.02     .     .       .
+             stimulants:placebo 3 1.00 -0.43  -0.43      .     .     .       .
+             viloxazine:placebo 1 1.00  0.10   0.10      .     .     .       .
+          stimulants:viloxazine 0    0 -0.53      .  -0.53     .     .       .
+
+Legend:
+ comparison - Treatment comparison
+ k          - Number of studies providing direct evidence
+ prop       - Direct evidence proportion
+ nma        - Estimated treatment effect (SMD) in network meta-analysis
+ direct     - Estimated treatment effect (SMD) derived from direct evidence
+ indir.     - Estimated treatment effect (SMD) derived from indirect evidence
+ Diff       - Difference between direct and indirect treatment estimates
+ z          - z-value of test for disagreement (direct versus indirect)
+ p-value    - p-value of test for disagreement (direct versus indirect)
+
+Percent of comparisons where there is some evidence (p-value<0.05) of disagreement between direct and indirect sources: 0 (0 out of 4 comparisons).
+
+File created on 2024-03-09

@@ -1,0 +1,33 @@
+Q statistics to assess homogeneity / consistency
+
+                    Q df p-value
+Total           14.37 10  0.1567
+Within designs  10.76  6  0.0961
+Between designs  3.61  4  0.4610
+
+Design-specific decomposition of within-designs Q statistic
+
+                      Design    Q df p-value
+    mindfulness:waiting list 4.98  2  0.0830
+               TAU:CBT + TAU 3.00  1  0.0833
+            CBT:waiting list 2.48  2  0.2892
+ mindfulness:psychoeducation 0.30  1  0.5827
+
+Between-designs Q statistic after detaching of single designs
+(influential designs have p-value markedly different from 0.4610)
+
+                     Detached design    Q df p-value
+         mindfulness:psychoeducation 1.63  3  0.6520
+            mindfulness:waiting list 1.63  3  0.6520
+                 CBT:psychoeducation 1.63  3  0.6520
+                    DBT:waiting list 2.48  3  0.4797
+                             CBT:DBT 2.48  3  0.4797
+              CBT:relaxation therapy 3.14  3  0.3706
+                    CBT:waiting list 3.61  3  0.3067
+ CBT:relaxation therapy:waiting list 3.04  2  0.2192
+
+Q statistic to assess consistency under the assumption of
+a full design-by-treatment interaction random effects model
+
+                   Q df p-value tau.within tau2.within
+Between designs 2.79  4  0.5928     0.6419      0.4121

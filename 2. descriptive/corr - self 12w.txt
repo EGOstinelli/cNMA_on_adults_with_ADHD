@@ -1,0 +1,11 @@
+Median correlation coefficient and quartiles based on self-rated scores at 12 weeks (4 studies):
+
+       0%       25%       50%       75%      100% 
+0.2464478 0.3429179 0.4294077 0.5579731 0.9307463 
+
+Adler 2009b
+Casas 2013
+Ginsberg 2012
+Goodman 2016
+
+File created on 2024-03-10

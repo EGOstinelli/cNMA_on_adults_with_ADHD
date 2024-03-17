@@ -1,0 +1,118 @@
+Network meta-analysis on main network.
+
+Original data:
+
+                              treat1                treat2      TE   seTE
+Bachmann 2018            mindfulness       psychoeducation -0.1200 0.3169
+Emilsson 2011              CBT + TAU                   TAU -1.0323 0.3651
+Hepark 2015              mindfulness          waiting list -0.8553 0.2294
+Hoxhaj 2018              mindfulness       psychoeducation -0.0341 0.2347
+Janssen 2018       mindfulness + TAU                   TAU -0.4357 0.1957
+Mitchell 2017            mindfulness          waiting list -2.5155 0.6002
+Nakashima 2021             CBT + TAU                   TAU -0.1087 0.3149
+Safren 2005                      CBT                   TAU -0.6160 0.3678
+Safren 2010                      CBT    relaxation therapy -0.5213 0.2306
+Solanto 2010                     CBT psychological placebo -0.5498 0.2264
+Stevenson 2002 cognitive remediation          waiting list -1.7138 0.3567
+Vidal 2013                       CBT       psychoeducation  0.1266 0.3546
+
+Number of treatment arms (by study):
+               narms
+Bachmann 2018      2
+Emilsson 2011      2
+Hepark 2015        2
+Hoxhaj 2018        2
+Janssen 2018       2
+Mitchell 2017      2
+Nakashima 2021     2
+Safren 2005        2
+Safren 2010        2
+Solanto 2010       2
+Stevenson 2002     2
+Vidal 2013         2
+
+Results (common effects model):
+
+                              treat1                treat2     SMD             95%-CI    Q leverage
+Bachmann 2018            mindfulness       psychoeducation -0.0645 [-0.4341;  0.3051] 0.03     0.35
+Emilsson 2011              CBT + TAU                   TAU -0.5027 [-0.9701; -0.0353] 2.10     0.43
+Hepark 2015              mindfulness          waiting list -1.0669 [-1.4868; -0.6470] 0.85     0.87
+Hoxhaj 2018              mindfulness       psychoeducation -0.0645 [-0.4341;  0.3051] 0.02     0.65
+Janssen 2018       mindfulness + TAU                   TAU -0.4357 [-0.8192; -0.0521] 0.00     1.00
+Mitchell 2017            mindfulness          waiting list -1.0669 [-1.4868; -0.6470] 5.83     0.13
+Nakashima 2021             CBT + TAU                   TAU -0.5027 [-0.9701; -0.0353] 1.57     0.57
+Safren 2005                      CBT                   TAU -0.6160 [-1.3369;  0.1049] 0.00     1.00
+Safren 2010                      CBT    relaxation therapy -0.5213 [-0.9732; -0.0694] 0.00     1.00
+Solanto 2010                     CBT psychological placebo -0.5498 [-0.9935; -0.1061] 0.00     1.00
+Stevenson 2002 cognitive remediation          waiting list -1.7138 [-2.4129; -1.0147] 0.00     1.00
+Vidal 2013                       CBT       psychoeducation  0.1266 [-0.5684;  0.8216] 0.00     1.00
+
+Results (random effects model):
+
+                              treat1                treat2     SMD             95%-CI
+Bachmann 2018            mindfulness       psychoeducation -0.0743 [-0.9028;  0.7541]
+Emilsson 2011              CBT + TAU                   TAU -0.5507 [-1.4234;  0.3221]
+Hepark 2015              mindfulness          waiting list -1.4235 [-2.3416; -0.5053]
+Hoxhaj 2018              mindfulness       psychoeducation -0.0743 [-0.9028;  0.7541]
+Janssen 2018       mindfulness + TAU                   TAU -0.4357 [-1.5432;  0.6719]
+Mitchell 2017            mindfulness          waiting list -1.4235 [-2.3416; -0.5053]
+Nakashima 2021             CBT + TAU                   TAU -0.5507 [-1.4234;  0.3221]
+Safren 2005                      CBT                   TAU -0.6160 [-1.8806;  0.6486]
+Safren 2010                      CBT    relaxation therapy -0.5213 [-1.6543;  0.6117]
+Solanto 2010                     CBT psychological placebo -0.5498 [-1.6796;  0.5800]
+Stevenson 2002 cognitive remediation          waiting list -1.7138 [-2.9661; -0.4615]
+Vidal 2013                       CBT       psychoeducation  0.1266 [-1.1234;  1.3766]
+
+Number of studies: k = 12
+Number of pairwise comparisons: m = 12
+Number of observations: o = 663
+Number of treatments: n = 10
+Number of designs: d = 9
+
+Common effects model
+
+Treatment estimate (sm = 'SMD', comparison: other treatments vs 'TAU'):
+                          SMD             95%-CI     z p-value
+CBT                   -0.6160 [-1.3369;  0.1049] -1.67  0.0940
+CBT + TAU             -0.5027 [-0.9701; -0.0353] -2.11  0.0350
+cognitive remediation -1.4540 [-2.7972; -0.1107] -2.12  0.0339
+mindfulness           -0.8071 [-1.8745;  0.2603] -1.48  0.1384
+mindfulness + TAU     -0.4357 [-0.8192; -0.0521] -2.23  0.0260
+psychoeducation       -0.7426 [-1.7439;  0.2588] -1.45  0.1461
+psychological placebo -0.0662 [-0.9127;  0.7803] -0.15  0.8782
+relaxation therapy    -0.0947 [-0.9455;  0.7561] -0.22  0.8274
+TAU                         .                  .     .       .
+waiting list           0.2598 [-0.8872;  1.4069]  0.44  0.6571
+
+Random effects model
+
+Treatment estimate (sm = 'SMD', comparison: other treatments vs 'TAU'):
+                          SMD            95%-CI     z p-value             95%-PI
+CBT                   -0.6160 [-1.8806; 0.6486] -0.95  0.3397  [-4.2089; 2.9770]
+CBT + TAU             -0.5507 [-1.4234; 0.3221] -1.24  0.2162  [-3.5294; 2.4281]
+cognitive remediation -1.1072 [-3.6090; 1.3947] -0.87  0.3857  [-7.0542; 4.8399]
+mindfulness           -0.8169 [-2.7785; 1.1448] -0.82  0.4144  [-5.6900; 4.0562]
+mindfulness + TAU     -0.4357 [-1.5432; 0.6719] -0.77  0.4407  [-3.7694; 2.8981]
+psychoeducation       -0.7426 [-2.5207; 1.0356] -0.82  0.4131  [-5.2636; 3.7785]
+psychological placebo -0.0662 [-1.7619; 1.6296] -0.08  0.9390  [-4.4320; 4.2997]
+relaxation therapy    -0.0947 [-1.7926; 1.6032] -0.11  0.9130  [-4.4646; 4.2752]
+TAU                         .                 .     .       .                  .
+waiting list           0.6066 [-1.5593; 2.7725]  0.55  0.5830  [-4.6669; 5.8801]
+
+Quantifying heterogeneity / inconsistency:
+tau^2 = 0.2810; tau = 0.5301; I^2 = 71.1% [17.7%; 89.9%]
+
+Tests of heterogeneity (within designs) and inconsistency (between designs):
+                    Q d.f. p-value
+Total           10.39    3  0.0155
+Within designs  10.39    3  0.0155
+Between designs  0.00    0      --
+
+A total of 10 treatments are included in the network.
+A total of 12 studies are included in this analysis.
+A total of 663 participants are included in this analysis.
+The following studies were included in this analysis: Bachmann 2018 Emilsson 2011 Hepark 2015 Hoxhaj 2018 Janssen 2018 Mitchell 2017 Nakashima 2021 Safren 2005 Safren 2010 Solanto 2010 Stevenson 2002 Vidal 2013
+Estimated heterogeneity tau-squared0.28
+Global test for inconsistency, p-value = NA (Q = 0, d.o.f. = 0)
+
+File created on 2024-03-09

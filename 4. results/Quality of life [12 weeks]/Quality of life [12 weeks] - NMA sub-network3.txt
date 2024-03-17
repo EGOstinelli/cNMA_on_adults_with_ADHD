@@ -1,0 +1,84 @@
+Network meta-analysis on additional sub-network.
+
+Original data:
+
+                    treat1     treat2      TE   seTE
+Adler 2009a    atomoxetine    placebo  0.1553 0.1234
+Arnold 2014      modafinil    placebo  0.1288 0.1794
+Durell 2013    atomoxetine    placebo  0.2683 0.1021
+Spencer 2007       placebo stimulants -0.0508 0.1646
+Takahashi 2014     placebo stimulants -0.1197 0.1192
+Iwanami 2020    guanfacine    placebo -0.1545 0.1416
+
+Number of treatment arms (by study):
+               narms
+Adler 2009a        2
+Arnold 2014        2
+Durell 2013        2
+Spencer 2007       2
+Takahashi 2014     2
+Iwanami 2020       2
+
+Results (common effects model):
+
+                    treat1     treat2     SMD            95%-CI    Q leverage
+Adler 2009a    atomoxetine    placebo  0.2223 [ 0.0681; 0.3765] 0.30     0.41
+Arnold 2014      modafinil    placebo  0.1288 [-0.2227; 0.4804] 0.00     1.00
+Durell 2013    atomoxetine    placebo  0.2223 [ 0.0681; 0.3765] 0.20     0.59
+Spencer 2007       placebo stimulants -0.0960 [-0.2852; 0.0932] 0.08     0.34
+Takahashi 2014     placebo stimulants -0.0960 [-0.2852; 0.0932] 0.04     0.66
+Iwanami 2020    guanfacine    placebo -0.1545 [-0.4321; 0.1231] 0.00     1.00
+
+Results (random effects model):
+
+                    treat1     treat2     SMD            95%-CI
+Adler 2009a    atomoxetine    placebo  0.2223 [ 0.0681; 0.3765]
+Arnold 2014      modafinil    placebo  0.1288 [-0.2227; 0.4804]
+Durell 2013    atomoxetine    placebo  0.2223 [ 0.0681; 0.3765]
+Spencer 2007       placebo stimulants -0.0960 [-0.2852; 0.0932]
+Takahashi 2014     placebo stimulants -0.0960 [-0.2852; 0.0932]
+Iwanami 2020    guanfacine    placebo -0.1545 [-0.4321; 0.1231]
+
+Number of studies: k = 6
+Number of pairwise comparisons: m = 6
+Number of observations: o = 1472
+Number of treatments: n = 5
+Number of designs: d = 4
+
+Common effects model
+
+Treatment estimate (sm = 'SMD', comparison: other treatments vs 'placebo'):
+                SMD            95%-CI     z p-value
+atomoxetine  0.2223 [ 0.0681; 0.3765]  2.83  0.0047
+guanfacine  -0.1545 [-0.4321; 0.1231] -1.09  0.2752
+modafinil    0.1288 [-0.2227; 0.4804]  0.72  0.4726
+placebo           .                 .     .       .
+stimulants   0.0960 [-0.0932; 0.2852]  0.99  0.3200
+
+Random effects model
+
+Treatment estimate (sm = 'SMD', comparison: other treatments vs 'placebo'):
+                SMD            95%-CI     z p-value             95%-PI
+atomoxetine  0.2223 [ 0.0681; 0.3765]  2.83  0.0047  [-0.7774; 1.2220]
+guanfacine  -0.1545 [-0.4321; 0.1231] -1.09  0.2752  [-1.9542; 1.6451]
+modafinil    0.1288 [-0.2227; 0.4804]  0.72  0.4726  [-2.1502; 2.4079]
+placebo           .                 .     .       .                  .
+stimulants   0.0960 [-0.0932; 0.2852]  0.99  0.3200  [-1.1307; 1.3227]
+
+Quantifying heterogeneity / inconsistency:
+tau^2 = 0; tau = 0; I^2 = 0% [0.0%; 89.6%]
+
+Tests of heterogeneity (within designs) and inconsistency (between designs):
+                   Q d.f. p-value
+Total           0.61    2  0.7362
+Within designs  0.61    2  0.7362
+Between designs 0.00    0      --
+
+A total of 5 treatments are included in the network.
+A total of 6 studies are included in this analysis.
+A total of 1472 participants are included in this analysis.
+The following studies were included in this analysis: Adler 2009a Arnold 2014 Durell 2013 Spencer 2007 Takahashi 2014 Iwanami 2020
+Estimated heterogeneity tau-squared0
+Global test for inconsistency, p-value = NA (Q = 0, d.o.f. = 0)
+
+File created on 2024-03-09

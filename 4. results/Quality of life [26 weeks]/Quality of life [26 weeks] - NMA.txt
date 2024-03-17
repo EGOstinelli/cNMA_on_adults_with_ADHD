@@ -1,0 +1,78 @@
+Network meta-analysis.
+
+Original data (with adjusted standard errors for multi-arm studies):
+
+                         treat1             treat2      TE   seTE seTE.adj.c seTE.adj.r narms multiarm
+Fleming 2013                CBT                DBT -0.4079 0.3572     0.3572     0.3572     2         
+Virta 2010                  CBT       hypnotherapy -0.3639 0.4899     0.4899     0.4899     2         
+Nasri 2022                  CBT relaxation therapy  0.0280 0.2774     0.3419     0.3419     3        *
+Nasri 2022                  CBT       waiting list -0.4382 0.2745     0.3350     0.3350     3        *
+Nasri 2022   relaxation therapy       waiting list -0.4662 0.2748     0.3357     0.3357     3        *
+
+Number of treatment arms (by study):
+             narms
+Fleming 2013     2
+Virta 2010       2
+Nasri 2022       3
+
+Results (common effects model):
+
+                         treat1             treat2     SMD            95%-CI    Q leverage
+Fleming 2013                CBT                DBT -0.4079 [-1.1080; 0.2922] 0.00     1.00
+Virta 2010                  CBT       hypnotherapy -0.3639 [-1.3241; 0.5963] 0.00     1.00
+Nasri 2022                  CBT relaxation therapy  0.0280 [-0.5156; 0.5716] 0.00        .
+Nasri 2022                  CBT       waiting list -0.4382 [-0.9763; 0.0999] 0.00        .
+Nasri 2022   relaxation therapy       waiting list -0.4662 [-1.0049; 0.0725] 0.00        .
+
+Results (random effects model):
+
+                         treat1             treat2     SMD            95%-CI
+Fleming 2013                CBT                DBT -0.4079 [-1.1080; 0.2922]
+Virta 2010                  CBT       hypnotherapy -0.3639 [-1.3241; 0.5963]
+Nasri 2022                  CBT relaxation therapy  0.0280 [-0.5156; 0.5716]
+Nasri 2022                  CBT       waiting list -0.4382 [-0.9763; 0.0999]
+Nasri 2022   relaxation therapy       waiting list -0.4662 [-1.0049; 0.0725]
+
+Number of studies: k = 3
+Number of pairwise comparisons: m = 5
+Number of observations: o = 129
+Number of treatments: n = 5
+Number of designs: d = 3
+
+Common effects model
+
+Treatment estimate (sm = 'SMD', comparison: other treatments vs 'waiting list'):
+                       SMD            95%-CI     z p-value
+CBT                -0.4382 [-0.9763; 0.0999] -1.60  0.1105
+DBT                -0.0303 [-0.9134; 0.8527] -0.07  0.9463
+hypnotherapy       -0.0743 [-1.1750; 1.0264] -0.13  0.8947
+relaxation therapy -0.4662 [-1.0049; 0.0725] -1.70  0.0898
+waiting list             .                 .     .       .
+
+Random effects model
+
+Treatment estimate (sm = 'SMD', comparison: other treatments vs 'waiting list'):
+                       SMD            95%-CI     z p-value
+CBT                -0.4382 [-0.9763; 0.0999] -1.60  0.1105
+DBT                -0.0303 [-0.9134; 0.8527] -0.07  0.9463
+hypnotherapy       -0.0743 [-1.1750; 1.0264] -0.13  0.8947
+relaxation therapy -0.4662 [-1.0049; 0.0725] -1.70  0.0898
+waiting list             .                 .     .       .
+
+Quantifying heterogeneity / inconsistency:
+tau^2 = 0; tau = 0
+
+Tests of heterogeneity (within designs) and inconsistency (between designs):
+                Q          d.f. p-value
+Total           0 -4.440892e-16      --
+Within designs  0  0.000000e+00      --
+Between designs 0  0.000000e+00      --
+
+A total of 5 treatments are included in the network.
+A total of 3 studies are included in this analysis.
+A total of 129 participants are included in this analysis.
+The following studies were included in this analysis: Fleming 2013 Virta 2010 Nasri 2022
+Estimated heterogeneity tau-squared0
+Global test for inconsistency, p-value NA (Q=0, d.o.f. 0)
+
+File created on 2024-02-26

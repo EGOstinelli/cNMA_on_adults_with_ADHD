@@ -1,0 +1,80 @@
+Separate indirect from direct evidence (SIDE) using back-calculation method
+
+Common effects model: 
+
+                     comparison  k prop  nma direct indir.    RoR     z p-value
+      atomoxetine:DBT + placebo  0    0 1.96      .   1.96      .     .       .
+   atomoxetine:DBT + stimulants  0    0 5.88      .   5.88      .     .       .
+         atomoxetine:guanfacine  0    0 0.31      .   0.31      .     .       .
+          atomoxetine:modafinil  0    0 0.62      .   0.62      .     .       .
+            atomoxetine:placebo 13 0.97 2.47   2.46   2.74   0.90 -0.15  0.8827
+         atomoxetine:stimulants  1 0.12 1.03   1.25   1.00   1.25  0.37  0.7111
+         atomoxetine:viloxazine  0    0 1.29      .   1.29      .     .       .
+ DBT + placebo:DBT + stimulants  1 1.00 3.00   3.00      .      .     .       .
+       DBT + placebo:guanfacine  0    0 0.16      .   0.16      .     .       .
+        DBT + placebo:modafinil  0    0 0.32      .   0.32      .     .       .
+          DBT + placebo:placebo  1 0.86 1.26   0.73  34.93   0.02 -1.87  0.0612
+       DBT + placebo:stimulants  1 0.62 0.52   1.53   0.09  16.30  1.87  0.0612
+       DBT + placebo:viloxazine  0    0 0.66      .   0.66      .     .       .
+    DBT + stimulants:guanfacine  0    0 0.05      .   0.05      .     .       .
+     DBT + stimulants:modafinil  0    0 0.11      .   0.11      .     .       .
+       DBT + stimulants:placebo  1 0.93 0.42   0.24 843.01   0.00 -1.87  0.0612
+    DBT + stimulants:stimulants  1 0.78 0.17   0.51   0.00 144.71  1.87  0.0612
+    DBT + stimulants:viloxazine  0    0 0.22      .   0.22      .     .       .
+           guanfacine:modafinil  0    0 2.00      .   2.00      .     .       .
+             guanfacine:placebo  1 1.00 7.98   7.98      .      .     .       .
+          guanfacine:stimulants  0    0 3.33      .   3.33      .     .       .
+          guanfacine:viloxazine  0    0 4.18      .   4.18      .     .       .
+              modafinil:placebo  1 1.00 3.99   3.99      .      .     .       .
+           modafinil:stimulants  0    0 1.66      .   1.66      .     .       .
+           modafinil:viloxazine  0    0 2.09      .   2.09      .     .       .
+             stimulants:placebo 24 0.96 2.40   2.45   1.57   1.56  0.59  0.5523
+             viloxazine:placebo  1 1.00 1.91   1.91      .      .     .       .
+          stimulants:viloxazine  0    0 1.26      .   1.26      .     .       .
+
+Random effects model: 
+
+                     comparison  k prop  nma direct indir.    RoR     z p-value
+      atomoxetine:DBT + placebo  0    0 1.94      .   1.94      .     .       .
+   atomoxetine:DBT + stimulants  0    0 5.81      .   5.81      .     .       .
+         atomoxetine:guanfacine  0    0 0.31      .   0.31      .     .       .
+          atomoxetine:modafinil  0    0 0.63      .   0.63      .     .       .
+            atomoxetine:placebo 13 0.96 2.50   2.49   2.75   0.91 -0.12  0.9040
+         atomoxetine:stimulants  1 0.13 1.03   1.25   1.00   1.26  0.34  0.7308
+         atomoxetine:viloxazine  0    0 1.31      .   1.31      .     .       .
+ DBT + placebo:DBT + stimulants  1 1.00 3.00   3.00      .      .     .       .
+       DBT + placebo:guanfacine  0    0 0.16      .   0.16      .     .       .
+        DBT + placebo:modafinil  0    0 0.32      .   0.32      .     .       .
+          DBT + placebo:placebo  1 0.85 1.29   0.73  34.68   0.02 -1.82  0.0688
+       DBT + placebo:stimulants  1 0.63 0.53   1.53   0.09  17.50  1.82  0.0688
+       DBT + placebo:viloxazine  0    0 0.68      .   0.68      .     .       .
+    DBT + stimulants:guanfacine  0    0 0.05      .   0.05      .     .       .
+     DBT + stimulants:modafinil  0    0 0.11      .   0.11      .     .       .
+       DBT + stimulants:placebo  1 0.93 0.43   0.24 548.05   0.00 -1.82  0.0688
+    DBT + stimulants:stimulants  1 0.79 0.18   0.51   0.00 140.23  1.82  0.0688
+    DBT + stimulants:viloxazine  0    0 0.23      .   0.23      .     .       .
+           guanfacine:modafinil  0    0 2.00      .   2.00      .     .       .
+             guanfacine:placebo  1 1.00 7.98   7.98      .      .     .       .
+          guanfacine:stimulants  0    0 3.27      .   3.27      .     .       .
+          guanfacine:viloxazine  0    0 4.18      .   4.18      .     .       .
+              modafinil:placebo  1 1.00 3.99   3.99      .      .     .       .
+           modafinil:stimulants  0    0 1.63      .   1.63      .     .       .
+           modafinil:viloxazine  0    0 2.09      .   2.09      .     .       .
+             stimulants:placebo 24 0.96 2.44   2.49   1.55   1.60  0.56  0.5771
+             viloxazine:placebo  1 1.00 1.91   1.91      .      .     .       .
+          stimulants:viloxazine  0    0 1.28      .   1.28      .     .       .
+
+Legend:
+ comparison - Treatment comparison
+ k          - Number of studies providing direct evidence
+ prop       - Direct evidence proportion
+ nma        - Estimated treatment effect (OR) in network meta-analysis
+ direct     - Estimated treatment effect (OR) derived from direct evidence
+ indir.     - Estimated treatment effect (OR) derived from indirect evidence
+ RoR        - Ratio of Ratios (direct versus indirect)
+ z          - z-value of test for disagreement (direct versus indirect)
+ p-value    - p-value of test for disagreement (direct versus indirect)
+
+Percent of comparisons where there is some evidence (p-value<0.05) of disagreement between direct and indirect sources: 0 (0 out of 7 comparisons).
+
+File created on 2024-03-09

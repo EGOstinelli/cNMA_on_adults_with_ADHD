@@ -1,0 +1,201 @@
+Network meta-analysis on main network.
+
+Original data (with adjusted standard errors for multi-arm studies):
+
+                           treat1           treat2      TE   seTE seTE.adj.c seTE.adj.r narms multiarm
+Weisler 2006              placebo       stimulants  0.4816 0.1622     0.1622     0.1912     2         
+Wilens 2008           atomoxetine          placebo -0.3579 0.1663     0.1663     0.1948     2         
+Adler 2008a           atomoxetine          placebo -0.2987 0.1075     0.1075     0.1478     2         
+Adler 2009b           atomoxetine          placebo -0.4327 0.0917     0.0917     0.1367     2         
+Arnold 2014             modafinil          placebo  0.0558 0.1449     0.1449     0.1768     2         
+Casas 2013                placebo       stimulants  0.3180 0.1264     0.1264     0.1620     2         
+Durell 2013           atomoxetine          placebo -0.3554 0.1026     0.1026     0.1442     2         
+Ginsberg 2012             placebo       stimulants  1.6835 0.4249     0.4249     0.4369     2         
+Huss 2014                 placebo       stimulants  0.5611 0.0962     0.0962     0.1398     2         
+Kuperman 2001           bupropion          placebo -0.1454 0.4270     0.4270     0.4388     2         
+McRae-Clark 2010      atomoxetine          placebo -0.3248 0.3266     0.3266     0.3419     2         
+Medori 2008               placebo       stimulants  0.4660 0.1219     0.1219     0.1585     2         
+Michelson 2003a       atomoxetine          placebo -0.4427 0.1239     0.1239     0.1601     2         
+Paterson 1999             placebo       stimulants  0.4650 0.3028     0.3028     0.3193     2         
+Rosler 2009               placebo       stimulants  0.2754 0.1130     0.1130     0.1518     2         
+Takahashi 2014            placebo       stimulants  0.4119 0.1201     0.1201     0.1572     2         
+Taylor 2000             modafinil          placebo -0.9678 0.3131     0.3897     0.4089     3        *
+Taylor 2000             modafinil       stimulants -0.1567 0.3018     0.3625     0.3831     3        *
+Taylor 2000               placebo       stimulants  0.8111 0.3097     0.3807     0.4005     3        *
+Taylor 2001            guanfacine          placebo -0.7799 0.3516     0.4356     0.4529     3        *
+Taylor 2001            guanfacine       stimulants -0.1829 0.3435     0.4157     0.4339     3        *
+Taylor 2001               placebo       stimulants  0.5970 0.3481     0.4265     0.4442     3        *
+Tenenbaum 2002            placebo       stimulants  0.0083 0.2887     0.2887     0.3060     2         
+Goodman 2016              placebo       stimulants  0.3027 0.1102     0.1102     0.1497     2         
+Biehl 2016                placebo       stimulants  0.7733 0.3993     0.3993     0.4119     2         
+Hamedi 2014             bupropion          placebo -0.8257 0.3215     0.3215     0.3371     2         
+Lin 2016              atomoxetine          placebo -0.6868 0.4201     0.4201     0.4322     2         
+Michelson 2003b       atomoxetine          placebo -0.3379 0.1279     0.1279     0.1632     2         
+Weiss 2020                placebo       stimulants  0.2152 0.1275     0.1275     0.1629     2         
+Kooij 2004                placebo       stimulants  0.2942 0.3016     0.3016     0.3182     2         
+Philipsen 2015      DBT + placebo       stimulants  0.2645 0.1516     0.2121     0.2559     4        *
+Philipsen 2015   DBT + stimulants       stimulants -0.0212 0.1499     0.2069     0.2516     4        *
+Philipsen 2015            placebo       stimulants  0.1693 0.1539     0.2182     0.2611     4        *
+Philipsen 2015      DBT + placebo          placebo  0.0952 0.1568     0.2260     0.2676     4        *
+Philipsen 2015   DBT + stimulants          placebo -0.1905 0.1556     0.2232     0.2652     4        *
+Philipsen 2015      DBT + placebo DBT + stimulants  0.2857 0.1534     0.2171     0.2601     4        *
+
+Number of treatment arms (by study):
+                 narms
+Weisler 2006         2
+Wilens 2008          2
+Adler 2008a          2
+Adler 2009b          2
+Arnold 2014          2
+Casas 2013           2
+Durell 2013          2
+Ginsberg 2012        2
+Huss 2014            2
+Kuperman 2001        2
+McRae-Clark 2010     2
+Medori 2008          2
+Michelson 2003a      2
+Paterson 1999        2
+Rosler 2009          2
+Takahashi 2014       2
+Taylor 2000          3
+Taylor 2001          3
+Tenenbaum 2002       2
+Goodman 2016         2
+Biehl 2016           2
+Hamedi 2014          2
+Lin 2016             2
+Michelson 2003b      2
+Weiss 2020           2
+Kooij 2004           2
+Philipsen 2015       4
+
+Results (common effects model):
+
+                           treat1           treat2     SMD             95%-CI    Q leverage
+Weisler 2006              placebo       stimulants  0.3812 [ 0.3059;  0.4565] 0.38     0.06
+Wilens 2008           atomoxetine          placebo -0.3776 [-0.4672; -0.2879] 0.01     0.08
+Adler 2008a           atomoxetine          placebo -0.3776 [-0.4672; -0.2879] 0.54     0.18
+Adler 2009b           atomoxetine          placebo -0.3776 [-0.4672; -0.2879] 0.36     0.25
+Arnold 2014             modafinil          placebo -0.1263 [-0.3757;  0.1231] 1.58     0.77
+Casas 2013                placebo       stimulants  0.3812 [ 0.3059;  0.4565] 0.25     0.09
+Durell 2013           atomoxetine          placebo -0.3776 [-0.4672; -0.2879] 0.05     0.20
+Ginsberg 2012             placebo       stimulants  0.3812 [ 0.3059;  0.4565] 9.39     0.01
+Huss 2014                 placebo       stimulants  0.3812 [ 0.3059;  0.4565] 3.50     0.16
+Kuperman 2001           bupropion          placebo -0.5795 [-1.0829; -0.0762] 1.03     0.36
+McRae-Clark 2010      atomoxetine          placebo -0.3776 [-0.4672; -0.2879] 0.03     0.02
+Medori 2008               placebo       stimulants  0.3812 [ 0.3059;  0.4565] 0.48     0.10
+Michelson 2003a       atomoxetine          placebo -0.3776 [-0.4672; -0.2879] 0.28     0.14
+Paterson 1999             placebo       stimulants  0.3812 [ 0.3059;  0.4565] 0.08     0.02
+Rosler 2009               placebo       stimulants  0.3812 [ 0.3059;  0.4565] 0.88     0.12
+Takahashi 2014            placebo       stimulants  0.3812 [ 0.3059;  0.4565] 0.07     0.10
+Taylor 2000             modafinil          placebo -0.1263 [-0.3757;  0.1231] 4.66        .
+Taylor 2000             modafinil       stimulants  0.2549 [-0.0029;  0.5128] 1.29        .
+Taylor 2000               placebo       stimulants  0.3812 [ 0.3059;  0.4565] 1.28        .
+Taylor 2001            guanfacine          placebo -0.6670 [-1.2577; -0.0762] 0.07        .
+Taylor 2001            guanfacine       stimulants -0.2858 [-0.8763;  0.3047] 0.06        .
+Taylor 2001               placebo       stimulants  0.3812 [ 0.3059;  0.4565] 0.26        .
+Tenenbaum 2002            placebo       stimulants  0.3812 [ 0.3059;  0.4565] 1.67     0.02
+Goodman 2016              placebo       stimulants  0.3812 [ 0.3059;  0.4565] 0.51     0.12
+Biehl 2016                placebo       stimulants  0.3812 [ 0.3059;  0.4565] 0.96     0.01
+Hamedi 2014             bupropion          placebo -0.5795 [-1.0829; -0.0762] 0.59     0.64
+Lin 2016              atomoxetine          placebo -0.3776 [-0.4672; -0.2879] 0.54     0.01
+Michelson 2003b       atomoxetine          placebo -0.3776 [-0.4672; -0.2879] 0.10     0.13
+Weiss 2020                placebo       stimulants  0.3812 [ 0.3059;  0.4565] 1.70     0.09
+Kooij 2004                placebo       stimulants  0.3812 [ 0.3059;  0.4565] 0.08     0.02
+Philipsen 2015      DBT + placebo       stimulants  0.3634 [ 0.0993;  0.6275] 0.22        .
+Philipsen 2015   DBT + stimulants       stimulants  0.0771 [-0.1837;  0.3379] 0.23        .
+Philipsen 2015            placebo       stimulants  0.3812 [ 0.3059;  0.4565] 0.94        .
+Philipsen 2015      DBT + placebo          placebo -0.0178 [-0.2826;  0.2471] 0.25        .
+Philipsen 2015   DBT + stimulants          placebo -0.3041 [-0.5657; -0.0425] 0.26        .
+Philipsen 2015      DBT + placebo DBT + stimulants  0.2863 [-0.0142;  0.5869] 0.00        .
+
+Results (random effects model):
+
+                           treat1           treat2     SMD             95%-CI
+Weisler 2006              placebo       stimulants  0.3824 [ 0.2860;  0.4789]
+Wilens 2008           atomoxetine          placebo -0.3776 [-0.4982; -0.2570]
+Adler 2008a           atomoxetine          placebo -0.3776 [-0.4982; -0.2570]
+Adler 2009b           atomoxetine          placebo -0.3776 [-0.4982; -0.2570]
+Arnold 2014             modafinil          placebo -0.1714 [-0.4647;  0.1218]
+Casas 2013                placebo       stimulants  0.3824 [ 0.2860;  0.4789]
+Durell 2013           atomoxetine          placebo -0.3776 [-0.4982; -0.2570]
+Ginsberg 2012             placebo       stimulants  0.3824 [ 0.2860;  0.4789]
+Huss 2014                 placebo       stimulants  0.3824 [ 0.2860;  0.4789]
+Kuperman 2001           bupropion          placebo -0.5732 [-1.0972; -0.0493]
+McRae-Clark 2010      atomoxetine          placebo -0.3776 [-0.4982; -0.2570]
+Medori 2008               placebo       stimulants  0.3824 [ 0.2860;  0.4789]
+Michelson 2003a       atomoxetine          placebo -0.3776 [-0.4982; -0.2570]
+Paterson 1999             placebo       stimulants  0.3824 [ 0.2860;  0.4789]
+Rosler 2009               placebo       stimulants  0.3824 [ 0.2860;  0.4789]
+Takahashi 2014            placebo       stimulants  0.3824 [ 0.2860;  0.4789]
+Taylor 2000             modafinil          placebo -0.1714 [-0.4647;  0.1218]
+Taylor 2000             modafinil       stimulants  0.2110 [-0.0931;  0.5151]
+Taylor 2000               placebo       stimulants  0.3824 [ 0.2860;  0.4789]
+Taylor 2001            guanfacine          placebo -0.6680 [-1.2841; -0.0519]
+Taylor 2001            guanfacine       stimulants -0.2856 [-0.9014;  0.3302]
+Taylor 2001               placebo       stimulants  0.3824 [ 0.2860;  0.4789]
+Tenenbaum 2002            placebo       stimulants  0.3824 [ 0.2860;  0.4789]
+Goodman 2016              placebo       stimulants  0.3824 [ 0.2860;  0.4789]
+Biehl 2016                placebo       stimulants  0.3824 [ 0.2860;  0.4789]
+Hamedi 2014             bupropion          placebo -0.5732 [-1.0972; -0.0493]
+Lin 2016              atomoxetine          placebo -0.3776 [-0.4982; -0.2570]
+Michelson 2003b       atomoxetine          placebo -0.3776 [-0.4982; -0.2570]
+Weiss 2020                placebo       stimulants  0.3824 [ 0.2860;  0.4789]
+Kooij 2004                placebo       stimulants  0.3824 [ 0.2860;  0.4789]
+Philipsen 2015      DBT + placebo       stimulants  0.3661 [ 0.0495;  0.6828]
+Philipsen 2015   DBT + stimulants       stimulants  0.0800 [-0.2339;  0.3939]
+Philipsen 2015            placebo       stimulants  0.3824 [ 0.2860;  0.4789]
+Philipsen 2015      DBT + placebo          placebo -0.0163 [-0.3336;  0.3010]
+Philipsen 2015   DBT + stimulants          placebo -0.3024 [-0.6171;  0.0122]
+Philipsen 2015      DBT + placebo DBT + stimulants  0.2862 [-0.0741;  0.6464]
+
+Number of studies: k = 27
+Number of pairwise comparisons: m = 36
+Number of observations: o = 5689
+Number of treatments: n = 8
+Number of designs: d = 7
+
+Common effects model
+
+Treatment estimate (sm = 'SMD', comparison: other treatments vs 'placebo'):
+                     SMD             95%-CI     z  p-value
+atomoxetine      -0.3776 [-0.4672; -0.2879] -8.25 < 0.0001
+bupropion        -0.5795 [-1.0829; -0.0762] -2.26   0.0240
+DBT + placebo    -0.0178 [-0.2826;  0.2471] -0.13   0.8954
+DBT + stimulants -0.3041 [-0.5657; -0.0425] -2.28   0.0227
+guanfacine       -0.6670 [-1.2577; -0.0762] -2.21   0.0269
+modafinil        -0.1263 [-0.3757;  0.1231] -0.99   0.3211
+placebo                .                  .     .        .
+stimulants       -0.3812 [-0.4565; -0.3059] -9.92 < 0.0001
+
+Random effects model
+
+Treatment estimate (sm = 'SMD', comparison: other treatments vs 'placebo'):
+                     SMD             95%-CI     z  p-value              95%-PI
+atomoxetine      -0.3776 [-0.4982; -0.2570] -6.14 < 0.0001  [-0.6229; -0.1323]
+bupropion        -0.5732 [-1.0972; -0.0493] -2.14   0.0320  [-1.1646;  0.0182]
+DBT + placebo    -0.0163 [-0.3336;  0.3010] -0.10   0.9199  [-0.4114;  0.3789]
+DBT + stimulants -0.3024 [-0.6171;  0.0122] -1.88   0.0596  [-0.6952;  0.0903]
+guanfacine       -0.6680 [-1.2841; -0.0519] -2.13   0.0336  [-1.3513;  0.0152]
+modafinil        -0.1714 [-0.4647;  0.1218] -1.15   0.2519  [-0.5453;  0.2024]
+placebo                .                  .     .        .                   .
+stimulants       -0.3824 [-0.4789; -0.2860] -7.77 < 0.0001  [-0.6155; -0.1494]
+
+Quantifying heterogeneity / inconsistency:
+tau^2 = 0.0103; tau = 0.1014; I^2 = 30.5% [0.0%; 57.4%]
+
+Tests of heterogeneity (within designs) and inconsistency (between designs):
+                    Q d.f. p-value
+Total           34.55   24  0.0754
+Within designs  23.38   20  0.2707
+Between designs 11.17    4  0.0247
+
+A total of 8 treatments are included in the network.
+A total of 27 studies are included in this analysis.
+A total of 5689 participants are included in this analysis.
+The following studies were included in this analysis: Weisler 2006 Wilens 2008 Adler 2008a Adler 2009b Arnold 2014 Casas 2013 Durell 2013 Ginsberg 2012 Huss 2014 Kuperman 2001 McRae-Clark 2010 Medori 2008 Michelson 2003a Paterson 1999 Rosler 2009 Takahashi 2014 Taylor 2000 Taylor 2001 Tenenbaum 2002 Goodman 2016 Biehl 2016 Hamedi 2014 Lin 2016 Michelson 2003b Weiss 2020 Kooij 2004 Philipsen 2015
+Estimated heterogeneity tau-squared0.01
+Global test for inconsistency, p-value = 0.02468 (Q = 11, d.o.f. = 4)
+
+File created on 2024-03-11

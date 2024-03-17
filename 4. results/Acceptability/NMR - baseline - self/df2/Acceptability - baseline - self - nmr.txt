@@ -1,0 +1,42 @@
+
+Results on the Log Odds Ratio scale
+
+Iterations = 50020:1050000
+Thinning interval = 20 
+Number of chains = 4 
+Sample size per chain = 50000 
+
+1. Empirical mean and standard deviation for each variable,
+   plus standard error of the mean:
+
+                                Mean     SD  Naive SE Time-series SE
+d.placebo.atomoxetine         0.3546 0.2467 0.0005517      0.0005561
+d.placebo.DBT_and_placebo     0.2426 0.5684 0.0012709      0.0013361
+d.placebo.DBT_and_stimulants -0.3738 0.5886 0.0013163      0.0013349
+d.placebo.stimulants         -0.2955 0.2471 0.0005526      0.0005537
+sd.d                          0.4984 0.1909 0.0004268      0.0005054
+B                            -0.1380 0.3300 0.0007379      0.0010590
+
+2. Quantiles for each variable:
+
+                                2.5%     25%     50%       75%  97.5%
+d.placebo.atomoxetine        -0.1400  0.2037  0.3539  0.504939 0.8535
+d.placebo.DBT_and_placebo    -0.8844 -0.1125  0.2421  0.595128 1.3802
+d.placebo.DBT_and_stimulants -1.5513 -0.7442 -0.3735 -0.005314 0.8044
+d.placebo.stimulants         -0.8163 -0.4429 -0.2864 -0.139785 0.1763
+sd.d                          0.1997  0.3655  0.4713  0.602099 0.9592
+B                            -0.7866 -0.3445 -0.1427  0.063905 0.5327
+
+-- Model fit (residual deviance):
+
+    Dbar       pD      DIC 
+29.12559 25.09172 54.21731 
+
+28 data points, ratio 1.04, I^2 = 7%
+
+-- Regression settings:
+
+Regression on "baseline", shared coefficients, "placebo" as control
+Input standardized: x' = (baseline - 56.03923) / 53.37081
+Estimates at the centering value: baseline = 56.03923
+

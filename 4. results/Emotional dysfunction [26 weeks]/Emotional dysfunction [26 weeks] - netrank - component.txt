@@ -1,0 +1,12 @@
+                   P-score (common) P-score (random)
+relaxation therapy           0.8587           0.8587
+stimulants                   0.7956           0.7956
+psychoeducation              0.6489           0.6489
+DBT + stimulants             0.5631           0.5631
+mindfulness                  0.4502           0.4502
+CBT                          0.3970           0.3970
+waiting list                 0.3277           0.3277
+placebo                      0.3188           0.3188
+DBT + placebo                0.1399           0.1399
+
+File created on 2024-02-26

@@ -1,0 +1,8 @@
+                 P-score (common) P-score (random)
+DBT + stimulants           0.7633           0.7009
+stimulants                 0.7301           0.6986
+atomoxetine                0.6977           0.5982
+DBT + placebo              0.2545           0.3562
+placebo                    0.0544           0.1460
+
+File created on 2024-02-26

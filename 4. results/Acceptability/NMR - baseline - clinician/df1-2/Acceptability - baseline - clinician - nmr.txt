@@ -1,0 +1,46 @@
+
+Results on the Log Odds Ratio scale
+
+Iterations = 50020:1050000
+Thinning interval = 20 
+Number of chains = 4 
+Sample size per chain = 50000 
+
+1. Empirical mean and standard deviation for each variable,
+   plus standard error of the mean:
+
+                                        Mean      SD Naive SE Time-series SE
+d.CBT.psychological_placebo           1.2072  2.2463 0.005023       0.004973
+d.CBT.relaxation_therapy              1.1620  2.3839 0.005331       0.005397
+d.mindfulness.psychoeducation         0.5251  1.6274 0.003639       0.003649
+d.mindfulness.waiting_list           -2.1120  5.7468 0.012850       0.217797
+d.psychoeducation.CBT                 1.1522  2.4169 0.005404       0.005421
+d.waiting_list.cognitive_remediation 32.4714 29.6147 0.066220       0.363010
+sd.d                                  2.0696  0.6951 0.001554       0.002125
+B                                     9.4742 47.9304 0.107176       1.977689
+
+2. Quantiles for each variable:
+
+                                         2.5%     25%     50%     75%  97.5%
+d.CBT.psychological_placebo           -3.4020 -0.1361  1.2035  2.5561  5.817
+d.CBT.relaxation_therapy              -3.6306 -0.3097  1.1406  2.6315  6.035
+d.mindfulness.psychoeducation         -2.7624 -0.4565  0.5008  1.5077  3.869
+d.mindfulness.waiting_list           -12.1148 -2.9446 -1.3680  0.1038  3.317
+d.psychoeducation.CBT                 -3.7065 -0.3473  1.1413  2.6565  6.062
+d.waiting_list.cognitive_remediation -16.4514 11.9423 28.5019 49.8772 98.677
+sd.d                                   0.3849  1.6440  2.2162  2.6374  2.953
+B                                    -13.2380 -1.7630  0.8162  4.8000 95.362
+
+-- Model fit (residual deviance):
+
+    Dbar       pD      DIC 
+17.08575 14.10907 31.19482 
+
+16 data points, ratio 1.068, I^2 = 12%
+
+-- Regression settings:
+
+Regression on "baseline", shared coefficients, "waiting_list" as control
+Input standardized: x' = (baseline - 36.09625) / 61.88815
+Estimates at the centering value: baseline = 36.09625
+

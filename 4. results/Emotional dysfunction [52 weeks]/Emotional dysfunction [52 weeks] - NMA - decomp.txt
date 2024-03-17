@@ -1,0 +1,12 @@
+Q statistics to assess homogeneity / consistency
+
+                    Q df p-value
+Total            0.00  0      --
+Within designs   0.00  0      --
+Between designs -0.00  0      --
+
+Q statistic to assess consistency under the assumption of
+a full design-by-treatment interaction random effects model
+
+                    Q df p-value tau.within tau2.within
+Between designs -0.00  0      --          0           0

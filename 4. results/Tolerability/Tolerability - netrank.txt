@@ -1,0 +1,11 @@
+                 P-score (common) P-score (random)
+DBT + stimulants           0.9103           0.9030
+placebo                    0.8244           0.8222
+DBT + placebo              0.6797           0.6671
+viloxazine                 0.5323           0.5308
+stimulants                 0.4173           0.4128
+atomoxetine                0.3946           0.3943
+modafinil                  0.1946           0.2119
+guanfacine                 0.0467           0.0578
+
+File created on 2024-03-09

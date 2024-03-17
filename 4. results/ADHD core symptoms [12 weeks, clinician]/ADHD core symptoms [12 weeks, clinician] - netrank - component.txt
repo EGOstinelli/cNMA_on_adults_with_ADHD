@@ -1,0 +1,26 @@
+                            P-score (common) P-score (random)
+cognitive remediation                 0.9668           0.9289
+tDCS                                  0.8250           0.7961
+mindfulness                           0.8139           0.7897
+CBT                                   0.7962           0.7808
+psychoeducation                       0.7816           0.7630
+stimulants                            0.6864           0.6800
+mindfulness + TAU                     0.6518           0.6510
+CBT + TAU                             0.6245           0.6268
+DBT + stimulants                      0.5754           0.5831
+atomoxetine                           0.5661           0.5719
+bupropion                             0.5210           0.5090
+guanfacine                            0.5013           0.4983
+viloxazine                            0.4303           0.4400
+relaxation therapy                    0.3758           0.3945
+psychological placebo                 0.3545           0.3753
+TAU                                   0.3089           0.3286
+placebo                               0.2336           0.2314
+DBT + placebo                         0.1584           0.1707
+modafinil                             0.1432           0.1665
+sham                                  0.1046           0.1275
+waiting list                          0.0810           0.0869
+placebo + skill training                 NaN              NaN
+stimulants + skill training              NaN              NaN
+
+File created on 2024-03-09

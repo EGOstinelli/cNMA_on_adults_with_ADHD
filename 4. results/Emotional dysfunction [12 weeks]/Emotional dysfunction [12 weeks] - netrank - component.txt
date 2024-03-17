@@ -1,0 +1,18 @@
+                   P-score (common) P-score (random)
+stimulants                   0.8200           0.8128
+psychoeducation              0.8316           0.7802
+atomoxetine                  0.8190           0.7716
+bupropion                    0.7261           0.6914
+tDCS                         0.6597           0.6422
+DBT + stimulants             0.6324           0.6385
+mindfulness                  0.6708           0.6120
+relaxation therapy           0.5370           0.5442
+waiting list                 0.3782           0.4028
+sham                         0.3842           0.3905
+placebo                      0.3356           0.3256
+viloxazine                   0.1949           0.2429
+guanfacine                   0.1812           0.2289
+CBT                          0.1744           0.2260
+DBT + placebo                0.1551           0.1903
+
+File created on 2024-03-09

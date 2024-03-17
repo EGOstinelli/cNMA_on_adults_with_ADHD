@@ -1,0 +1,95 @@
+Component network meta-analysis.
+
+Additive model (common effects model):
+                         treat1             treat2     SMD            95%-CI     z p-value
+Safren 2010                 CBT relaxation therapy -0.3427 [-0.8164; 0.1310] -1.42  0.1562
+Philipsen 2015    DBT + placebo         stimulants -0.0302 [-0.3760; 0.3156] -0.17  0.8641
+Philipsen 2015 DBT + stimulants         stimulants -0.1881 [-0.4411; 0.0649] -1.46  0.1451
+Philipsen 2015          placebo         stimulants  0.1579 [-0.0973; 0.4130]  1.21  0.2252
+Philipsen 2015    DBT + placebo            placebo -0.1881 [-0.4411; 0.0649] -1.46  0.1451
+Philipsen 2015 DBT + stimulants            placebo -0.3460 [-0.7183; 0.0263] -1.82  0.0686
+Philipsen 2015    DBT + placebo   DBT + stimulants  0.1579 [-0.0973; 0.4130]  1.21  0.2252
+
+Additive model (random effects model):
+                         treat1             treat2     SMD            95%-CI     z p-value
+Safren 2010                 CBT relaxation therapy -0.3427 [-0.8164; 0.1310] -1.42  0.1562
+Philipsen 2015    DBT + placebo         stimulants -0.0302 [-0.3760; 0.3156] -0.17  0.8641
+Philipsen 2015 DBT + stimulants         stimulants -0.1881 [-0.4411; 0.0649] -1.46  0.1451
+Philipsen 2015          placebo         stimulants  0.1579 [-0.0973; 0.4130]  1.21  0.2252
+Philipsen 2015    DBT + placebo            placebo -0.1881 [-0.4411; 0.0649] -1.46  0.1451
+Philipsen 2015 DBT + stimulants            placebo -0.3460 [-0.7183; 0.0263] -1.82  0.0686
+Philipsen 2015    DBT + placebo   DBT + stimulants  0.1579 [-0.0973; 0.4130]  1.21  0.2252
+
+Number of studies: k = 2
+Number of pairwise comparisons: m = 7
+Number of treatments: n = 6
+Number of active components: c = 5
+Number of designs: d = 2
+Number of subnetworks: s = 2
+
+Common effects model
+
+Treatment estimate (sm = 'SMD', comparison: other treatments vs 'placebo'):
+                       SMD            95%-CI     z p-value
+CBT                -0.2503 [-0.5193; 0.0187] -1.82  0.0682
+DBT + placebo      -0.1881 [-0.4411; 0.0649] -1.46  0.1451
+DBT + stimulants   -0.3460 [-0.7183; 0.0263] -1.82  0.0686
+placebo                  .                 .     .       .
+relaxation therapy  0.0924 [-0.1766; 0.3614]  0.67  0.5008
+stimulants         -0.1579 [-0.4130; 0.0973] -1.21  0.2252
+
+Incremental effect for existing combinations:
+                    iSMD            95%-CI     z p-value
+DBT + placebo    -0.1091 [-0.3840; 0.1657] -0.78  0.4363
+DBT + stimulants -0.2670 [-0.5586; 0.0246] -1.79  0.0727
+
+Incremental effect for components:
+                      iSMD            95%-CI     z p-value
+CBT                -0.1713 [-0.4082; 0.0655] -1.42  0.1562
+DBT                -0.1881 [-0.4411; 0.0649] -1.46  0.1451
+placebo             0.0789 [-0.0486; 0.2065]  1.21  0.2252
+relaxation therapy  0.1713 [-0.0655; 0.4082]  1.42  0.1562
+stimulants         -0.0789 [-0.2065; 0.0486] -1.21  0.2252
+
+Random effects model
+
+Treatment estimate (sm = 'SMD', comparison: other treatments vs 'placebo'):
+                       SMD            95%-CI     z p-value
+CBT                -0.2503 [-0.5193; 0.0187] -1.82  0.0682
+DBT + placebo      -0.1881 [-0.4411; 0.0649] -1.46  0.1451
+DBT + stimulants   -0.3460 [-0.7183; 0.0263] -1.82  0.0686
+placebo                  .                 .     .       .
+relaxation therapy  0.0924 [-0.1766; 0.3614]  0.67  0.5008
+stimulants         -0.1579 [-0.4130; 0.0973] -1.21  0.2252
+
+Incremental effect for existing combinations:
+                    iSMD            95%-CI     z p-value
+DBT + placebo    -0.1091 [-0.3840; 0.1657] -0.78  0.4363
+DBT + stimulants -0.2670 [-0.5586; 0.0246] -1.79  0.0727
+
+Incremental effect for components:
+                      iSMD            95%-CI     z p-value
+CBT                -0.1713 [-0.4082; 0.0655] -1.42  0.1562
+DBT                -0.1881 [-0.4411; 0.0649] -1.46  0.1451
+placebo             0.0789 [-0.0486; 0.2065]  1.21  0.2252
+relaxation therapy  0.1713 [-0.0655; 0.4082]  1.42  0.1562
+stimulants         -0.0789 [-0.2065; 0.0486] -1.21  0.2252
+
+Quantifying heterogeneity / inconsistency:
+tau^2 = 0; tau = 0; I^2 = 0%
+
+Heterogeneity statistics:
+                  Q df p-value
+Additive model 0.37  1  0.5451
+Standard model   -- --      --
+Difference       -- --      --
+
+A total of 6 treatments are included in the network.
+A total of 2 studies are included in this analysis.
+A total of 313 participants are included in this analysis.
+The following studies were included in this analysis: Philipsen 2015 Safren 2010
+Global test for inconsistency (standard model), p-value = NA (Q = NA, d.o.f. = NA)
+Global test for inconsistency (additive model), p-value = 0.54508 (Q = 0, d.o.f. = 1)
+Estimated heterogeneity tau-squared0
+
+File created on 2024-02-26

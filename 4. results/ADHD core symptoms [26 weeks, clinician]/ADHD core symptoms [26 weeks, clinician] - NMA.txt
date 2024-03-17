@@ -1,0 +1,91 @@
+Network meta-analysis on main network.
+
+Original data (with adjusted standard errors for multi-arm studies):
+
+                         treat1           treat2      TE   seTE seTE.adj.c seTE.adj.r narms multiarm
+Young 2011          atomoxetine          placebo -0.5248 0.0915     0.0915     0.2812     2         
+Adler 2008a         atomoxetine          placebo -0.0085 0.1207     0.1207     0.2920     2         
+Rosler 2009             placebo       stimulants  0.3519 0.1131     0.1131     0.2890     2         
+Philipsen 2015    DBT + placebo       stimulants  0.2207 0.1587     0.2190     0.4346     4        *
+Philipsen 2015 DBT + stimulants       stimulants -0.0232 0.1548     0.2080     0.4286     4        *
+Philipsen 2015          placebo       stimulants  0.3368 0.1676     0.2417     0.4474     4        *
+Philipsen 2015    DBT + placebo          placebo -0.1161 0.1717     0.2543     0.4534     4        *
+Philipsen 2015 DBT + stimulants          placebo -0.3601 0.1689     0.2464     0.4496     4        *
+Philipsen 2015    DBT + placebo DBT + stimulants  0.2439 0.1601     0.2231     0.4367     4        *
+
+Number of treatment arms (by study):
+               narms
+Young 2011         2
+Adler 2008a        2
+Rosler 2009        2
+Philipsen 2015     4
+
+Results (common effects model):
+
+                         treat1           treat2     SMD             95%-CI    Q leverage
+Young 2011          atomoxetine          placebo -0.3364 [-0.4794; -0.1934] 4.24     0.64
+Adler 2008a         atomoxetine          placebo -0.3364 [-0.4794; -0.1934] 7.38     0.36
+Rosler 2009             placebo       stimulants  0.3472 [ 0.1634;  0.5309] 0.00     0.69
+Philipsen 2015    DBT + placebo       stimulants  0.2251 [-0.0638;  0.5139] 0.00        .
+Philipsen 2015 DBT + stimulants       stimulants -0.0189 [-0.3001;  0.2623] 0.00        .
+Philipsen 2015          placebo       stimulants  0.3472 [ 0.1634;  0.5309] 0.00        .
+Philipsen 2015    DBT + placebo          placebo -0.1221 [-0.4198;  0.1756] 0.00        .
+Philipsen 2015 DBT + stimulants          placebo -0.3661 [-0.6569; -0.0753] 0.00        .
+Philipsen 2015    DBT + placebo DBT + stimulants  0.2440 [-0.0698;  0.5577] 0.00        .
+
+Results (random effects model):
+
+                         treat1           treat2     SMD            95%-CI
+Young 2011          atomoxetine          placebo -0.2764 [-0.6734; 0.1207]
+Adler 2008a         atomoxetine          placebo -0.2764 [-0.6734; 0.1207]
+Rosler 2009             placebo       stimulants  0.3450 [-0.0719; 0.7619]
+Philipsen 2015    DBT + placebo       stimulants  0.2246 [-0.3423; 0.7914]
+Philipsen 2015 DBT + stimulants       stimulants -0.0193 [-0.5823; 0.5436]
+Philipsen 2015          placebo       stimulants  0.3450 [-0.0719; 0.7619]
+Philipsen 2015    DBT + placebo          placebo -0.1204 [-0.6939; 0.4531]
+Philipsen 2015 DBT + stimulants          placebo -0.3643 [-0.9344; 0.2057]
+Philipsen 2015    DBT + placebo DBT + stimulants  0.2439 [-0.3644; 0.8522]
+
+Number of studies: k = 4
+Number of pairwise comparisons: m = 9
+Number of observations: o = 1453
+Number of treatments: n = 5
+Number of designs: d = 3
+
+Common effects model
+
+Treatment estimate (sm = 'SMD', comparison: other treatments vs 'placebo'):
+                     SMD             95%-CI     z  p-value
+atomoxetine      -0.3364 [-0.4794; -0.1934] -4.61 < 0.0001
+DBT + placebo    -0.1221 [-0.4198;  0.1756] -0.80   0.4214
+DBT + stimulants -0.3661 [-0.6569; -0.0753] -2.47   0.0136
+placebo                .                  .     .        .
+stimulants       -0.3472 [-0.5309; -0.1634] -3.70   0.0002
+
+Random effects model
+
+Treatment estimate (sm = 'SMD', comparison: other treatments vs 'placebo'):
+                     SMD            95%-CI     z p-value             95%-PI
+atomoxetine      -0.2764 [-0.6734; 0.1207] -1.36  0.1725  [-4.5238; 3.9710]
+DBT + placebo    -0.1204 [-0.6939; 0.4531] -0.41  0.6807  [-5.1441; 4.9033]
+DBT + stimulants -0.3643 [-0.9344; 0.2057] -1.25  0.2103  [-5.3716; 4.6429]
+placebo                .                 .     .       .                  .
+stimulants       -0.3450 [-0.7619; 0.0719] -1.62  0.1048  [-4.6718; 3.9818]
+
+Quantifying heterogeneity / inconsistency:
+tau^2 = 0.0707; tau = 0.2659; I^2 = 82.8% [47.4%; 94.4%]
+
+Tests of heterogeneity (within designs) and inconsistency (between designs):
+                    Q d.f. p-value
+Total           11.62    2  0.0030
+Within designs  11.61    1  0.0007
+Between designs  0.01    1  0.9405
+
+A total of 5 treatments are included in the network.
+A total of 4 studies are included in this analysis.
+A total of 1453 participants are included in this analysis.
+The following studies were included in this analysis: Young 2011 Adler 2008a Rosler 2009 Philipsen 2015
+Estimated heterogeneity tau-squared0.07
+Global test for inconsistency, p-value = 0.94052 (Q = 0, d.o.f. = 1)
+
+File created on 2024-02-26

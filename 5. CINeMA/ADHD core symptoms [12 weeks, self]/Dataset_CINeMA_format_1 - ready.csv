@@ -1,0 +1,51 @@
+"study","t","mean","sd","n","id","rob","indirectness"
+"Anastopoulos 2021","CBT",29.64,9.16,111,1,"2",1
+"Anastopoulos 2021","waiting list",31.54,10.43,109,1,"2",1
+"Bachmann 2018","mindfulness",23.19,10.05,21,2,"1",1
+"Bachmann 2018","psychoeducation",21.63,8.17,19,2,"1",1
+"Cherkasova 2016","CBT",23.98,7.03,46,3,"2",1
+"Cherkasova 2016","CBT + stimulants",17.06,6.89,42,3,"2",1
+"Dentz 2017","cognitive training",7.48,3.14,23,4,"2",1
+"Dentz 2017","cognitive placebo",7.48,4.08,21,4,"2",1
+"Emilsson 2011","CBT + TAU",17.22,7.62,18,5,"2",1
+"Emilsson 2011","TAU",23.47,8.8,17,5,"2",1
+"Fleming 2013","DBT",18.94,4.94,16,6,"3",1
+"Fleming 2013","CBT",20.94,5.08,16,6,"3",1
+"Gu 2016","mindfulness",60.71,8.35,28,7,"2",1
+"Gu 2016","waiting list",71.77,9.17,26,7,"2",1
+"Hepark 2015","mindfulness",23,7.3,41,8,"2",1
+"Hepark 2015","waiting list",28.8,6.9,42,8,"2",1
+"Hoxhaj 2018","mindfulness",18.23,6.83,39,9,"2",1
+"Hoxhaj 2018","psychoeducation",18.72,5.28,36,9,"2",1
+"Janssen 2018","mindfulness + TAU",25.5,6.8,52,10,"2",1
+"Janssen 2018","TAU",28.1,6.3,55,10,"2",1
+"Mitchell 2017","mindfulness",17.27,4.88,11,11,"3",1
+"Mitchell 2017","waiting list",26.11,5.01,9,11,"3",1
+"Moritz 2020","DBT + TAU",30.77,8.228,13,12,"2",1
+"Moritz 2020","TAU",30.79,7.934,14,12,"2",1
+"Nakashima 2021","CBT + TAU",71.61,9.77,23,13,"2",1
+"Nakashima 2021","TAU",75.61,11.16,18,13,"2",1
+"NCT02489279","cognitive training",-3.29,5.34,28,14,"2",1
+"NCT02489279","cognitive placebo",-4.17,4.67,30,14,"2",1
+"Pettersson 2014","CBT",27.34,11.66,27,15,"2",1
+"Pettersson 2014","waiting list",29.72,8.17,18,15,"2",1
+"Safren 2005","CBT",14.75,8.65,16,16,"2",1
+"Safren 2005","TAU",23.87,9.92,15,16,"2",1
+"Safren 2010","CBT",11.84,7.16,38,17,"1",1
+"Safren 2010","relaxation therapy",19.12,11.21,34,17,"1",1
+"Schoenenberg 2017","neurofeedback",111.34,27.02,37,18,"1",1
+"Schoenenberg 2017","sham + neurofeedback",104.39,29.63,38,18,"1",1
+"Schoenenberg 2017","CBT",108.11,32.07,38,18,"1",1
+"Stern 2014","cognitive training",36.73,10,26,19,"2",1
+"Stern 2014","cognitive placebo",36.92,8.92,13,19,"2",1
+"Vidal 2013","psychoeducation",18.58,8.55,17,20,"3",1
+"Vidal 2013","CBT",19.93,8.63,15,20,"3",1
+"Virta 2010","CBT",71.5,18.6,10,21,"3",1
+"Virta 2010","cognitive training",61.2,17.8,9,21,"3",1
+"Virta 2010","no treatment",70,14.2,10,21,"3",1
+"Virta 2010","hypnotherapy",62.6,17.7,8,21,"3",1
+"Nasri 2022","CBT",41,12.4,36,22,"2",1
+"Nasri 2022","relaxation therapy",40.5,8.5,37,22,"2",1
+"Nasri 2022","waiting list",45.7,9.55,31,22,"2",1
+"Halmoy 2022","DBT",38.7,9,49,23,"2",1
+"Halmoy 2022","waiting list",45.4,9.3,47,23,"2",1

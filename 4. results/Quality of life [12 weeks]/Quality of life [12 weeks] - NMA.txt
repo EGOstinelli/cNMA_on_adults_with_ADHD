@@ -1,0 +1,113 @@
+Network meta-analysis on main network.
+
+Original data (with adjusted standard errors for multi-arm studies):
+
+                         treat1             treat2      TE   seTE seTE.adj.c seTE.adj.r narms multiarm
+Fleming 2013                CBT                DBT -1.1969 0.3839     0.3839     0.3839     2         
+Stern 2014    cognitive placebo cognitive training -0.3126 0.3415     0.3415     0.3415     2         
+Vidal 2013                  CBT    psychoeducation  0.3411 0.3568     0.3568     0.3568     2         
+Virta 2010                  CBT cognitive training -0.2625 0.4605     0.6437     0.6437     4        *
+Virta 2010                  CBT       hypnotherapy -0.2564 0.4753     0.6826     0.6826     4        *
+Virta 2010                  CBT       no treatment  0.1038 0.4474     0.6056     0.6056     4        *
+Virta 2010   cognitive training       hypnotherapy  0.0061 0.4859     0.7119     0.7119     4        *
+Virta 2010   cognitive training       no treatment  0.3663 0.4614     0.6465     0.6465     4        *
+Virta 2010         hypnotherapy       no treatment  0.3602 0.4762     0.6855     0.6855     4        *
+Nasri 2022                  CBT relaxation therapy  0.0213 0.2628     0.3201     0.3201     3        *
+Nasri 2022                  CBT       waiting list -0.4367 0.2670     0.3307     0.3307     3        *
+Nasri 2022   relaxation therapy       waiting list -0.4580 0.2627     0.3200     0.3200     3        *
+Halmoy 2022                 DBT       waiting list  0.3109 0.2054     0.2054     0.2054     2         
+
+Number of treatment arms (by study):
+             narms
+Fleming 2013     2
+Stern 2014       2
+Vidal 2013       2
+Virta 2010       4
+Nasri 2022       3
+Halmoy 2022      2
+
+Results (common effects model):
+
+                         treat1             treat2     SMD             95%-CI    Q leverage
+Fleming 2013                CBT                DBT -0.9431 [-1.4393; -0.4468] 0.44     0.44
+Stern 2014    cognitive placebo cognitive training -0.3126 [-0.9819;  0.3568] 0.00     1.00
+Vidal 2013                  CBT    psychoeducation  0.3411 [-0.3582;  1.0404] 0.00     1.00
+Virta 2010                  CBT cognitive training -0.2625 [-1.1651;  0.6400] 0.00        .
+Virta 2010                  CBT       hypnotherapy -0.2564 [-1.1879;  0.6751] 0.00        .
+Virta 2010                  CBT       no treatment  0.1038 [-0.7731;  0.9806] 0.00        .
+Virta 2010   cognitive training       hypnotherapy  0.0061 [-0.9463;  0.9585] 0.00        .
+Virta 2010   cognitive training       no treatment  0.3663 [-0.5381;  1.2707] 0.00        .
+Virta 2010         hypnotherapy       no treatment  0.3602 [-0.5731;  1.2935] 0.00        .
+Nasri 2022                  CBT relaxation therapy -0.0401 [-0.5366;  0.4564] 0.04        .
+Nasri 2022                  CBT       waiting list -0.5595 [-1.0056; -0.1134] 0.14        .
+Nasri 2022   relaxation therapy       waiting list -0.5194 [-1.0158; -0.0229] 0.04        .
+Halmoy 2022                 DBT       waiting list  0.3836 [ 0.0150;  0.7522] 0.13     0.84
+
+Results (random effects model):
+
+                         treat1             treat2     SMD             95%-CI
+Fleming 2013                CBT                DBT -0.9431 [-1.4393; -0.4468]
+Stern 2014    cognitive placebo cognitive training -0.3126 [-0.9819;  0.3568]
+Vidal 2013                  CBT    psychoeducation  0.3411 [-0.3582;  1.0404]
+Virta 2010                  CBT cognitive training -0.2625 [-1.1651;  0.6400]
+Virta 2010                  CBT       hypnotherapy -0.2564 [-1.1879;  0.6751]
+Virta 2010                  CBT       no treatment  0.1038 [-0.7731;  0.9806]
+Virta 2010   cognitive training       hypnotherapy  0.0061 [-0.9463;  0.9585]
+Virta 2010   cognitive training       no treatment  0.3663 [-0.5381;  1.2707]
+Virta 2010         hypnotherapy       no treatment  0.3602 [-0.5731;  1.2935]
+Nasri 2022                  CBT relaxation therapy -0.0401 [-0.5366;  0.4564]
+Nasri 2022                  CBT       waiting list -0.5595 [-1.0056; -0.1134]
+Nasri 2022   relaxation therapy       waiting list -0.5194 [-1.0158; -0.0229]
+Halmoy 2022                 DBT       waiting list  0.3836 [ 0.0150;  0.7522]
+
+Number of studies: k = 6
+Number of pairwise comparisons: m = 13
+Number of observations: o = 323
+Number of treatments: n = 9
+Number of designs: d = 6
+
+Common effects model
+
+Treatment estimate (sm = 'SMD', comparison: other treatments vs 'cognitive placebo'):
+                       SMD            95%-CI     z p-value
+CBT                 0.0500 [-1.0736; 1.1737]  0.09  0.9304
+cognitive placebo        .                 .     .       .
+cognitive training  0.3126 [-0.3568; 0.9819]  0.92  0.3601
+DBT                 0.9931 [-0.2353; 2.2215]  1.58  0.1131
+hypnotherapy        0.3065 [-0.8576; 1.4705]  0.52  0.6059
+no treatment       -0.0537 [-1.1789; 1.0714] -0.09  0.9254
+psychoeducation    -0.2911 [-1.6146; 1.0324] -0.43  0.6664
+relaxation therapy  0.0902 [-1.1383; 1.3186]  0.14  0.8856
+waiting list        0.6095 [-0.5995; 1.8185]  0.99  0.3231
+
+Random effects model
+
+Treatment estimate (sm = 'SMD', comparison: other treatments vs 'cognitive placebo'):
+                       SMD            95%-CI     z p-value
+CBT                 0.0500 [-1.0736; 1.1737]  0.09  0.9304
+cognitive placebo        .                 .     .       .
+cognitive training  0.3126 [-0.3568; 0.9819]  0.92  0.3601
+DBT                 0.9931 [-0.2353; 2.2215]  1.58  0.1131
+hypnotherapy        0.3065 [-0.8576; 1.4705]  0.52  0.6059
+no treatment       -0.0537 [-1.1789; 1.0714] -0.09  0.9254
+psychoeducation    -0.2911 [-1.6146; 1.0324] -0.43  0.6664
+relaxation therapy  0.0902 [-1.1383; 1.3186]  0.14  0.8856
+waiting list        0.6095 [-0.5995; 1.8185]  0.99  0.3231
+
+Quantifying heterogeneity / inconsistency:
+tau^2 = 0; tau = 0; I^2 = 0%
+
+Tests of heterogeneity (within designs) and inconsistency (between designs):
+                   Q d.f. p-value
+Total           0.77    1  0.3791
+Within designs  0.00    0      --
+Between designs 0.77    1  0.3791
+
+A total of 9 treatments are included in the network.
+A total of 6 studies are included in this analysis.
+A total of 323 participants are included in this analysis.
+The following studies were included in this analysis: Fleming 2013 Stern 2014 Vidal 2013 Virta 2010 Nasri 2022 Halmoy 2022
+Estimated heterogeneity tau-squared0
+Global test for inconsistency, p-value = 0.37906 (Q = 1, d.o.f. = 1)
+
+File created on 2024-03-09
