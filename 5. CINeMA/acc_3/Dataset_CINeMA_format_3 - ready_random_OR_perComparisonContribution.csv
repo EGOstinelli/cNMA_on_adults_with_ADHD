@@ -1,0 +1,39 @@
+"random OR","atomoxetine:placebo","atomoxetine:stimulants","bupropion:placebo","DBT + placebo:DBT + stimulants","DBT + placebo:placebo","DBT + placebo:stimulants","DBT + stimulants:placebo","DBT + stimulants:stimulants","guanfacine:placebo","modafinil:placebo","placebo:stimulants","placebo:viloxazine"
+"Mixed estimates",,,,,,,,,,,,
+"DBT + placebo:DBT + stimulants",0.0025,0.0025,0,51.23,13.7808,10.55,13.675,10.6558,0,0,0.1033,0
+"DBT + placebo:placebo",0.4,0.4,0,10.3267,44,15.91,7.21,3.1167,0,0,18.6267,0
+"DBT + placebo:stimulants",0.525,0.525,0,9.8483,20.885,34.04,3.9683,5.88,0,0,24.3283,0
+"DBT + stimulants:placebo",0.405,0.405,0,11.6033,8.165,3.4383,41.77,15.59,0,0,18.6233,0
+"DBT + stimulants:stimulants",0.52,0.52,0,10.9983,4.5233,6.475,19.89,33.18,0,0,23.8933,0
+"atomoxetine:placebo",95.42,2.2567,0,0,0.0367,0.0367,0.03,0.03,0,0,2.19,0
+"atomoxetine:stimulants",45.1758,8.29,0,0.0025,0.7058,0.7033,0.63,0.6325,0,0,43.84,0
+"bupropion:placebo",0,0,100,0,0,0,0,0,0,0,0,0
+"guanfacine:placebo",0,0,0,0,0,0,0,0,100,0,0,0
+"modafinil:placebo",0,0,0,0,0,0,0,0,0,100,0,0
+"placebo:stimulants",1.855,1.855,0,0.0033,1.1133,1.11,0.995,0.9983,0,0,92.06,0
+"placebo:viloxazine",0,0,0,0,0,0,0,0,0,0,0,100
+"Indirect estimates",,,,,,,,,,,,
+"DBT + placebo:guanfacine",0.32,0.32,0,7.1642,22,10.6067,4.8067,2.3575,39.7708,0,12.6442,0
+"DBT + placebo:modafinil",0.32,0.32,0,7.1642,22,10.6067,4.8067,2.3575,0,39.7708,12.6442,0
+"DBT + placebo:viloxazine",0.32,0.32,0,7.1642,22,10.6067,4.8067,2.3575,0,0,12.6442,39.7708
+"DBT + stimulants:guanfacine",0.324,0.324,0,8.0423,5.4433,2.599,20.885,10.3933,39.3207,0,12.6683,0
+"DBT + stimulants:modafinil",0.324,0.324,0,8.0423,5.4433,2.599,20.885,10.3933,0,39.3207,12.6683,0
+"DBT + stimulants:viloxazine",0.324,0.324,0,8.0423,5.4433,2.599,20.885,10.3933,0,0,12.6683,39.3207
+"atomoxetine:DBT + placebo",37.7667,3.095,0,7.2367,21.95,11.675,4.7767,2.46,0,0,11.04,0
+"atomoxetine:DBT + stimulants",37.3025,3.105,0,8.1142,5.4067,2.7075,20.835,11.4583,0,0,11.0608,0
+"atomoxetine:bupropion",47.71,1.51,49.22,0,0.0275,0.0275,0.0225,0.0225,0,0,1.46,0
+"atomoxetine:guanfacine",47.71,1.51,0,0,0.0275,0.0275,0.0225,0.0225,49.22,0,1.46,0
+"atomoxetine:modafinil",47.71,1.51,0,0,0.0275,0.0275,0.0225,0.0225,0,49.22,1.46,0
+"atomoxetine:viloxazine",47.71,1.51,0,0,0.0275,0.0275,0.0225,0.0225,0,0,1.46,49.22
+"bupropion:DBT + placebo",0.32,0.32,39.7708,7.1642,22,10.6067,4.8067,2.3575,0,0,12.6442,0
+"bupropion:DBT + stimulants",0.324,0.324,39.3207,8.0423,5.4433,2.599,20.885,10.3933,0,0,12.6683,0
+"bupropion:guanfacine",0,0,50,0,0,0,0,0,50,0,0,0
+"bupropion:modafinil",0,0,50,0,0,0,0,0,0,50,0,0
+"bupropion:stimulants",1.2367,1.2367,48.6725,0.0025,0.7425,0.74,0.6633,0.6658,0,0,46.03,0
+"bupropion:viloxazine",0,0,50,0,0,0,0,0,0,0,0,50
+"guanfacine:modafinil",0,0,0,0,0,0,0,0,50,50,0,0
+"guanfacine:stimulants",1.2367,1.2367,0,0.0025,0.7425,0.74,0.6633,0.6658,48.6725,0,46.03,0
+"guanfacine:viloxazine",0,0,0,0,0,0,0,0,50,0,0,50
+"modafinil:stimulants",1.2367,1.2367,0,0.0025,0.7425,0.74,0.6633,0.6658,0,48.6725,46.03,0
+"modafinil:viloxazine",0,0,0,0,0,0,0,0,0,50,0,50
+"stimulants:viloxazine",1.2367,1.2367,0,0.0025,0.7425,0.74,0.6633,0.6658,0,0,46.03,48.6725

@@ -1,0 +1,13 @@
+"random OR","CBT + TAU:TAU","DBT + TAU:TAU","GMT + TAU:TAU","mindfulness + TAU:TAU"
+"Mixed estimates",,,,
+"CBT + TAU:TAU",100,0,0,0
+"DBT + TAU:TAU",0,100,0,0
+"GMT + TAU:TAU",0,0,100,0
+"mindfulness + TAU:TAU",0,0,0,100
+"Indirect estimates",,,,
+"CBT + TAU:DBT + TAU",50,50,0,0
+"CBT + TAU:GMT + TAU",50,0,50,0
+"CBT + TAU:mindfulness + TAU",50,0,0,50
+"DBT + TAU:GMT + TAU",0,50,50,0
+"DBT + TAU:mindfulness + TAU",0,50,0,50
+"GMT + TAU:mindfulness + TAU",0,0,50,50

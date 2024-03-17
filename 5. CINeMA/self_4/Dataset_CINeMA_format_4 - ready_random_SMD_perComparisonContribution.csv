@@ -1,0 +1,18 @@
+"random SMD","active control:sham","active control:TMS (right)","sham:tDCS","sham:TMS (bilateral)","sham:TMS (left)","sham:TMS (right)","TMS (left):TMS (right)"
+"Mixed estimates",,,,,,,
+"TMS (left):TMS (right)",3.4333,3.4333,0,0,24.1033,20.67,48.35
+"active control:TMS (right)",19.9433,56.32,0,0,3.7933,16.15,3.7933
+"active control:sham",59.24,18.6083,0,0,3.5433,15.065,3.5433
+"sham:TMS (bilateral)",0,0,0,100,0,0,0
+"sham:TMS (left)",1.75,1.75,0,0,73.66,10.545,12.295
+"sham:TMS (right)",7.78,7.78,0,0,11.01,62.43,11.01
+"sham:tDCS",0,0,100,0,0,0,0
+"Indirect estimates",,,,,,,
+"TMS (bilateral):TMS (left)",1.3125,1.3125,0,45.1725,36.83,7.03,8.3425
+"TMS (bilateral):TMS (right)",5.1867,5.1867,0,43.7383,7.3367,31.215,7.3367
+"active control:TMS (bilateral)",29.62,12.7008,0,42.3208,2.6575,10.0433,2.6575
+"active control:TMS (left)",26.995,21.4983,0,0,30.0083,3.0133,18.485
+"active control:tDCS",29.62,12.7008,42.3208,0,2.6575,10.0433,2.6575
+"tDCS:TMS (bilateral)",0,0,50,50,0,0,0
+"tDCS:TMS (left)",1.3125,1.3125,45.1725,0,36.83,7.03,8.3425
+"tDCS:TMS (right)",5.1867,5.1867,43.7383,0,7.3367,31.215,7.3367

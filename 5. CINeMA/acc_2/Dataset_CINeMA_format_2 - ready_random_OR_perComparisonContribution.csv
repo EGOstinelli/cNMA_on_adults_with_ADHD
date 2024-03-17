@@ -1,0 +1,69 @@
+"random OR","CBT:CBT + stimulants","CBT:DBT","CBT:neurofeedback","CBT:psychoeducation","CBT:psychological placebo","CBT:relaxation therapy","CBT:sham + neurofeedback","CBT:waiting list","cognitive remediation:waiting list","DBT:waiting list","mindfulness:psychoeducation","mindfulness:waiting list","neurofeedback:sham + neurofeedback","physical training:waiting list"
+"Mixed estimates",,,,,,,,,,,,,,
+"CBT:CBT + stimulants",100,0,0,0,0,0,0,0,0,0,0,0,0,0
+"CBT:DBT",0,23.35,0,1.365,0,0,0,35.595,0,36.96,1.365,1.365,0,0
+"CBT:neurofeedback",0,0,66.67,0,0,0,16.665,0,0,0,0,0,16.665,0
+"CBT:psychoeducation",0,0.61,0,54.18,0,0,0,14.46,0,0.61,15.07,15.07,0,0
+"CBT:psychological placebo",0,0,0,0,100,0,0,0,0,0,0,0,0,0
+"CBT:relaxation therapy",0,0,0,0,0,100,0,0,0,0,0,0,0,0
+"CBT:sham + neurofeedback",0,0,16.65,0,0,0,66.7,0,0,0,0,0,16.65,0
+"CBT:waiting list",0,2.48,0,2.2567,0,0,0,88.27,0,2.48,2.2567,2.2567,0,0
+"DBT:waiting list",0,8.8675,0,0.3275,0,0,0,8.54,0,81.61,0.3275,0.3275,0,0
+"cognitive remediation:waiting list",0,0,0,0,0,0,0,0,100,0,0,0,0,0
+"mindfulness:psychoeducation",0,0.1775,0,4.4042,0,0,0,4.2267,0,0.1775,86.61,4.4042,0,0
+"mindfulness:waiting list",0,0.45,0,11.1867,0,0,0,10.7367,0,0.45,11.1867,65.99,0,0
+"neurofeedback:sham + neurofeedback",0,0,16.685,0,0,0,16.685,0,0,0,0,0,66.63,0
+"physical training:waiting list",0,0,0,0,0,0,0,0,0,0,0,0,0,100
+"Indirect estimates",,,,,,,,,,,,,,
+"CBT + stimulants:DBT",36.497,11.675,0,1.092,0,0,0,23.73,0,24.822,1.092,1.092,0,0
+"CBT + stimulants:cognitive remediation",32.0173,1.24,0,1.354,0,0,0,29.4233,32.0173,1.24,1.354,1.354,0,0
+"CBT + stimulants:mindfulness",33.0708,0.7875,0,13.5967,0,0,0,18.6867,0,0.7875,13.5967,19.4742,0,0
+"CBT + stimulants:neurofeedback",44.445,0,33.335,0,0,0,11.11,0,0,0,0,0,11.11,0
+"CBT + stimulants:physical training",32.0173,1.24,0,1.354,0,0,0,29.4233,0,1.24,1.354,1.354,0,32.0173
+"CBT + stimulants:psychoeducation",38.423,0.488,0,27.09,0,0,0,10.845,0,0.488,11.333,11.333,0,0
+"CBT + stimulants:psychological placebo",50,0,0,0,50,0,0,0,0,0,0,0,0,0
+"CBT + stimulants:relaxation therapy",50,0,0,0,0,50,0,0,0,0,0,0,0,0
+"CBT + stimulants:sham + neurofeedback",44.45,0,11.1,0,0,0,33.35,0,0,0,0,0,11.1,0
+"CBT + stimulants:waiting list",47.4808,1.6533,0,1.6925,0,0,0,44.135,0,1.6533,1.6925,1.6925,0,0
+"CBT:cognitive remediation",0,1.6533,0,1.6925,0,0,0,44.135,47.4808,1.6533,1.6925,1.6925,0,0
+"CBT:mindfulness",0,1.05,0,20.395,0,0,0,28.03,0,1.05,20.395,29.08,0,0
+"CBT:physical training",0,1.6533,0,1.6925,0,0,0,44.135,0,1.6533,1.6925,1.6925,0,47.4808
+"DBT:mindfulness",0,6.7333,0,10.5133,0,0,0,3.78,0,36.12,10.5133,32.34,0,0
+"DBT:neurofeedback",0,11.675,26.115,0.91,0,0,7.8775,21.4075,0,22.3175,0.91,0.91,7.8775,0
+"DBT:physical training",0,5.9553,0,0.262,0,0,0,5.6933,0,40.805,0.262,0.262,0,46.7603
+"DBT:psychoeducation",0,10.455,0,19.725,0,0,0,9.27,0,26.3633,17.0933,17.0933,0,0
+"DBT:psychological placebo",0,11.675,0,1.092,36.497,0,0,23.73,0,24.822,1.092,1.092,0,0
+"DBT:relaxation therapy",0,11.675,0,1.092,0,36.497,0,23.73,0,24.822,1.092,1.092,0,0
+"DBT:sham + neurofeedback",0,11.675,7.87,0.91,0,0,26.125,21.41,0,22.32,0.91,0.91,7.87,0
+"cognitive remediation:DBT",0,5.9553,0,0.262,0,0,0,5.6933,46.7603,40.805,0.262,0.262,0,0
+"cognitive remediation:mindfulness",0,0.36,0,8.4125,0,0,0,8.0525,41.4075,0.36,8.4125,32.995,0,0
+"cognitive remediation:neurofeedback",0,0.992,22.2233,1.1283,0,0,7.5203,27.6233,29.7437,0.992,1.1283,1.1283,7.5203,0
+"cognitive remediation:physical training",0,0,0,0,0,0,0,0,50,0,0,0,0,50
+"cognitive remediation:psychoeducation",0,0.63,0,15.5933,0,0,0,14.9633,33.1233,0.63,17.53,17.53,0,0
+"cognitive remediation:psychological placebo",0,1.24,0,1.354,32.0173,0,0,29.4233,32.0173,1.24,1.354,1.354,0,0
+"cognitive remediation:relaxation therapy",0,1.24,0,1.354,0,32.0173,0,29.4233,32.0173,1.24,1.354,1.354,0,0
+"cognitive remediation:sham + neurofeedback",0,0.992,7.5128,1.1283,0,0,22.2333,27.6258,29.7462,0.992,1.1283,1.1283,7.5128,0
+"mindfulness:neurofeedback",0,0.63,22.2233,13.5967,0,0,8.175,16.1717,0,0.63,13.5967,16.8017,8.175,0
+"mindfulness:physical training",0,0.36,0,8.4125,0,0,0,8.0525,0,0.36,8.4125,32.995,0,41.4075
+"mindfulness:psychological placebo",0,0.7875,0,13.5967,33.0708,0,0,18.6867,0,0.7875,13.5967,19.4742,0,0
+"mindfulness:relaxation therapy",0,0.7875,0,13.5967,0,33.0708,0,18.6867,0,0.7875,13.5967,19.4742,0,0
+"mindfulness:sham + neurofeedback",0,0.63,8.1675,13.5967,0,0,22.2333,16.1742,0,0.63,13.5967,16.8042,8.1675,0
+"neurofeedback:physical training",0,0.992,22.2233,1.1283,0,0,7.5203,27.6233,0,0.992,1.1283,1.1283,7.5203,29.7437
+"neurofeedback:psychoeducation",0,0.4067,30.2125,27.09,0,0,6.5847,9.3005,0,0.4067,9.7072,9.7072,6.5847,0
+"neurofeedback:psychological placebo",0,0,33.335,0,44.445,0,11.11,0,0,0,0,0,11.11,0
+"neurofeedback:relaxation therapy",0,0,33.335,0,0,44.445,11.11,0,0,0,0,0,11.11,0
+"neurofeedback:waiting list",0,1.24,33.335,1.354,0,0,9.794,40.535,0,1.24,1.354,1.354,9.794,0
+"physical training:psychoeducation",0,0.63,0,15.5933,0,0,0,14.9633,0,0.63,17.53,17.53,0,33.1233
+"physical training:psychological placebo",0,1.24,0,1.354,32.0173,0,0,29.4233,0,1.24,1.354,1.354,0,32.0173
+"physical training:relaxation therapy",0,1.24,0,1.354,0,32.0173,0,29.4233,0,1.24,1.354,1.354,0,32.0173
+"physical training:sham + neurofeedback",0,0.992,7.5128,1.1283,0,0,22.2333,27.6258,0,0.992,1.1283,1.1283,7.5128,29.7462
+"psychoeducation:psychological placebo",0,0.488,0,27.09,38.423,0,0,10.845,0,0.488,11.333,11.333,0,0
+"psychoeducation:relaxation therapy",0,0.488,0,27.09,0,38.423,0,10.845,0,0.488,11.333,11.333,0,0
+"psychoeducation:sham + neurofeedback",0,0.4067,6.5787,27.09,0,0,30.22,9.302,0,0.4067,9.7087,9.7087,6.5787,0
+"psychoeducation:waiting list",0,0.84,0,23.285,0,0,0,22.445,0,0.84,26.295,26.295,0,0
+"psychological placebo:relaxation therapy",0,0,0,0,50,50,0,0,0,0,0,0,0,0
+"psychological placebo:sham + neurofeedback",0,0,11.1,0,44.45,0,33.35,0,0,0,0,0,11.1,0
+"psychological placebo:waiting list",0,1.6533,0,1.6925,47.4808,0,0,44.135,0,1.6533,1.6925,1.6925,0,0
+"relaxation therapy:sham + neurofeedback",0,0,11.1,0,0,44.45,33.35,0,0,0,0,0,11.1,0
+"relaxation therapy:waiting list",0,1.6533,0,1.6925,0,47.4808,0,44.135,0,1.6533,1.6925,1.6925,0,0
+"sham + neurofeedback:waiting list",0,1.24,9.784,1.354,0,0,33.35,40.54,0,1.24,1.354,1.354,9.784,0
