@@ -1,0 +1,46 @@
+
+Results on the Log Odds Ratio scale
+
+Iterations = 50020:1050000
+Thinning interval = 20 
+Number of chains = 4 
+Sample size per chain = 50000 
+
+1. Empirical mean and standard deviation for each variable,
+   plus standard error of the mean:
+
+                                 Mean     SD  Naive SE Time-series SE
+d.placebo.atomoxetine         0.46948 0.3183 0.0007116      0.0007444
+d.placebo.bupropion           0.16768 0.8385 0.0018749      0.0020085
+d.placebo.DBT_and_placebo     0.43338 0.6414 0.0014341      0.0014521
+d.placebo.DBT_and_stimulants -0.18179 0.6648 0.0014866      0.0014866
+d.placebo.guanfacine          1.37178 0.8276 0.0018506      0.0019759
+d.placebo.stimulants          0.01238 0.2613 0.0005843      0.0006682
+sd.d                          0.60700 0.2093 0.0004680      0.0005618
+B                             0.01698 0.4126 0.0009225      0.0014958
+
+2. Quantiles for each variable:
+
+                                2.5%     25%       50%    75%  97.5%
+d.placebo.atomoxetine        -0.1581  0.2705  0.467371 0.6649 1.1160
+d.placebo.bupropion          -1.4221 -0.3916  0.145170 0.7033 1.8865
+d.placebo.DBT_and_placebo    -0.8230  0.0275  0.424962 0.8278 1.7423
+d.placebo.DBT_and_stimulants -1.4803 -0.6052 -0.189769 0.2337 1.1696
+d.placebo.guanfacine         -0.2343  0.8364  1.359041 1.8912 3.0658
+d.placebo.stimulants         -0.4874 -0.1556  0.004279 0.1730 0.5548
+sd.d                          0.2895  0.4598  0.575099 0.7183 1.1165
+B                            -0.7675 -0.2506  0.005307 0.2709 0.8744
+
+-- Model fit (residual deviance):
+
+    Dbar       pD      DIC 
+44.19035 34.93205 79.12240 
+
+41 data points, ratio 1.078, I^2 = 9%
+
+-- Regression settings:
+
+Regression on "comorbidity", shared coefficients, "placebo" as control
+Input standardized: x' = (comorbidity - 44.23684) / 82.8696
+Estimates at the centering value: comorbidity = 44.23684
+
