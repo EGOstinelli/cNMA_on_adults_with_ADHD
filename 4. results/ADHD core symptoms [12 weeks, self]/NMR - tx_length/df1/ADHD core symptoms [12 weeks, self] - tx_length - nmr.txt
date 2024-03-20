@@ -1,0 +1,66 @@
+
+Results on the Mean Difference scale
+
+Iterations = 50020:1050000
+Thinning interval = 20 
+Number of chains = 4 
+Sample size per chain = 50000 
+
+1. Empirical mean and standard deviation for each variable,
+   plus standard error of the mean:
+
+                                           Mean     SD Naive SE Time-series SE
+d.CBT.CBT_and_stimulants                -6.9246  2.416 0.005402       0.005809
+d.CBT.cognitive_training               -10.1556  8.558 0.019135       0.051346
+d.CBT.DBT                               -2.3492  1.979 0.004425       0.005107
+d.CBT.hypnotherapy                      -8.7595  8.799 0.019674       0.053062
+d.CBT.neurofeedback                      3.2502  7.133 0.015951       0.035787
+d.CBT.no_treatment                      -1.3995  7.651 0.017108       0.045361
+d.CBT.psychoeducation                   -3.3009  2.241 0.005011       0.006504
+d.CBT.relaxation_therapy                 2.5769  1.967 0.004399       0.005268
+d.CBT.sham_and_neurofeedback            -3.7011  7.324 0.016378       0.037793
+d.CBT.TAU                                9.2062 21.091 0.047162       0.538277
+d.CBT.waiting_list                       3.9814  1.404 0.003139       0.003906
+d.cognitive_training.cognitive_placebo  -0.3230  1.442 0.003224       0.003396
+d.psychoeducation.mindfulness           -0.4185  1.741 0.003893       0.004677
+d.TAU.CBT_and_TAU                       -5.2328 11.955 0.026733       0.291294
+d.TAU.DBT_and_TAU                       -0.0583  7.760 0.017352       0.170305
+d.TAU.mindfulness_and_TAU               -2.5668 11.905 0.026620       0.303482
+sd.d                                     1.6066  1.012 0.002262       0.004914
+B                                        0.1007 26.930 0.060217       0.679442
+
+2. Quantiles for each variable:
+
+                                            2.5%      25%       50%     75%  97.5%
+d.CBT.CBT_and_stimulants               -11.75317  -8.3668  -6.92555 -5.4846 -2.083
+d.CBT.cognitive_training               -26.98299 -15.8869 -10.13417 -4.4229  6.675
+d.CBT.DBT                               -6.20925  -3.5905  -2.37035 -1.1327  1.645
+d.CBT.hypnotherapy                     -25.98330 -14.7092  -8.76206 -2.7813  8.396
+d.CBT.neurofeedback                    -10.71921  -1.5623   3.24189  8.0570 17.275
+d.CBT.no_treatment                     -16.33306  -6.5554  -1.42978  3.7570 13.649
+d.CBT.psychoeducation                   -7.71739  -4.7265  -3.31182 -1.8831  1.170
+d.CBT.relaxation_therapy                -1.27242   1.3119   2.55826  3.8217  6.502
+d.CBT.sham_and_neurofeedback           -18.05062  -8.6499  -3.71192  1.2465 10.618
+d.CBT.TAU                              -36.71549   0.7561   9.17688 17.6632 55.952
+d.CBT.waiting_list                       1.32844   3.0733   3.93943  4.8409  6.898
+d.cognitive_training.cognitive_placebo  -3.22660  -1.1733  -0.32317  0.5244  2.601
+d.psychoeducation.mindfulness           -3.87973  -1.4986  -0.42102  0.6601  3.071
+d.TAU.CBT_and_TAU                      -31.20707 -10.0971  -5.22569 -0.3737 21.106
+d.TAU.DBT_and_TAU                      -16.43144  -3.9913  -0.07142  3.8768 16.267
+d.TAU.mindfulness_and_TAU              -28.45757  -7.3293  -2.56859  2.1746 23.787
+sd.d                                     0.09531   0.8537   1.49794  2.1964  3.924
+B                                      -58.99543  -9.8135   0.07617  9.9937 60.258
+
+-- Model fit (residual deviance):
+
+    Dbar       pD      DIC 
+50.10405 43.47455 93.57861 
+
+50 data points, ratio 1.002, I^2 = 2%
+
+-- Regression settings:
+
+Regression on "tx_length", shared coefficients, "TAU" as control
+Input standardized: x' = (tx_length - 10.52174) / 5.811261
+Estimates at the centering value: tx_length = 10.52174
+
