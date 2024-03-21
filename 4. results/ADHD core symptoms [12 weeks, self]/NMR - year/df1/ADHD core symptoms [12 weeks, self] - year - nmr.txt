@@ -1,66 +1,18 @@
+   code          treatment
+1     1                TAU
+2     2                CBT
+4     4          CBT + TAU
+5     5  cognitive placebo
+7     7                DBT
+10   10        mindfulness
+14   14    psychoeducation
+15   15 relaxation therapy
 
-Results on the Mean Difference scale
-
-Iterations = 50020:1050000
-Thinning interval = 20 
-Number of chains = 4 
-Sample size per chain = 50000 
-
-1. Empirical mean and standard deviation for each variable,
-   plus standard error of the mean:
-
-                                           Mean    SD Naive SE Time-series SE
-d.CBT.CBT_and_stimulants                -6.9155 2.486 0.005559       0.005957
-d.CBT.cognitive_training               -10.2227 8.534 0.019083       0.049665
-d.CBT.DBT                               -2.3453 2.031 0.004542       0.005211
-d.CBT.hypnotherapy                      -8.7328 8.768 0.019605       0.052199
-d.CBT.neurofeedback                      3.3545 7.134 0.015952       0.034929
-d.CBT.no_treatment                      -1.3962 7.649 0.017103       0.044182
-d.CBT.psychoeducation                   -3.2979 2.282 0.005103       0.006514
-d.CBT.relaxation_therapy                 2.5717 2.009 0.004493       0.005255
-d.CBT.sham_and_neurofeedback            -3.5746 7.349 0.016433       0.036106
-d.CBT.TAU                                6.9458 6.769 0.015135       0.029343
-d.CBT.waiting_list                       3.9971 1.435 0.003209       0.003943
-d.cognitive_training.cognitive_placebo  -0.3161 1.487 0.003326       0.003480
-d.psychoeducation.mindfulness           -0.4149 1.787 0.003997       0.004761
-d.TAU.CBT_and_TAU                       -5.1695 2.569 0.005744       0.007404
-d.TAU.DBT_and_TAU                       -0.7447 4.134 0.009245       0.013844
-d.TAU.mindfulness_and_TAU               -2.9637 2.543 0.005685       0.006854
-sd.d                                     1.6841 1.058 0.002365       0.005185
-B                                        1.5984 4.081 0.009126       0.016708
-
-2. Quantiles for each variable:
-
-                                           2.5%      25%      50%     75%    97.5%
-d.CBT.CBT_and_stimulants               -11.8999  -8.4025  -6.9152 -5.4366 -1.88313
-d.CBT.cognitive_training               -27.0042 -15.9845 -10.1989 -4.4646  6.50286
-d.CBT.DBT                               -6.3235  -3.6135  -2.3640 -1.1103  1.77090
-d.CBT.hypnotherapy                     -25.9140 -14.6396  -8.6981 -2.8281  8.42698
-d.CBT.neurofeedback                    -10.6199  -1.4706   3.3894  8.1753 17.27124
-d.CBT.no_treatment                     -16.4948  -6.5553  -1.3468  3.7348 13.58069
-d.CBT.psychoeducation                   -7.8010  -4.7512  -3.3117 -1.8552  1.26159
-d.CBT.relaxation_therapy                -1.3403   1.2879   2.5491  3.8310  6.59039
-d.CBT.sham_and_neurofeedback           -17.9009  -8.5257  -3.5940  1.3729 10.84268
-d.CBT.TAU                               -6.4046   2.4824   6.9207 11.4117 20.20843
-d.CBT.waiting_list                       1.2795   3.0764   3.9496  4.8694  6.98574
-d.cognitive_training.cognitive_placebo  -3.3110  -1.1884  -0.3209  0.5461  2.72375
-d.psychoeducation.mindfulness           -3.9761  -1.5170  -0.4208  0.6872  3.18207
-d.TAU.CBT_and_TAU                      -10.2373  -6.8496  -5.1687 -3.4909 -0.07956
-d.TAU.DBT_and_TAU                       -8.8849  -3.4609  -0.7434  1.9645  7.40701
-d.TAU.mindfulness_and_TAU               -8.0724  -4.4823  -2.9680 -1.4573  2.17373
-sd.d                                     0.1028   0.9049   1.5655  2.2964  4.10781
-B                                       -6.4436  -1.0894   1.5897  4.2662  9.70911
-
--- Model fit (residual deviance):
-
-    Dbar       pD      DIC 
-50.45587 44.29410 94.74997 
-
-50 data points, ratio 1.009, I^2 = 3%
-
--- Regression settings:
-
-Regression on "year", shared coefficients, "TAU" as control
-Input standardized: x' = (year - 2015.957) / 8.851877
-Estimates at the centering value: year = 2015.957
-
+                Coef.         SE      X95.CL       X95.CU    P.value
+2: year  -0.007619795 0.04457808 -0.09499122  0.079751630 0.86427768
+4: year   0.037629797 0.04621311 -0.05294623  0.128205822 0.41549214
+5: year  -0.040058704 0.08588819 -0.20839646  0.128279052 0.64092543
+7: year  -0.014807184 0.05925662 -0.13094803  0.101333665 0.80267834
+10: year -0.294117243 0.16013809 -0.60798214  0.019747650 0.06626194
+14: year -0.269893330 0.12841865 -0.52158927 -0.018197394 0.03558240
+15: year -0.094004852 0.04929678 -0.19062476  0.002615056 0.05653137

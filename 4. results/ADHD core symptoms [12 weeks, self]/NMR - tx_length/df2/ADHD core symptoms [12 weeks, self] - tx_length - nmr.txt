@@ -1,48 +1,12 @@
+  code   treatment
+1    1     placebo
+2    2 atomoxetine
+3    3   bupropion
+7    7   modafinil
+8    8  stimulants
 
-Results on the Mean Difference scale
-
-Iterations = 50020:1050000
-Thinning interval = 20 
-Number of chains = 4 
-Sample size per chain = 50000 
-
-1. Empirical mean and standard deviation for each variable,
-   plus standard error of the mean:
-
-                                Mean     SD Naive SE Time-series SE
-d.placebo.atomoxetine        -4.9226 1.3049 0.002918       0.003163
-d.placebo.bupropion          -5.7075 3.4865 0.007796       0.007871
-d.placebo.DBT_and_placebo    -1.2814 3.1998 0.007155       0.008797
-d.placebo.DBT_and_stimulants -3.9829 3.2082 0.007174       0.008629
-d.placebo.guanfacine         -7.0733 3.8439 0.008595       0.008738
-d.placebo.modafinil          -3.4051 2.7160 0.006073       0.006168
-d.placebo.stimulants         -4.3677 0.9427 0.002108       0.002149
-sd.d                          2.9213 0.7292 0.001631       0.001773
-B                             0.8102 1.4000 0.003130       0.005991
-
-2. Quantiles for each variable:
-
-                                2.5%     25%     50%     75%   97.5%
-d.placebo.atomoxetine         -7.518 -5.7679 -4.9196 -4.0727 -2.3558
-d.placebo.bupropion          -12.556 -8.0377 -5.7143 -3.3890  1.1729
-d.placebo.DBT_and_placebo     -7.723 -3.3265 -1.2436  0.8117  4.9259
-d.placebo.DBT_and_stimulants -10.493 -6.0113 -3.9449 -1.9008  2.2850
-d.placebo.guanfacine         -14.652 -9.6160 -7.0794 -4.5194  0.4776
-d.placebo.modafinil           -8.861 -5.1693 -3.3720 -1.6016  1.8789
-d.placebo.stimulants          -6.347 -4.9585 -4.3281 -3.7331 -2.6224
-sd.d                           1.765  2.4015  2.8310  3.3375  4.6046
-B                             -1.921 -0.1044  0.7927  1.7077  3.6385
-
--- Model fit (residual deviance):
-
-     Dbar        pD       DIC 
- 61.10901  50.13811 111.24712 
-
-58 data points, ratio 1.054, I^2 = 7%
-
--- Regression settings:
-
-Regression on "tx_length", shared coefficients, "placebo" as control
-Input standardized: x' = (tx_length - 10.74074) / 21.15578
-Estimates at the centering value: tx_length = 10.74074
-
+                    Coef.          SE        X95.CL     X95.CU     P.value
+2: tx_length 0.0005645036 0.006104492 -0.0114000810 0.01252909 0.926321870
+3: tx_length 0.6803283715 0.526656225 -0.3518988610 1.71255560 0.196430454
+7: tx_length 0.1224893575 0.042866249  0.0384730525 0.20650566 0.004270225
+8: tx_length 0.0059782532 0.003193773 -0.0002814277 0.01223793 0.061227863

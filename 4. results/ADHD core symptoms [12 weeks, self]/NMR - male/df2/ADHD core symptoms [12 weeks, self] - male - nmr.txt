@@ -1,48 +1,10 @@
+  code   treatment
+1    1     placebo
+2    2 atomoxetine
+3    3   bupropion
+7    7   modafinil
 
-Results on the Mean Difference scale
-
-Iterations = 50020:1050000
-Thinning interval = 20 
-Number of chains = 4 
-Sample size per chain = 50000 
-
-1. Empirical mean and standard deviation for each variable,
-   plus standard error of the mean:
-
-                               Mean     SD Naive SE Time-series SE
-d.placebo.atomoxetine        -4.243 1.2680 0.002835       0.002968
-d.placebo.bupropion          -5.328 3.4670 0.007752       0.007858
-d.placebo.DBT_and_placebo    -1.415 2.9007 0.006486       0.006684
-d.placebo.DBT_and_stimulants -4.113 2.9055 0.006497       0.006636
-d.placebo.guanfacine         -8.679 3.8563 0.008623       0.009042
-d.placebo.modafinil          -3.365 2.6543 0.005935       0.005916
-d.placebo.stimulants         -5.074 1.0117 0.002262       0.002516
-sd.d                          2.835 0.7112 0.001590       0.001663
-B                            -3.060 1.7549 0.003924       0.006163
-
-2. Quantiles for each variable:
-
-                                2.5%     25%    50%     75%   97.5%
-d.placebo.atomoxetine         -6.739  -5.072 -4.249 -3.4238 -1.7197
-d.placebo.bupropion          -12.168  -7.635 -5.328 -3.0217  1.5020
-d.placebo.DBT_and_placebo     -7.226  -3.272 -1.385  0.4641  4.2664
-d.placebo.DBT_and_stimulants  -9.929  -5.971 -4.088 -2.2288  1.5780
-d.placebo.guanfacine         -16.313 -11.235 -8.651 -6.1048 -1.1533
-d.placebo.modafinil           -8.688  -5.092 -3.330 -1.5918  1.7555
-d.placebo.stimulants          -7.179  -5.713 -5.037 -4.3939 -3.1863
-sd.d                           1.702   2.328  2.749  3.2470  4.4689
-B                             -6.571  -4.211 -3.046 -1.8937  0.3576
-
--- Model fit (residual deviance):
-
-     Dbar        pD       DIC 
- 57.91060  48.46499 106.37559 
-
-56 data points, ratio 1.034, I^2 = 5%
-
--- Regression settings:
-
-Regression on "male", shared coefficients, "placebo" as control
-Input standardized: x' = (male - 58.93885) / 26.9653
-Estimates at the centering value: male = 58.93885
-
+               Coef.          SE       X95.CL     X95.CU     P.value
+2: male  0.002390297 0.005033633 -0.007475443 0.01225604 0.634883108
+3: male -0.266795440 0.207050385 -0.672606738 0.13901586 0.197553457
+7: male  0.646567033 0.235413967  0.185164136 1.10796993 0.006023288

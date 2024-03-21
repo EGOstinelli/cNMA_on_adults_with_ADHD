@@ -1,44 +1,5 @@
+  code treatment
+1    1   placebo
 
-Results on the Mean Difference scale
-
-Iterations = 50020:1050000
-Thinning interval = 20 
-Number of chains = 4 
-Sample size per chain = 50000 
-
-1. Empirical mean and standard deviation for each variable,
-   plus standard error of the mean:
-
-                                Mean    SD Naive SE Time-series SE
-d.placebo.atomoxetine        -3.7899 2.717 0.006075       0.006127
-d.placebo.DBT_and_placebo    -1.1632 4.511 0.010088       0.010132
-d.placebo.DBT_and_stimulants -3.8480 4.499 0.010061       0.010268
-d.placebo.modafinil          -9.0039 5.196 0.011619       0.011681
-d.placebo.stimulants         -5.5825 1.979 0.004425       0.004702
-sd.d                          4.5474 1.746 0.003903       0.005977
-B                            -0.9337 3.224 0.007210       0.028507
-
-2. Quantiles for each variable:
-
-                                2.5%     25%     50%    75%  97.5%
-d.placebo.atomoxetine         -9.315  -5.425 -3.7675 -2.143  1.599
-d.placebo.DBT_and_placebo    -10.448  -3.786 -1.0616  1.535  7.703
-d.placebo.DBT_and_stimulants -13.072  -6.480 -3.7774 -1.147  5.011
-d.placebo.modafinil          -19.488 -12.222 -8.9505 -5.706  1.172
-d.placebo.stimulants          -9.829  -6.747 -5.4611 -4.299 -1.982
-sd.d                           2.065   3.331  4.2481  5.412  8.813
-B                             -7.618  -2.897 -0.8338  1.127  5.214
-
--- Model fit (residual deviance):
-
-    Dbar       pD      DIC 
-27.99210 25.16056 53.15266 
-
-27 data points, ratio 1.037, I^2 = 7%
-
--- Regression settings:
-
-Regression on "comorbidity", shared coefficients, "placebo" as control
-Input standardized: x' = (comorbidity - 44.5725) / 80.03236
-Estimates at the centering value: comorbidity = 44.5725
-
+[1] Coef.   SE      X95.CL  X95.CU  P.value
+<0 rows> (or 0-length row.names)
