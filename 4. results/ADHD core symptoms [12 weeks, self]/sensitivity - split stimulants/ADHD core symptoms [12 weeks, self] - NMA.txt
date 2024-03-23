@@ -1,0 +1,137 @@
+Network meta-analysis.
+
+Additive model (common effects model):
+                          treat1     treat2     SMD             95%-CI     z  p-value
+Weisler 2006         amphetamine    placebo -0.4709 [-0.7039; -0.2379] -3.96 < 0.0001
+Wilens 2008          atomoxetine    placebo -0.3776 [-0.4672; -0.2879] -8.25 < 0.0001
+Adler 2008a          atomoxetine    placebo -0.3776 [-0.4672; -0.2879] -8.25 < 0.0001
+Adler 2009b          atomoxetine    placebo -0.3776 [-0.4672; -0.2879] -8.25 < 0.0001
+Arnold 2014            modafinil    placebo -0.1373 [-0.3882;  0.1136] -1.07   0.2834
+Casas 2013       methylphenidate    placebo -0.3704 [-0.4500; -0.2908] -9.12 < 0.0001
+Durell 2013          atomoxetine    placebo -0.3776 [-0.4672; -0.2879] -8.25 < 0.0001
+Ginsberg 2012    methylphenidate    placebo -0.3704 [-0.4500; -0.2908] -9.12 < 0.0001
+Huss 2014        methylphenidate    placebo -0.3704 [-0.4500; -0.2908] -9.12 < 0.0001
+Kuperman 2001          bupropion    placebo -0.5795 [-1.0829; -0.0762] -2.26   0.0240
+McRae-Clark 2010     atomoxetine    placebo -0.3776 [-0.4672; -0.2879] -8.25 < 0.0001
+Medori 2008      methylphenidate    placebo -0.3704 [-0.4500; -0.2908] -9.12 < 0.0001
+Michelson 2003a      atomoxetine    placebo -0.3776 [-0.4672; -0.2879] -8.25 < 0.0001
+Paterson 1999        amphetamine    placebo -0.4709 [-0.7039; -0.2379] -3.96 < 0.0001
+Rosler 2009      methylphenidate    placebo -0.3704 [-0.4500; -0.2908] -9.12 < 0.0001
+Takahashi 2014   methylphenidate    placebo -0.3704 [-0.4500; -0.2908] -9.12 < 0.0001
+Taylor 2000          amphetamine  modafinil -0.3336 [-0.6559; -0.0113] -2.03   0.0425
+Taylor 2000            modafinil    placebo -0.1373 [-0.3882;  0.1136] -1.07   0.2834
+Taylor 2000          amphetamine    placebo -0.4709 [-0.7039; -0.2379] -3.96 < 0.0001
+Taylor 2001          amphetamine guanfacine  0.2430 [-0.3568;  0.8429]  0.79   0.4271
+Taylor 2001           guanfacine    placebo -0.7139 [-1.3158; -0.1120] -2.32   0.0201
+Taylor 2001          amphetamine    placebo -0.4709 [-0.7039; -0.2379] -3.96 < 0.0001
+Tenenbaum 2002   methylphenidate    placebo -0.3704 [-0.4500; -0.2908] -9.12 < 0.0001
+Goodman 2016     methylphenidate    placebo -0.3704 [-0.4500; -0.2908] -9.12 < 0.0001
+Biehl 2016       methylphenidate    placebo -0.3704 [-0.4500; -0.2908] -9.12 < 0.0001
+Hamedi 2014            bupropion    placebo -0.5795 [-1.0829; -0.0762] -2.26   0.0240
+Lin 2016             atomoxetine    placebo -0.3776 [-0.4672; -0.2879] -8.25 < 0.0001
+Michelson 2003b      atomoxetine    placebo -0.3776 [-0.4672; -0.2879] -8.25 < 0.0001
+Weiss 2020       methylphenidate    placebo -0.3704 [-0.4500; -0.2908] -9.12 < 0.0001
+Kooij 2004       methylphenidate    placebo -0.3704 [-0.4500; -0.2908] -9.12 < 0.0001
+Philipsen 2015   methylphenidate    placebo -0.3704 [-0.4500; -0.2908] -9.12 < 0.0001
+
+Additive model (random effects model):
+                          treat1     treat2     SMD             95%-CI     z  p-value
+Weisler 2006         amphetamine    placebo -0.4765 [-0.7384; -0.2146] -3.57   0.0004
+Wilens 2008          atomoxetine    placebo -0.3777 [-0.5001; -0.2553] -6.05 < 0.0001
+Adler 2008a          atomoxetine    placebo -0.3777 [-0.5001; -0.2553] -6.05 < 0.0001
+Adler 2009b          atomoxetine    placebo -0.3777 [-0.5001; -0.2553] -6.05 < 0.0001
+Arnold 2014            modafinil    placebo -0.1886 [-0.4870;  0.1098] -1.24   0.2154
+Casas 2013       methylphenidate    placebo -0.3672 [-0.4725; -0.2619] -6.83 < 0.0001
+Durell 2013          atomoxetine    placebo -0.3777 [-0.5001; -0.2553] -6.05 < 0.0001
+Ginsberg 2012    methylphenidate    placebo -0.3672 [-0.4725; -0.2619] -6.83 < 0.0001
+Huss 2014        methylphenidate    placebo -0.3672 [-0.4725; -0.2619] -6.83 < 0.0001
+Kuperman 2001          bupropion    placebo -0.5728 [-1.0982; -0.0474] -2.14   0.0326
+McRae-Clark 2010     atomoxetine    placebo -0.3777 [-0.5001; -0.2553] -6.05 < 0.0001
+Medori 2008      methylphenidate    placebo -0.3672 [-0.4725; -0.2619] -6.83 < 0.0001
+Michelson 2003a      atomoxetine    placebo -0.3777 [-0.5001; -0.2553] -6.05 < 0.0001
+Paterson 1999        amphetamine    placebo -0.4765 [-0.7384; -0.2146] -3.57   0.0004
+Rosler 2009      methylphenidate    placebo -0.3672 [-0.4725; -0.2619] -6.83 < 0.0001
+Takahashi 2014   methylphenidate    placebo -0.3672 [-0.4725; -0.2619] -6.83 < 0.0001
+Taylor 2000          amphetamine  modafinil -0.2879 [-0.6574;  0.0816] -1.53   0.1267
+Taylor 2000            modafinil    placebo -0.1886 [-0.4870;  0.1098] -1.24   0.2154
+Taylor 2000          amphetamine    placebo -0.4765 [-0.7384; -0.2146] -3.57   0.0004
+Taylor 2001          amphetamine guanfacine  0.2406 [-0.3878;  0.8690]  0.75   0.4530
+Taylor 2001           guanfacine    placebo -0.7171 [-1.3479; -0.0864] -2.23   0.0259
+Taylor 2001          amphetamine    placebo -0.4765 [-0.7384; -0.2146] -3.57   0.0004
+Tenenbaum 2002   methylphenidate    placebo -0.3672 [-0.4725; -0.2619] -6.83 < 0.0001
+Goodman 2016     methylphenidate    placebo -0.3672 [-0.4725; -0.2619] -6.83 < 0.0001
+Biehl 2016       methylphenidate    placebo -0.3672 [-0.4725; -0.2619] -6.83 < 0.0001
+Hamedi 2014            bupropion    placebo -0.5728 [-1.0982; -0.0474] -2.14   0.0326
+Lin 2016             atomoxetine    placebo -0.3777 [-0.5001; -0.2553] -6.05 < 0.0001
+Michelson 2003b      atomoxetine    placebo -0.3777 [-0.5001; -0.2553] -6.05 < 0.0001
+Weiss 2020       methylphenidate    placebo -0.3672 [-0.4725; -0.2619] -6.83 < 0.0001
+Kooij 2004       methylphenidate    placebo -0.3672 [-0.4725; -0.2619] -6.83 < 0.0001
+Philipsen 2015   methylphenidate    placebo -0.3672 [-0.4725; -0.2619] -6.83 < 0.0001
+
+Number of studies: k = 27
+Number of pairwise comparisons: m = 31
+Number of treatments: n = 7
+Number of active components: c = 7
+Number of designs: d = 7
+Number of subnetworks: s = 1
+
+Common effects model
+
+Treatment estimate (sm = 'SMD', comparison: other treatments vs 'placebo'):
+                    SMD             95%-CI     z  p-value
+amphetamine     -0.4709 [-0.7039; -0.2379] -3.96 < 0.0001
+atomoxetine     -0.3776 [-0.4672; -0.2879] -8.25 < 0.0001
+bupropion       -0.5795 [-1.0829; -0.0762] -2.26   0.0240
+guanfacine      -0.7139 [-1.3158; -0.1120] -2.32   0.0201
+methylphenidate -0.3704 [-0.4500; -0.2908] -9.12 < 0.0001
+modafinil       -0.1373 [-0.3882;  0.1136] -1.07   0.2834
+placebo               .                  .     .        .
+
+Incremental effect for components:
+                   iSMD            95%-CI     z  p-value
+amphetamine     -0.0924 [-0.3059; 0.1211] -0.85   0.3964
+atomoxetine      0.0010 [-0.1493; 0.1512]  0.01   0.9900
+bupropion       -0.2010 [-0.6458; 0.2437] -0.89   0.3757
+guanfacine      -0.3354 [-0.8516; 0.1808] -1.27   0.2029
+methylphenidate  0.0081 [-0.1380; 0.1542]  0.11   0.9136
+modafinil        0.2412 [-0.0014; 0.4839]  1.95   0.0514
+placebo          0.3785 [ 0.2488; 0.5082]  5.72 < 0.0001
+
+Random effects model
+
+Treatment estimate (sm = 'SMD', comparison: other treatments vs 'placebo'):
+                    SMD             95%-CI     z  p-value
+amphetamine     -0.4765 [-0.7384; -0.2146] -3.57   0.0004
+atomoxetine     -0.3777 [-0.5001; -0.2553] -6.05 < 0.0001
+bupropion       -0.5728 [-1.0982; -0.0474] -2.14   0.0326
+guanfacine      -0.7171 [-1.3479; -0.0864] -2.23   0.0259
+methylphenidate -0.3672 [-0.4725; -0.2619] -6.83 < 0.0001
+modafinil       -0.1886 [-0.4870;  0.1098] -1.24   0.2154
+placebo               .                  .     .        .
+
+Incremental effect for components:
+                   iSMD            95%-CI     z  p-value
+amphetamine     -0.0908 [-0.3261; 0.1445] -0.76   0.4494
+atomoxetine      0.0080 [-0.1661; 0.1822]  0.09   0.9280
+bupropion       -0.1871 [-0.6527; 0.2785] -0.79   0.4310
+guanfacine      -0.3314 [-0.8718; 0.2090] -1.20   0.2294
+methylphenidate  0.0185 [-0.1475; 0.1844]  0.22   0.8273
+modafinil        0.1971 [-0.0833; 0.4775]  1.38   0.1683
+placebo          0.3857 [ 0.2456; 0.5258]  5.40 < 0.0001
+
+Quantifying heterogeneity / inconsistency:
+tau^2 = 0.0110; tau = 0.1050; I^2 = 32.3% [0.0%; 58.9%]
+
+Heterogeneity statistics:
+                   Q df p-value
+Additive model 33.98 23  0.0654
+Standard model 33.98 23  0.0654
+Difference      0.00  0      --
+
+A total of 7 treatments are included in the network.
+A total of 27 studies are included in this analysis.
+A total of 5518 participants are included in this analysis.
+The following studies were included in this analysis: Adler 2008a Adler 2009b Arnold 2014 Biehl 2016 Casas 2013 Durell 2013 Ginsberg 2012 Goodman 2016 Hamedi 2014 Huss 2014 Kooij 2004 Kuperman 2001 Lin 2016 McRae-Clark 2010 Medori 2008 Michelson 2003a Michelson 2003b Paterson 1999 Philipsen 2015 Rosler 2009 Takahashi 2014 Taylor 2000 Taylor 2001 Tenenbaum 2002 Weisler 2006 Weiss 2020 Wilens 2008
+Estimated heterogeneity tau-squared0.01
+
+File created on 2024-03-23
