@@ -1,4 +1,4 @@
-List of included studies (112 studies): 
+List of included studies (110 studies): 
 
 Adler 2008a
 Adler 2008b
@@ -32,7 +32,6 @@ Durell 2013
 Emilsson 2011
 Faraone 2021
 Fleming 2013
-Forsström 2023
 Frick 2017
 Ginsberg 2012
 Goodman 2016
@@ -78,7 +77,6 @@ NCT04439422
 Paterson 1999
 Paz 2017
 Pettersson 2014
-Pheh 2021
 Philipsen 2015
 Reimherr 2005
 Reimherr 2007
@@ -113,4 +111,4 @@ Wilens 2008
 Winhusen 2010
 Young 2011
 
-File created on 2024-03-17
+File created on 2024-04-07

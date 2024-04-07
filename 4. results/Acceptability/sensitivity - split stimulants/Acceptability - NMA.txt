@@ -1,0 +1,262 @@
+Network meta-analysis.
+
+Original data (with adjusted standard errors for multi-arm studies):
+
+                                treat1          treat2      TE   seTE seTE.adj.c seTE.adj.r narms multiarm
+Weisler 2006               amphetamine         placebo -0.3914 0.3303     0.3303     0.4486     2         
+Wilens 2001                  bupropion         placebo  1.6094 1.5819     1.5819     1.6108     2         
+Young 2011                 atomoxetine         placebo  0.5175 0.1805     0.1805     0.3531     2         
+Wilens 2008                atomoxetine         placebo  0.7985 0.3378     0.3378     0.4541     2         
+Winhusen 2010          methylphenidate         placebo  0.0093 0.3444     0.3444     0.4591     2         
+Adler 2009a                atomoxetine         placebo  0.2561 0.1945     0.1945     0.3605     2         
+Adler 2008a                atomoxetine         placebo  0.4304 0.2107     0.2107     0.3695     2         
+Adler 2008b                amphetamine         placebo  0.0658 0.3728     0.3728     0.4808     2         
+Adler 2013                 amphetamine         placebo -0.5987 0.3553     0.3553     0.4673     2         
+Adler 2009b                atomoxetine         placebo  0.2906 0.1821     0.1821     0.3540     2         
+Adler 2009c            methylphenidate         placebo  0.7167 0.2957     0.2957     0.4238     2         
+Arnold 2014                  modafinil         placebo  0.6040 0.3012     0.3012     0.4276     2         
+Biederman 2012             amphetamine         placebo -0.0328 0.7521     0.7521     0.8110     2         
+Bron 2014              methylphenidate         placebo  1.5686 1.1972     1.1972     1.2351     2         
+Casas 2013             methylphenidate         placebo  0.4284 0.2686     0.2686     0.4053     2         
+Durell 2013                atomoxetine         placebo  0.2227 0.1909     0.1909     0.3586     2         
+Goto 2013                  atomoxetine         placebo  0.5682 0.2780     0.2780     0.4116     2         
+Huss 2014              methylphenidate         placebo  0.3595 0.2311     0.2311     0.3815     2         
+McRae-Clark 2010           atomoxetine         placebo  0.0000 0.4531     0.4531     0.5453     2         
+Michelson 2003a            atomoxetine         placebo  0.2457 0.2758     0.2758     0.4101     2         
+Reimherr 2005                bupropion         placebo -0.4769 0.6507     0.6507     0.7180     2         
+Rosler 2009            methylphenidate         placebo -0.9106 0.2389     0.2389     0.3863     2         
+Spencer 1995           methylphenidate         placebo  1.1386 1.6573     1.6573     1.6849     2         
+Spencer 2001               amphetamine         placebo -1.1319 1.6533     1.6533     1.6809     2         
+Spencer 2007           methylphenidate         placebo -0.1943 0.4091     0.4091     0.5094     2         
+Sutherland 2012            atomoxetine         placebo -0.6526 0.3720     0.3720     0.4801     2         
+Takahashi 2014         methylphenidate         placebo  0.4129 0.5410     0.5410     0.6203     2         
+Goodman 2016           methylphenidate         placebo -0.1242 0.2564     0.2564     0.3974     2         
+Biehl 2016             methylphenidate         placebo -1.3282 1.6681     1.6681     1.6955     2         
+Schrantee 2016         methylphenidate         placebo -0.4964 0.9615     0.9615     1.0082     2         
+Spencer 1998               atomoxetine         placebo  1.1441 1.6606     1.6606     1.6881     2         
+Kay 2009a                  amphetamine         placebo -1.2321 1.2654     1.2654     1.3013     2         
+Frick 2017                 amphetamine         placebo -0.8479 0.2573     0.2573     0.3979     2         
+Michelson 2003b            atomoxetine         placebo  0.5316 0.2743     0.2743     0.4091     2         
+Weisler 2017               amphetamine         placebo  0.2665 0.3815     0.3815     0.4875     2         
+Weiss 2020             methylphenidate         placebo -0.0426 0.3996     0.3996     0.5018     2         
+Iwanami 2020                guanfacine         placebo  1.3083 0.4601     0.4601     0.5512     2         
+Faraone 2021               amphetamine         placebo  0.4126 0.3362     0.3362     0.4530     2         
+Weisler 2012               atomoxetine         placebo  0.7520 0.4187     0.5022     0.6257     3        *
+Weisler 2012           methylphenidate         placebo  0.3029 0.4493     0.5917     0.6945     3        *
+Weisler 2012               atomoxetine methylphenidate  0.4491 0.4045     0.4740     0.6013     3        *
+Cutler 2022                amphetamine         placebo  0.0733 0.3829     0.3829     0.4886     2         
+Philipsen 2015   DBT + methylphenidate methylphenidate  0.4888 0.4331     0.7239     0.8236     4        *
+Philipsen 2015           DBT + placebo methylphenidate  1.0906 0.4024     0.5923     0.7333     4        *
+Philipsen 2015         methylphenidate         placebo -1.2164 0.3994     0.5786     0.7243     4        *
+Philipsen 2015   DBT + methylphenidate         placebo -0.7275 0.3565     0.4858     0.6446     4        *
+Philipsen 2015           DBT + placebo         placebo -0.1258 0.3185     0.3975     0.5739     4        *
+Philipsen 2015   DBT + methylphenidate   DBT + placebo -0.6018 0.3598     0.4973     0.6526     4        *
+Nasser 2022                    placebo      viloxazine -0.4564 0.2316     0.2316     0.3818     2         
+NCT03324581                atomoxetine         placebo  0.6235 0.3287     0.3287     0.4474     2         
+
+Number of treatment arms (by study):
+                 narms
+Weisler 2006         2
+Wilens 2001          2
+Young 2011           2
+Wilens 2008          2
+Winhusen 2010        2
+Adler 2009a          2
+Adler 2008a          2
+Adler 2008b          2
+Adler 2013           2
+Adler 2009b          2
+Adler 2009c          2
+Arnold 2014          2
+Biederman 2012       2
+Bron 2014            2
+Casas 2013           2
+Durell 2013          2
+Goto 2013            2
+Huss 2014            2
+McRae-Clark 2010     2
+Michelson 2003a      2
+Reimherr 2005        2
+Rosler 2009          2
+Spencer 1995         2
+Spencer 2001         2
+Spencer 2007         2
+Sutherland 2012      2
+Takahashi 2014       2
+Goodman 2016         2
+Biehl 2016           2
+Schrantee 2016       2
+Spencer 1998         2
+Kay 2009a            2
+Frick 2017           2
+Michelson 2003b      2
+Weisler 2017         2
+Weiss 2020           2
+Iwanami 2020         2
+Faraone 2021         2
+Weisler 2012         3
+Cutler 2022          2
+Philipsen 2015       4
+Nasser 2022          2
+NCT03324581          2
+
+Results (common effects model):
+
+                                treat1          treat2     OR           95%-CI     Q leverage
+Weisler 2006               amphetamine         placebo 0.7818 [0.6127; 0.9975]  0.19     0.14
+Wilens 2001                  bupropion         placebo 0.8394 [0.2581; 2.7302]  1.27     0.14
+Young 2011                 atomoxetine         placebo 1.4373 [1.2576; 1.6426]  0.74     0.14
+Wilens 2008                atomoxetine         placebo 1.4373 [1.2576; 1.6426]  1.66     0.04
+Winhusen 2010          methylphenidate         placebo 0.9699 [0.8091; 1.1628]  0.01     0.07
+Adler 2009a                atomoxetine         placebo 1.4373 [1.2576; 1.6426]  0.30     0.12
+Adler 2008a                atomoxetine         placebo 1.4373 [1.2576; 1.6426]  0.10     0.10
+Adler 2008b                amphetamine         placebo 0.7818 [0.6127; 0.9975]  0.70     0.11
+Adler 2013                 amphetamine         placebo 0.7818 [0.6127; 0.9975]  0.98     0.12
+Adler 2009b                atomoxetine         placebo 1.4373 [1.2576; 1.6426]  0.16     0.14
+Adler 2009c            methylphenidate         placebo 0.9699 [0.8091; 1.1628]  6.38     0.10
+Arnold 2014                  modafinil         placebo 1.8293 [1.0137; 3.3014]  0.00     1.00
+Biederman 2012             amphetamine         placebo 0.7818 [0.6127; 0.9975]  0.08     0.03
+Bron 2014              methylphenidate         placebo 0.9699 [0.8091; 1.1628]  1.78     0.01
+Casas 2013             methylphenidate         placebo 0.9699 [0.8091; 1.1628]  2.92     0.12
+Durell 2013                atomoxetine         placebo 1.4373 [1.2576; 1.6426]  0.54     0.13
+Goto 2013                  atomoxetine         placebo 1.4373 [1.2576; 1.6426]  0.55     0.06
+Huss 2014              methylphenidate         placebo 0.9699 [0.8091; 1.1628]  2.85     0.16
+McRae-Clark 2010           atomoxetine         placebo 1.4373 [1.2576; 1.6426]  0.64     0.02
+Michelson 2003a            atomoxetine         placebo 1.4373 [1.2576; 1.6426]  0.18     0.06
+Reimherr 2005                bupropion         placebo 0.8394 [0.2581; 2.7302]  0.22     0.86
+Rosler 2009            methylphenidate         placebo 0.9699 [0.8091; 1.1628] 13.57     0.15
+Spencer 1995           methylphenidate         placebo 0.9699 [0.8091; 1.1628]  0.50     0.00
+Spencer 2001               amphetamine         placebo 0.7818 [0.6127; 0.9975]  0.29     0.01
+Spencer 2007           methylphenidate         placebo 0.9699 [0.8091; 1.1628]  0.16     0.05
+Sutherland 2012            atomoxetine         placebo 1.4373 [1.2576; 1.6426]  7.45     0.03
+Takahashi 2014         methylphenidate         placebo 0.9699 [0.8091; 1.1628]  0.67     0.03
+Goodman 2016           methylphenidate         placebo 0.9699 [0.8091; 1.1628]  0.13     0.13
+Biehl 2016             methylphenidate         placebo 0.9699 [0.8091; 1.1628]  0.61     0.00
+Schrantee 2016         methylphenidate         placebo 0.9699 [0.8091; 1.1628]  0.23     0.01
+Spencer 1998               atomoxetine         placebo 1.4373 [1.2576; 1.6426]  0.22     0.00
+Kay 2009a                  amphetamine         placebo 0.7818 [0.6127; 0.9975]  0.61     0.01
+Frick 2017                 amphetamine         placebo 0.7818 [0.6127; 0.9975]  5.47     0.23
+Michelson 2003b            atomoxetine         placebo 1.4373 [1.2576; 1.6426]  0.38     0.06
+Weisler 2017               amphetamine         placebo 0.7818 [0.6127; 0.9975]  1.81     0.11
+Weiss 2020             methylphenidate         placebo 0.9699 [0.8091; 1.1628]  0.00     0.05
+Iwanami 2020                guanfacine         placebo 3.6998 [1.5015; 9.1169]  0.00     1.00
+Faraone 2021               amphetamine         placebo 0.7818 [0.6127; 0.9975]  3.84     0.14
+Weisler 2012               atomoxetine         placebo 1.4373 [1.2576; 1.6426]  0.60        .
+Weisler 2012           methylphenidate         placebo 0.9699 [0.8091; 1.1628]  0.32        .
+Weisler 2012               atomoxetine methylphenidate 1.4818 [1.1866; 1.8505]  0.01        .
+Cutler 2022                amphetamine         placebo 0.7818 [0.6127; 0.9975]  0.70     0.11
+Philipsen 2015   DBT + methylphenidate methylphenidate 0.7198 [0.3695; 1.4022]  1.28        .
+Philipsen 2015           DBT + placebo methylphenidate 1.3139 [0.7295; 2.3665]  1.91        .
+Philipsen 2015         methylphenidate         placebo 0.9699 [0.8091; 1.1628]  4.20        .
+Philipsen 2015   DBT + methylphenidate         placebo 0.6981 [0.3618; 1.3473]  0.57        .
+Philipsen 2015           DBT + placebo         placebo 1.2744 [0.7152; 2.2709]  0.86        .
+Philipsen 2015   DBT + methylphenidate   DBT + placebo 0.5478 [0.2706; 1.1089]  0.00        .
+Nasser 2022                    placebo      viloxazine 0.6336 [0.4024; 0.9974]  0.00     1.00
+NCT03324581                atomoxetine         placebo 1.4373 [1.2576; 1.6426]  0.63     0.04
+
+Results (random effects model):
+
+                                treat1          treat2     OR            95%-CI
+Weisler 2006               amphetamine         placebo 0.8117 [0.5853;  1.1257]
+Wilens 2001                  bupropion         placebo 0.8771 [0.2426;  3.1715]
+Young 2011                 atomoxetine         placebo 1.4372 [1.1539;  1.7901]
+Wilens 2008                atomoxetine         placebo 1.4372 [1.1539;  1.7901]
+Winhusen 2010          methylphenidate         placebo 0.9730 [0.7518;  1.2591]
+Adler 2009a                atomoxetine         placebo 1.4372 [1.1539;  1.7901]
+Adler 2008a                atomoxetine         placebo 1.4372 [1.1539;  1.7901]
+Adler 2008b                amphetamine         placebo 0.8117 [0.5853;  1.1257]
+Adler 2013                 amphetamine         placebo 0.8117 [0.5853;  1.1257]
+Adler 2009b                atomoxetine         placebo 1.4372 [1.1539;  1.7901]
+Adler 2009c            methylphenidate         placebo 0.9730 [0.7518;  1.2591]
+Arnold 2014                  modafinil         placebo 1.8293 [0.7912;  4.2296]
+Biederman 2012             amphetamine         placebo 0.8117 [0.5853;  1.1257]
+Bron 2014              methylphenidate         placebo 0.9730 [0.7518;  1.2591]
+Casas 2013             methylphenidate         placebo 0.9730 [0.7518;  1.2591]
+Durell 2013                atomoxetine         placebo 1.4372 [1.1539;  1.7901]
+Goto 2013                  atomoxetine         placebo 1.4372 [1.1539;  1.7901]
+Huss 2014              methylphenidate         placebo 0.9730 [0.7518;  1.2591]
+McRae-Clark 2010           atomoxetine         placebo 1.4372 [1.1539;  1.7901]
+Michelson 2003a            atomoxetine         placebo 1.4372 [1.1539;  1.7901]
+Reimherr 2005                bupropion         placebo 0.8771 [0.2426;  3.1715]
+Rosler 2009            methylphenidate         placebo 0.9730 [0.7518;  1.2591]
+Spencer 1995           methylphenidate         placebo 0.9730 [0.7518;  1.2591]
+Spencer 2001               amphetamine         placebo 0.8117 [0.5853;  1.1257]
+Spencer 2007           methylphenidate         placebo 0.9730 [0.7518;  1.2591]
+Sutherland 2012            atomoxetine         placebo 1.4372 [1.1539;  1.7901]
+Takahashi 2014         methylphenidate         placebo 0.9730 [0.7518;  1.2591]
+Goodman 2016           methylphenidate         placebo 0.9730 [0.7518;  1.2591]
+Biehl 2016             methylphenidate         placebo 0.9730 [0.7518;  1.2591]
+Schrantee 2016         methylphenidate         placebo 0.9730 [0.7518;  1.2591]
+Spencer 1998               atomoxetine         placebo 1.4372 [1.1539;  1.7901]
+Kay 2009a                  amphetamine         placebo 0.8117 [0.5853;  1.1257]
+Frick 2017                 amphetamine         placebo 0.8117 [0.5853;  1.1257]
+Michelson 2003b            atomoxetine         placebo 1.4372 [1.1539;  1.7901]
+Weisler 2017               amphetamine         placebo 0.8117 [0.5853;  1.1257]
+Weiss 2020             methylphenidate         placebo 0.9730 [0.7518;  1.2591]
+Iwanami 2020                guanfacine         placebo 3.6998 [1.2560; 10.8990]
+Faraone 2021               amphetamine         placebo 0.8117 [0.5853;  1.1257]
+Weisler 2012               atomoxetine         placebo 1.4372 [1.1539;  1.7901]
+Weisler 2012           methylphenidate         placebo 0.9730 [0.7518;  1.2591]
+Weisler 2012               atomoxetine methylphenidate 1.4772 [1.0601;  2.0584]
+Cutler 2022                amphetamine         placebo 0.8117 [0.5853;  1.1257]
+Philipsen 2015   DBT + methylphenidate methylphenidate 0.7800 [0.3323;  1.8309]
+Philipsen 2015           DBT + placebo methylphenidate 1.4238 [0.6439;  3.1482]
+Philipsen 2015         methylphenidate         placebo 0.9730 [0.7518;  1.2591]
+Philipsen 2015   DBT + methylphenidate         placebo 0.7589 [0.3264;  1.7647]
+Philipsen 2015           DBT + placebo         placebo 1.3853 [0.6329;  3.0322]
+Philipsen 2015   DBT + methylphenidate   DBT + placebo 0.5478 [0.2178;  1.3782]
+Nasser 2022                    placebo      viloxazine 0.6336 [0.2998;  1.3389]
+NCT03324581                atomoxetine         placebo 1.4372 [1.1539;  1.7901]
+
+Number of studies: k = 43
+Number of pairwise comparisons: m = 50
+Number of observations: o = 10547
+Number of treatments: n = 10
+Number of designs: d = 9
+
+Common effects model
+
+Treatment estimate (sm = 'OR', comparison: other treatments vs 'placebo'):
+                          OR           95%-CI     z  p-value
+amphetamine           0.7818 [0.6127; 0.9975] -1.98   0.0477
+atomoxetine           1.4373 [1.2576; 1.6426]  5.32 < 0.0001
+bupropion             0.8394 [0.2581; 2.7302] -0.29   0.7711
+DBT + methylphenidate 0.6981 [0.3618; 1.3473] -1.07   0.2841
+DBT + placebo         1.2744 [0.7152; 2.2709]  0.82   0.4107
+guanfacine            3.6998 [1.5015; 9.1169]  2.84   0.0045
+methylphenidate       0.9699 [0.8091; 1.1628] -0.33   0.7416
+modafinil             1.8293 [1.0137; 3.3014]  2.00   0.0450
+placebo                    .                .     .        .
+viloxazine            1.5784 [1.0026; 2.4849]  1.97   0.0487
+
+Random effects model
+
+Treatment estimate (sm = 'OR', comparison: other treatments vs 'placebo'):
+                          OR            95%-CI     z p-value             95%-PI
+amphetamine           0.8117 [0.5853;  1.1257] -1.25  0.2111  [0.4021;  1.6386]
+atomoxetine           1.4372 [1.1539;  1.7901]  3.24  0.0012  [0.7457;  2.7701]
+bupropion             0.8771 [0.2426;  3.1715] -0.20  0.8415  [0.2026;  3.7979]
+DBT + methylphenidate 0.7589 [0.3264;  1.7647] -0.64  0.5217  [0.2607;  2.2089]
+DBT + placebo         1.3853 [0.6329;  3.0322]  0.82  0.4148  [0.5006;  3.8335]
+guanfacine            3.6998 [1.2560; 10.8990]  2.37  0.0176  [1.0326; 13.2568]
+methylphenidate       0.9730 [0.7518;  1.2591] -0.21  0.8349  [0.4974;  1.9031]
+modafinil             1.8293 [0.7912;  4.2296]  1.41  0.1579  [0.6315;  5.2989]
+placebo                    .                 .     .       .                  .
+viloxazine            1.5784 [0.7469;  3.3356]  1.20  0.2319  [0.5870;  4.2442]
+
+Quantifying heterogeneity / inconsistency:
+tau^2 = 0.0921; tau = 0.3035; I^2 = 46.6% [21.8%; 63.5%]
+
+Tests of heterogeneity (within designs) and inconsistency (between designs):
+                    Q d.f. p-value
+Total           69.26   37  0.0010
+Within designs  59.06   34  0.0049
+Between designs 10.20    3  0.0169
+
+A total of 10 treatments are included in the network.
+A total of 43 studies are included in this analysis.
+A total of 10547 participants are included in this analysis.
+The following studies were included in this analysis: Weisler 2006 Wilens 2001 Young 2011 Wilens 2008 Winhusen 2010 Adler 2009a Adler 2008a Adler 2008b Adler 2013 Adler 2009b Adler 2009c Arnold 2014 Biederman 2012 Bron 2014 Casas 2013 Durell 2013 Goto 2013 Huss 2014 McRae-Clark 2010 Michelson 2003a Reimherr 2005 Rosler 2009 Spencer 1995 Spencer 2001 Spencer 2007 Sutherland 2012 Takahashi 2014 Goodman 2016 Biehl 2016 Schrantee 2016 Spencer 1998 Kay 2009a Frick 2017 Michelson 2003b Weisler 2017 Weiss 2020 Iwanami 2020 Faraone 2021 Weisler 2012 Cutler 2022 Philipsen 2015 Nasser 2022 NCT03324581
+Estimated heterogeneity tau-squared: 0.09
+
+File created on 2024-04-07
