@@ -4,54 +4,56 @@ Additive model (common effects model):
                               treat1             treat2     SMD             95%-CI     z  p-value
 Adler 2008a              atomoxetine            placebo -0.3551 [-0.4918; -0.2185] -5.09 < 0.0001
 Adler 2009b              atomoxetine            placebo -0.3551 [-0.4918; -0.2185] -5.09 < 0.0001
-Rosler 2009                  placebo         stimulants  0.2524 [ 0.0918;  0.4130]  3.08   0.0021
-Anastopoulos 2021                CBT       waiting list -0.4584 [-0.6897; -0.2271] -3.88   0.0001
+Rosler 2009                  placebo         stimulants  0.2532 [ 0.0926;  0.4138]  3.09   0.0020
+Anastopoulos 2021                CBT       waiting list -0.4925 [-0.7227; -0.2624] -4.19 < 0.0001
 Cherkasova 2016                  CBT   CBT + stimulants  0.6590 [ 0.2295;  1.0885]  3.01   0.0026
-Fleming 2013                     CBT                DBT  0.0078 [-0.4165;  0.4320]  0.04   0.9714
-Gu 2016                  mindfulness       waiting list -1.0997 [-1.5345; -0.6649] -4.96 < 0.0001
+Fleming 2013                     CBT                DBT -0.2811 [-0.6584;  0.0962] -1.46   0.1443
+Gu 2016                  mindfulness       waiting list -0.9034 [-1.3177; -0.4891] -4.27 < 0.0001
 Hoxhaj 2018              mindfulness    psychoeducation -0.1878 [-0.6788;  0.3033] -0.75   0.4536
-Janssen 2018       mindfulness + TAU                TAU -0.7057 [-1.0538; -0.3576] -3.97 < 0.0001
-Nakashima 2021             CBT + TAU                TAU -0.0644 [-0.4656;  0.3368] -0.31   0.7530
-Safren 2010                      CBT relaxation therapy -0.1318 [-0.4543;  0.1908] -0.80   0.4233
+Janssen 2018       mindfulness + TAU                TAU -0.7945 [-1.1375; -0.4515] -4.54 < 0.0001
+Nakashima 2021             CBT + TAU                TAU -0.3836 [-0.7227; -0.0445] -2.22   0.0266
+Safren 2010                      CBT relaxation therapy -0.1412 [-0.4637;  0.1812] -0.86   0.3907
 Virta 2010                       CBT       hypnotherapy  0.1253 [-0.8280;  1.0786]  0.26   0.7967
-Nasri 2022                       CBT relaxation therapy -0.1318 [-0.4543;  0.1908] -0.80   0.4233
-Nasri 2022                       CBT       waiting list -0.4584 [-0.6897; -0.2271] -3.88   0.0001
-Nasri 2022        relaxation therapy       waiting list -0.3267 [-0.6842;  0.0309] -1.79   0.0734
-Philipsen 2015         DBT + placebo         stimulants  0.1802 [-0.0897;  0.4501]  1.31   0.1906
-Philipsen 2015      DBT + stimulants         stimulants -0.0722 [-0.2950;  0.1507] -0.63   0.5256
-Philipsen 2015               placebo         stimulants  0.2524 [ 0.0918;  0.4130]  3.08   0.0021
-Philipsen 2015         DBT + placebo            placebo -0.0722 [-0.2950;  0.1507] -0.63   0.5256
-Philipsen 2015      DBT + stimulants            placebo -0.3246 [-0.6040; -0.0451] -2.28   0.0228
-Philipsen 2015         DBT + placebo   DBT + stimulants  0.2524 [ 0.0918;  0.4130]  3.08   0.0021
+Nasri 2022                       CBT relaxation therapy -0.1412 [-0.4637;  0.1812] -0.86   0.3907
+Nasri 2022                       CBT       waiting list -0.4925 [-0.7227; -0.2624] -4.19 < 0.0001
+Nasri 2022        relaxation therapy       waiting list -0.3513 [-0.7085;  0.0059] -1.93   0.0539
+Philipsen 2015         DBT + placebo         stimulants  0.1506 [-0.1185;  0.4198]  1.10   0.2727
+Philipsen 2015      DBT + stimulants         stimulants -0.1026 [-0.3245;  0.1194] -0.91   0.3650
+Philipsen 2015               placebo         stimulants  0.2532 [ 0.0926;  0.4138]  3.09   0.0020
+Philipsen 2015         DBT + placebo            placebo -0.1026 [-0.3245;  0.1194] -0.91   0.3650
+Philipsen 2015      DBT + stimulants            placebo -0.3557 [-0.6344; -0.0771] -2.50   0.0123
+Philipsen 2015         DBT + placebo   DBT + stimulants  0.2532 [ 0.0926;  0.4138]  3.09   0.0020
 Hanssen 2023               GMT + TAU                TAU -0.2953 [-0.8687;  0.2780] -1.01   0.3127
+Dittner 2014               CBT + TAU                TAU -0.3836 [-0.7227; -0.0445] -2.22   0.0266
 
 Additive model (random effects model):
-                              treat1             treat2     SMD             95%-CI     z  p-value
-Adler 2008a              atomoxetine            placebo -0.3481 [-0.5711; -0.1251] -3.06   0.0022
-Adler 2009b              atomoxetine            placebo -0.3481 [-0.5711; -0.1251] -3.06   0.0022
-Rosler 2009                  placebo         stimulants  0.2457 [ 0.0263;  0.4651]  2.19   0.0282
-Anastopoulos 2021                CBT       waiting list -0.4889 [-0.7778; -0.1999] -3.32   0.0009
-Cherkasova 2016                  CBT   CBT + stimulants  0.6590 [ 0.1630;  1.1550]  2.60   0.0092
-Fleming 2013                     CBT                DBT  0.0205 [-0.4481;  0.4891]  0.09   0.9317
-Gu 2016                  mindfulness       waiting list -1.1149 [-1.5978; -0.6319] -4.52 < 0.0001
-Hoxhaj 2018              mindfulness    psychoeducation -0.1878 [-0.7380;  0.3624] -0.67   0.5036
-Janssen 2018       mindfulness + TAU                TAU -0.7027 [-1.1096; -0.2958] -3.38   0.0007
-Nakashima 2021             CBT + TAU                TAU -0.0767 [-0.5157;  0.3623] -0.34   0.7320
-Safren 2010                      CBT relaxation therapy -0.1429 [-0.5076;  0.2218] -0.77   0.4426
-Virta 2010                       CBT       hypnotherapy  0.1253 [-0.8598;  1.1103]  0.25   0.8032
-Nasri 2022                       CBT relaxation therapy -0.1429 [-0.5076;  0.2218] -0.77   0.4426
-Nasri 2022                       CBT       waiting list -0.4889 [-0.7778; -0.1999] -3.32   0.0009
-Nasri 2022        relaxation therapy       waiting list -0.3460 [-0.7582;  0.0662] -1.65   0.1000
-Philipsen 2015         DBT + placebo         stimulants  0.1485 [-0.2003;  0.4974]  0.83   0.4041
-Philipsen 2015      DBT + stimulants         stimulants -0.0972 [-0.3742;  0.1798] -0.69   0.4916
-Philipsen 2015               placebo         stimulants  0.2457 [ 0.0263;  0.4651]  2.19   0.0282
-Philipsen 2015         DBT + placebo            placebo -0.0972 [-0.3742;  0.1798] -0.69   0.4916
-Philipsen 2015      DBT + stimulants            placebo -0.3429 [-0.7007;  0.0149] -1.88   0.0603
-Philipsen 2015         DBT + placebo   DBT + stimulants  0.2457 [ 0.0263;  0.4651]  2.19   0.0282
-Hanssen 2023               GMT + TAU                TAU -0.2953 [-0.9201;  0.3294] -0.93   0.3541
+                              treat1             treat2     SMD             95%-CI     z p-value
+Adler 2008a              atomoxetine            placebo -0.3459 [-0.6658; -0.0259] -2.12  0.0341
+Adler 2009b              atomoxetine            placebo -0.3459 [-0.6658; -0.0259] -2.12  0.0341
+Rosler 2009                  placebo         stimulants  0.2429 [-0.0471;  0.5329]  1.64  0.1006
+Anastopoulos 2021                CBT       waiting list -0.5635 [-0.9211; -0.2059] -3.09  0.0020
+Cherkasova 2016                  CBT   CBT + stimulants  0.6590 [ 0.0665;  1.2516]  2.18  0.0293
+Fleming 2013                     CBT                DBT -0.2332 [-0.7152;  0.2487] -0.95  0.3428
+Gu 2016                  mindfulness       waiting list -0.9553 [-1.4906; -0.4200] -3.50  0.0005
+Hoxhaj 2018              mindfulness    psychoeducation -0.1878 [-0.8264;  0.4508] -0.58  0.5644
+Janssen 2018       mindfulness + TAU                TAU -0.8085 [-1.2895; -0.3275] -3.29  0.0010
+Nakashima 2021             CBT + TAU                TAU -0.4167 [-0.8308; -0.0026] -1.97  0.0486
+Safren 2010                      CBT relaxation therapy -0.1666 [-0.5931;  0.2599] -0.77  0.4439
+Virta 2010                       CBT       hypnotherapy  0.1253 [-0.9118;  1.1623]  0.24  0.8128
+Nasri 2022                       CBT relaxation therapy -0.1666 [-0.5931;  0.2599] -0.77  0.4439
+Nasri 2022                       CBT       waiting list -0.5635 [-0.9211; -0.2059] -3.09  0.0020
+Nasri 2022        relaxation therapy       waiting list -0.3969 [-0.8846;  0.0908] -1.60  0.1107
+Philipsen 2015         DBT + placebo         stimulants  0.0594 [-0.3874;  0.5062]  0.26  0.7943
+Philipsen 2015      DBT + stimulants         stimulants -0.1834 [-0.5282;  0.1613] -1.04  0.2970
+Philipsen 2015               placebo         stimulants  0.2429 [-0.0471;  0.5329]  1.64  0.1006
+Philipsen 2015         DBT + placebo            placebo -0.1834 [-0.5282;  0.1613] -1.04  0.2970
+Philipsen 2015      DBT + stimulants            placebo -0.4263 [-0.8805;  0.0278] -1.84  0.0658
+Philipsen 2015         DBT + placebo   DBT + stimulants  0.2429 [-0.0471;  0.5329]  1.64  0.1006
+Hanssen 2023               GMT + TAU                TAU -0.2953 [-0.9991;  0.4085] -0.82  0.4108
+Dittner 2014               CBT + TAU                TAU -0.4167 [-0.8308; -0.0026] -1.97  0.0486
 
-Number of studies: k = 15
-Number of pairwise comparisons: m = 22
+Number of studies: k = 16
+Number of pairwise comparisons: m = 23
 Number of treatments: n = 17
 Number of active components: c = 11
 Number of designs: d = 14
@@ -62,102 +64,102 @@ Common effects model
 Treatment estimate (sm = 'SMD', comparison: other treatments vs 'placebo'):
                        SMD             95%-CI     z  p-value
 atomoxetine        -0.3551 [-0.4918; -0.2185] -5.09 < 0.0001
-CBT                 0.3422 [-0.2677;  0.9521]  1.10   0.2714
-CBT + stimulants   -0.3168 [-0.7499;  0.1163] -1.43   0.1517
+CBT                 0.0222 [-0.5486;  0.5930]  0.08   0.9392
+CBT + stimulants   -0.6368 [-1.0128; -0.2608] -3.32   0.0009
 CBT + TAU               NA                       NA       --
-DBT                 0.3345 [-0.1779;  0.8469]  1.28   0.2008
-DBT + placebo      -0.0722 [-0.2950;  0.1507] -0.63   0.5256
-DBT + stimulants   -0.3246 [-0.6040; -0.0451] -2.28   0.0228
+DBT                 0.3033 [-0.2087;  0.8152]  1.16   0.2456
+DBT + placebo      -0.1026 [-0.3245;  0.1194] -0.91   0.3650
+DBT + stimulants   -0.3557 [-0.6344; -0.0771] -2.50   0.0123
 GMT + TAU               NA                       NA       --
-hypnotherapy        0.2169 [-0.9148;  1.3487]  0.38   0.7071
-mindfulness        -0.2990 [-0.8749;  0.2769] -1.02   0.3088
+hypnotherapy       -0.1031 [-1.2142;  1.0081] -0.18   0.8557
+mindfulness        -0.3887 [-0.9614;  0.1841] -1.33   0.1835
 mindfulness + TAU       NA                       NA       --
 placebo                  .                  .     .        .
-psychoeducation    -0.1113 [-0.8681;  0.6456] -0.29   0.7732
-relaxation therapy  0.4740 [-0.2090;  1.1570]  1.36   0.1738
-stimulants         -0.2524 [-0.4130; -0.0918] -3.08   0.0021
+psychoeducation    -0.2009 [-0.9554;  0.5535] -0.52   0.6017
+relaxation therapy  0.1634 [-0.4870;  0.8138]  0.49   0.6224
+stimulants         -0.2532 [-0.4138; -0.0926] -3.09   0.0020
 TAU                     NA                       NA       --
-waiting list        0.8007 [ 0.1753;  1.4260]  2.51   0.0121
+waiting list        0.5147 [-0.0804;  1.1099]  1.70   0.0900
 
 Incremental effect for existing combinations:
                     iSMD             95%-CI     z p-value
-CBT + stimulants -0.7234 [-1.3111; -0.1357] -2.41  0.0158
-DBT + placebo    -0.4788 [-0.9860;  0.0284] -1.85  0.0643
-DBT + stimulants -0.7312 [-1.2150; -0.2473] -2.96  0.0031
+CBT + stimulants -1.0426 [-1.5899; -0.4954] -3.73  0.0002
+DBT + placebo    -0.5084 [-1.0152; -0.0015] -1.97  0.0493
+DBT + stimulants -0.7616 [-1.2450; -0.2781] -3.09  0.0020
 
 Incremental effect for components:
                       iSMD             95%-CI     z  p-value
-atomoxetine        -0.7618 [-1.2402; -0.2833] -3.12   0.0018
-CBT                -0.0644 [-0.4656;  0.3368] -0.31   0.7530
-DBT                -0.0722 [-0.2950;  0.1507] -0.63   0.5256
+atomoxetine        -0.7610 [-1.2394; -0.2825] -3.12   0.0018
+CBT                -0.3836 [-0.7227; -0.0445] -2.22   0.0266
+DBT                -0.1026 [-0.3245;  0.1194] -0.91   0.3650
 GMT                -0.2953 [-0.8687;  0.2780] -1.01   0.3127
-hypnotherapy       -0.1897 [-1.2240;  0.8446] -0.36   0.7193
-mindfulness        -0.7057 [-1.0538; -0.3576] -3.97 < 0.0001
-placebo            -0.4066 [-0.8652;  0.0519] -1.74   0.0822
-psychoeducation    -0.5179 [-1.1199;  0.0840] -1.69   0.0917
-relaxation therapy  0.0674 [-0.4380;  0.5728]  0.26   0.7939
+hypnotherapy       -0.5089 [-1.5207;  0.5029] -0.99   0.3242
+mindfulness        -0.7945 [-1.1375; -0.4515] -4.54 < 0.0001
+placebo            -0.4058 [-0.8644;  0.0527] -1.73   0.0828
+psychoeducation    -0.6068 [-1.2057; -0.0078] -1.99   0.0471
+relaxation therapy -0.2424 [-0.7030;  0.2182] -1.03   0.3023
 stimulants         -0.6590 [-1.0885; -0.2295] -3.01   0.0026
 TAU                     NA                  .     .        .
-waiting list        0.3940 [-0.0303;  0.8183]  1.82   0.0688
+waiting list        0.1089 [-0.2698;  0.4876]  0.56   0.5730
 
 Random effects model
 
 Treatment estimate (sm = 'SMD', comparison: other treatments vs 'placebo'):
                        SMD             95%-CI     z p-value
-atomoxetine        -0.3481 [-0.5711; -0.1251] -3.06  0.0022
-CBT                 0.3366 [-0.3619;  1.0351]  0.94  0.3449
-CBT + stimulants   -0.3224 [-0.8142;  0.1694] -1.28  0.1988
+atomoxetine        -0.3459 [-0.6658; -0.0259] -2.12  0.0341
+CBT                -0.0006 [-0.7800;  0.7788] -0.00  0.9989
+CBT + stimulants   -0.6596 [-1.1659; -0.1533] -2.55  0.0107
 CBT + TAU               NA                       NA      --
-DBT                 0.3161 [-0.2955;  0.9277]  1.01  0.3111
-DBT + placebo      -0.0972 [-0.3742;  0.1798] -0.69  0.4916
-DBT + stimulants   -0.3429 [-0.7007;  0.0149] -1.88  0.0603
+DBT                 0.2327 [-0.5139;  0.9792]  0.61  0.5413
+DBT + placebo      -0.1834 [-0.5282;  0.1613] -1.04  0.2970
+DBT + stimulants   -0.4263 [-0.8805;  0.0278] -1.84  0.0658
 GMT + TAU               NA                       NA      --
-hypnotherapy        0.2113 [-0.9963;  1.4189]  0.34  0.7316
-mindfulness        -0.2894 [-0.9677;  0.3888] -0.84  0.4030
+hypnotherapy       -0.1258 [-1.4231;  1.1714] -0.19  0.8492
+mindfulness        -0.3924 [-1.2090;  0.4242] -0.94  0.3463
 mindfulness + TAU       NA                       NA      --
 placebo                  .                  .     .       .
-psychoeducation    -0.1017 [-0.9750;  0.7717] -0.23  0.8195
-relaxation therapy  0.4795 [-0.2994;  1.2584]  1.21  0.2276
-stimulants         -0.2457 [-0.4651; -0.0263] -2.19  0.0282
+psychoeducation    -0.2046 [-1.2412;  0.8320] -0.39  0.6989
+relaxation therapy  0.1660 [-0.7141;  1.0462]  0.37  0.7116
+stimulants         -0.2429 [-0.5329;  0.0471] -1.64  0.1006
 TAU                     NA                       NA      --
-waiting list        0.8254 [ 0.1041;  1.5468]  2.24  0.0249
+waiting list        0.5630 [-0.2636;  1.3895]  1.33  0.1819
 
 Incremental effect for existing combinations:
                     iSMD             95%-CI     z p-value
-CBT + stimulants -0.7357 [-1.3981; -0.0733] -2.18  0.0295
-DBT + placebo    -0.5105 [-1.1169;  0.0959] -1.65  0.0990
-DBT + stimulants -0.7562 [-1.3243; -0.1881] -2.61  0.0091
+CBT + stimulants -1.0757 [-1.7986; -0.3528] -2.92  0.0035
+DBT + placebo    -0.5996 [-1.3417;  0.1425] -1.58  0.1133
+DBT + stimulants -0.8425 [-1.5280; -0.1569] -2.41  0.0160
 
 Incremental effect for components:
                       iSMD             95%-CI     z p-value
-atomoxetine        -0.7614 [-1.3478; -0.1749] -2.54  0.0109
-CBT                -0.0767 [-0.5157;  0.3623] -0.34  0.7320
-DBT                -0.0972 [-0.3742;  0.1798] -0.69  0.4916
-GMT                -0.2953 [-0.9201;  0.3294] -0.93  0.3541
-hypnotherapy       -0.2020 [-1.2804;  0.8765] -0.37  0.7136
-mindfulness        -0.7027 [-1.1096; -0.2958] -3.38  0.0007
-placebo            -0.4133 [-0.9557;  0.1291] -1.49  0.1353
-psychoeducation    -0.5150 [-1.1993;  0.1694] -1.47  0.1402
-relaxation therapy  0.0662 [-0.4919;  0.6243]  0.23  0.8162
-stimulants         -0.6590 [-1.1550; -0.1630] -2.60  0.0092
+atomoxetine        -0.7620 [-1.4952; -0.0288] -2.04  0.0417
+CBT                -0.4167 [-0.8308; -0.0026] -1.97  0.0486
+DBT                -0.1834 [-0.5282;  0.1613] -1.04  0.2970
+GMT                -0.2953 [-0.9991;  0.4085] -0.82  0.4108
+hypnotherapy       -0.5420 [-1.6586;  0.5747] -0.95  0.3415
+mindfulness        -0.8085 [-1.2895; -0.3275] -3.29  0.0010
+placebo            -0.4161 [-1.0758;  0.2436] -1.24  0.2163
+psychoeducation    -0.6207 [-1.4202;  0.1787] -1.52  0.1281
+relaxation therapy -0.2501 [-0.8321;  0.3319] -0.84  0.3997
+stimulants         -0.6590 [-1.2516; -0.0665] -2.18  0.0293
 TAU                     NA                  .     .       .
-waiting list        0.4122 [-0.0625;  0.8868]  1.70  0.0888
+waiting list        0.1468 [-0.3505;  0.6441]  0.58  0.5628
 
 Quantifying heterogeneity / inconsistency:
-tau^2 = 0.0160; tau = 0.1266; I^2 = 37.2% [0.0%; 72.3%]
+tau^2 = 0.0434; tau = 0.2083; I^2 = 59.3% [15.2%; 80.5%]
 
 Heterogeneity statistics:
                    Q df p-value
-Additive model 11.14  7  0.1325
+Additive model 19.66  8  0.0117
 Standard model    -- --      --
 Difference        -- --      --
 
 A total of 17 treatments are included in the network.
-A total of 15 studies are included in this analysis.
-A total of 2333 participants are included in this analysis.
-The following studies were included in this analysis: Adler 2008a Adler 2009b Anastopoulos 2021 Cherkasova 2016 Fleming 2013 Gu 2016 Hanssen 2023 Hoxhaj 2018 Janssen 2018 Nakashima 2021 Nasri 2022 Philipsen 2015 Rosler 2009 Safren 2010 Virta 2010
+A total of 16 studies are included in this analysis.
+A total of 2379 participants are included in this analysis.
+The following studies were included in this analysis: Adler 2008a Adler 2009b Anastopoulos 2021 Cherkasova 2016 Dittner 2014 Fleming 2013 Gu 2016 Hanssen 2023 Hoxhaj 2018 Janssen 2018 Nakashima 2021 Nasri 2022 Philipsen 2015 Rosler 2009 Safren 2010 Virta 2010
 Global test for inconsistency (standard model), p-value = NA (Q = NA, d.o.f. = NA)
-Global test for inconsistency (additive model), p-value = 0.13249 (Q = 11, d.o.f. = 7)
-Estimated heterogeneity tau-squared0.02
+Global test for inconsistency (additive model), p-value = 0.01168 (Q = 20, d.o.f. = 8)
+Estimated heterogeneity tau-squared0.04
 
-File created on 2024-02-26
+File created on 2024-04-26

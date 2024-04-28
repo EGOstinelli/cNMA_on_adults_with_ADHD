@@ -1,20 +1,20 @@
-Number of participants, males: 7596 (52.9%)
-Mean age distribution, median: 35.57 (IQR: 33.4 to 38.5).
-Number of participants per study distribution, median: 87 (IQR: 45 to 220.5).
+Number of participants, males: 7638 (52.9%)
+Mean age distribution, median: 35.6 (IQR: 33.45 to 38.45).
+Number of participants per study distribution, median: 86.5 (IQR: 45 to 220.25).
 Year of publication, minimum: 1995
-Year of publication, median: 2013 (IQR: 2009 to 2018).
+Year of publication, median: 2014 (IQR: 2009 to 2018).
 Year of publication, maximum: 2024
 
-Number of studies, at least one arm = control: 95 studies (86.4%).
-Number of studies, at least one arm = med: 63 studies (57.3%).
-Number of studies, at least one arm = psycho: 26 studies (23.6%).
-Number of studies, at least one arm = neurostim: 10 studies (9.1%).
-Number of studies, at least one arm = other: 10 studies (9.1%).
+Number of studies, at least one arm = control: 97 studies (85.8%).
+Number of studies, at least one arm = med: 63 studies (55.8%).
+Number of studies, at least one arm = psycho: 28 studies (24.8%).
+Number of studies, at least one arm = neurostim: 10 studies (8.8%).
+Number of studies, at least one arm = other: 10 studies (8.8%).
 
-Number of participants, at least one arm = control: 5740 participants (38.7%).
-Number of participants, at least one arm = med: 6875 participants (46.4%).
+Number of participants, at least one arm = control: 5770 participants (38.8%).
+Number of participants, at least one arm = med: 6875 participants (46.2%).
 Number of participants, at least one arm = psycho: 1116 participants (7.5%).
 Number of participants, at least one arm = neurostim: 194 participants (1.3%).
 Number of participants, at least one arm = other: 440 participants (3%).
 
-File created on 2024-04-07
+File created on 2024-04-27

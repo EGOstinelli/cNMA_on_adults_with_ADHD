@@ -1,7 +1,7 @@
-Number of h2h studies: 23
+Number of h2h studies: 24
 Number of h2h studies, at least one arm = med: 5
-Number of h2h studies, at least one arm = psycho: 12
+Number of h2h studies, at least one arm = psycho: 13
 Number of h2h studies, at least one arm = neurostim: 3
 Number of h2h studies, at least one arm = other: 8
 
-File created on 2024-04-07
+File created on 2024-04-27

@@ -8,4 +8,4 @@ CBT                          0.3325           0.3448
 relaxation therapy           0.2261           0.2355
 waiting list                 0.0252           0.0303
 
-File created on 2024-02-26
+File created on 2024-04-26

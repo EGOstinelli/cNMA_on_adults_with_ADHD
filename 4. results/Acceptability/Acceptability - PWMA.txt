@@ -24,7 +24,7 @@
 23                             stimulants vs DBT + placebo                 1 0.34     0.15     0.74     NA   NA         NA         NA  0.00     NA
 24                          stimulants vs DBT + stimulants                 1 0.61     0.26     1.43     NA   NA         NA         NA  0.00     NA
 25                                              TAU vs CBT                 0   NA       NA       NA     NA   NA         NA         NA    NA     NA
-26                                        TAU vs CBT + TAU                 2 2.07     0.24    17.96   1.67 0.67       0.00       0.92  3.00 0.0833
+26                                        TAU vs CBT + TAU                 3 1.47     0.43     5.06   0.40 0.35       0.00       0.79  3.08 0.2140
 27                                        TAU vs DBT + TAU                 1 0.31     0.03     3.36     NA   NA         NA         NA  0.00     NA
 28                                        TAU vs GMT + TAU                 1 0.04     0.00     0.75     NA   NA         NA         NA  0.00     NA
 29                                TAU vs mindfulness + TAU                 1 0.04     0.00     0.79     NA   NA         NA         NA  0.00     NA
@@ -43,4 +43,4 @@
 42                       waiting list vs physical training                 1 0.56     0.12     2.57     NA   NA         NA         NA  0.00     NA
 43                      waiting list vs relaxation therapy                 0   NA       NA       NA     NA   NA         NA         NA    NA     NA
 
-File created on 2024-03-10
+File created on 2024-04-27

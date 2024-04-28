@@ -5,6 +5,7 @@ Additive model (common effects model):
 Bron 2014                   placebo           stimulants 2.1227 [1.2960;  3.4767]  2.99  0.0028
 Cachoeira 2017                 sham                 tDCS 0.2545 [0.0576;  1.1241] -1.81  0.0710
 Cherkasova 2016                 CBT     CBT + stimulants 0.4048 [0.1122;  1.4595] -1.38  0.1669
+Dittner 2014              CBT + TAU                  TAU 1.0000 [0.1315;  7.6046] -0.00  1.0000
 Halmoy 2022                     DBT         waiting list 1.3651 [0.4466;  4.1723]  0.55  0.5851
 Hoxhaj 2018             mindfulness      psychoeducation 0.4615 [0.0797;  2.6741] -0.86  0.3884
 Janssen 2018      mindfulness + TAU                  TAU 2.2978 [0.2568; 20.5601]  0.74  0.4568
@@ -29,6 +30,7 @@ Additive model (random effects model):
 Bron 2014                   placebo           stimulants 1.7225 [0.6661;  4.4545]  1.12  0.2620
 Cachoeira 2017                 sham                 tDCS 0.2603 [0.0404;  1.6771] -1.42  0.1568
 Cherkasova 2016                 CBT     CBT + stimulants 0.4048 [0.0605;  2.7092] -0.93  0.3511
+Dittner 2014              CBT + TAU                  TAU 1.0000 [0.0849; 11.7847]  0.00  1.0000
 Halmoy 2022                     DBT         waiting list 1.0212 [0.1863;  5.5990]  0.02  0.9807
 Hoxhaj 2018             mindfulness      psychoeducation 0.4615 [0.0487;  4.3722] -0.67  0.5003
 Janssen 2018      mindfulness + TAU                  TAU 2.9174 [0.2383; 35.7128]  0.84  0.4022
@@ -48,19 +50,20 @@ Schoenenberg 2017     neurofeedback sham + neurofeedback 1.0286 [0.1164;  9.0872
 Schrantee 2016              placebo           stimulants 1.7225 [0.6661;  4.4545]  1.12  0.2620
 Stern 2014        cognitive placebo   cognitive training 3.2500 [0.5450; 19.3794]  1.29  0.1957
 
-Number of studies: k = 14
-Number of pairwise comparisons: m = 21
-Number of treatments: n = 20
+Number of studies: k = 15
+Number of pairwise comparisons: m = 22
+Number of treatments: n = 21
 Number of active components: c = 13
-Number of designs: d = 12
+Number of designs: d = 13
 Number of subnetworks: s = 6
 
 Common effects model
 
 Treatment estimate (sm = 'OR', comparison: other treatments vs 'placebo'):
                          OR            95%-CI     z p-value
-CBT                  0.1830 [0.0367;  0.9125] -2.07  0.0383
-CBT + stimulants     0.4521 [0.1718;  1.1899] -1.61  0.1079
+CBT                  0.1907 [0.0164;  2.2105] -1.33  0.1850
+CBT + stimulants     0.4711 [0.0584;  3.8007] -0.71  0.4798
+CBT + TAU                NA                      NA      --
 cognitive placebo    0.3438 [0.0782;  1.5115] -1.41  0.1576
 cognitive training   0.1058 [0.0241;  0.4651] -2.97  0.0029
 DBT                  0.2309 [0.0545;  0.9785] -1.99  0.0467
@@ -69,12 +72,12 @@ DBT + stimulants     0.5704 [0.2937;  1.1078] -1.66  0.0974
 DBT + TAU                NA                      NA      --
 mindfulness          0.4382 [0.0331;  5.8010] -0.63  0.5313
 mindfulness + TAU        NA                      NA      --
-neurofeedback        0.1987 [0.0398;  0.9907] -1.97  0.0487
+neurofeedback        0.2070 [0.0107;  4.0050] -1.04  0.2974
 physical training    0.3044 [0.0283;  3.2785] -0.98  0.3267
 placebo                   .                 .     .       .
 psychoeducation      0.9493 [0.0418; 21.5850] -0.03  0.9740
 sham                 0.1854 [0.0214;  1.6076] -1.53  0.1262
-sham + neurofeedback 0.1932 [0.0263;  1.4161] -1.62  0.1057
+sham + neurofeedback 0.2013 [0.0104;  3.8917] -1.06  0.2888
 stimulants           0.4711 [0.2876;  0.7716] -2.99  0.0028
 TAU                      NA                      NA      --
 tDCS                 0.7284 [0.0530; 10.0212] -0.24  0.8127
@@ -82,19 +85,19 @@ waiting list         0.1691 [0.0275;  1.0414] -1.92  0.0553
 
 Incremental effect for existing combinations:
                         iOR            95%-CI    z p-value
-CBT + stimulants     2.3711 [0.5139; 10.9394] 1.11  0.2684
+CBT + stimulants     2.4706 [0.2241; 27.2385] 0.74  0.4602
 DBT + placebo        6.3496 [1.4559; 27.6926] 2.46  0.0139
 DBT + stimulants     2.9913 [0.7582; 11.8019] 1.56  0.1177
-sham + neurofeedback 1.0130 [0.2395;  4.2854] 0.02  0.9860
+sham + neurofeedback 1.0556 [0.0766; 14.5548] 0.04  0.9678
 
 Incremental effect for components:
                       iOR            95%-CI     z p-value
-CBT                0.9597 [0.4175;  2.2063] -0.10  0.9229
+CBT                1.0000 [0.1315;  7.6046] -0.00  1.0000
 cognitive placebo  1.8028 [1.0380;  3.1310]  2.09  0.0364
 cognitive training 0.5547 [0.3194;  0.9634] -2.09  0.0364
 DBT                1.2107 [0.7426;  1.9740]  0.77  0.4432
 mindfulness        2.2978 [0.2568; 20.5601]  0.74  0.4568
-neurofeedback      1.0420 [0.4532;  2.3954]  0.10  0.9229
+neurofeedback      1.0857 [0.0787; 14.9794]  0.06  0.9510
 physical training  1.5965 [0.2273; 11.2120]  0.47  0.6381
 placebo            5.2444 [1.3270; 20.7254]  2.36  0.0181
 psychoeducation    4.9786 [0.3001; 82.5827]  1.12  0.2627
@@ -108,8 +111,9 @@ Random effects model
 
 Treatment estimate (sm = 'OR', comparison: other treatments vs 'placebo'):
                          OR            95%-CI     z p-value
-CBT                  0.2255 [0.0207;  2.4561] -1.22  0.2215
-CBT + stimulants     0.5572 [0.1313;  2.3634] -0.79  0.4276
+CBT                  0.2350 [0.0091;  6.0974] -0.87  0.3833
+CBT + stimulants     0.5805 [0.0413;  8.1635] -0.40  0.6868
+CBT + TAU                NA                      NA      --
 cognitive placebo    0.4236 [0.0423;  4.2474] -0.73  0.4652
 cognitive training   0.1303 [0.0130;  1.3069] -1.73  0.0832
 DBT                  0.3919 [0.0374;  4.1032] -0.78  0.4344
@@ -118,12 +122,12 @@ DBT + stimulants     0.9683 [0.2439;  3.8441] -0.05  0.9634
 DBT + TAU                NA                      NA      --
 mindfulness          0.6855 [0.0257; 18.2683] -0.23  0.8217
 mindfulness + TAU        NA                      NA      --
-neurofeedback        0.2448 [0.0225;  2.6667] -1.15  0.2481
+neurofeedback        0.2551 [0.0051; 12.8205] -0.68  0.4943
 physical training    0.6908 [0.0202; 23.5706] -0.21  0.8373
 placebo                   .                 .     .       .
 psychoeducation      1.4853 [0.0278; 79.4049]  0.19  0.8455
 sham                 0.2285 [0.0109;  4.7934] -0.95  0.3417
-sham + neurofeedback 0.2380 [0.0139;  4.0805] -0.99  0.3222
+sham + neurofeedback 0.2480 [0.0049; 12.4595] -0.70  0.4854
 stimulants           0.5805 [0.2245;  1.5013] -1.12  0.2620
 TAU                      NA                      NA      --
 tDCS                 0.8778 [0.0247; 31.1323] -0.07  0.9429
@@ -131,19 +135,19 @@ waiting list         0.3838 [0.0221;  6.6623] -0.66  0.5108
 
 Incremental effect for existing combinations:
                         iOR            95%-CI    z p-value
-CBT + stimulants     2.3711 [0.2652; 21.2026] 0.77  0.4399
+CBT + stimulants     2.4706 [0.1097; 55.6367] 0.57  0.5692
 DBT + placebo        7.0977 [0.6673; 75.4936] 1.62  0.1042
 DBT + stimulants     4.1206 [0.4769; 35.5994] 1.29  0.1981
-sham + neurofeedback 1.0130 [0.1536;  6.6791] 0.01  0.9893
+sham + neurofeedback 1.0556 [0.0393; 28.3302] 0.03  0.9743
 
 Incremental effect for components:
                       iOR             95%-CI     z p-value
-CBT                0.9597 [0.3231;   2.8508] -0.07  0.9410
+CBT                1.0000 [0.0849;  11.7847]  0.00  1.0000
 cognitive placebo  1.8028 [0.7383;   4.4022]  1.29  0.1957
 cognitive training 0.5547 [0.2272;   1.3545] -1.29  0.1957
 DBT                1.6678 [0.6029;   4.6142]  0.99  0.3245
 mindfulness        2.9174 [0.2383;  35.7128]  0.84  0.4022
-neurofeedback      1.0420 [0.3508;   3.0951]  0.07  0.9410
+neurofeedback      1.0857 [0.0404;  29.1531]  0.05  0.9609
 physical training  2.9398 [0.1745;  49.5231]  0.75  0.4542
 placebo            4.2556 [0.5081;  35.6438]  1.34  0.1817
 psychoeducation    6.3210 [0.2183; 183.0650]  1.07  0.2830
@@ -162,10 +166,10 @@ Additive model 11.96  6  0.0629
 Standard model    -- --      --
 Difference        -- --      --
 
-A total of 20 treatments are included in the network.
-A total of 14 studies are included in this analysis.
-A total of 1291 participants are included in this analysis.
-The following studies were included in this analysis: Bron 2014 Cachoeira 2017 Cherkasova 2016 Halmoy 2022 Hoxhaj 2018 Janssen 2018 Kouhbanani 2023 Leffa 2022 Mitchell 2017 Moritz 2020 Philipsen 2015 Schoenenberg 2017 Schrantee 2016 Stern 2014
+A total of 21 treatments are included in the network.
+A total of 15 studies are included in this analysis.
+A total of 1351 participants are included in this analysis.
+The following studies were included in this analysis: Bron 2014 Cachoeira 2017 Cherkasova 2016 Dittner 2014 Halmoy 2022 Hoxhaj 2018 Janssen 2018 Kouhbanani 2023 Leffa 2022 Mitchell 2017 Moritz 2020 Philipsen 2015 Schoenenberg 2017 Schrantee 2016 Stern 2014
 Estimated heterogeneity tau-squared: 0.51
 
-File created on 2024-03-20
+File created on 2024-04-27

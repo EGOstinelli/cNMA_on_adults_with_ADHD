@@ -296,4 +296,4 @@ A total of 9458 participants are included in this analysis.
 The following studies were included in this analysis: Adler 2008b Adler 2009c Adler 2013 Alyagon 2020 Anastopoulos 2021 Arnold 2014 Bachmann 2018 Biederman 2012 Biehl 2016 Bleich-Cohen 2021 Bron 2014 Cachoeira 2017 Cherkasova 2016 Cutler 2022 Durell 2013 Emilsson 2011 Faraone 2021 Fleming 2013 Frick 2017 Goodman 2016 Goto 2013 Gu 2016 Hanssen 2023 Hepark 2015 Hirvikoski 2013 Hoxhaj 2018 Huang 2015 Huss 2014 Iwanami 2020 Janssen 2018 Kay 2009a Leffa 2022 McRae-Clark 2010 Michelson 2003a Michelson 2003b Mitchell 2017 Moritz 2020 Nakashima 2021 Nasser 2022 NCT02489279 NCT03324581 NCT03663179 Paz 2017 Pettersson 2014 Reimherr 2005 Solanto 2010 Spencer 1995 Spencer 1998 Spencer 2001 Spencer 2007 Stern 2014 Stevenson 2002 Sutherland 2012 Takahashi 2014 Vidal 2013 Weisler 2006 Weisler 2012 Weisler 2017 Weiss 2020 Wilens 2001 Wilens 2008 Winhusen 2010
 Estimated heterogeneity tau-squared: 0.11
 
-File created on 2024-03-20
+File created on 2024-04-27

@@ -101,4 +101,4 @@ The following studies were included in this analysis: Anastopoulos 2021 Cherkaso
 Estimated heterogeneity tau-squared0.02
 Global test for inconsistency, p-value = 0.22258 (Q = 3, d.o.f. = 2)
 
-File created on 2024-02-26
+File created on 2024-04-26

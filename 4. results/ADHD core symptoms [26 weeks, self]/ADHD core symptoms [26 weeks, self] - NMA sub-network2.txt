@@ -1,0 +1,74 @@
+Network meta-analysis on additional sub-network.
+
+Original data:
+
+                          treat1 treat2      TE   seTE
+Janssen 2018   mindfulness + TAU    TAU -0.6781 0.1980
+Nakashima 2021         CBT + TAU    TAU -0.6354 0.3177
+Hanssen 2023           GMT + TAU    TAU -0.2953 0.2925
+Dittner 2014           CBT + TAU    TAU -1.1827 0.3238
+
+Number of treatment arms (by study):
+               narms
+Janssen 2018       2
+Nakashima 2021     2
+Hanssen 2023       2
+Dittner 2014       2
+
+Results (common effects model):
+
+                          treat1 treat2     SMD             95%-CI    Q leverage
+Janssen 2018   mindfulness + TAU    TAU -0.6781 [-1.0663; -0.2900] 0.00     1.00
+Nakashima 2021         CBT + TAU    TAU -0.9038 [-1.3483; -0.4593] 0.71     0.51
+Hanssen 2023           GMT + TAU    TAU -0.2953 [-0.8687;  0.2780] 0.00     1.00
+Dittner 2014           CBT + TAU    TAU -0.9038 [-1.3483; -0.4593] 0.74     0.49
+
+Results (random effects model):
+
+                          treat1 treat2     SMD             95%-CI
+Janssen 2018   mindfulness + TAU    TAU -0.6781 [-1.2533; -0.1030]
+Nakashima 2021         CBT + TAU    TAU -0.9054 [-1.4418; -0.3691]
+Hanssen 2023           GMT + TAU    TAU -0.2953 [-1.0086;  0.4180]
+Dittner 2014           CBT + TAU    TAU -0.9054 [-1.4418; -0.3691]
+
+Number of studies: k = 4
+Number of pairwise comparisons: m = 4
+Number of observations: o = 244
+Number of treatments: n = 4
+Number of designs: d = 3
+
+Common effects model
+
+Treatment estimate (sm = 'SMD', comparison: other treatments vs 'TAU'):
+                      SMD             95%-CI     z  p-value
+CBT + TAU         -0.9038 [-1.3483; -0.4593] -3.99 < 0.0001
+GMT + TAU         -0.2953 [-0.8687;  0.2780] -1.01   0.3127
+mindfulness + TAU -0.6781 [-1.0663; -0.2900] -3.42   0.0006
+TAU                     .                  .     .        .
+
+Random effects model
+
+Treatment estimate (sm = 'SMD', comparison: other treatments vs 'TAU'):
+                      SMD             95%-CI     z p-value
+CBT + TAU         -0.9054 [-1.4418; -0.3691] -3.31  0.0009
+GMT + TAU         -0.2953 [-1.0086;  0.4180] -0.81  0.4171
+mindfulness + TAU -0.6781 [-1.2533; -0.1030] -2.31  0.0208
+TAU                     .                  .     .       .
+
+Quantifying heterogeneity / inconsistency:
+tau^2 = 0.0469; tau = 0.2165; I^2 = 31.3%
+
+Tests of heterogeneity (within designs) and inconsistency (between designs):
+                   Q d.f. p-value
+Total           1.46    1  0.2276
+Within designs  1.46    1  0.2276
+Between designs 0.00    0      --
+
+A total of 4 treatments are included in the network.
+A total of 4 studies are included in this analysis.
+A total of 244 participants are included in this analysis.
+The following studies were included in this analysis: Janssen 2018 Nakashima 2021 Hanssen 2023 Dittner 2014
+Estimated heterogeneity tau-squared0.05
+Global test for inconsistency, p-value = NA (Q = 0, d.o.f. = 0)
+
+File created on 2024-04-26

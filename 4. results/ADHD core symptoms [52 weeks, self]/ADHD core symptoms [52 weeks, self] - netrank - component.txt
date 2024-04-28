@@ -1,11 +1,13 @@
                      P-score (common) P-score (random)
-DBT + stimulants               0.8615           0.8522
-sham + neurofeedback           0.8446           0.8311
-stimulants                     0.5499           0.5472
-DBT + placebo                  0.5338           0.5340
-neurofeedback                  0.4137           0.4164
-CBT                            0.4078           0.4112
-relaxation therapy             0.2481           0.2562
-placebo                        0.1406           0.1517
+sham + neurofeedback           0.9563           0.9498
+CBT                            0.7514           0.7509
+neurofeedback                  0.7376           0.7357
+relaxation therapy             0.6638           0.6644
+DBT + stimulants               0.4260           0.4246
+DBT + placebo                  0.2214           0.2241
+stimulants                     0.2188           0.2195
+placebo                        0.0246           0.0309
+CBT + TAU                         NaN              NaN
+TAU                               NaN              NaN
 
-File created on 2024-02-26
+File created on 2024-04-26

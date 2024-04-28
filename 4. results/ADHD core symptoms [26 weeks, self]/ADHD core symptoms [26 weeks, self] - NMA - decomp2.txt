@@ -1,0 +1,23 @@
+Q statistics to assess homogeneity / consistency
+
+                   Q df p-value
+Total           1.22  2  0.5435
+Within designs  1.05  1  0.3058
+Between designs 0.17  1  0.6793
+
+Design-specific decomposition of within-designs Q statistic
+
+              Design    Q df p-value
+ placebo:atomoxetine 1.05  1  0.3058
+
+Between-designs Q statistic after detaching of single designs
+(influential designs have p-value markedly different from 0.6793)
+
+    Detached design    Q df p-value
+ placebo:stimulants 0.00  0      --
+
+Q statistic to assess consistency under the assumption of
+a full design-by-treatment interaction random effects model
+
+                   Q df p-value tau.within tau2.within
+Between designs 0.17  1  0.6827     0.0220      0.0005

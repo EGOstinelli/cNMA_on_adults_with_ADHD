@@ -1,15 +1,15 @@
 NON-COMPONENT MODELS
-Studies contributing to at least one NMA, k: 89
-Studies contributing to at least NMA, n: 14229
+Studies contributing to at least one NMA, k: 90
+Studies contributing to at least NMA, n: 14289
 
-Studies contributing to at least one NMA (primary), k: 28
-Studies contributing to at least one NMA (primary), n: 2137
+Studies contributing to at least one NMA (primary), k: 29
+Studies contributing to at least one NMA (primary), n: 2197
 
 Studies contributing to at least one NMA (primary - ADHD self 12), k: 23
 Studies contributing to at least one NMA (primary - ADHD self 12), n: 1756
 
-Studies contributing to at least one NMA (primary - acceptability), k: 24
-Studies contributing to at least one NMA (primary - acceptability), n: 1910
+Studies contributing to at least one NMA (primary - acceptability), k: 25
+Studies contributing to at least one NMA (primary - acceptability), n: 1970
 
 Studies contributing to at least one NMA (12 weeks), k: 81
 Studies contributing to at least one NMA (12 weeks), n: 13424
@@ -22,25 +22,25 @@ Studies contributing to at least one NMA (52 weeks), n: 433
 
 
 COMPONENT MODELS
-Studies contributing to at least one NMA, k: 98
-Studies contributing to at least NMA, n: 14694
+Studies contributing to at least one NMA, k: 99
+Studies contributing to at least NMA, n: 14754
 
-Studies contributing to at least one NMA (primary), k: 90
-Studies contributing to at least one NMA (primary), n: 13890
+Studies contributing to at least one NMA (primary), k: 91
+Studies contributing to at least one NMA (primary), n: 13950
 
 Studies contributing to at least one NMA (primary - ADHD self 12), k: 56
 Studies contributing to at least one NMA (primary - ADHD self 12), n: 8083
 
-Studies contributing to at least one NMA (primary - acceptability), k: 76
-Studies contributing to at least one NMA (primary - acceptability), n: 12948
+Studies contributing to at least one NMA (primary - acceptability), k: 77
+Studies contributing to at least one NMA (primary - acceptability), n: 13008
 
 Studies contributing to at least one NMA (12 weeks), k: 87
 Studies contributing to at least one NMA (12 weeks), n: 13680
 
-Studies contributing to at least one NMA (26 weeks), k: 16
-Studies contributing to at least one NMA (26 weeks), n: 3222
+Studies contributing to at least one NMA (26 weeks), k: 17
+Studies contributing to at least one NMA (26 weeks), n: 3282
 
-Studies contributing to at least one NMA (52 weeks), k: 4
-Studies contributing to at least one NMA (52 weeks), n: 741
+Studies contributing to at least one NMA (52 weeks), k: 5
+Studies contributing to at least one NMA (52 weeks), n: 801
 
-File created on 2024-03-17
+File created on 2024-04-27

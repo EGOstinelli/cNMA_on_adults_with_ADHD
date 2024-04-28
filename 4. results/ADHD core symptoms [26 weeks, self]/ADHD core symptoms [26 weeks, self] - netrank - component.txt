@@ -1,20 +1,20 @@
                    P-score (common) P-score (random)
-DBT + stimulants             0.8086           0.8141
-atomoxetine                  0.8391           0.8086
-CBT + stimulants             0.7802           0.7730
-mindfulness                  0.7624           0.7445
-stimulants                   0.7115           0.7009
-psychoeducation              0.5897           0.5811
-DBT + placebo                0.5146           0.5389
-placebo                      0.4341           0.4318
-hypnotherapy                 0.3816           0.3900
-CBT                          0.2541           0.2642
-DBT                          0.2387           0.2575
-relaxation therapy           0.1691           0.1768
-waiting list                 0.0161           0.0188
+CBT + stimulants             0.9435           0.9100
+DBT + stimulants             0.7505           0.7642
+mindfulness                  0.7623           0.7226
+atomoxetine                  0.7487           0.6820
+stimulants                   0.6191           0.5806
+psychoeducation              0.5736           0.5557
+DBT + placebo                0.4537           0.5187
+hypnotherapy                 0.4987           0.5040
+CBT                          0.3814           0.4045
+placebo                      0.3385           0.3319
+relaxation therapy           0.2588           0.2760
+DBT                          0.1387           0.2069
+waiting list                 0.0324           0.0429
 CBT + TAU                       NaN              NaN
 GMT + TAU                       NaN              NaN
 mindfulness + TAU               NaN              NaN
 TAU                             NaN              NaN
 
-File created on 2024-02-26
+File created on 2024-04-26
