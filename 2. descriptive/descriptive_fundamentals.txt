@@ -1,5 +1,7 @@
-Number of participants, males: 7638 (52.9%)
+Number of participants, males: 7638 (51.3%).
+Number of participants, females: 6787 (45.6%).
 Mean age distribution, median: 35.6 (IQR: 33.45 to 38.45).
+Mean age distribution, mean: 35.1 (range: 19.6 to 44).
 Number of participants per study distribution, median: 86.5 (IQR: 45 to 220.25).
 Year of publication, minimum: 1995
 Year of publication, median: 2014 (IQR: 2009 to 2018).
@@ -17,4 +19,4 @@ Number of participants, at least one arm = psycho: 1116 participants (7.5%).
 Number of participants, at least one arm = neurostim: 194 participants (1.3%).
 Number of participants, at least one arm = other: 440 participants (3%).
 
-File created on 2024-04-27
+File created on 2024-09-03
