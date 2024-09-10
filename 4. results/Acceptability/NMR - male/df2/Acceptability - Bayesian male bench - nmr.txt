@@ -1,0 +1,42 @@
+
+Results on the Log Odds Ratio scale
+
+Iterations = 50020:1050000
+Thinning interval = 20 
+Number of chains = 4 
+Sample size per chain = 50000 
+
+1. Empirical mean and standard deviation for each variable,
+   plus standard error of the mean:
+
+                                 Mean      SD  Naive SE Time-series SE
+d.placebo.atomoxetine         0.36640 0.12542 0.0002804      0.0002807
+d.placebo.bupropion           0.03814 0.69432 0.0015526      0.0018298
+d.placebo.DBT_and_placebo     0.35123 0.43489 0.0009724      0.0010090
+d.placebo.DBT_and_stimulants -0.26454 0.46593 0.0010419      0.0010423
+d.placebo.guanfacine          1.36122 0.59467 0.0013297      0.0013496
+d.placebo.modafinil           0.61573 0.47459 0.0010612      0.0010612
+d.placebo.stimulants         -0.09345 0.11261 0.0002518      0.0002571
+d.placebo.viloxazine          0.45921 0.43216 0.0009663      0.0009643
+sd.d                          0.35416 0.08933 0.0001997      0.0002557
+
+2. Quantiles for each variable:
+
+                                2.5%      25%      50%      75%  97.5%
+d.placebo.atomoxetine         0.1187  0.28404  0.36595  0.44878 0.6145
+d.placebo.bupropion          -1.3068 -0.42909  0.03171  0.49902 1.4242
+d.placebo.DBT_and_placebo    -0.5059  0.06323  0.34980  0.63845 1.2142
+d.placebo.DBT_and_stimulants -1.1872 -0.57299 -0.26354  0.04368 0.6530
+d.placebo.guanfacine          0.2204  0.96002  1.35163  1.75213 2.5592
+d.placebo.modafinil          -0.3170  0.30338  0.61287  0.92641 1.5599
+d.placebo.stimulants         -0.3150 -0.16791 -0.09369 -0.01912 0.1293
+d.placebo.viloxazine         -0.3934  0.17817  0.45858  0.73927 1.3157
+sd.d                          0.1932  0.29341  0.34873  0.40921 0.5448
+
+-- Model fit (residual deviance):
+
+     Dbar        pD       DIC 
+ 93.24665  69.22820 162.47485 
+
+89 data points, ratio 1.048, I^2 = 6%
+

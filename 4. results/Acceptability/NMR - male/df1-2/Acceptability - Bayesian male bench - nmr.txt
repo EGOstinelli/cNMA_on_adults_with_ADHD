@@ -1,0 +1,48 @@
+
+Results on the Log Odds Ratio scale
+
+Iterations = 50020:1050000
+Thinning interval = 20 
+Number of chains = 4 
+Sample size per chain = 50000 
+
+1. Empirical mean and standard deviation for each variable,
+   plus standard error of the mean:
+
+                                         Mean      SD Naive SE Time-series SE
+d.CBT.CBT_and_stimulants              0.97156  1.9998 0.004472       0.004472
+d.CBT.DBT                             1.71541  1.8713 0.004184       0.005542
+d.CBT.neurofeedback                   0.08011  2.0962 0.004687       0.004787
+d.CBT.psychoeducation                 0.54053  1.5817 0.003537       0.003620
+d.CBT.psychological_placebo           1.21168  1.9521 0.004365       0.004365
+d.CBT.relaxation_therapy              1.15689  2.1122 0.004723       0.004788
+d.CBT.sham_and_neurofeedback          0.04841  2.0936 0.004682       0.004757
+d.CBT.waiting_list                   -0.21330  1.0301 0.002303       0.002466
+d.waiting_list.cognitive_remediation 35.52009 27.0829 0.060559       0.364010
+d.waiting_list.mindfulness            0.95158  1.3533 0.003026       0.003088
+d.waiting_list.physical_training      0.66350  2.0637 0.004615       0.004649
+sd.d                                  1.73996  0.7248 0.001621       0.002866
+
+2. Quantiles for each variable:
+
+                                        2.5%     25%      50%     75%   97.5%
+d.CBT.CBT_and_stimulants             -3.1498 -0.1850  0.96313  2.1300   5.098
+d.CBT.DBT                            -1.5913  0.4925  1.51720  2.7649   5.958
+d.CBT.neurofeedback                  -4.2337 -1.1709  0.08421  1.3344   4.360
+d.CBT.psychoeducation                -2.6359 -0.4136  0.51374  1.4612   3.868
+d.CBT.psychological_placebo          -2.8460  0.1051  1.21599  2.3244   5.251
+d.CBT.relaxation_therapy             -3.1321 -0.1074  1.13225  2.4162   5.504
+d.CBT.sham_and_neurofeedback         -4.2312 -1.1979  0.04907  1.2982   4.328
+d.CBT.waiting_list                   -2.2649 -0.8142 -0.25954  0.3703   1.987
+d.waiting_list.cognitive_remediation  0.5718 14.0930 29.98049 51.5461 100.037
+d.waiting_list.mindfulness           -1.6851  0.1171  0.90825  1.7413   3.846
+d.waiting_list.physical_training     -3.5743 -0.5529  0.65140  1.8831   4.918
+sd.d                                  0.2931  1.2002  1.77237  2.3298   2.913
+
+-- Model fit (residual deviance):
+
+    Dbar       pD      DIC 
+37.30693 31.41315 68.72008 
+
+35 data points, ratio 1.066, I^2 = 9%
+
