@@ -1,0 +1,38 @@
+
+Results on the Mean Difference scale
+
+Iterations = 50020:1050000
+Thinning interval = 20 
+Number of chains = 4 
+Sample size per chain = 50000 
+
+1. Empirical mean and standard deviation for each variable,
+   plus standard error of the mean:
+
+                                 Mean      SD  Naive SE Time-series SE
+d.placebo.atomoxetine        -0.39455 0.06281 0.0001405      0.0001927
+d.placebo.bupropion          -0.57490 0.26507 0.0005927      0.0014003
+d.placebo.DBT_and_placebo    -0.13172 0.09991 0.0002234      0.0003465
+d.placebo.DBT_and_stimulants -0.41720 0.09809 0.0002193      0.0003422
+d.placebo.modafinil          -0.58813 0.11111 0.0002485      0.0003342
+d.placebo.stimulants         -0.41947 0.05460 0.0001221      0.0002045
+sd.d                          0.06837 0.05222 0.0001168      0.0002860
+
+2. Quantiles for each variable:
+
+                                  2.5%      25%      50%      75%    97.5%
+d.placebo.atomoxetine        -0.518460 -0.43496 -0.39452 -0.35420 -0.27077
+d.placebo.bupropion          -1.095357 -0.75312 -0.57573 -0.39614 -0.05461
+d.placebo.DBT_and_placebo    -0.319897 -0.18985 -0.13662 -0.07933  0.08716
+d.placebo.DBT_and_stimulants -0.600597 -0.47366 -0.42246 -0.36692 -0.20016
+d.placebo.modafinil          -0.833805 -0.64649 -0.58199 -0.52115 -0.38529
+d.placebo.stimulants         -0.531504 -0.45349 -0.41815 -0.38344 -0.31634
+sd.d                          0.002861  0.02827  0.05811  0.09628  0.19658
+
+-- Model fit (residual deviance):
+
+     Dbar        pD       DIC 
+26.780588  9.217832 35.998419 
+
+23 data points, ratio 1.164, I^2 = 18%
+
