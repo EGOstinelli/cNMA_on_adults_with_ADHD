@@ -1,0 +1,46 @@
+
+Results on the Mean Difference scale
+
+Iterations = 50020:1050000
+Thinning interval = 20 
+Number of chains = 4 
+Sample size per chain = 50000 
+
+1. Empirical mean and standard deviation for each variable,
+   plus standard error of the mean:
+
+                                 Mean      SD  Naive SE Time-series SE
+d.placebo.atomoxetine        -0.40097 0.06619 0.0001480      0.0002001
+d.placebo.bupropion          -0.56397 0.26713 0.0005973      0.0013096
+d.placebo.DBT_and_placebo    -0.13371 0.10736 0.0002401      0.0003810
+d.placebo.DBT_and_stimulants -0.41941 0.10535 0.0002356      0.0003770
+d.placebo.modafinil          -0.59666 0.11768 0.0002632      0.0003525
+d.placebo.stimulants         -0.42672 0.05726 0.0001280      0.0002116
+sd.d                          0.07476 0.05746 0.0001285      0.0003307
+B                             0.04508 0.08290 0.0001854      0.0001970
+
+2. Quantiles for each variable:
+
+                                  2.5%       25%      50%      75%    97.5%
+d.placebo.atomoxetine        -0.532124 -0.443054 -0.40098 -0.35887 -0.27046
+d.placebo.bupropion          -1.087024 -0.744154 -0.56323 -0.38403 -0.04295
+d.placebo.DBT_and_placebo    -0.332539 -0.196088 -0.14004 -0.07909  0.10480
+d.placebo.DBT_and_stimulants -0.613772 -0.479560 -0.42598 -0.36671 -0.18492
+d.placebo.modafinil          -0.859638 -0.657421 -0.58947 -0.52652 -0.38228
+d.placebo.stimulants         -0.545013 -0.461905 -0.42509 -0.38927 -0.31886
+sd.d                          0.003062  0.031144  0.06349  0.10490  0.21545
+B                            -0.119841 -0.007707  0.04539  0.09867  0.20650
+
+-- Model fit (residual deviance):
+
+     Dbar        pD       DIC 
+27.105935  9.800109 36.906044 
+
+23 data points, ratio 1.179, I^2 = 19%
+
+-- Regression settings:
+
+Regression on "reg", shared coefficients, "placebo" as control
+Input standardized: x' = (reg - 48.38475) / 50.87655
+Estimates at the centering value: reg = 48.38475
+

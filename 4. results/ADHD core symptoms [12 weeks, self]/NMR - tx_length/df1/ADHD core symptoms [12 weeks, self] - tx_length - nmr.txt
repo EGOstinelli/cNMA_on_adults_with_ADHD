@@ -1,20 +1,66 @@
-   code          treatment
-1     1                TAU
-2     2                CBT
-5     5  cognitive placebo
-6     6 cognitive training
-7     7                DBT
-10   10        mindfulness
-14   14    psychoeducation
-15   15 relaxation therapy
-17   17       waiting list
 
-                    Coef.       SE    X95.CL   X95.CU   P.value
-2: tx_length  -0.22943859 16.43459 -32.44063 31.98176 0.9888613
-5: tx_length  -0.15731649 44.23682 -86.85990 86.54526 0.9971625
-6: tx_length  -0.14883126 44.23680 -86.85137 86.55371 0.9973156
-7: tx_length  -0.17326019 16.43480 -32.38488 32.03836 0.9915886
-10: tx_length -0.04698479 16.43475 -32.25851 32.16454 0.9977190
-14: tx_length -0.07693141 16.43487 -32.28869 32.13483 0.9962651
-15: tx_length  0.07906987 16.43494 -32.13282 32.29096 0.9961613
-17: tx_length -0.14860305 16.43469 -32.36001 32.06280 0.9927856
+Results on the Mean Difference scale
+
+Iterations = 50020:1050000
+Thinning interval = 20 
+Number of chains = 4 
+Sample size per chain = 50000 
+
+1. Empirical mean and standard deviation for each variable,
+   plus standard error of the mean:
+
+                                           Mean     SD  Naive SE Time-series SE
+d.CBT.CBT_and_stimulants               -0.99326 0.3649 0.0008159      0.0008409
+d.CBT.cognitive_training               -0.60160 0.3105 0.0006942      0.0006983
+d.CBT.DBT                              -0.36841 0.3025 0.0006764      0.0007638
+d.CBT.hypnotherapy                     -0.51896 0.3299 0.0007378      0.0007384
+d.CBT.neurofeedback                     0.10957 0.3686 0.0008243      0.0016258
+d.CBT.no_treatment                     -0.08864 0.5307 0.0011868      0.0020930
+d.CBT.psychoeducation                  -0.53073 0.3081 0.0006889      0.0007856
+d.CBT.relaxation_therapy                0.17546 0.2296 0.0005135      0.0006212
+d.CBT.sham_and_neurofeedback           -0.12512 0.3671 0.0008209      0.0016188
+d.CBT.TAU                               0.85422 4.6059 0.0102991      0.1699612
+d.CBT.waiting_list                      0.38502 0.1879 0.0004202      0.0006705
+d.cognitive_training.cognitive_placebo -0.06206 0.2404 0.0005376      0.0005619
+d.psychoeducation.mindfulness          -0.11046 0.2494 0.0005577      0.0005962
+d.TAU.CBT_and_TAU                      -0.63344 2.5977 0.0058087      0.0981439
+d.TAU.DBT_and_TAU                       0.03962 1.5878 0.0035504      0.0573654
+d.TAU.mindfulness_and_TAU              -0.47017 2.6029 0.0058203      0.0973730
+sd.d                                    0.25696 0.1274 0.0002850      0.0005188
+B                                      -0.16722 5.9468 0.0132975      0.2243569
+
+2. Quantiles for each variable:
+
+                                            2.5%      25%        50%      75%    97.5%
+d.CBT.CBT_and_stimulants                -1.72284 -1.21905 -0.9932140 -0.76708 -0.26618
+d.CBT.cognitive_training                -1.23711 -0.77745 -0.6015887 -0.42650  0.03336
+d.CBT.DBT                               -0.95710 -0.56123 -0.3723832 -0.17892  0.24210
+d.CBT.hypnotherapy                      -1.18590 -0.71463 -0.5192162 -0.32376  0.14894
+d.CBT.neurofeedback                     -0.62781 -0.11901  0.1104975  0.33890  0.84072
+d.CBT.no_treatment                      -1.13073 -0.44007 -0.0883081  0.26309  0.95571
+d.CBT.psychoeducation                   -1.13849 -0.72836 -0.5315061 -0.33442  0.08410
+d.CBT.relaxation_therapy                -0.21645  0.01845  0.1526885  0.30793  0.68702
+d.CBT.sham_and_neurofeedback            -0.86090 -0.35108 -0.1239224  0.10235  0.60413
+d.CBT.TAU                               -9.63551 -0.39352  0.9669811  2.31942  9.64270
+d.CBT.waiting_list                       0.03570  0.26317  0.3763528  0.49827  0.78245
+d.cognitive_training.cognitive_placebo  -0.53623 -0.21633 -0.0627138  0.09070  0.41739
+d.psychoeducation.mindfulness           -0.60841 -0.26786 -0.1097110  0.04837  0.38365
+d.TAU.CBT_and_TAU                       -6.56558 -1.35021 -0.5688939  0.20631  4.31603
+d.TAU.DBT_and_TAU                       -2.94747 -0.58948  0.0008339  0.60020  3.55510
+d.TAU.mindfulness_and_TAU               -6.38226 -1.19890 -0.4074849  0.38029  4.49800
+sd.d                                     0.03966  0.17117  0.2439578  0.32736  0.54882
+B                                      -13.82445 -1.68907 -0.0207679  1.62997 11.18447
+
+-- Model fit (residual deviance):
+
+    Dbar       pD      DIC 
+26.75961 21.16158 47.92119 
+
+27 data points, ratio 0.9911, I^2 = 3%
+
+-- Regression settings:
+
+Regression on "reg", shared coefficients, "TAU" as control
+Input standardized: x' = (reg - 10.52174) / 5.811261
+Estimates at the centering value: reg = 10.52174
+

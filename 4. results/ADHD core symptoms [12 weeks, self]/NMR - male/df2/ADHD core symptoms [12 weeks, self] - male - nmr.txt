@@ -1,10 +1,48 @@
-  code   treatment
-1    1     placebo
-2    2 atomoxetine
-3    3   bupropion
-7    7   modafinil
 
-               Coef.          SE       X95.CL     X95.CU     P.value
-2: male  0.002390297 0.005033633 -0.007475443 0.01225604 0.634883108
-3: male -0.266795440 0.207050385 -0.672606738 0.13901586 0.197553457
-7: male  0.646567033 0.235413967  0.185164136 1.10796993 0.006023288
+Results on the Mean Difference scale
+
+Iterations = 50020:1050000
+Thinning interval = 20 
+Number of chains = 4 
+Sample size per chain = 50000 
+
+1. Empirical mean and standard deviation for each variable,
+   plus standard error of the mean:
+
+                                Mean      SD  Naive SE Time-series SE
+d.placebo.atomoxetine        -0.3593 0.07595 0.0001698      0.0001762
+d.placebo.bupropion          -0.5368 0.27994 0.0006260      0.0007469
+d.placebo.DBT_and_placebo    -0.1071 0.15092 0.0003375      0.0004560
+d.placebo.DBT_and_stimulants -0.3924 0.14948 0.0003343      0.0004568
+d.placebo.guanfacine         -0.6116 0.16781 0.0003752      0.0004521
+d.placebo.modafinil          -0.3777 0.12882 0.0002880      0.0003232
+d.placebo.stimulants         -0.4065 0.06721 0.0001503      0.0002154
+sd.d                          0.1363 0.05556 0.0001242      0.0002108
+B                            -0.1829 0.13699 0.0003063      0.0004140
+
+2. Quantiles for each variable:
+
+                                 2.5%      25%     50%      75%    97.5%
+d.placebo.atomoxetine        -0.50576 -0.40848 -0.3610 -0.31199 -0.20298
+d.placebo.bupropion          -1.08491 -0.72490 -0.5376 -0.34983  0.01784
+d.placebo.DBT_and_placebo    -0.41559 -0.19646 -0.1062 -0.01682  0.19644
+d.placebo.DBT_and_stimulants -0.69909 -0.48089 -0.3914 -0.30291 -0.09086
+d.placebo.guanfacine         -0.97436 -0.70859 -0.6018 -0.50591 -0.29716
+d.placebo.modafinil          -0.61775 -0.46236 -0.3838 -0.29832 -0.10714
+d.placebo.stimulants         -0.54880 -0.44839 -0.4035 -0.36130 -0.28285
+sd.d                          0.03429  0.09917  0.1325  0.16908  0.25800
+B                            -0.46795 -0.27023 -0.1775 -0.08939  0.07144
+
+-- Model fit (residual deviance):
+
+    Dbar       pD      DIC 
+33.76712 12.43068 46.19780 
+
+30 data points, ratio 1.126, I^2 = 14%
+
+-- Regression settings:
+
+Regression on "reg", shared coefficients, "placebo" as control
+Input standardized: x' = (reg - 58.93885) / 26.9653
+Estimates at the centering value: reg = 58.93885
+

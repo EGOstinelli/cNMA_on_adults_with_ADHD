@@ -1,6 +1,0 @@
-  code treatment
-1    1   placebo
-3    3 bupropion
-
-                  Coef.         SE    X95.CL     X95.CU   P.value
-3: baseline -0.04956855 0.03868973 -0.125399 0.02626193 0.2001301

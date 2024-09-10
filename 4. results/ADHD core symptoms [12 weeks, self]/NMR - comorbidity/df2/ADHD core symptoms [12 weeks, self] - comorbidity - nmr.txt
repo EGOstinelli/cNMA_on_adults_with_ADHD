@@ -1,5 +1,44 @@
-  code treatment
-1    1   placebo
 
-[1] Coef.   SE      X95.CL  X95.CU  P.value
-<0 rows> (or 0-length row.names)
+Results on the Mean Difference scale
+
+Iterations = 50020:1050000
+Thinning interval = 20 
+Number of chains = 4 
+Sample size per chain = 50000 
+
+1. Empirical mean and standard deviation for each variable,
+   plus standard error of the mean:
+
+                                Mean     SD  Naive SE Time-series SE
+d.placebo.atomoxetine        -0.3541 0.1452 0.0003246      0.0003625
+d.placebo.DBT_and_placebo    -0.1071 0.1993 0.0004457      0.0005875
+d.placebo.DBT_and_stimulants -0.3937 0.1985 0.0004438      0.0005859
+d.placebo.modafinil          -0.6209 0.2245 0.0005021      0.0007280
+d.placebo.stimulants         -0.4275 0.1088 0.0002433      0.0003750
+sd.d                          0.1564 0.1305 0.0002918      0.0006992
+B                            -0.1482 0.1894 0.0004236      0.0004896
+
+2. Quantiles for each variable:
+
+                                  2.5%      25%     50%      75%    97.5%
+d.placebo.atomoxetine        -0.651872 -0.43604 -0.3525 -0.27002 -0.06688
+d.placebo.DBT_and_placebo    -0.514075 -0.20157 -0.1119 -0.01753  0.31859
+d.placebo.DBT_and_stimulants -0.799914 -0.48633 -0.3980 -0.30512  0.03015
+d.placebo.modafinil          -1.162211 -0.71374 -0.5907 -0.49543 -0.24765
+d.placebo.stimulants         -0.676509 -0.48378 -0.4170 -0.35871 -0.24296
+sd.d                          0.005672  0.05903  0.1252  0.21915  0.48620
+B                            -0.547300 -0.25828 -0.1425 -0.02969  0.21076
+
+-- Model fit (residual deviance):
+
+     Dbar        pD       DIC 
+18.380879  7.770029 26.150908 
+
+15 data points, ratio 1.225, I^2 = 24%
+
+-- Regression settings:
+
+Regression on "reg", shared coefficients, "placebo" as control
+Input standardized: x' = (reg - 44.5725) / 80.03236
+Estimates at the centering value: reg = 44.5725
+

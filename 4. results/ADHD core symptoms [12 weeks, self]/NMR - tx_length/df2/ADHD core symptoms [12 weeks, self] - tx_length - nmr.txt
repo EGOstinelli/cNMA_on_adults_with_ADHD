@@ -1,12 +1,48 @@
-  code   treatment
-1    1     placebo
-2    2 atomoxetine
-3    3   bupropion
-7    7   modafinil
-8    8  stimulants
 
-                    Coef.          SE        X95.CL     X95.CU     P.value
-2: tx_length 0.0005645036 0.006104492 -0.0114000810 0.01252909 0.926321870
-3: tx_length 0.6803283715 0.526656225 -0.3518988610 1.71255560 0.196430454
-7: tx_length 0.1224893575 0.042866249  0.0384730525 0.20650566 0.004270225
-8: tx_length 0.0059782532 0.003193773 -0.0002814277 0.01223793 0.061227863
+Results on the Mean Difference scale
+
+Iterations = 50020:1050000
+Thinning interval = 20 
+Number of chains = 4 
+Sample size per chain = 50000 
+
+1. Empirical mean and standard deviation for each variable,
+   plus standard error of the mean:
+
+                                Mean      SD  Naive SE Time-series SE
+d.placebo.atomoxetine        -0.4064 0.07165 0.0001602      0.0001800
+d.placebo.bupropion          -0.5492 0.27431 0.0006134      0.0008383
+d.placebo.DBT_and_placebo    -0.1046 0.13666 0.0003056      0.0004707
+d.placebo.DBT_and_stimulants -0.3908 0.13533 0.0003026      0.0004717
+d.placebo.guanfacine         -0.5603 0.14400 0.0003220      0.0003646
+d.placebo.modafinil          -0.3724 0.11769 0.0002632      0.0003200
+d.placebo.stimulants         -0.3681 0.05379 0.0001203      0.0001615
+sd.d                          0.1165 0.05350 0.0001196      0.0002462
+B                             0.1032 0.08170 0.0001827      0.0003047
+
+2. Quantiles for each variable:
+
+                                 2.5%      25%     50%      75%    97.5%
+d.placebo.atomoxetine        -0.54961 -0.45233 -0.4060 -0.36026 -0.26513
+d.placebo.bupropion          -1.08505 -0.73444 -0.5495 -0.36559 -0.00946
+d.placebo.DBT_and_placebo    -0.39301 -0.18101 -0.1007 -0.02454  0.16535
+d.placebo.DBT_and_stimulants -0.67882 -0.46612 -0.3867 -0.31152 -0.12449
+d.placebo.guanfacine         -0.86451 -0.64327 -0.5555 -0.47293 -0.27946
+d.placebo.modafinil          -0.58566 -0.45089 -0.3797 -0.30038 -0.12147
+d.placebo.stimulants         -0.47940 -0.40156 -0.3665 -0.33244 -0.26687
+sd.d                          0.01868  0.08059  0.1131  0.14843  0.23366
+B                            -0.05417  0.04945  0.1018  0.15513  0.27031
+
+-- Model fit (residual deviance):
+
+    Dbar       pD      DIC 
+36.37730 12.63034 49.00764 
+
+31 data points, ratio 1.173, I^2 = 18%
+
+-- Regression settings:
+
+Regression on "reg", shared coefficients, "placebo" as control
+Input standardized: x' = (reg - 10.74074) / 21.15578
+Estimates at the centering value: reg = 10.74074
+
