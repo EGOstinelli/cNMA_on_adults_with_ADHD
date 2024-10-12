@@ -10,14 +10,14 @@ Each outcome-specific folder includes the related dataframe ([outcome] - df.rds)
 Details on these and other functions are included in the reference manual for [netmeta](https://cran.r-project.org/web/packages/netmeta/index.html) package.
 
 ### Example, continuous outcomes
-pw.c1 <- pairwise(treat = intervention, n = n, mean = mean, sd = sd, data = df1, studlab = id, sm = 'SMD')
-netmeta(pw.c1, sm = 'SMD', random = T, details.chkmultiarm = T, prediction = T, ref = nc.ref) # set nc.ref as “placebo” or other references if preferred/available
-discomb(pw.c1, sm = 'SMD', random = T, details.chkmultiarm = T, prediction = T, ref = nc.ref, inactive = nc.inactive.c) # set nc.inactive.c as “no treatment” if present
+- pw.c1 <- pairwise(treat = intervention, n = n, mean = mean, sd = sd, data = df1, studlab = id, sm = 'SMD')
+- netmeta(pw.c1, sm = 'SMD', random = T, details.chkmultiarm = T, prediction = T, ref = nc.ref) # set nc.ref as “placebo” or other references if preferred/available
+- discomb(pw.c1, sm = 'SMD', random = T, details.chkmultiarm = T, prediction = T, ref = nc.ref, inactive = nc.inactive.c) # set nc.inactive.c as “no treatment” if present
 
 ### Example, binary outcomes
-pw.d1 <- pairwise(treat = intervention, n = n, event = r, data = data1, studlab = id, sm = 'OR')
-netmeta(pw.d1, sm = 'OR', random = T, details.chkmultiarm = T, prediction = T, ref = nc.ref) # set nc.ref as “placebo” or other references if preferred/available
-discomb(pw.d1, sm = 'OR', random = T, details.chkmultiarm = T, prediction = T, ref = nc.ref, inactive = nc.inactive.c) # set nc.inactive.c as “no treatment” if present
+- pw.d1 <- pairwise(treat = intervention, n = n, event = r, data = data1, studlab = id, sm = 'OR')
+- netmeta(pw.d1, sm = 'OR', random = T, details.chkmultiarm = T, prediction = T, ref = nc.ref) # set nc.ref as “placebo” or other references if preferred/available
+- discomb(pw.d1, sm = 'OR', random = T, details.chkmultiarm = T, prediction = T, ref = nc.ref, inactive = nc.inactive.c) # set nc.inactive.c as “no treatment” if present
 
 ## Addendum
 This information was added on 12-October-2024 as per request of The Lancet Psychiatry peer-reviewers.
